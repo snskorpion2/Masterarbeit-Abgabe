@@ -1,0 +1,82 @@
+{
+  "protocol": "C3-missingness-metadata-CPU-completion-oct25-v1",
+  "status": "complete",
+  "finished_UTC": "2026-10-25T19:35:59.147782+00:00",
+  "new_model_calls": 0,
+  "new_independent_audits": 0,
+  "existing_C3_end_audit_reused": true,
+  "semantic_retention_codes_read": false,
+  "tests_passed": 33,
+  "test_command": "Experiments/.venv/Scripts/python.exe -B -X utf8 -m unittest discover -s Experiments/fair_v2_oct24/C3/missing_metadata_v1 -t . -q",
+  "source_count": 24,
+  "source_arm_rows": 96,
+  "source_draw_arm_rows": 272,
+  "fixed_cases": 2336,
+  "missing_case_rows": 512,
+  "source_and_draw_counts_with_any_valid": {
+    "sources": 17,
+    "source_draw_pairs": 50
+  },
+  "original_counts_and_G2_rules_unchanged": true,
+  "bound_inputs": {
+    "completion_pin": {
+      "path": "withheld-artifact/b189c5c1270f5852893c",
+      "bytes": 3674,
+      "sha256": "d08673418b5ef016bb3b1b6024ad871fd78d98cd3805a8e4407cd8baaa390025"
+    },
+    "audit_pin": {
+      "path": "withheld-artifact/f3dcf1f89b8162ade92d",
+      "bytes": 4476,
+      "sha256": "5895ca674319b1302c9b7f863a2e9411a93507fccfe90d0c66122e980f6d51a9"
+    },
+    "export_pin": {
+      "path": "withheld-artifact/3e82603639336ce66804",
+      "bytes": 2868360,
+      "sha256": "9813fc4280a82f2f05232aefe066012641237a9b44fec9e66cce1cd4ed5f0dfa"
+    }
+  },
+  "code_pins": [
+    {
+      "path": "Experiments/fair_v2_oct24/C3/missing_metadata_v1/__init__.py",
+      "bytes": 74,
+      "sha256": "318deb605af6a382c37a2ccaa130e207feec799ee1163232fdaafe85f3c9128e"
+    },
+    {
+      "path": "Experiments/fair_v2_oct24/C3/missing_metadata_v1/metadata.py",
+      "bytes": 19469,
+      "sha256": "a20165d78cc9717b1fe3332b463b034e66b6b81c63c0a5d3a7902ff1d392740e"
+    },
+    {
+      "path": "Experiments/fair_v2_oct24/C3/missing_metadata_v1/test_metadata.py",
+      "bytes": 13743,
+      "sha256": "1e7c7c6474afb806e535f2842c4cb166bda4136aa7f49fa15cb2ac05da37f011"
+    },
+    {
+      "path": "Experiments/fair_v2_oct24/C3/missing_metadata_v1/test_gate.py",
+      "bytes": 7541,
+      "sha256": "c76cc7e6d8fea2ad211bfb1f087b6272f0021b02107fe178540a6b19ec0d5863"
+    },
+    {
+      "path": "Experiments/fair_v2_oct24/C3/missing_metadata_v1/USAGE.md",
+      "bytes": 2958,
+      "sha256": "1b40bfe0f218ccf0239e6f29b627258a5f71ebcb02aaf15ecf83e73ccdc3fd14"
+    }
+  ],
+  "output_pins": [
+    {
+      "path": "Experiments/fair_v2_oct24/C3/missing_metadata_v1/result.json",
+      "bytes": 542032,
+      "sha256": "03247071c2542de218e62d32204e6a43b5d42f33f1257bef50d28148f7a66554"
+    },
+    {
+      "path": "Experiments/fair_v2_oct24/C3/missing_metadata_v1/diagnostics.json",
+      "bytes": 2088,
+      "sha256": "60effcd276b39b19e1ce7d450c302a68ba59dff45dc5797ebfc7ca0d18d9f059"
+    },
+    {
+      "path": "Experiments/fair_v2_oct24/C3/missing_metadata_v1/BERICHT.md",
+      "bytes": 3837,
+      "sha256": "97baf37a742a464637fe44132ba2e91fe0ec8ae00fbecb722f22df880cedc47a"
+    }
+  ]
+}

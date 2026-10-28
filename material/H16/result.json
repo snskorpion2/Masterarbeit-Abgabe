@@ -1,0 +1,201 @@
+{
+  "protocol": "H16-N16-T1-human60-v1",
+  "dataset_id": "d-c3f8d89c0c790d8ba1d91398f029809c",
+  "packet_sha256": "119504ecebcfc47ab0ed075304e74684e3e6c972a0ab312a77707ad33724a126",
+  "status": "complete_author_annotations",
+  "complete_author_export": true,
+  "selected_count": 60,
+  "rated_count": 60,
+  "missing_annotation_rows": 0,
+  "null_author_labels": 0,
+  "by_arm": {
+    "AS": {
+      "N": 30,
+      "supported_count": 26,
+      "not_supported_count": 1,
+      "unclear_count": 3,
+      "missing_count": 0,
+      "supported_rate": 0.8666666666666667,
+      "unclear_in_denominator": true,
+      "missing_is_zero_imputed": false,
+      "ci95": {
+        "lower": 0.7333333333333333,
+        "upper": 0.9666666666666667
+      }
+    },
+    "V2": {
+      "N": 30,
+      "supported_count": 29,
+      "not_supported_count": 0,
+      "unclear_count": 1,
+      "missing_count": 0,
+      "supported_rate": 0.9666666666666667,
+      "unclear_in_denominator": true,
+      "missing_is_zero_imputed": false,
+      "ci95": {
+        "lower": 0.9,
+        "upper": 1.0
+      }
+    }
+  },
+  "difference_V2_minus_AS": {
+    "point": 0.09999999999999998,
+    "ci95": {
+      "lower": -0.033333333333333326,
+      "upper": 0.2333333333333334
+    },
+    "direction": "positive"
+  },
+  "main_condition_sign_comparison": {
+    "prespecified_main_difference": 0.084,
+    "prespecified_main_direction": "positive",
+    "human_sample_direction": "positive",
+    "same_sign": true,
+    "comparison_is_descriptive": true,
+    "main_condition_data_reopened": false
+  },
+  "by_arm_type": [
+    {
+      "arm": "AS",
+      "type": "EE",
+      "N": 10,
+      "supported_count": 8,
+      "not_supported_count": 1,
+      "unclear_count": 1,
+      "missing_count": 0,
+      "supported_rate": 0.8,
+      "unclear_in_denominator": true,
+      "missing_is_zero_imputed": false
+    },
+    {
+      "arm": "AS",
+      "type": "EV",
+      "N": 10,
+      "supported_count": 10,
+      "not_supported_count": 0,
+      "unclear_count": 0,
+      "missing_count": 0,
+      "supported_rate": 1.0,
+      "unclear_in_denominator": true,
+      "missing_is_zero_imputed": false
+    },
+    {
+      "arm": "AS",
+      "type": "VV",
+      "N": 10,
+      "supported_count": 8,
+      "not_supported_count": 0,
+      "unclear_count": 2,
+      "missing_count": 0,
+      "supported_rate": 0.8,
+      "unclear_in_denominator": true,
+      "missing_is_zero_imputed": false
+    },
+    {
+      "arm": "V2",
+      "type": "EE",
+      "N": 10,
+      "supported_count": 10,
+      "not_supported_count": 0,
+      "unclear_count": 0,
+      "missing_count": 0,
+      "supported_rate": 1.0,
+      "unclear_in_denominator": true,
+      "missing_is_zero_imputed": false
+    },
+    {
+      "arm": "V2",
+      "type": "EV",
+      "N": 10,
+      "supported_count": 10,
+      "not_supported_count": 0,
+      "unclear_count": 0,
+      "missing_count": 0,
+      "supported_rate": 1.0,
+      "unclear_in_denominator": true,
+      "missing_is_zero_imputed": false
+    },
+    {
+      "arm": "V2",
+      "type": "VV",
+      "N": 10,
+      "supported_count": 9,
+      "not_supported_count": 0,
+      "unclear_count": 1,
+      "missing_count": 0,
+      "supported_rate": 0.9,
+      "unclear_in_denominator": true,
+      "missing_is_zero_imputed": false
+    }
+  ],
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 2026102617,
+    "sampling_seed": 2026102616,
+    "rng": "numpy.random.Generator(PCG64)",
+    "confidence_level": 0.95,
+    "method": "percentile",
+    "quantile_method": "linear",
+    "resampling_unit": "whole_statement_occurrence",
+    "strata": [
+      {
+        "arm": "AS",
+        "N": 30
+      },
+      {
+        "arm": "V2",
+        "N": 30
+      }
+    ],
+    "ordering": "AS then V2; original_id ascending within arm",
+    "matrix_hash_encoding": "little-endian int64 C-order",
+    "matrix_pins": [
+      {
+        "arm": "AS",
+        "N": 30,
+        "matrix_sha256": "9fe375abb3b2a7d0dc291e11b5f6bf1ac68f701e9bb9bfe20705e41d07b67c94"
+      },
+      {
+        "arm": "V2",
+        "N": 30,
+        "matrix_sha256": "730987fd61fa940954357ac0b94f2d1e9964118dcb86ef099d2442cc946b1b4e"
+      }
+    ],
+    "independent_arm_resampling": true,
+    "paired_statement_resampling": false,
+    "source_cluster_bootstrap": false,
+    "type_stratified_bootstrap": false
+  },
+  "dependence": {
+    "distinct_sources_in_sample": 18,
+    "sources_with_multiple_statements": 16,
+    "maximum_statements_per_source": 9,
+    "source_or_construction_dependence_corrected": false
+  },
+  "interpretation": {
+    "exploratory_FF3_only": true,
+    "unweighted_sample_rates": true,
+    "population_prevalence_estimate": false,
+    "type_slices_descriptive_only": true,
+    "Holm_slots_added": 0,
+    "overall_pipeline_decision": false,
+    "kappa_computed": false,
+    "general_transfer_superiority_established": false,
+    "annotation_classification": "Autorenannotation",
+    "human_identity_authenticated": false,
+    "selection_provenance_authenticated_by_key": false,
+    "positive_point_or_same_sign_is_confirmatory_evidence": false
+  },
+  "provider_calls": 0,
+  "input_fingerprints": {
+    "packet_file_sha256": "d657bd3ff2cc65f830d6a4c52b1eb929755a46e1df0dce20eee854b0809d1e41",
+    "private_key_file_sha256": "23a12296ee1ba11ff0ce6b6beb6cbe0cbed7f9171efb5292c9c08ee8d34af1ea",
+    "annotation_file_sha256": "db081264f43bc6952aec49e04c9ec849263221bec5e604700c69380dc63167a6"
+  },
+  "annotation_seal": {
+    "original_bytes_saved_privately": true,
+    "sealed_before_private_key_read": true,
+    "snapshot_readback_verified": true,
+    "authenticated_identity_or_timestamp": false
+  }
+}

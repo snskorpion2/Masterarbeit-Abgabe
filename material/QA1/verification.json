@@ -1,0 +1,91 @@
+{
+  "protocol": "QA1-producer-readback-verification-v1",
+  "synthetic_tests": 44,
+  "errors": 0,
+  "failures": 0,
+  "public_result_sha256": "e44933eb7115d7897c0f33fdf7fba7617bbebf6e7dcd4cafe612e650c10fbf7b",
+  "private_case_public_digest_equal": true,
+  "question_denominator": 60,
+  "context_rates_read_back": 24,
+  "EM_2x2_tables_read_back": 2,
+  "native_removal_question_pairs_read_back": true,
+  "C6_and_D1_original_result_bytes_unchanged": true,
+  "analysis_software_bindings_equal": true,
+  "no_actual_question_IDs_in_public_result_report_or_manuscript_handoff": true,
+  "no_private_case_fields_in_public_result_schema": true,
+  "exactly_two_chapter6_sentences_and_one_appendix_table": true,
+  "isolated_layout_preview": {
+    "pages": 1,
+    "errors_overfull_or_undefined": 0,
+    "pdf_sha256": "6690f5d88072883bb2550db57bc5f5d9234b39d9a22a26a9a784ce7083150c84",
+    "visually_reviewed": true
+  },
+  "new_model_calls": 0,
+  "new_C6_end_audits": 0,
+  "new_H4_inference_runs": 0,
+  "thesis_writes_or_full_builds_by_QA1": 0,
+  "setup_issue": {
+    "initial_bound_data_join_stopped_before_public_metrics": true,
+    "root_cause": "strict historical SDK projection helper did not implement already bound C1 empty-field nonemission",
+    "repair": "reuse unchanged original C1 request95 projection function and its codec pin",
+    "synthetic_regression_and_complete_original_CSV_join_passed": true
+  },
+  "aggregate_source_binding_diagnostics": {
+    "AS_G_ORIGINAL": {
+      "graph_edges": 27044,
+      "multiple_native_owner_graph_edges": 118,
+      "multiple_source_owner_graph_edges": 118,
+      "questions": 60,
+      "unknown_source_graph_edges": 0
+    },
+    "AS_G_ROW": {
+      "graph_edges": 27346,
+      "multiple_native_owner_graph_edges": 0,
+      "multiple_source_owner_graph_edges": 0,
+      "questions": 60,
+      "unknown_source_graph_edges": 0
+    },
+    "AS_ORIGINAL": {
+      "graph_edges": 29819,
+      "multiple_native_owner_graph_edges": 117,
+      "multiple_source_owner_graph_edges": 117,
+      "questions": 60,
+      "unknown_source_graph_edges": 0
+    },
+    "AS_ROW": {
+      "graph_edges": 30170,
+      "multiple_native_owner_graph_edges": 0,
+      "multiple_source_owner_graph_edges": 0,
+      "questions": 60,
+      "unknown_source_graph_edges": 0
+    },
+    "V1_ORIGINAL": {
+      "graph_edges": 30371,
+      "multiple_native_owner_graph_edges": 922,
+      "multiple_source_owner_graph_edges": 122,
+      "questions": 60,
+      "unknown_source_graph_edges": 0
+    },
+    "V1_ROW": {
+      "graph_edges": 31647,
+      "multiple_native_owner_graph_edges": 0,
+      "multiple_source_owner_graph_edges": 0,
+      "questions": 60,
+      "unknown_source_graph_edges": 0
+    },
+    "V2_ORIGINAL": {
+      "graph_edges": 28722,
+      "multiple_native_owner_graph_edges": 902,
+      "multiple_source_owner_graph_edges": 120,
+      "questions": 60,
+      "unknown_source_graph_edges": 0
+    },
+    "V2_ROW": {
+      "graph_edges": 29906,
+      "multiple_native_owner_graph_edges": 0,
+      "multiple_source_owner_graph_edges": 0,
+      "questions": 60,
+      "unknown_source_graph_edges": 0
+    }
+  }
+}

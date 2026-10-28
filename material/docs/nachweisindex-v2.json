@@ -1,0 +1,589 @@
+{
+  "schema_version": 1,
+  "index_id": "V2-NACHWEISINDEX-2026-10-25",
+  "recorded_utc": "2026-10-25T11:18:58+00:00",
+  "user_facing_date": "2026-10-25",
+  "timezone": "Europe/Berlin",
+  "scope": "Elektronischer Metadaten-Nachtrag zum neuen V2-Vergleich ohne private Quellen, Referenztexte oder Modellantworten. Keine Neubewertung oder Releasefreigabe.",
+  "identifier_policy": "V2-01 bis V2-12 sind dauerhafte neutrale Gegenstandskennungen für Kapitel 6. Spätere Stände ergänzen denselben Gegenstand, Kennungen werden nicht neu vergeben.",
+  "manuscript_reference": "Kapitel 6 kann auf Kennung und Indexrevision verweisen. Dieser Auftrag ändert kein Manuskript.",
+  "snapshot_policy": "Relative Repositorypfade. Hashes und Größen binden gelesene lokale Arbeitsbaumbytes, nicht automatisch Git-Blobs oder veröffentlichte Commits. Laufende Zustände sind datierte Teilstände, keine Liveanzeige.",
+  "status_legend": {
+    "frozen": "Prüfplan eingefroren, keine Ergebnisaussage",
+    "documented": "Herkunft, Entscheidung oder Kontrollbeleg vorhanden",
+    "technically_complete": "Benannte technische Stufe abgeschlossen, keine semantische Freigabe",
+    "partial": "Teilstand vorhanden, Gesamtergebnis fehlt",
+    "prepared": "Vorbereitung vorhanden, Ergebnisendpunkt fehlt"
+  },
+  "release": {
+    "public_distribution_approved": false,
+    "package_created": false,
+    "private_payloads_copied": false,
+    "reference_does_not_select_for_distribution": true,
+    "report": "docs/reviews/2026-10-25-z1-nachweisindex-release.md",
+    "validator": "Tools/release/check_v2_evidence_index.py"
+  },
+  "entries": [
+    {
+      "id": "V2-01",
+      "title": "Vorregistrierung und G2-Freigabe",
+      "status": "frozen",
+      "packages": [
+        "A7",
+        "G2"
+      ],
+      "statement": "G2 bindet acht Vergleichszellen, 24 Konfirmationsquellen und MuSiQue Q60. H1/H2/H4 sind primär mit Holm-Korrektur, H3 sekundär.",
+      "limits": "Nach Guardentwicklung, vor der konfirmatorischen Bewertung eingefroren. Kein Ergebnisnachweis. A7/result.json ist nur der ältere ungefrorene Entwurf.",
+      "artifacts": [
+        {
+          "path": "Experiments/fair_v2_oct24/A7/preregistration_v2_frozen.json",
+          "bytes": 101775,
+          "sha256": "8377548a064de1fadd28baf674290be02021457ab38b49056ac9dde45dddf9f5",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/A7/preregistration_v2_frozen.md",
+          "bytes": 47528,
+          "sha256": "970bc7ae5655f5377bc9a86d2e3cf938bbfcf3292ce94a6657f9e884a1095f41",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        }
+      ],
+      "pending_results": []
+    },
+    {
+      "id": "V2-02",
+      "title": "Rollenfreigaben und Nachträge",
+      "status": "documented",
+      "packages": [
+        "G1"
+      ],
+      "statement": "Beschlossene Rollen-, Routen-, Budget- und Konstruktionsänderungen sind datiert getrennt nachvollziehbar. Neuere operative Freigaben vom 25.10. stehen in der zentralen README.",
+      "limits": "Nachtrag 5 ist eine nach Sicht eines Ausgabefehlers beschlossene Änderung. Frühere Routen und Deckel sind keine aktuelle Freigabe. Unfreigegebene Plan-B-Entwürfe bleiben ausgeschlossen.",
+      "artifacts": [
+        {
+          "path": "Experiments/fair_v2_oct24/G1/freigabe_teil1.md",
+          "bytes": 1945,
+          "sha256": "c583169cd1ba2131325f82070b5145d6cab54fd92d96a6aef584c22efd5d930e",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/G1/freigabe_teil2.md",
+          "bytes": 2021,
+          "sha256": "211b6f0b070a808442e8c49be1819bf72b0df213bb4fa81b5b67a3334b357fba",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/G1/nachtrag_2_nacht.md",
+          "bytes": 3182,
+          "sha256": "ffaa863e4ef14c68ded04e6afa2bcd34719ac0c3b36bdb10eb5b05671ec16a66",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/G1/nachtrag_3_c1_budget.md",
+          "bytes": 1437,
+          "sha256": "330d8585291eda87dc8e72c4a294ad868650131644422cb39b91d47e9a33b0c4",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/G1/nachtrag_4_c2c3_kosten.md",
+          "bytes": 3853,
+          "sha256": "9d93615f86b7554b57f2636a8268a832704bf7a3ae2c0fbbb1dbbcae6ad0a0f2",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/G1/nachtrag_5_joint_vertragsverletzung.md",
+          "bytes": 2987,
+          "sha256": "d63aed1eaea606d875fd9d0a3e7c347cf5aa3df553419b763f1278244b096f23",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/G1/nachtrag_6_c6_passagenweg.md",
+          "bytes": 2531,
+          "sha256": "6c7c2624a6a2523030bbc5fec0218af831d5b5966e811e5cea67828652d4ae02",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/G1/nachtrag_c2c3_route.md",
+          "bytes": 1806,
+          "sha256": "f84c09328db26af3eaeb1d5e14d29cc21be8f2b8ec10b09d282c45ec9953be6a",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        }
+      ],
+      "pending_results": []
+    },
+    {
+      "id": "V2-03",
+      "title": "Natürliche Konfirmationsquellen und Quellenrechte",
+      "status": "documented",
+      "packages": [
+        "A4",
+        "B2"
+      ],
+      "statement": "20 mechanisch ausgewählte neue Quellen ergänzen vier versiegelte Altquellen. 68 gepaarte Konstruktionseinheiten stammen aus 24 Quellen. Main12 bleibt Entwicklung.",
+      "limits": "SEALED4 hat zwei, NEW20 drei Durchläufe je Arm. Kein Beleg für 68 unabhängige Quellen. Private versiegelte Eingänge und Rohtexte werden hier weder kopiert noch freigegeben.",
+      "artifacts": [
+        {
+          "path": "Experiments/data/confirmation_a4_oct24_v1/sources_manifest.json",
+          "bytes": 70039,
+          "sha256": "e712666d8ee1dcbf35173b7ae804c6a734fffee97c4ebfefc893e70b5ded894d",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        },
+        {
+          "path": "Experiments/data/confirmation_a4_oct24_v1/selection_rule.json",
+          "bytes": 9061,
+          "sha256": "29cd2958a0aa86e7474b305ad676b183dd78bfca26acca4f931cafaff55466d4",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        },
+        {
+          "path": "Experiments/data/confirmation_a4_oct24_v1/selection_implementation.json",
+          "bytes": 3325,
+          "sha256": "c3c09678f2363d7ca80662ec98cc33154831e611e773c6a70088773f61606595",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        },
+        {
+          "path": "Experiments/data/confirmation_a4_oct24_v1/audit/final_seal_readback.json",
+          "bytes": 1628,
+          "sha256": "755cfb83249a4d2436414720cd671099aa26e678387ebb1699d4c92e37163d67",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        },
+        {
+          "path": "Experiments/data/confirmation_a4_oct24_v1/audit/license_evidence.json",
+          "bytes": 3112,
+          "sha256": "2c41a897a535cff813a986ad17ddea548249c30fd13109ed152ee596120b0813",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        }
+      ],
+      "pending_results": []
+    },
+    {
+      "id": "V2-04",
+      "title": "MuSiQue-Korpus und Goldtrennung",
+      "status": "documented",
+      "packages": [
+        "A5"
+      ],
+      "statement": "Das Manifest dokumentiert feste MuSiQue-Eingänge und die Trennung von Goldantworten und Konstruktion. G2 legt Q60 fest.",
+      "limits": "Ein Datenmanifest ist kein Konstruktionsabschluss oder Nachweis richtiger Graphantworten. Originaldatenrechte bleiben separat zu prüfen.",
+      "artifacts": [
+        {
+          "path": "Experiments/fair_v2_oct24/A5/manifest.json",
+          "bytes": 20254,
+          "sha256": "f77a4d9ddb082ecdb5dec1ac5bea07d4438a3d78d75f0f4296ec85710933e617",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/A5/BERICHT.md",
+          "bytes": 5638,
+          "sha256": "2e983683680affba0f1466f94372d653b44ab8cde0533a228893855ef296b240",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        }
+      ],
+      "pending_results": []
+    },
+    {
+      "id": "V2-05",
+      "title": "Guard- und Bewerterkontrollen",
+      "status": "documented",
+      "packages": [
+        "A3",
+        "A3b",
+        "A3c",
+        "A3d",
+        "B1",
+        "B1b"
+      ],
+      "statement": "Kimi K2.5 besteht die Guardkontrollen. Natürliche Gegenbeispiele und Verluste gestützter Teilinformationen bleiben sichtbar. Der Flex-NoWrite-Bewerter besitzt einen eigenen finalen Kontrollbeleg.",
+      "limits": "Kontrollbestehen beweist keine universelle Qualität oder andere Ausführungsroute. Modellgate und Vorbereitung ersetzen keine Freigabe des natürlichen Restlaufs. Standard-NoWrite ist eine separate Bedingung.",
+      "artifacts": [
+        {
+          "path": "Experiments/fair_v2_oct24/A3d/admission.json",
+          "bytes": 11305,
+          "sha256": "d8e38fddc73d111e0bb3403de8825f6f66a50a7da869d24e2541c9de14e17147",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/A3d/BERICHT.md",
+          "bytes": 4392,
+          "sha256": "e1b9fa565cf51485702fe20901d490b3c17b76f963ff78475bec69ee6a554d73",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/B1_flex_nowrite_v1/main-result.json",
+          "bytes": 12501,
+          "sha256": "4247a508b414a7d8204160cf872fcc4768bf01b033bdfb5fbb09ea26071033f3",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/B1b/admission.json",
+          "bytes": 567,
+          "sha256": "719fd626b330697f9f59ab5e067bcd9073aa4ec5fe3e55787944120e60fec625",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/B1_standard_nowrite_v1/pilot_authorization.json",
+          "bytes": 1376,
+          "sha256": "a563a0b34f0255577c59be91dbaea94b911f417e50ebbef1a79d960a58d3f779",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": false,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        }
+      ],
+      "pending_results": [
+        {
+          "name": "Standard-NoWrite-Qualifikation",
+          "available": false,
+          "result": null,
+          "reason": "Nur begrenzter Kontrollauftrag dokumentiert, kein Abschluss übernommen."
+        }
+      ]
+    },
+    {
+      "id": "V2-06",
+      "title": "Konstruktionsabschluss natürlicher Quellen",
+      "status": "technically_complete",
+      "packages": [
+        "B3"
+      ],
+      "statement": "V4-Finalautorität: 136 von 136 Produzenten-/Exportpaketen, 8.682 native Einträge; Archiv-, Inventar-, Schema- und Exportbindungen technisch geprüft.",
+      "limits": "Kein Qualitätsurteil. Historische Extraktionskosten versiegelter Quellen und tatsächliche Rechnung bleiben unbekannt. Alte v1-Felder in result.json sind keine Finalautorität.",
+      "artifacts": [
+        {
+          "path": "Experiments/fair_v2_oct24/B3/final_technical_verification.json",
+          "bytes": 7774,
+          "sha256": "3e78b5a28c3d718364829531dfb3dc6f110bcc929b5b3731c19fe9d47c97e267",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        }
+      ],
+      "pending_results": []
+    },
+    {
+      "id": "V2-07",
+      "title": "MuSiQue-Konstruktionsabschluss und N5-Abweichung",
+      "status": "technically_complete",
+      "packages": [
+        "B4"
+      ],
+      "statement": "N5 technisch abgeschlossen: AS und V1 mit je 1.120 Absatzinventaren und vollständigen Gesamtexporten. Eine ganze Joint-Antwort wurde nach Nachtrag 5 bei erhaltenem gültigem Präfix verworfen.",
+      "limits": "Historisch unbekannter Aufruf und Rechnung bleiben unbekannt. Kein Guard- oder QA-Abschluss. N5-Abweichung gegenüber dem ursprünglichen G2-Vertrag für H4 ausweisen.",
+      "artifacts": [
+        {
+          "path": "Experiments/fair_v2_oct24/B4/final_technical_verification.json",
+          "bytes": 2176,
+          "sha256": "ed5e6c45bc75587693d9e7f9c81fb32c4360e4f500e34170bf594beea2eacde3",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/G1/nachtrag_5_joint_vertragsverletzung.md",
+          "bytes": 2987,
+          "sha256": "d63aed1eaea606d875fd9d0a3e7c347cf5aa3df553419b763f1278244b096f23",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        }
+      ],
+      "pending_results": []
+    },
+    {
+      "id": "V2-08",
+      "title": "Prüffilterabschluss und technische Übergabe",
+      "status": "partial",
+      "packages": [
+        "C1"
+      ],
+      "statement": "Konfirmations-Guard auf 136 Elternbeständen technisch abgeschlossen; technische Consumer-Übergabe gesondert belegt. MuSiQue-Guard noch laufend.",
+      "limits": "Technischer Abschluss bedeutet nicht, dass alle Facettenzitate gültig oder Urteile richtig sind. EV bleibt unverändert. Kein vollständiger C1- oder H4-Abschluss.",
+      "artifacts": [
+        {
+          "path": "Experiments/fair_v2_oct24/C1/confirmation_guard_final_audit.json",
+          "bytes": 2783,
+          "sha256": "8e3a5e2cb2b1a29b3d89934f16d8c7e7d413908dc3c7f64c2d06761dbcfa6504",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/C1/consumer_publication_result.json",
+          "bytes": 7885,
+          "sha256": "b86bb2ed1f47e32b5726aee226f17a7b9559b1bf5b7a2382b5f76d6717f1f1b0",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        }
+      ],
+      "pending_results": [
+        {
+          "name": "MuSiQue-Guardabschluss",
+          "available": false,
+          "result": null,
+          "reason": "Laufend; vollständige finale Übergabe und Endprüfung fehlen im Nachtrag."
+        }
+      ]
+    },
+    {
+      "id": "V2-09",
+      "title": "Quellenstützung, Zweitbewertung und Autorenprüfung",
+      "status": "partial",
+      "packages": [
+        "C2",
+        "C4",
+        "C7"
+      ],
+      "statement": "C2 operativ gestoppt: 382/1.447 gültige Gruppen und 2.292/8.682 Urteile, neun unbekannte Aufrufe und eine administrativ fehlende Gruppe. C4-Stichprobe vorbereitet, noch keine Zweiturteile.",
+      "limits": "Kein finales H1-Ergebnis. Fehlende Urteile bleiben fehlend, unbekannte Ausführung und Kosten sind nicht null. Autorenannotation und Zweitbewertung sind noch keine erbrachte Bestätigung.",
+      "artifacts": [
+        {
+          "path": "Experiments/fair_v2_oct24/C2/flex_natural_v1/resume_plan_v2/operational_stop.json",
+          "bytes": 1801,
+          "sha256": "7eb183b54e9ac3b221e2ed1e518601de9d2dcbecda286cf4da0b4b37f3e2f6b5",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": false,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/C4/result.json",
+          "bytes": 11852,
+          "sha256": "72a56573aadc8cd5fb969ad158d76e0dd9795dd70dcc3365f084beb4ea22ce4e",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        }
+      ],
+      "pending_results": [
+        {
+          "name": "H1-Quellenstützung",
+          "available": false,
+          "result": null,
+          "reason": "Vollständige Bewertung und unabhängige Endprüfung fehlen."
+        },
+        {
+          "name": "Zweitbewerter und Autorenannotation",
+          "available": false,
+          "result": null,
+          "reason": "Keine hier nachgewiesenen Urteilspaare oder Übereinstimmungswerte."
+        }
+      ]
+    },
+    {
+      "id": "V2-10",
+      "title": "Ausgewählter Bedeutungserhalt und Referenzen",
+      "status": "partial",
+      "packages": [
+        "B2",
+        "C3"
+      ],
+      "statement": "Drei natürliche Kostenproben: 18/2.336 geplante Urteile in 3/414 Anfragen. 411 Anfragen noch ungestartet. 200 ausgewählte Referenzbedeutungen bleiben privat.",
+      "limits": "Kein H2-Gesamtnachweis und kein vollständiger Quellenrecall. Private Referenztexte und Lösungen werden nicht übernommen. Kostenhochrechnung ist weder Rechnung noch statistische Obergrenze.",
+      "artifacts": [
+        {
+          "path": "Experiments/fair_v2_oct24/C3/calibration_oct25_v1/result.json",
+          "bytes": 2180,
+          "sha256": "3efd04dbe669013bc7b8daea570dc5dd309919ba31645de41d0d7714594decd3",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": false,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/C3/final68-preparation-readback.json",
+          "bytes": 2930,
+          "sha256": "dace6de0d6370e65de45063dc93ef5e0693d0f516b1c661e6efe0dac963e2085",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        }
+      ],
+      "pending_results": [
+        {
+          "name": "H2-Bedeutungserhalt",
+          "available": false,
+          "result": null,
+          "reason": "Vollständige Bewertung und unabhängige Endprüfung fehlen."
+        }
+      ]
+    },
+    {
+      "id": "V2-11",
+      "title": "Technische Exportmessung",
+      "status": "technically_complete",
+      "packages": [
+        "A6",
+        "C5"
+      ],
+      "statement": "Unveränderlicher Snapshot: 544/544 Exportzellen, 272 Inventare, 68 vollständige Achtzellengruppen. H3 sekundär und beschreibend.",
+      "limits": "Projektionskantenerhalt und direkte Inhaltsauffindbarkeit sind verschiedene Kennzahlen. Keine semantische Qualität, vollständige native EV-Wiedergewinnung oder QA daraus ableiten. Rohmessungen sind nicht freigegeben.",
+      "artifacts": [
+        {
+          "path": "Experiments/fair_v2_oct24/C5/snapshots/e6815b073d936bb5eea152b9e74fc75ff308bdf9d21860b26175aa8cca7609b8/BERICHT.txt",
+          "bytes": 4819,
+          "sha256": "20214b3197aa89ff78b94ce8461e9d063c3017d10892d99eb58d33a52543f8ce",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/C5/snapshots/e6815b073d936bb5eea152b9e74fc75ff308bdf9d21860b26175aa8cca7609b8/independent-verification.json",
+          "bytes": 866452,
+          "sha256": "e5ac6318a58e9e4ec5b37c3ec4f2e1caa05886050d850e5d1b5595fd43438add",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        }
+      ],
+      "pending_results": []
+    },
+    {
+      "id": "V2-12",
+      "title": "Graphbasierte QA und Gesamtauswertung",
+      "status": "prepared",
+      "packages": [
+        "C6",
+        "D1",
+        "E1"
+      ],
+      "statement": "N6 besitzt 56 erfolgreiche CPU-Prüfungen. Echte MuSiQue-QA-Antworten und abschließende konfirmatorische Gesamtauswertung fehlen hier noch. E1 ist optional und explorativ.",
+      "limits": "600 geplante Antwortpositionen sind weder richtige Antworten noch eine physische Aufrufzahl. Synthetischer Statistikvorbau und CPU-Qualifikation ersetzen keine empirischen Ergebnisse. Kein V2-Gesamtsieg belegt.",
+      "artifacts": [
+        {
+          "path": "Experiments/fair_v2_oct24/C6/n6-worker-qualification-result.json",
+          "bytes": 20429,
+          "sha256": "cb13bd28aab934efbaaebb2c3e0dcff0a2f9ef8825f1e6324cda2b3770949a8c",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": false,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/C6/N6-Worker-Stand.txt",
+          "bytes": 3998,
+          "sha256": "7900bb1ff3d380dd55a784dcea32c8ee88fa9f4b9309d4cec85478cc5a316154",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": false,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/G1/nachtrag_6_c6_passagenweg.md",
+          "bytes": 2531,
+          "sha256": "6c7c2624a6a2523030bbc5fec0218af831d5b5966e811e5cea67828652d4ae02",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": true,
+          "private_path_marker_present": false,
+          "distribution_review": "reference_only_rights_not_approved"
+        },
+        {
+          "path": "Experiments/fair_v2_oct24/E1/PROTOKOLL.md",
+          "bytes": 4754,
+          "sha256": "3a66e2740bb4bc1a3d0bfac7afa332a0225e50c676644828030bca27220f5867",
+          "byte_basis": "local_worktree_snapshot_not_Git_blob",
+          "git_tracked_at_snapshot": false,
+          "private_path_marker_present": true,
+          "distribution_review": "reference_only_private_path_markers"
+        }
+      ],
+      "pending_results": [
+        {
+          "name": "H4-MuSiQue-QA",
+          "available": false,
+          "result": null,
+          "reason": "Echte Antworten und unabhängige Endprüfung fehlen."
+        },
+        {
+          "name": "D1-Endauswertung H1/H2/H4 und Holm",
+          "available": false,
+          "result": null,
+          "reason": "Empirische Eingänge unvollständig; synthetische Tests sind kein Ergebnis."
+        },
+        {
+          "name": "E1-Reader-Robustheit",
+          "available": false,
+          "result": null,
+          "reason": "Optional explorativ; kein Ergebnis übernommen."
+        }
+      ]
+    }
+  ],
+  "global_limits": [
+    "Die ältere V1-Auswahl im Kernindex bleibt historischer Entwicklungsbeleg. Aktueller V2-Prüfplan: V2-01.",
+    "Manifest und Hash ersetzen keine Rechte- oder Datenschutzfreigabe. Private Originale bleiben außerhalb der öffentlichen Auswahl.",
+    "H1/H2/H4, Zweitbewertung, Autorenprüfung und QA noch unvollständig. Ein gewünschter Sieger ist kein Abnahmekriterium.",
+    "Bekannte Tokens und Listenpreise von unbekannter Nutzung, tatsächlicher Rechnung und vergleichbarer Laufzeit trennen."
+  ]
+}

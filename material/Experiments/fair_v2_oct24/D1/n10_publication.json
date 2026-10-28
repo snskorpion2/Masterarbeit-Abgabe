@@ -1,0 +1,15 @@
+{
+  "protocol": "D1-N10-publication-binding-v1",
+  "amendment_path": "Experiments/fair_v2_oct24/G1/nachtrag_10_budgetbedingte_stichprobe_h1.md",
+  "published_commit": "3d180e5bd92e1ecd74a185fc362e8860fd5091e4",
+  "single_path_commit": true,
+  "remote_confirmed_by_coordinator": true,
+  "canonical_lf_sha256": "12306b9d0a7660d1041f08f19eabfee763c5c6133c2ebacd3987fbe19942e647",
+  "budget_EUR": "42",
+  "C2_safety_reserve_EUR": "1.50",
+  "source_population_groups": 1447,
+  "inclusion_probabilities_exactly_equal_established": false,
+  "cost_dependent_stopping_may_be_informative": true,
+  "entire_attempted_prefix_includes_missing_invalid_unknown_and_administrative_positions": true,
+  "natural_C2_C3_quality_distributions_opened_by_this_implementation": false
+}

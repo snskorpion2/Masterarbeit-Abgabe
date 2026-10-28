@@ -1,0 +1,9 @@
+{
+  "protocol": "QA1-posthoc-operational-definition-v1",
+  "fixed_before_QA1_metric_execution": true,
+  "H4_result_known_before_definitions": true,
+  "not_a_preregistration": true,
+  "method_sha256": "d6ded4bd332a0b46c9d6fa1b3c8e6f81e36d10803da552c7bce22fbc6ba52b2b",
+  "source_C6_result_sha256": "8131c58097903692195cf6405ac925d79bb5602b8862fdb488b507148fac773a",
+  "source_D1_result_sha256": "2260869d48653f314052d167e52e8f32e15ecc3974cc84540bbc87968db8ef12"
+}

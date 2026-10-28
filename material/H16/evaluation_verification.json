@@ -1,0 +1,113 @@
+{
+  "protocol": "H16-N16-final-evaluation-verification-v1",
+  "date": "2026-10-26",
+  "status": "complete_with_disclosed_execution_order_deviation",
+  "statistical_result_status": "complete_author_annotations",
+  "completed_natural_evaluations": 1,
+  "natural_statistical_rerun_after_technical_fix": false,
+  "author_confirmed_by_direct_user_reply": true,
+  "confirmation": "Ja, alle 60 selbst bewertet",
+  "annotation_origin": "human_ui_input",
+  "annotation_sha256": "db081264f43bc6952aec49e04c9ec849263221bec5e604700c69380dc63167a6",
+  "annotation_bytes": 10127,
+  "original_annotation_unchanged": true,
+  "private_original_readback_verified": true,
+  "selected_count": 60,
+  "valid_judgments": 60,
+  "missing_judgments": 0,
+  "evaluator_used_sha256": "be5a9b1e418979fcaa860543e95e7234b5034b9710eda6d8dd3951e14a756ecc",
+  "input_fingerprints": {
+    "packet_file_sha256": "d657bd3ff2cc65f830d6a4c52b1eb929755a46e1df0dce20eee854b0809d1e41",
+    "private_key_file_sha256": "23a12296ee1ba11ff0ce6b6beb6cbe0cbed7f9171efb5292c9c08ee8d34af1ea",
+    "annotation_file_sha256": "db081264f43bc6952aec49e04c9ec849263221bec5e604700c69380dc63167a6"
+  },
+  "original_source_and_preparation_code_pins_matched_at_execution": true,
+  "aggregate_arithmetic_and_type_totals_independently_reconciled": true,
+  "unchanged_statistical_function_ASTs": [
+    "_sha",
+    "_bind",
+    "_rate",
+    "_interval",
+    "_bootstrap",
+    "evaluate"
+  ],
+  "current_evaluator_pin": {
+    "path": "H16/evaluate.py",
+    "bytes": 14789,
+    "sha256": "a2c131ac3b713f7e75b5158413d6140ccfe41ee8f3a5dbf1928856f5f1a6b560"
+  },
+  "regression_test_pin": {
+    "path": "H16/test_evaluate.py",
+    "bytes": 15394,
+    "sha256": "29635daad69194868309ad9d5518212f1a7a701ef4cf7f8d1de9cb25dae565b4"
+  },
+  "synthetic_tests": {
+    "passed": 66,
+    "test_data": "synthetic_only",
+    "command": "python -B -X utf8 -m pytest H16/test_sampling.py H16/test_package.py H16/test_evaluate.py -q -p no:cacheprovider",
+    "new_order_regression_failed_before_fix": true,
+    "new_order_regression_passed_after_fix": true,
+    "private_labels_opened_by_independent_code_reviewer": false
+  },
+  "sealing_order_deviation": {
+    "required": "Write and read back original export before private key access",
+    "actual_original_write_before_private_key_read": true,
+    "actual_snapshot_readback_before_private_key_read": false,
+    "actual_snapshot_readback_after_statistics": true,
+    "post_execution_byte_equality_confirmed": true,
+    "future_file_order_corrected_and_synthetically_verified": true,
+    "fix_scope": "Immediate private snapshot readback before any packet or private key read",
+    "retrospective_order_compliance_claimed": false,
+    "historical_result_retained_without_recalculation": true
+  },
+  "public_artifact_pins": [
+    {
+      "path": "H16/result.json",
+      "bytes": 5616,
+      "sha256": "f20e7348dfca38ef3c55afa1ec0fe1ee4fda020f7701722bd80da38cca6d8013"
+    },
+    {
+      "path": "H16/BERICHT.md",
+      "bytes": 3862,
+      "sha256": "7b2904e7cc217fabdbb294190a8b76c348889db3f19034eb2b62af267a9d7369"
+    },
+    {
+      "path": "H16/evaluate.py",
+      "bytes": 14789,
+      "sha256": "a2c131ac3b713f7e75b5158413d6140ccfe41ee8f3a5dbf1928856f5f1a6b560"
+    },
+    {
+      "path": "H16/test_evaluate.py",
+      "bytes": 15394,
+      "sha256": "29635daad69194868309ad9d5518212f1a7a701ef4cf7f8d1de9cb25dae565b4"
+    }
+  ],
+  "public_safety_scan": {
+    "protocol": "masterarbeit-submission-safety-v1",
+    "scope": "explicit-selected-files-only",
+    "passed": true,
+    "selected_files": 4,
+    "inspected_files": 4,
+    "inspected_bytes": 39661,
+    "max_file_bytes": 26214400,
+    "findings": [],
+    "limits": [
+      "No licensing approval",
+      "No semantic personal-data review",
+      "No Git-history audit",
+      "No decompression or embedded-document inspection"
+    ]
+  },
+  "public_scope": "Aggregate counts and technical hashes only; no statements, source texts, private paths or individual judgments",
+  "model_calls": 0,
+  "statistical_methods_changed": false,
+  "new_sampling": false,
+  "D1_primary_or_Holm_families_changed": false,
+  "limits": [
+    "Exploratory author annotation, not independent human gold",
+    "Unweighted type-balanced selected statements, not natural population rates",
+    "Statement bootstrap does not correct shared-source dependence",
+    "CI includes zero; same positive sign is not confirmatory transfer superiority",
+    "The actual execution-order deviation cannot be retroactively undone"
+  ]
+}

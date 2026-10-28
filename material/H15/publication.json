@@ -1,0 +1,19 @@
+{
+  "protocol": "H15-N15-single-path-publication:v1",
+  "published_UTC": "2026-10-26T11:50:14.066461+00:00",
+  "remote": "origin",
+  "branch": "main",
+  "parent": "2be556304b9a47505fc4c40a84297626484eb07b",
+  "commit": "21d6d3d1055fd7edfb86de6572e58f2e249fb177",
+  "only_changed_path": "Experiments/fair_v2_oct24/G1/nachtrag_15_menschliche_pruefung_h2.md",
+  "bytes": 7366,
+  "sha256": "ef7c771f8b6a1778d4f18fcef6cded09f3ccf7f721eeae7ce3382e0669b7bf27",
+  "git_blob": "32c180e93ab6a04ddf6dec3576dace20a55c0c64",
+  "remote_commit_confirmed": "21d6d3d1055fd7edfb86de6572e58f2e249fb177",
+  "published_before_H15_natural_selection": true,
+  "H15_natural_draws_started": 0,
+  "shared_HEAD_before": "d627a69fe39acff59f1a29ab0483839c7a028d04",
+  "shared_index_sha256_before": "6204a6aa6e86476dc7a18af49654056f8f5dbc28d11f1ac8887780639b01a21c",
+  "shared_HEAD_and_index_preserved": true,
+  "models_called": 0
+}

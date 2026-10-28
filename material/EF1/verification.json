@@ -1,0 +1,228 @@
+{
+  "protocol": "EF1-final-readback-v1",
+  "status": "complete_secondary_descriptive_analysis",
+  "point_reconciliations": [
+    {
+      "population": "H1_NEW20",
+      "arm": "AS",
+      "public_D1_points_match": true,
+      "original_cost_receipts_match": true
+    },
+    {
+      "population": "H1_NEW20",
+      "arm": "AS+G",
+      "public_D1_points_match": true,
+      "original_cost_receipts_match": true
+    },
+    {
+      "population": "H1_NEW20",
+      "arm": "V1",
+      "public_D1_points_match": true,
+      "original_cost_receipts_match": true
+    },
+    {
+      "population": "H1_NEW20",
+      "arm": "V2",
+      "public_D1_points_match": true,
+      "original_cost_receipts_match": true
+    },
+    {
+      "population": "H2_G2_NEW20",
+      "arm": "AS",
+      "public_D1_points_match": true,
+      "original_cost_receipts_match": true
+    },
+    {
+      "population": "H2_G2_NEW20",
+      "arm": "AS+G",
+      "public_D1_points_match": true,
+      "original_cost_receipts_match": true
+    },
+    {
+      "population": "H2_G2_NEW20",
+      "arm": "V1",
+      "public_D1_points_match": true,
+      "original_cost_receipts_match": true
+    },
+    {
+      "population": "H2_G2_NEW20",
+      "arm": "V2",
+      "public_D1_points_match": true,
+      "original_cost_receipts_match": true
+    },
+    {
+      "population": "H2_N14_NEW20",
+      "arm": "AS",
+      "public_D1_points_match": true,
+      "original_cost_receipts_match": true
+    },
+    {
+      "population": "H2_N14_NEW20",
+      "arm": "AS+G",
+      "public_D1_points_match": true,
+      "original_cost_receipts_match": true
+    },
+    {
+      "population": "H2_N14_NEW20",
+      "arm": "V1",
+      "public_D1_points_match": true,
+      "original_cost_receipts_match": true
+    },
+    {
+      "population": "H2_N14_NEW20",
+      "arm": "V2",
+      "public_D1_points_match": true,
+      "original_cost_receipts_match": true
+    }
+  ],
+  "K2_calls": 38106,
+  "guard_source_mappings": 4673,
+  "K2_output_readback": {
+    "rows": 70,
+    "columns": 33,
+    "unique_group_hashes": 70,
+    "verification": {
+      "bytes": 5836,
+      "sha256": "16bb4a242bf1c313a9500f220a18e099a810c104ef27f6162b250bb756151ba8"
+    },
+    "source_assignment": {
+      "bytes": 709,
+      "sha256": "8039d70d334f89c87c7f39225ce56c7bb32fe0166c0cf05262c0d78fc1ea6d99"
+    }
+  },
+  "H1_sources": 20,
+  "H2_N14_sources": 17,
+  "actual_planned_source_draw_units": 68,
+  "bootstrap_matrix": {
+    "draws": 10000,
+    "seed": 2026102407,
+    "full_source_count": 24,
+    "source_group_matrix_sha256": "e88daf8592fbf987e03cf9fc51642e462db9e142f788046dac0b3b8936235b76",
+    "frozen_D1_matrix_verified": true,
+    "domain_policy": "fixed cost-known domain projected onto unchanged full N10 source/group draws; variable domain count retained",
+    "costs_travel_with_source": true,
+    "all_arms_and_metrics_paired": true,
+    "undefined_replicates_are_not_dropped": true,
+    "no_hypothesis_test": true
+  },
+  "X3_no_cost_point": true,
+  "all24_costs_lower_bounds_only": true,
+  "bound_public_input_hashes_verified": true,
+  "N17_concurrent_chronology_update_recorded": true,
+  "mechanism_tests": 22,
+  "manuscript_drafts": {
+    "paragraphs": 2,
+    "main_manuscript_modified": false
+  },
+  "figure_review": {
+    "format": [
+      "PNG",
+      "PDF",
+      "SVG"
+    ],
+    "panels": 2,
+    "points": 8,
+    "actual_values_match_result": true,
+    "visual_review": "passed; direct labels, no collisions or clipped content",
+    "grayscale_review": "passed; marker shape and labels retain arm identity"
+  },
+  "runtime": {
+    "python": "3.13.12 (main, Mar 24 2026, 22:56:40) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8"
+  },
+  "new_provider_calls": 0,
+  "primary_D1_recomputed": false,
+  "new_hypothesis_tests": false,
+  "winner_claim": false,
+  "publication": false,
+  "commit": false,
+  "push": false,
+  "artifacts": {
+    "accounting.py": {
+      "bytes": 6197,
+      "sha256": "dbe7d9aa329e0491e3a1d8592837872c3e378fefb8b6662422c11b7a0a2959a4"
+    },
+    "BERICHT.md": {
+      "bytes": 10601,
+      "sha256": "489430d331227106a9d354dca622ae4305caf5ceba81dc53d27b18b8f6bf513a"
+    },
+    "cpu-tests.xml": {
+      "bytes": 2921,
+      "sha256": "267e2c9fe906d8a731d6f9c5ab94e1670487be4130227435a2e2de38c74f7feb"
+    },
+    "figure-data.json": {
+      "bytes": 2593,
+      "sha256": "757b058192d9fa72dbb6f5d950c21c1c3b970832eaba062a455c9980bd59d1e0"
+    },
+    "input_inventory.json": {
+      "bytes": 13589,
+      "sha256": "953b244b696859a192b5890378c5e3e612e460933a225c4275f93b953c36a949"
+    },
+    "kosten_qualitaet.pdf": {
+      "bytes": 23695,
+      "sha256": "77df7db4b25e8085c7587386beb2ccfb4515585e6903ce313ab6b92e62cf70d9"
+    },
+    "kosten_qualitaet.png": {
+      "bytes": 142552,
+      "sha256": "21a42d4e18ec9135a53cf337cb55661378465dc208c661d67779158bb359c150"
+    },
+    "kosten_qualitaet.svg": {
+      "bytes": 28037,
+      "sha256": "38bcd1423ceb29f92c8329dcfc6998c043a90c76d59f2b420ba8d62e629d5885"
+    },
+    "metrics.py": {
+      "bytes": 19629,
+      "sha256": "ea7210f4d8e3474b7a2ae0c91a010872ac85efc17c99ab1aa029b9ff98d371af"
+    },
+    "plot.py": {
+      "bytes": 4632,
+      "sha256": "3815f91f4d61c38ba68f4aeba509db8c61fc7a2e6a8ff4597c44e46ccb75608d"
+    },
+    "README.md": {
+      "bytes": 3169,
+      "sha256": "a2a10fcefb87dac1065444120620540f4036e40bfd3bda5aaade2626b04f06a7"
+    },
+    "render_report.py": {
+      "bytes": 13336,
+      "sha256": "93119f5372bba564d784e87c95dd03329fa63c1fd72ecc0d744169f936da8496"
+    },
+    "result.json": {
+      "bytes": 497757,
+      "sha256": "8dcb63b1dcdbdc31eb6b2f9fc0bd591a0025d1477a9eb5684457b58bbb557c54"
+    },
+    "run.py": {
+      "bytes": 4998,
+      "sha256": "fda165e97e30ce198337004186f9f70d36730790da669cae0b25e64208af759a"
+    },
+    "source-costs.json": {
+      "bytes": 72126,
+      "sha256": "2fc7b088006f264a957379b263195c16356505ccd9f68683972fdef20315dc5e"
+    },
+    "stages.json": {
+      "bytes": 59866,
+      "sha256": "df49464ce5fd719b82b6da72af7192c1867e11d0afb0d85ac9d2d781c08e25bd"
+    },
+    "test_accounting.py": {
+      "bytes": 4177,
+      "sha256": "cd7c99358689087456eb12fcabbd6506074b1a1c53d4533893ada33c3746372d"
+    },
+    "test_metrics.py": {
+      "bytes": 8878,
+      "sha256": "3a0d44cd9dbb593ffefff390fba6de2b3c3027d3631160fce1236eaf05af7c40"
+    },
+    "textbausteine.md": {
+      "bytes": 1521,
+      "sha256": "e9af07f3323cf0493a6edc33695d931eae8f35f42e567b9cb52eb4422d1745b0"
+    },
+    "textbausteine.tex": {
+      "bytes": 1569,
+      "sha256": "a8052f45bbb8fd7223145c9ccb6c1cf5a870ebbfa98d8ce613247cccc92cf1d2"
+    },
+    "verify.py": {
+      "bytes": 7692,
+      "sha256": "fb33cad83b1cc6497f2e214f41f949ed8c9aa04791c86e19d3dde44a5c2ddcfb"
+    }
+  }
+}

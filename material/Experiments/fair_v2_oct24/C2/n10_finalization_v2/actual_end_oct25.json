@@ -1,0 +1,73 @@
+{
+  "protocol": "N10-actual-budget-end-export-and-sole-final-audit-oct25-v2",
+  "status": "exported_and_both_axes_passed_existing_final_audit",
+  "model_stage_state": "budget_closed",
+  "inflight_groups": 0,
+  "new_provider_calls_for_export_and_audit": 0,
+  "independent_final_audits_per_axis": {
+    "C2": 1,
+    "C3": 1
+  },
+  "C2_passed": true,
+  "C3_passed": true,
+  "shared_error_class": null,
+  "C2_further_calls_permitted": false,
+  "C3_further_calls_permitted_under_current_cap": false,
+  "completion_pin": {
+    "path": "withheld-artifact/b189c5c1270f5852893c",
+    "bytes": 3674,
+    "sha256": "d08673418b5ef016bb3b1b6024ad871fd78d98cd3805a8e4407cd8baaa390025"
+  },
+  "audit_pin": {
+    "path": "withheld-artifact/f3dcf1f89b8162ade92d",
+    "bytes": 4476,
+    "sha256": "5895ca674319b1302c9b7f863a2e9411a93507fccfe90d0c66122e980f6d51a9"
+  },
+  "C2_native_export_pin": {
+    "path": "withheld-artifact/6719c6183e8e76f9150e",
+    "bytes": 75708263,
+    "sha256": "1dc354b2c480936f205975e65eb926109e09f4f16ab4d9ae6e566e295bc3fafb"
+  },
+  "C3_native_export_pin": {
+    "path": "withheld-artifact/3e82603639336ce66804",
+    "bytes": 2868360,
+    "sha256": "9813fc4280a82f2f05232aefe066012641237a9b44fec9e66cce1cd4ed5f0dfa"
+  },
+  "C2_coverage": {
+    "planned_groups": 1447,
+    "selected_groups": 1066,
+    "valid_groups": 1035,
+    "not_selected_groups": 381,
+    "planned_original_occurrences": 8682,
+    "selected_occurrences": 6396,
+    "valid_occurrences": 6210,
+    "selected_technical_missing_occurrences": 186,
+    "not_selected_occurrences": 2286,
+    "unknown_execution_true_occurrences": 168,
+    "unknown_execution_null_occurrences": 6,
+    "pending_subset_cells": 0
+  },
+  "C3_coverage": {
+    "planned_groups": 414,
+    "valid_groups": 322,
+    "never_started_groups": 87,
+    "started_nonvalid_groups": 5,
+    "fixed_cases": 2336,
+    "valid_judgments": 1824,
+    "technical_missing_cases": 512,
+    "unobserved_cases": 484,
+    "all_planned_observations_valid": false
+  },
+  "shared_charged_or_held_EUR": "41.790270702",
+  "shared_cap_EUR": "42",
+  "invoice_EUR": null,
+  "full_semantic_population_measurement": false,
+  "superiority_or_significance_claim": false,
+  "limits": [
+    "Passed final audit concerns provenance, saved answers, fixed rosters, classification transfer and calculations, not the factual truth of every model judgment.",
+    "N10 nonselection is not a technical failed judgment.",
+    "Selected failed or administratively excluded positions remain in the prefix and missing.",
+    "C3 retains every fixed case and reports unstarted and nonvalid positions as missing.",
+    "Historical unknown executions, holds and the first failed CPU export are preserved."
+  ]
+}

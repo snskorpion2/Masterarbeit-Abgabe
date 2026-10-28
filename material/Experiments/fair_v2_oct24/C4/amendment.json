@@ -1,0 +1,83 @@
+{
+  "C2_qualitative_labels_read_by_C4": false,
+  "C4_provider_calls_so_far": 0,
+  "C4_real_case_draws_so_far": 0,
+  "agreement": "nominal3classsamplekappa+3x3+actualpairedN,technicalmissingexcludedandreported; core/removal-only/combineddescriptivepanelsseparate;notgroundtruth",
+  "authority": "direct_human_C4_instruction_in_this_chat",
+  "budget_boundaries": {
+    "C4_30_is_not_additional_to_global": true,
+    "actual_account_tariff_EUR_per_token": null,
+    "global_Foundry_EUR": 30,
+    "main_C2_C3_combined_EUR": 25,
+    "portal_review_due_after_about_requests": 50,
+    "retail_evidence_pin": {
+      "bytes": 1735,
+      "path": "withheld-artifact/41aa6b42bd2f8da05202",
+      "sha256": "19791cb0196b5ea8e00ded520542e2932ea1630d8a61197ba09bf541216615fa"
+    },
+    "retail_rates_are_not_verified_deployment_SKU_or_invoice": true,
+    "shared_allocation_or_ledger_required_before_calls": true
+  },
+  "cell_closure": "Eachoriginalcellmustbesealedorverifiedemptybeforeitsdraw; pending/technicalmissingcountsareunknown. Finiteall24source/136parentrosterwithallplannedcellsrequired, whileclosedcellscanbeprocessedprospectivelywithoutredrawingothers.",
+  "claims_boundary": "NoqualitativeC4resultoragreementorrobustdirectionexistsuntilactualclosedC2casesareselected/evaluatedandpairedlabelsjoined. Missingnotzero,absenceofdisagreementnotproofofquality.",
+  "created_utc": "2026-10-24T19:52:14.138691+00:00",
+  "current": {
+    "fraction": "0.25",
+    "human_package_cap_EUR": 30,
+    "ordering_seed": 2026102411,
+    "rounding": "ceil(N_h/4), capped atN_h; report actualn/N",
+    "seed": 2026102410,
+    "source_cluster_bootstrap_seed": 2026102412,
+    "strata": [
+      "original_parent_cell_id(source,arm,draw)",
+      "EE/EV/VV"
+    ]
+  },
+  "direction": "sourceequalafterplanned-drawmean,HTdesignweightsandknownnative/keptdenominators; compareGrokandC2onsamecoreandC2fullcensusseparately; undefined/tienotpreserved; secondaryonly",
+  "preselection_clarification": {
+    "previous_unconsumed_draft_sha256": "43499e58155f3f6eb3914b187ac089afa22910cb3e4d451a1e592e0d4e90bc4d",
+    "provider_calls": 0,
+    "real_case_draws": 0,
+    "reason": "Document exact implemented hash domain before any real C2 case draw or label access; no sampling fraction/seed change"
+  },
+  "prior": {
+    "fraction": "0.15",
+    "second_evaluator_cap_EUR": 12,
+    "strata": [
+      "parent_arm",
+      "EE/EV/VV"
+    ]
+  },
+  "protocol": "C4-prospective-human-amendment-v1",
+  "published_G2_commit": "42611c9da74b15a9f115e77a42f9503c93bed703",
+  "published_freeze_edited": false,
+  "published_freeze_pins": [
+    {
+      "bytes": 47528,
+      "path": "Experiments/fair_v2_oct24/A7/preregistration_v2_frozen.md",
+      "sha256": "970bc7ae5655f5377bc9a86d2e3cf938bbfcf3292ce94a6657f9e884a1095f41"
+    },
+    {
+      "bytes": 101775,
+      "path": "Experiments/fair_v2_oct24/A7/preregistration_v2_frozen.json",
+      "sha256": "8377548a064de1fadd28baf674290be02021457ab38b49056ac9dde45dddf9f5"
+    }
+  ],
+  "remaining_frozen_conditions": {
+    "Guard_removal_augmentation": "allremovedoccurrencesofbothoriginalparentsinsourcesrepresentedinthecore;unionbyglobalunit_id;reportseparately",
+    "max_cases_per_request": 6,
+    "max_tokens": 8192,
+    "model": "grok-4.7",
+    "n": 1,
+    "prompt_system_SHA256": "c94afc22feba85bef5e3703d91f32d881061fef7104dda4629d69dee13d80724",
+    "prompt_system_UTF8_bytes": 1778,
+    "reasoning_field": "omitted",
+    "stream": false,
+    "temperature": 0,
+    "timeout_seconds": 300,
+    "transport_retries": 0
+  },
+  "sampling_before_labels": true,
+  "selection_rank": "SHA256(canonical(['C4-cell-type-rank-v1',seed,cell_id,category,unit_id])),tie-breakunit_id; stablebetweenclosedcellhandoffs; no labels/texts/qualityinputs",
+  "uncertainty": "optionalpairedsourceclusterbootstrap10kconditionalonrealizedfixedcore,notLLMredraw/survey-designuncertainty;noextraHolmprimarytest"
+}

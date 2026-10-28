@@ -1,0 +1,53 @@
+{
+  "protocol": "N8-D1-publication-before-aggregated-outcome-analysis-v1",
+  "amendment_path": "Experiments/fair_v2_oct24/G1/nachtrag_8_gesamt_und_komponentenurteil.md",
+  "published_commit": "8c6228bcdc4c87f40f810483b5698fa22566e2d3",
+  "published_at_utc": "2026-10-25T13:38:59.3132400Z",
+  "single_path_commit": true,
+  "remote_confirmed": true,
+  "raw_sha256": "d597104270d1a9f9dd51462a827725afdbd39a64409051a9e137267ece5050c3",
+  "canonical_lf_sha256": "66b2c97e041337fb83b1d1efef682be3d6beb6d83296ff209063772219fe707f",
+  "access_clarification_publication": {"commit": "735720c3403432c8027d79c5be5de8172e5e39b4", "at_utc": "2026-10-25T13:28:46Z"},
+  "source_scope_clarification": {"total_sources": 24, "new_sources": 20, "sealed_primary_sources": 4, "frozen_selection_or_criteria_changed": false},
+  "initial_publication": {
+    "commit": "3de7fce495c38124096c25418bedd7a8d0cf9d97",
+    "at_utc": "2026-10-25T12:57:16.3929175Z",
+    "then_amendment_number": "N7",
+    "single_path_commit": true,
+    "raw_sha256": "90680cc4876620ba2ec9803a66dad4a54a482492a6d0b9a04e88c161efeb84ea"
+  },
+  "initial_N8_numbering_publication": {
+    "commit": "c33d0d65ac8af5dc1f2d8837e7c635368eba7429",
+    "at_utc": "2026-10-25T13:22:41Z"
+  },
+  "distinct_N7_guard_publication": {
+    "commit": "f0dabef19a5028a3a0c256930ff5c333a016bb1d",
+    "path": "Experiments/fair_v2_oct24/G1/nachtrag_7_guard_ungueltige_antwort.md",
+    "at_utc": "2026-10-25T13:22:32Z"
+  },
+  "checked_before_initial_publication_at_utc": "2026-10-25T12:56:08Z",
+  "previous_D1_runs_synthetic_only": true,
+  "empirical_D1_started_before_publication": false,
+  "no_current_distribution_analysis_reported_by": [
+    "Main",
+    "D1 owner",
+    "C6 owner",
+    "C7 owner and Z2 helpers",
+    "C4/S2 owner",
+    "current C1 subgroup",
+    "C2/C3 final-only helper"
+  ],
+  "no_current_C6_answer_or_aggregated_C7_label_analysis_reported": true,
+  "full_team_outcome_blindness": false,
+  "individual_C2_exposure_disclosed": true,
+  "author_C7_annotation": {
+    "reported_as_ongoing_by_C4_owner": true,
+    "annotation_start_time_known": false,
+    "not_claimed_currently_blind": true,
+    "aggregated_D1_label_analysis_not_reported": true
+  },
+  "qualification": "A C2/C3 helper previously saw individual C2 codes/reasons in an unprojected technical terminal containing both axes. No distribution analysis reported. Visible C3 contents not evidenced. Owner declarations are scoped, not a reconstruction of every historical project access or of coordination/author access. Ongoing author annotation is not confused with aggregation and no current author blindness is claimed.",
+  "criteria_changed_by_renumbering_or_access_clarification": false,
+  "natural_outcomes_opened_for_this_check": false,
+  "model_calls": 0
+}

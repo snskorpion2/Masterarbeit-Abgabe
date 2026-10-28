@@ -1,0 +1,638 @@
+{
+  "protocol": "D1-final-native-aggregate-handoff:v1",
+  "date": "2026-10-26",
+  "status": "empirical_complete",
+  "synthetic": false,
+  "G2_sha256": "8377548a064de1fadd28baf674290be02021457ab38b49056ac9dde45dddf9f5",
+  "original_analysis": {
+    "sha256": "c45634ee7fda25c288491ae530387e752a3933592b3f244972c92df0d87c0fe2",
+    "bytes": 15728122
+  },
+  "original_native_result": {
+    "sha256": "fc75580bf8ef311cb17c2eebd35f4f1949c7f78fdd9eedf2a9790d8310ab6138",
+    "bytes": 15037
+  },
+  "input_manifest_sha256": "1a495e8da34acfe4726fc45d44f62002cb4c23413c5355247471abb5dbf9ad11",
+  "overall_stage": "B",
+  "overall_statement": "V2 erhöht die Quellenstützung bei nicht unterlegenem ausgewähltem Bedeutungserhalt. Ein QA-Vorteil ist nicht nachgewiesen.",
+  "primary": {
+    "H1": {
+      "point_difference": 0.08366551765162511,
+      "raw_p": 9.999000099990002e-05,
+      "ci95": {
+        "lower": 0.05481386316811773,
+        "upper": 0.11140709884884337
+      },
+      "identification_sensitivity95": {
+        "lower": 0.026603295932061226,
+        "upper": 0.14475438200212062
+      },
+      "testable": true,
+      "undefined_reason": null,
+      "null_boundary": 0.0,
+      "cluster_count": 24,
+      "bootstrap_draws": 10000,
+      "seed": 2026102407,
+      "rng": "numpy.random.Generator(PCG64)",
+      "CI_method": "linear percentile",
+      "CI_scope": "marginal two-sided 95%, not simultaneous Holm-adjusted",
+      "primary_statistic_is_identification_lower_bound": false,
+      "control_mean": 0.8183308270445568,
+      "treatment_mean": 0.901996344696182,
+      "aggregation": "pooled sampled occurrences across draws within each source, then equal sources",
+      "N10_budget_prefix": true,
+      "source_group_matrix_sha256": "e88daf8592fbf987e03cf9fc51642e462db9e142f788046dac0b3b8936235b76",
+      "approximate_cost_stopped_sampling": true,
+      "exact_inclusion_probabilities_established": false,
+      "delta_identification_bounds": {
+        "lower": 0.05561154121349832,
+        "upper": 0.11820500874539652
+      },
+      "control": "AS_ORIGINAL",
+      "treatment": "V2_ROW",
+      "adjusted_p": 0.00029997000299970003,
+      "reject": true,
+      "criterion_met": true
+    },
+    "H2": {
+      "point_difference": 0.09685395622895625,
+      "raw_p": 9.999000099990002e-05,
+      "ci95": {
+        "lower": 0.042340067340067344,
+        "upper": 0.15796603184624014
+      },
+      "identification_sensitivity95": {
+        "lower": -0.43021701388888883,
+        "upper": 0.584302662037037
+      },
+      "testable": true,
+      "undefined_reason": null,
+      "null_boundary": -0.05,
+      "cluster_count": 24,
+      "bootstrap_draws": 10000,
+      "seed": 2026102407,
+      "rng": "numpy.random.Generator(PCG64)",
+      "CI_method": "linear percentile",
+      "CI_scope": "marginal two-sided 95%, not simultaneous Holm-adjusted",
+      "primary_statistic_is_identification_lower_bound": false,
+      "control_mean": 0.43975869809203144,
+      "treatment_mean": 0.5366126543209876,
+      "aggregation": "mean planned draws within source, then equally weighted source mean",
+      "defined_source_pairs": 24,
+      "delta_identification_bounds": {
+        "lower": -0.22125771604938282,
+        "upper": 0.4162001964085297
+      },
+      "control": "AS_ORIGINAL",
+      "treatment": "V2_ROW",
+      "adjusted_p": 0.00029997000299970003,
+      "reject": true,
+      "criterion_met": true,
+      "g2_criterion_met": true,
+      "n14_criterion_met": true,
+      "n14_analysis_required": true,
+      "n14_decision_rule": "G2 and N14 contrast-specific analyses must both satisfy their unchanged-family Holm criterion",
+      "superiority_claim_allowed": false
+    },
+    "H4": {
+      "point_difference": -0.014411699411699416,
+      "raw_p": 0.6934306569343066,
+      "ci95": {
+        "lower": -0.08285620636141132,
+        "upper": 0.0391081187469247
+      },
+      "identification_sensitivity95": {
+        "lower": -0.08285620636141132,
+        "upper": 0.0391081187469247
+      },
+      "testable": true,
+      "undefined_reason": null,
+      "null_boundary": 0.0,
+      "cluster_count": 39,
+      "bootstrap_draws": 10000,
+      "seed": 2026102407,
+      "rng": "numpy.random.Generator(PCG64)",
+      "CI_method": "linear percentile",
+      "CI_scope": "marginal two-sided 95%, not simultaneous Holm-adjusted",
+      "primary_statistic_is_identification_lower_bound": false,
+      "question_count": 60,
+      "completed_pair_count": 60,
+      "completed_pair_point_difference": -0.014411699411699416,
+      "completed_pair_sensitivity_only": true,
+      "control_mean": 0.1521894771894772,
+      "treatment_mean": 0.13777777777777775,
+      "control_score_bounds": {
+        "lower": 0.1521894771894772,
+        "upper": 0.1521894771894772
+      },
+      "treatment_score_bounds": {
+        "lower": 0.13777777777777775,
+        "upper": 0.13777777777777775
+      },
+      "delta_identification_bounds": {
+        "lower": -0.014411699411699416,
+        "upper": -0.014411699411699416
+      },
+      "aggregation": "sum question scores divided by sampled question count, not mean block means",
+      "control": "AS_ORIGINAL",
+      "treatment": "V2_ROW",
+      "adjusted_p": 0.6934306569343066,
+      "reject": false,
+      "criterion_met": false,
+      "descriptive_nondecrease": false
+    }
+  },
+  "H2_analyses": {
+    "G2": {
+      "effect": {
+        "point_difference": 0.09685395622895625,
+        "ci95": {
+          "lower": 0.042340067340067344,
+          "upper": 0.15796603184624014
+        },
+        "raw_p": 9.999000099990002e-05,
+        "adjusted_p": 0.00029997000299970003,
+        "reject": true,
+        "delta_identification_bounds": {
+          "lower": -0.22125771604938282,
+          "upper": 0.4162001964085297
+        },
+        "identification_sensitivity95": {
+          "lower": -0.43021701388888883,
+          "upper": 0.584302662037037
+        },
+        "control_mean": 0.43975869809203144,
+        "treatment_mean": 0.5366126543209876,
+        "null_boundary": -0.05,
+        "testable": true,
+        "undefined_reason": null,
+        "cluster_count": 24,
+        "defined_source_pairs": 24
+      },
+      "source_count": 24,
+      "criterion_met": true,
+      "criterion_source": "primary.H2.g2_criterion_met"
+    },
+    "N14": {
+      "effect": {
+        "point_difference": 0.13673499702911468,
+        "ci95": {
+          "lower": 0.06467419290948703,
+          "upper": 0.20939703406615165
+        },
+        "raw_p": 9.999000099990002e-05,
+        "adjusted_p": 0.00029997000299970003,
+        "reject": true,
+        "delta_identification_bounds": {
+          "lower": 0.099400871459695,
+          "upper": 0.17581204198851264
+        },
+        "identification_sensitivity95": {
+          "lower": 0.022440087145969498,
+          "upper": 0.2642184095860566
+        },
+        "control_mean": 0.6208358090711033,
+        "treatment_mean": 0.7575708061002179,
+        "null_boundary": -0.05,
+        "testable": true,
+        "undefined_reason": null,
+        "cluster_count": 17,
+        "defined_source_pairs": 17
+      },
+      "source_count": 17,
+      "criterion_met": true,
+      "criterion_source": "N14_H2_missingness.primary.criterion_met"
+    },
+    "combined_criterion_met": true,
+    "N14_source_selection_is_random": false
+  },
+  "sourcewise_V2_vs_AS": {
+    "H1": {
+      "endpoint": "H1",
+      "control": "AS_ORIGINAL",
+      "treatment": "V2_ROW",
+      "planned_source_count": 24,
+      "comparison_scope_source_count": 24,
+      "outside_comparison_scope_source_count": 0,
+      "V2_better_sources": 21,
+      "equal_sources": 0,
+      "V2_worse_sources": 3,
+      "not_estimable_sources": 0,
+      "pairwise_estimable_source_count": 24,
+      "comparison": "strict >, =, < on unrounded canonical source estimates; no tolerance",
+      "scope": "full planned population",
+      "secondary_descriptive_only": true,
+      "new_hypothesis_test": false,
+      "missing_judgment_scoring": "Canonical conservative G2/N10 scores retained; a defined score is not proof of complete observed judgments."
+    },
+    "H2": {
+      "endpoint": "H2",
+      "control": "AS_ORIGINAL",
+      "treatment": "V2_ROW",
+      "planned_source_count": 24,
+      "comparison_scope_source_count": 24,
+      "outside_comparison_scope_source_count": 0,
+      "V2_better_sources": 14,
+      "equal_sources": 8,
+      "V2_worse_sources": 2,
+      "not_estimable_sources": 0,
+      "pairwise_estimable_source_count": 24,
+      "comparison": "strict >, =, < on unrounded canonical source estimates; no tolerance",
+      "scope": "full planned population",
+      "secondary_descriptive_only": true,
+      "new_hypothesis_test": false,
+      "missing_judgment_scoring": "Canonical conservative G2/N10 scores retained; a defined score is not proof of complete observed judgments."
+    },
+    "H2_N14_eligible": {
+      "endpoint": "H2",
+      "control": "AS_ORIGINAL",
+      "treatment": "V2_ROW",
+      "planned_source_count": 24,
+      "comparison_scope_source_count": 17,
+      "outside_comparison_scope_source_count": 7,
+      "V2_better_sources": 14,
+      "equal_sources": 1,
+      "V2_worse_sources": 2,
+      "not_estimable_sources": 0,
+      "pairwise_estimable_source_count": 17,
+      "comparison": "strict >, =, < on unrounded canonical source estimates; no tolerance",
+      "scope": "N14 contrast-specific eligible sources",
+      "secondary_descriptive_only": true,
+      "new_hypothesis_test": false,
+      "missing_judgment_scoring": "Canonical conservative G2/N10 scores retained; a defined score is not proof of complete observed judgments."
+    }
+  },
+  "H1_VV_over_estimable_sources": {
+    "V1_ROW": {
+      "estimate_over_estimable_sources": 0.5988717740060451,
+      "estimable_source_count": 23,
+      "planned_source_count": 24,
+      "not_estimable_source_count": 1,
+      "aggregation": "unweighted mean over estimable canonical VV source estimates only",
+      "secondary_descriptive_only": true,
+      "replaces_primary_estimator": false,
+      "new_confidence_interval_computed": false,
+      "new_hypothesis_test": false
+    },
+    "V2_ROW": {
+      "estimate_over_estimable_sources": 0.7272652530089602,
+      "estimable_source_count": 23,
+      "planned_source_count": 24,
+      "not_estimable_source_count": 1,
+      "aggregation": "unweighted mean over estimable canonical VV source estimates only",
+      "secondary_descriptive_only": true,
+      "replaces_primary_estimator": false,
+      "new_confidence_interval_computed": false,
+      "new_hypothesis_test": false
+    }
+  },
+  "author_N8_qualification": {
+    "kappa": 0.7232704402515723,
+    "source": "current_C7_author_binary_rule",
+    "current_author_binary_binding": true,
+    "N_pair": 110,
+    "definition": "supported versus {not_supported, unclear}; missing excluded",
+    "annotation_origin": "human_ui_input",
+    "author_confirmed": true,
+    "annotation_SHA256": "291c623a42611f16124adbf80298b60430f8501cded62ee01a3fc9b2677f335c",
+    "C2_end_export_SHA256": "1dc354b2c480936f205975e65eb926109e09f4f16ab4d9ae6e566e295bc3fafb",
+    "original_three_class_labels_unchanged": true,
+    "three_class_kappa_descriptive": 0.725,
+    "model_counterevaluator_used_for_N8": false
+  },
+  "efficiency_status": "not_provided",
+  "original_files_modified": false,
+  "statistical_method_changes": false,
+  "new_model_calls": 0,
+  "public_export_path_redactions": [
+    {
+      "location": "/key-sha256-45447b7afbd5e544/key-sha256-cad7c56235f085ce/key-sha256-a0af9f865bf637e6",
+      "original_string_sha256": "3cd06ebbb5b48eb5ce9bec730c095d7d0b9b222611b522a509755da51363d4b2",
+      "replacement": "Experiments/fair_v2_oct24/A7/preregistration_v2_frozen.json",
+      "reason": "private/absolute path only"
+    },
+    {
+      "location": "/key-sha256-a2b608eba6e03d56/0/key-sha256-64f46a7526a186d2/key-sha256-a0af9f865bf637e6",
+      "original_string_sha256": "b8b1670c0c9b000c21f3ecdaee922d6676d05b93f0c0e6b5010634b9a714e0b7",
+      "replacement": "Experiments/fair_v2_oct24/G1/nachtrag_2_nacht.md",
+      "reason": "private/absolute path only"
+    },
+    {
+      "location": "/key-sha256-a2b608eba6e03d56/1/key-sha256-64f46a7526a186d2/key-sha256-a0af9f865bf637e6",
+      "original_string_sha256": "ceeb41450194265697c1d103c5c7cfa4ffc28d6e00a80ca88dfd7704fd178bf9",
+      "replacement": "Experiments/fair_v2_oct24/G1/nachtrag_3_c1_budget.md",
+      "reason": "private/absolute path only"
+    },
+    {
+      "location": "/key-sha256-a2b608eba6e03d56/2/key-sha256-64f46a7526a186d2/key-sha256-a0af9f865bf637e6",
+      "original_string_sha256": "e644e9ca11ccdb4200ed80a75807a73e782bec938313b9bbc1decc4805c1309b",
+      "replacement": "Experiments/fair_v2_oct24/G1/nachtrag_4_c2c3_kosten.md",
+      "reason": "private/absolute path only"
+    },
+    {
+      "location": "/key-sha256-a2b608eba6e03d56/3/key-sha256-64f46a7526a186d2/key-sha256-a0af9f865bf637e6",
+      "original_string_sha256": "3058e74c5712429352b1d4dd897d08aa3caac1e344babfa6ede8dd9765366e1a",
+      "replacement": "Experiments/fair_v2_oct24/G1/nachtrag_5_joint_vertragsverletzung.md",
+      "reason": "private/absolute path only"
+    },
+    {
+      "location": "/key-sha256-a2b608eba6e03d56/4/key-sha256-64f46a7526a186d2/key-sha256-a0af9f865bf637e6",
+      "original_string_sha256": "8b30db827691c58cfc595812785d6040ccedc621d6e3c8df64401823fd96a5d2",
+      "replacement": "Experiments/fair_v2_oct24/G1/nachtrag_6_c6_passagenweg.md",
+      "reason": "private/absolute path only"
+    },
+    {
+      "location": "/key-sha256-a2b608eba6e03d56/5/key-sha256-64f46a7526a186d2/key-sha256-a0af9f865bf637e6",
+      "original_string_sha256": "22a378803a5a6030fc54477ecb0e6f97c337cb61bb1da962cc748051335c14b8",
+      "replacement": "Experiments/fair_v2_oct24/G1/nachtrag_7_guard_ungueltige_antwort.md",
+      "reason": "private/absolute path only"
+    },
+    {
+      "location": "/key-sha256-a2b608eba6e03d56/6/key-sha256-64f46a7526a186d2/key-sha256-a0af9f865bf637e6",
+      "original_string_sha256": "f93bac0e036d62edae7edbcf8079bdfe3278b1bebfeafd2614f4e261b8617bd7",
+      "replacement": "Experiments/fair_v2_oct24/G1/nachtrag_8_gesamt_und_komponentenurteil.md",
+      "reason": "private/absolute path only"
+    },
+    {
+      "location": "/key-sha256-a2b608eba6e03d56/7/key-sha256-64f46a7526a186d2/key-sha256-a0af9f865bf637e6",
+      "original_string_sha256": "cb78f9fd286a37e00fba907dab3d92ea5afb4705d263311555fd02bedd73b284",
+      "replacement": "Experiments/fair_v2_oct24/G1/nachtrag_10_budgetbedingte_stichprobe_h1.md",
+      "reason": "private/absolute path only"
+    },
+    {
+      "location": "/key-sha256-a2b608eba6e03d56/8/key-sha256-64f46a7526a186d2/key-sha256-a0af9f865bf637e6",
+      "original_string_sha256": "edd9920fe0bc8289ce5a753aebbc80b3100afb7173623c26f0d0912063318467",
+      "replacement": "Experiments/fair_v2_oct24/G1/nachtrag_14_h2_fehlwerte.md",
+      "reason": "private/absolute path only"
+    }
+  ],
+  "public_files": [
+    {
+      "path": "ablations.tex",
+      "bytes": 16479,
+      "sha256": "129af09ffa6994956106db69632c8896a5cc4c95bf32a7f53a07afe02febedb3"
+    },
+    {
+      "path": "agreement.tex",
+      "bytes": 868,
+      "sha256": "c52733441c1c46d7ae8d760d621dc891945f8ebdd85ccc361dc7d436d4bf6b05"
+    },
+    {
+      "path": "agreement_grok_augmentation_only_matrix.tex",
+      "bytes": 732,
+      "sha256": "3231a27cb44fece070ef83aa618fbdfca74fcd27bfbb816a960427718c3326ee"
+    },
+    {
+      "path": "agreement_grok_matrix.tex",
+      "bytes": 692,
+      "sha256": "885f53cfd922b5f04de385d5ddcb4144a768924a0fc5a6ceecfc77e884aca356"
+    },
+    {
+      "path": "agreement_grok_random_core_matrix.tex",
+      "bytes": 706,
+      "sha256": "3eba8804976913da4f0679953825e8b87c7d72c89745a3609b2f8636a2c3c790"
+    },
+    {
+      "path": "agreement_human_matrix.tex",
+      "bytes": 684,
+      "sha256": "fd749ed866f334f55b801bbbcb53ed80390918f72b6d0d567ffe0676d0081f91"
+    },
+    {
+      "path": "amendments.tex",
+      "bytes": 2067,
+      "sha256": "6e57145aa9120d5eb6a1482fa1233bbbd9c669614612328e187151a9c3c185c0"
+    },
+    {
+      "path": "analysis.public.json",
+      "bytes": 2682777,
+      "sha256": "460f810e14c72ba864f4e213e4ac89931fa5a4e98002d3633901f281f7346ef7"
+    },
+    {
+      "path": "BERICHT.md",
+      "bytes": 4509,
+      "sha256": "4802983d1e17dbe641b16b9645571984b3a5b305482c80454eb4b2b1f2dd1c39"
+    },
+    {
+      "path": "cells_em.tex",
+      "bytes": 1107,
+      "sha256": "d1cf556ccc76ba3cc81b2249af771ebbe889b440761573e89af65ea1b51ec98e"
+    },
+    {
+      "path": "cells_f1.tex",
+      "bytes": 1106,
+      "sha256": "1b3caf7e04279e7d90992e5bc7b240f406013fba9c1863921ed70c8e99caa14c"
+    },
+    {
+      "path": "cells_h1.tex",
+      "bytes": 1418,
+      "sha256": "6b58c42cf1f61622d8eb9f61549d1d90d899caaee40d527a81249d63372a3b4b"
+    },
+    {
+      "path": "cells_h2.tex",
+      "bytes": 1155,
+      "sha256": "c251f29e71fa63c7b95d14a9f2175a8e9aa7ae9bbaafa37c0a15c4c5560ec9f5"
+    },
+    {
+      "path": "cells_h3_capacity.tex",
+      "bytes": 1302,
+      "sha256": "5595e85feb583b4c3e257fc85179a9ef4b0bc8f9d44c7a74c22b5fae203229a0"
+    },
+    {
+      "path": "cells_h3_content.tex",
+      "bytes": 1217,
+      "sha256": "152cec2a2df23c5cd9a45a9f2c02ff4be2c494ff35d48cb74f2c746d9a72de75"
+    },
+    {
+      "path": "component_contrasts.tex",
+      "bytes": 2356,
+      "sha256": "341dcc2340e99dea5e6bacac8dd7a44f19c539852e095afcaa4ddea05a4d234d"
+    },
+    {
+      "path": "construction_diagnostics.tex",
+      "bytes": 775,
+      "sha256": "b40ba9ca145bad3e0de59975f307760e623b08ef446caebf1926d96659582dc5"
+    },
+    {
+      "path": "distinct_supported.tex",
+      "bytes": 2467,
+      "sha256": "168d81727a84e93492c5500e41edbccba62a605e8f39695dd428a95178724105"
+    },
+    {
+      "path": "efficiency_supported.tex",
+      "bytes": 1712,
+      "sha256": "1b44183517bb7176d4c0f28be79d3fb5b213c73e2379a82fb60d547fe82d6924"
+    },
+    {
+      "path": "effort_costs.tex",
+      "bytes": 358,
+      "sha256": "357d95ce22384696266fb021e5bc956a3ec10a3b61b2ac42d374533a11f62e85"
+    },
+    {
+      "path": "forest_primary_components.pdf",
+      "bytes": 29316,
+      "sha256": "d9c0d2f76c055760b31b3cc785bc96532aadb37c2caa48db5a187341ab2cde60"
+    },
+    {
+      "path": "h1_h2_cells.pdf",
+      "bytes": 25322,
+      "sha256": "806279c5a985191fdd95cf3a7df4f604ae2e4c360746f04ec63c160ce27ed1ec"
+    },
+    {
+      "path": "h1_type_intervals.tex",
+      "bytes": 2244,
+      "sha256": "ebc466f3b9d2c5ff11f7b6dbc759a9f65fad3c1e6a32984cacb6701cf586e89f"
+    },
+    {
+      "path": "h2_n14_contrasts.tex",
+      "bytes": 2054,
+      "sha256": "60d61ead3a5cbf29ec969d95d26add290569c6d6a364506595e51e85e3073b07"
+    },
+    {
+      "path": "h2_n14_missingness.tex",
+      "bytes": 2708,
+      "sha256": "7702d997ec71ea91d3ab895eea2d08c7bc94e1f936541bc7f9721a45d7405ae3"
+    },
+    {
+      "path": "h2_n14_sources.tex",
+      "bytes": 2218,
+      "sha256": "ff08670aaa2f8bc9969ed0a7f100e6bbb455c6613a9ea44bb4fa04efb10e2097"
+    },
+    {
+      "path": "h3_absolute_counts.tex",
+      "bytes": 1154,
+      "sha256": "89507d62e6892cc5e4fc5da301378eeefaf59254fc5550f5619a6f7af9532f0a"
+    },
+    {
+      "path": "h3_separate_denominators.pdf",
+      "bytes": 56993,
+      "sha256": "b8b97600e8ea077e3d3ff1509dd268f7adaad5f03c0cf9615d4874c4afbbeb9a"
+    },
+    {
+      "path": "H4components_descriptive.tex",
+      "bytes": 1244,
+      "sha256": "e304fb588f01152aefebe42cf9aa4fae35967c22703d6500afb220018e2ff0bc"
+    },
+    {
+      "path": "missingness.tex",
+      "bytes": 2943,
+      "sha256": "3960517f89a5af9addb56aa61942d74bf069b4fb177410cb338a019c36385897"
+    },
+    {
+      "path": "n10_sampling.tex",
+      "bytes": 3427,
+      "sha256": "d2e060e9fad13674a1ce293f907ebb08726d549e57af684ab05d11af8917b804"
+    },
+    {
+      "path": "overall_judgment.tex",
+      "bytes": 1710,
+      "sha256": "e4211d51e842432e3fa2fffc0cc988e629e36b820214c285f2049474e79659c2"
+    },
+    {
+      "path": "primary.tex",
+      "bytes": 1494,
+      "sha256": "b72fd910f919f8384df5fbf6b4fec645fa61935887177701f4af2448acd178bd"
+    },
+    {
+      "path": "primary_bounds.tex",
+      "bytes": 667,
+      "sha256": "bd24d0ca1e18aaee1039bf2dde49c9b1e0873d44f4b2beef41f3a50196ecbec2"
+    },
+    {
+      "path": "primary_contrasts.pdf",
+      "bytes": 40279,
+      "sha256": "8a89e06b30ee888f92862c9b0c5862fe4ff97d2c986f0de4538f20f1bd90df04"
+    },
+    {
+      "path": "qa_controls.tex",
+      "bytes": 835,
+      "sha256": "67b6670ca7e83b101b63121af3c1f46fbca4e91e6fea5b1eb5681fa9be083f4f"
+    },
+    {
+      "path": "qa_f1_cells.pdf",
+      "bytes": 23225,
+      "sha256": "c84cc7a45e594a1247455dbb5a35f3de2d19b20e1ccc413971a744675b162f65"
+    },
+    {
+      "path": "requested_outputs/requested_outputs.csv",
+      "bytes": 15286,
+      "sha256": "1ddbbdb5b58e9f14f5540625261c521cb3e66543b9fd8484118db128b7d3750d"
+    },
+    {
+      "path": "requested_outputs/requested_outputs.json",
+      "bytes": 11324,
+      "sha256": "99ebfab4a6c6c22a20aefae5343f77c0b2f17f874663d59882677cd50c7f785b"
+    },
+    {
+      "path": "requested_outputs/requested_outputs.md",
+      "bytes": 3139,
+      "sha256": "25256314feec0977753bd489037f994b14ca95dfe7c10ab3cb57acac67eb115d"
+    },
+    {
+      "path": "sensitivities.tex",
+      "bytes": 1478,
+      "sha256": "12d31a1d6a659332776e9e41096e302d60d89782dcf16503f60f9f71e497ebe8"
+    },
+    {
+      "path": "strata.tex",
+      "bytes": 16114,
+      "sha256": "8c290559140cb5fa14bdbc769b82122a8034d2ebcc87a182212c6ca8c7d916fb"
+    },
+    {
+      "path": "tables.tex",
+      "bytes": 1574,
+      "sha256": "10565306be21eee6f129588ee66765b737d8d760a1d2d5ff3637200cdb0a4d65"
+    }
+  ],
+  "public_safety_check": {
+    "protocol": "masterarbeit-submission-safety-v1",
+    "scope": "explicit-selected-files-only",
+    "passed": true,
+    "selected_files": 43,
+    "inspected_files": 43,
+    "inspected_bytes": 2971235,
+    "max_file_bytes": 26214400,
+    "findings": [],
+    "limits": [
+      "No licensing approval",
+      "No semantic personal-data review",
+      "No Git-history audit",
+      "No decompression or embedded-document inspection"
+    ]
+  },
+  "technical_attempts_before_statistical_run": [
+    "missing new output-parent directory fixed before any output",
+    "current C7-v2 schema explicitly supported after loader rejection; no statistical computation before fix"
+  ],
+  "primary_statistical_runs_completed": 1,
+  "limits": [
+    "Grok-Gegenprüfung C4 fehlt, keine Bestätigung.",
+    "H2-Nichtunterlegenheit setzt nach N14 die Holm-Bestätigung sowohl in der unveränderten G2-Analyse als auch auf Quellen mit gültigen Urteilen in beiden Kontrastarmen voraus. Die eingeschränkte Quellenmenge ist keine nachgewiesene Zufallsstichprobe aller geplanten Quellen.",
+    "H1 beruht auf dem kostenbegrenzt gezogenen N10-Präfix mit nur näherungsweise gleichen Inklusionswahrscheinlichkeiten.",
+    "Fehlende C3-Urteile werden nach G2 behandelt. Das H2-Ergebnis ist kein Nachweis einer vollständigen Quellenprüfung.",
+    "No universal superiority, population recall or cost advantage claim."
+  ],
+  "pdf_lossless_compression_derivatives": [
+    {
+      "path": "h3_separate_denominators.pdf",
+      "source_sha256": "2d6b2de217a4c5e785c58fc99eae2abe64396ee595e92afdd2df7932991be113",
+      "delivered_sha256": "b8b97600e8ea077e3d3ff1509dd268f7adaad5f03c0cf9615d4874c4afbbeb9a",
+      "bytes": 56993,
+      "streams_decompressed": 7,
+      "pixels_identical_at_scale_1_8": true,
+      "reason": "Uncompress lossless PDF streams to avoid false private-path matches inside compressed binary bytes; no figure content changed"
+    },
+    {
+      "path": "primary_contrasts.pdf",
+      "source_sha256": "5b6f2f1817d67e748571b2aeaa2437688ed52ca9f6fad1576dad86d96544f79a",
+      "delivered_sha256": "8a89e06b30ee888f92862c9b0c5862fe4ff97d2c986f0de4538f20f1bd90df04",
+      "bytes": 40279,
+      "streams_decompressed": 7,
+      "pixels_identical_at_scale_1_8": true,
+      "reason": "Uncompress lossless PDF streams to avoid false private-path matches inside compressed binary bytes; no figure content changed"
+    }
+  ],
+  "verification_path": "verification.json",
+  "synthetic_tests_passed": 542,
+  "overall_stage_is_thesis_grade": false,
+  "overall_stage_definition": "Fixed N8 methodological outcome: increased source support, noninferior selected retention, QA advantage unconfirmed."
+}

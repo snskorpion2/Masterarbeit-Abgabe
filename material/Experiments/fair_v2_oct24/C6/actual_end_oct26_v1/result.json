@@ -1,0 +1,305 @@
+{
+  "HTTP_wall_time": {
+    "missing_count": 0,
+    "recorded_count": 600,
+    "sum_of_recorded_seconds": 522.4244259000047
+  },
+  "access_probe_HTTP_wall_seconds": 0.40953780000006645,
+  "access_probe_cost_nano_USD": 27060,
+  "actual_HTTP_observations": 600,
+  "committed_total_nano_USD": 154539660,
+  "controls_shared_once": true,
+  "coverage_complete": true,
+  "empty_controls": 60,
+  "finish_status": "completed_and_single_end_audit_passed",
+  "fixed_positions": 600,
+  "frozen_configuration": {
+    "H4_inference_performed_here": false,
+    "encoder_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "max_output_tokens": 256,
+    "n": 1,
+    "planned_H4_contrast": [
+      "V2_ROW",
+      "AS_ORIGINAL"
+    ],
+    "reader_model": "qwen.qwen3-235b-a22b-2507",
+    "stream": false,
+    "temperature": 0,
+    "top_k": 30
+  },
+  "gold_controls": 60,
+  "graph_positions": 480,
+  "independent_end_audit_attempts": 2,
+  "independent_end_audits": 1,
+  "invoice_cost_USD": null,
+  "known_Reader_cost_nano_USD": 154512600,
+  "known_Reader_input_cost_nano_USD": 152587160,
+  "known_Reader_output_cost_nano_USD": 1925440,
+  "measurement_scope": {
+    "EM": "official_normalized_answer_exact_match",
+    "F1": "official_MuSiQue_answer_token_F1_not_triple_F1",
+    "N5_construction_amendment": true,
+    "bounds": "missing_answer_identification_bounds_not_confidence_intervals",
+    "cost": "known_list_price_cost_and_unresolved_reservation_not_invoice_or_whole_pipeline_cost",
+    "inference": "descriptive_cell_aggregates_only_no_significance_or_general_superiority_claim",
+    "schema_induction_investigated": false,
+    "secondary_passage_performed_N6": false,
+    "time": "summed_recorded_request_elapsed_not_total_run_wall_time_or_pure_model_time",
+    "unchecked_guard_cases": "retained_unchecked_not_re_evaluated_or_quantified_here"
+  },
+  "official_normalizer_commit": "922ac98f19a201998dbdae6d7f2887a5258dbdeb",
+  "official_normalizer_sha256": "10368f619b4d5ef5d83748c05a96c0afd332a14ab5c010740c98d58dfaefe974",
+  "physical_POST_independently_attested": false,
+  "protocol": "C6-public-audit-aggregates-oct26-v1",
+  "provider_internal_model_time_seconds": null,
+  "provider_usage": {
+    "access_probe_usage": {
+      "completion_tokens": 2,
+      "prompt_tokens": 115,
+      "total_tokens": 117
+    },
+    "missing_started_count": 0,
+    "recorded_count": 600,
+    "sum_recorded_completion_tokens": 2188,
+    "sum_recorded_prompt_tokens": 693578
+  },
+  "publication_operations": {
+    "new_end_audits": 0,
+    "new_metric_computations": 0,
+    "new_model_calls": 0,
+    "private_result_opened": false
+  },
+  "question_count": 60,
+  "request_bounds_from_bound_HTTP_archives": [
+    600,
+    600
+  ],
+  "scores": {
+    "AS_G_ORIGINAL": {
+      "em": {
+        "Q": 60,
+        "lower": 0.11666666666666667,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.11666666666666667,
+        "primary_estimable": true,
+        "upper": 0.11666666666666667
+      },
+      "f1": {
+        "Q": 60,
+        "lower": 0.15308916229968864,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.15308916229968864,
+        "primary_estimable": true,
+        "upper": 0.15308916229968864
+      }
+    },
+    "AS_G_ROW": {
+      "em": {
+        "Q": 60,
+        "lower": 0.11666666666666667,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.11666666666666667,
+        "primary_estimable": true,
+        "upper": 0.11666666666666667
+      },
+      "f1": {
+        "Q": 60,
+        "lower": 0.15133477633477632,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.15133477633477632,
+        "primary_estimable": true,
+        "upper": 0.15133477633477632
+      }
+    },
+    "AS_ORIGINAL": {
+      "em": {
+        "Q": 60,
+        "lower": 0.11666666666666667,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.11666666666666667,
+        "primary_estimable": true,
+        "upper": 0.11666666666666667
+      },
+      "f1": {
+        "Q": 60,
+        "lower": 0.1521894771894772,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.1521894771894772,
+        "primary_estimable": true,
+        "upper": 0.1521894771894772
+      }
+    },
+    "AS_ROW": {
+      "em": {
+        "Q": 60,
+        "lower": 0.11666666666666667,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.11666666666666667,
+        "primary_estimable": true,
+        "upper": 0.11666666666666667
+      },
+      "f1": {
+        "Q": 60,
+        "lower": 0.15133477633477632,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.15133477633477632,
+        "primary_estimable": true,
+        "upper": 0.15133477633477632
+      }
+    },
+    "EMPTY_CONTROL": {
+      "em": {
+        "Q": 60,
+        "lower": 0.016666666666666666,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.016666666666666666,
+        "primary_estimable": true,
+        "upper": 0.016666666666666666
+      },
+      "f1": {
+        "Q": 60,
+        "lower": 0.016666666666666666,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.016666666666666666,
+        "primary_estimable": true,
+        "upper": 0.016666666666666666
+      }
+    },
+    "GOLD_PARAGRAPH_CONTROL": {
+      "em": {
+        "Q": 60,
+        "lower": 0.36666666666666664,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.36666666666666664,
+        "primary_estimable": true,
+        "upper": 0.36666666666666664
+      },
+      "f1": {
+        "Q": 60,
+        "lower": 0.46349310776942354,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.46349310776942354,
+        "primary_estimable": true,
+        "upper": 0.46349310776942354
+      }
+    },
+    "V1_ORIGINAL": {
+      "em": {
+        "Q": 60,
+        "lower": 0.13333333333333333,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.13333333333333333,
+        "primary_estimable": true,
+        "upper": 0.13333333333333333
+      },
+      "f1": {
+        "Q": 60,
+        "lower": 0.1648611111111111,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.1648611111111111,
+        "primary_estimable": true,
+        "upper": 0.1648611111111111
+      }
+    },
+    "V1_ROW": {
+      "em": {
+        "Q": 60,
+        "lower": 0.13333333333333333,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.13333333333333333,
+        "primary_estimable": true,
+        "upper": 0.13333333333333333
+      },
+      "f1": {
+        "Q": 60,
+        "lower": 0.16534498207885304,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.16534498207885304,
+        "primary_estimable": true,
+        "upper": 0.16534498207885304
+      }
+    },
+    "V2_ORIGINAL": {
+      "em": {
+        "Q": 60,
+        "lower": 0.11666666666666667,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.11666666666666667,
+        "primary_estimable": true,
+        "upper": 0.11666666666666667
+      },
+      "f1": {
+        "Q": 60,
+        "lower": 0.14326164874551972,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.14326164874551972,
+        "primary_estimable": true,
+        "upper": 0.14326164874551972
+      }
+    },
+    "V2_ROW": {
+      "em": {
+        "Q": 60,
+        "lower": 0.11666666666666667,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.11666666666666667,
+        "primary_estimable": true,
+        "upper": 0.11666666666666667
+      },
+      "f1": {
+        "Q": 60,
+        "lower": 0.13777777777777775,
+        "missing": 0,
+        "observed": 60,
+        "point": 0.13777777777777775,
+        "primary_estimable": true,
+        "upper": 0.13777777777777775
+      }
+    }
+  },
+  "source_sha256": {
+    "finish": "61ffb69df664c0e8f7e00fc3b6e93b88f5008ed729fb8129c925f7d3484ba92e",
+    "independent_end_audit": "e7e6ab3a72e345c9a5457623ac77bfb5ecdd276f72e690005f0ba582f92ddcf6",
+    "private_result": "8131c58097903692195cf6405ac925d79bb5602b8862fdb488b507148fac773a"
+  },
+  "technical": {
+    "observed_success": 600
+  },
+  "technical_path_repair": {
+    "kind": "canonical_path_representation_only",
+    "new_model_calls": 0,
+    "original_failure_evidence_preserved": true,
+    "source_sha256": {
+      "original_claim": "a31a956176fa842b0dbe45debe0361657d672bcde65eb4e9b7846aab73c2f8fd",
+      "original_finish_failure": "690d83819567635e67242e47aecffc91b44b54ccee53cdb16f5900f7dc20a9e6",
+      "original_result": "8131c58097903692195cf6405ac925d79bb5602b8862fdb488b507148fac773a",
+      "prior_failure": "b1384a8f7f630f5726e5c569b7d3753dddba03d726aa08bf8e5fb4be05b58476"
+    },
+    "user_approved_once": true
+  },
+  "unresolved_reservation_nano_USD": 0,
+  "worker_time_including_checks_and_archive": {
+    "missing_count": 0,
+    "recorded_count": 600,
+    "sum_of_recorded_seconds": 6900.8832354999995
+  }
+}

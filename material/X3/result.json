@@ -1,0 +1,608 @@
+{
+  "classification": "nachträglich, explorativ",
+  "post_hoc": true,
+  "hypothesis_generating": true,
+  "inferential_test_performed": false,
+  "Holm_slots_added": 0,
+  "included_in_main_tests_or_overall_judgment": false,
+  "scope": {
+    "sources": 24,
+    "source_draw_pairs": 68,
+    "original_parents": 136
+  },
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 2026102407,
+    "rng": "PCG64",
+    "source_group_matrix_sha256": "e88daf8592fbf987e03cf9fc51642e462db9e142f788046dac0b3b8936235b76",
+    "one_shared_matrix_object": true,
+    "hypothesis_tests_called": false
+  },
+  "sampling": {
+    "selected_groups": 1066,
+    "population_groups": 1447,
+    "sampling_fraction": 0.736696613683483,
+    "sampling_fraction_is_proven_inclusion_probability": false,
+    "not_selected_is_missing": false,
+    "informative_cost_stopping_possible": true,
+    "finite_population_correction": false,
+    "original_global_groups_preserved": true
+  },
+  "local_codec_aliases": {
+    "AS_G_ORIGINAL": "AS+G(VV)",
+    "V2_ORIGINAL": "V1+G(VV)",
+    "existing_main_cells_overwritten": false
+  },
+  "cells": {
+    "AS": {
+      "classification": "nachträglich, explorativ",
+      "source_parent_arm": "AS",
+      "filter": "none",
+      "H1": {
+        "estimate": 0.8183308270445568,
+        "ci95": {
+          "lower": 0.783878505373765,
+          "upper": 0.8466987476992697
+        },
+        "identification_bounds": {
+          "lower": 0.8183308270445568,
+          "upper": 0.8463848034826836
+        },
+        "independent_sources": 24,
+        "planned_source_draw_units": 68,
+        "selected_occurrences": 2655,
+        "not_selected_occurrences": 954,
+        "successes_in_selected_occurrences": 2193,
+        "technical_missing_selected": 75,
+        "semantic_unclear_selected": 3,
+        "undefined_source_denominators": 0,
+        "aggregation": "pooled sampled occurrences across draws within each source, then equal sources",
+        "CI_scope": "marginal two-sided 95% percentile, paired source/original-group bootstrap",
+        "N10_exact_equal_inclusion_established": false
+      },
+      "removals": {
+        "original_native_occurrences": 3609,
+        "original_by_type": {
+          "EE": 1533,
+          "EV": 1372,
+          "VV": 704
+        },
+        "removed_occurrences": 0,
+        "removed_by_type": {
+          "EE": 0,
+          "EV": 0,
+          "VV": 0
+        },
+        "removed_share_of_all_original_occurrences": 0.0,
+        "removed_share_of_original_VV": 0.0,
+        "EE_removals_reversed": 0
+      },
+      "difference_from_original_parent": null,
+      "difference_from_full_filter": null
+    },
+    "AS+G": {
+      "classification": "nachträglich, explorativ",
+      "source_parent_arm": "AS",
+      "filter": "full",
+      "H1": {
+        "estimate": 0.8778158961926664,
+        "ci95": {
+          "lower": 0.846910406446438,
+          "upper": 0.9023349161470763
+        },
+        "identification_bounds": {
+          "lower": 0.8778158961926664,
+          "upper": 0.9049943831746701
+        },
+        "independent_sources": 24,
+        "planned_source_draw_units": 68,
+        "selected_occurrences": 2419,
+        "not_selected_occurrences": 895,
+        "successes_in_selected_occurrences": 2147,
+        "technical_missing_selected": 67,
+        "semantic_unclear_selected": 2,
+        "undefined_source_denominators": 0,
+        "aggregation": "pooled sampled occurrences across draws within each source, then equal sources",
+        "CI_scope": "marginal two-sided 95% percentile, paired source/original-group bootstrap",
+        "N10_exact_equal_inclusion_established": false
+      },
+      "removals": {
+        "original_native_occurrences": 3609,
+        "original_by_type": {
+          "EE": 1533,
+          "EV": 1372,
+          "VV": 704
+        },
+        "removed_occurrences": 295,
+        "removed_by_type": {
+          "EE": 59,
+          "EV": 0,
+          "VV": 236
+        },
+        "removed_share_of_all_original_occurrences": 0.08174009420892214,
+        "removed_share_of_original_VV": 0.3352272727272727,
+        "EE_removals_reversed": 0
+      },
+      "difference_from_original_parent": {
+        "point_difference": 0.05948506914810958,
+        "ci95": {
+          "lower": 0.04473790506855371,
+          "upper": 0.07518995261711435
+        },
+        "classification": "nachträglich, explorativ",
+        "statistical_test_performed": false
+      },
+      "difference_from_full_filter": null
+    },
+    "AS+G(VV)": {
+      "classification": "nachträglich, explorativ",
+      "source_parent_arm": "AS",
+      "filter": "vv_only",
+      "H1": {
+        "estimate": 0.8698407497263002,
+        "ci95": {
+          "lower": 0.8346574540345719,
+          "upper": 0.8971585745618641
+        },
+        "identification_bounds": {
+          "lower": 0.8698407497263002,
+          "upper": 0.8975162861846607
+        },
+        "independent_sources": 24,
+        "planned_source_draw_units": 68,
+        "selected_occurrences": 2463,
+        "not_selected_occurrences": 910,
+        "successes_in_selected_occurrences": 2165,
+        "technical_missing_selected": 68,
+        "semantic_unclear_selected": 3,
+        "undefined_source_denominators": 0,
+        "aggregation": "pooled sampled occurrences across draws within each source, then equal sources",
+        "CI_scope": "marginal two-sided 95% percentile, paired source/original-group bootstrap",
+        "N10_exact_equal_inclusion_established": false
+      },
+      "removals": {
+        "original_native_occurrences": 3609,
+        "original_by_type": {
+          "EE": 1533,
+          "EV": 1372,
+          "VV": 704
+        },
+        "removed_occurrences": 236,
+        "removed_by_type": {
+          "EE": 0,
+          "EV": 0,
+          "VV": 236
+        },
+        "removed_share_of_all_original_occurrences": 0.06539207536713772,
+        "removed_share_of_original_VV": 0.3352272727272727,
+        "EE_removals_reversed": 59
+      },
+      "difference_from_original_parent": {
+        "point_difference": 0.05150992268174337,
+        "ci95": {
+          "lower": 0.03694648652847565,
+          "upper": 0.06715251415814735
+        },
+        "classification": "nachträglich, explorativ",
+        "statistical_test_performed": false
+      },
+      "difference_from_full_filter": {
+        "point_difference": -0.007975146466366212,
+        "ci95": {
+          "lower": -0.01695786630915007,
+          "upper": -0.0011647605051870488
+        },
+        "classification": "nachträglich, explorativ",
+        "statistical_test_performed": false
+      },
+      "H2": {
+        "status": "nicht bewertet; nicht geschätzt",
+        "estimate": null,
+        "ci95": null,
+        "classification": "nachträglich, explorativ"
+      }
+    },
+    "V1": {
+      "classification": "nachträglich, explorativ",
+      "source_parent_arm": "V1",
+      "filter": "none",
+      "H1": {
+        "estimate": 0.8716222802661241,
+        "ci95": {
+          "lower": 0.8356827958301527,
+          "upper": 0.9009633046118753
+        },
+        "identification_bounds": {
+          "lower": 0.8716222802661241,
+          "upper": 0.90531612619047
+        },
+        "independent_sources": 24,
+        "planned_source_draw_units": 68,
+        "selected_occurrences": 3741,
+        "not_selected_occurrences": 1332,
+        "successes_in_selected_occurrences": 3292,
+        "technical_missing_selected": 111,
+        "semantic_unclear_selected": 12,
+        "undefined_source_denominators": 0,
+        "aggregation": "pooled sampled occurrences across draws within each source, then equal sources",
+        "CI_scope": "marginal two-sided 95% percentile, paired source/original-group bootstrap",
+        "N10_exact_equal_inclusion_established": false
+      },
+      "removals": {
+        "original_native_occurrences": 5073,
+        "original_by_type": {
+          "EE": 2310,
+          "EV": 2165,
+          "VV": 598
+        },
+        "removed_occurrences": 0,
+        "removed_by_type": {
+          "EE": 0,
+          "EV": 0,
+          "VV": 0
+        },
+        "removed_share_of_all_original_occurrences": 0.0,
+        "removed_share_of_original_VV": 0.0,
+        "EE_removals_reversed": 0
+      },
+      "difference_from_original_parent": null,
+      "difference_from_full_filter": null
+    },
+    "V2": {
+      "classification": "nachträglich, explorativ",
+      "source_parent_arm": "V1",
+      "filter": "full",
+      "H1": {
+        "estimate": 0.901996344696182,
+        "ci95": {
+          "lower": 0.8675239362148319,
+          "upper": 0.9275380861148017
+        },
+        "identification_bounds": {
+          "lower": 0.901996344696182,
+          "upper": 0.9365358357899534
+        },
+        "independent_sources": 24,
+        "planned_source_draw_units": 68,
+        "selected_occurrences": 3561,
+        "not_selected_occurrences": 1257,
+        "successes_in_selected_occurrences": 3247,
+        "technical_missing_selected": 108,
+        "semantic_unclear_selected": 12,
+        "undefined_source_denominators": 0,
+        "aggregation": "pooled sampled occurrences across draws within each source, then equal sources",
+        "CI_scope": "marginal two-sided 95% percentile, paired source/original-group bootstrap",
+        "N10_exact_equal_inclusion_established": false
+      },
+      "removals": {
+        "original_native_occurrences": 5073,
+        "original_by_type": {
+          "EE": 2310,
+          "EV": 2165,
+          "VV": 598
+        },
+        "removed_occurrences": 255,
+        "removed_by_type": {
+          "EE": 89,
+          "EV": 0,
+          "VV": 166
+        },
+        "removed_share_of_all_original_occurrences": 0.050266114725014785,
+        "removed_share_of_original_VV": 0.27759197324414714,
+        "EE_removals_reversed": 0
+      },
+      "difference_from_original_parent": {
+        "point_difference": 0.030374064430057857,
+        "ci95": {
+          "lower": 0.02107839482562223,
+          "upper": 0.0408646411655532
+        },
+        "classification": "nachträglich, explorativ",
+        "statistical_test_performed": false
+      },
+      "difference_from_full_filter": null
+    },
+    "V1+G(VV)": {
+      "classification": "nachträglich, explorativ",
+      "source_parent_arm": "V1",
+      "filter": "vv_only",
+      "H1": {
+        "estimate": 0.8942928671141005,
+        "ci95": {
+          "lower": 0.859214815118604,
+          "upper": 0.9208966072595824
+        },
+        "identification_bounds": {
+          "lower": 0.8942928671141005,
+          "upper": 0.9283447397289586
+        },
+        "independent_sources": 24,
+        "planned_source_draw_units": 68,
+        "selected_occurrences": 3622,
+        "not_selected_occurrences": 1285,
+        "successes_in_selected_occurrences": 3275,
+        "technical_missing_selected": 109,
+        "semantic_unclear_selected": 12,
+        "undefined_source_denominators": 0,
+        "aggregation": "pooled sampled occurrences across draws within each source, then equal sources",
+        "CI_scope": "marginal two-sided 95% percentile, paired source/original-group bootstrap",
+        "N10_exact_equal_inclusion_established": false
+      },
+      "removals": {
+        "original_native_occurrences": 5073,
+        "original_by_type": {
+          "EE": 2310,
+          "EV": 2165,
+          "VV": 598
+        },
+        "removed_occurrences": 166,
+        "removed_by_type": {
+          "EE": 0,
+          "EV": 0,
+          "VV": 166
+        },
+        "removed_share_of_all_original_occurrences": 0.03272225507589198,
+        "removed_share_of_original_VV": 0.27759197324414714,
+        "EE_removals_reversed": 89
+      },
+      "difference_from_original_parent": {
+        "point_difference": 0.022670586847976404,
+        "ci95": {
+          "lower": 0.013906456541662457,
+          "upper": 0.032954271716729336
+        },
+        "classification": "nachträglich, explorativ",
+        "statistical_test_performed": false
+      },
+      "difference_from_full_filter": {
+        "point_difference": -0.007703477582081453,
+        "ci95": {
+          "lower": -0.01296923772806655,
+          "upper": -0.0033706122988804922
+        },
+        "classification": "nachträglich, explorativ",
+        "statistical_test_performed": false
+      },
+      "H2": {
+        "status": "nicht bewertet; nicht geschätzt",
+        "estimate": null,
+        "ci95": null,
+        "classification": "nachträglich, explorativ"
+      }
+    }
+  },
+  "protocol": "X3-post-hoc-VV-only-filter:v1",
+  "created_UTC": "2026-10-26T12:24:11.050999+00:00",
+  "synthetic": false,
+  "H12_fixed_sample": {
+    "protocol": "X3-H12-fixed90-intersections:v1",
+    "classification": "nachträglich, explorativ",
+    "post_hoc": true,
+    "exploratory": true,
+    "fixed_sample_size": 90,
+    "complete_author_export": true,
+    "annotation_origin": "human_ui_input",
+    "missing_annotation_rows": 0,
+    "null_author_labels": 0,
+    "membership_scope": {
+      "parents": 136,
+      "sources": 24,
+      "source_draw_pairs": 68
+    },
+    "intersections": {
+      "vv_still_removed": {
+        "description": "VV weiterhin entfernt",
+        "by_arm": {
+          "AS": {
+            "N": 24,
+            "not_supported_count": 17,
+            "supported_count": 6,
+            "unclear_count": 1,
+            "missing_count": 0,
+            "complete": true,
+            "precision": 0.7083333333333334,
+            "precision_denominator": 24,
+            "precision_definition": "not_supported / all fixed H12 items in this intersection",
+            "unclear_counts_as_not_supported": false,
+            "precision_scope": "VV removal subsample, no population prevalence"
+          },
+          "V1": {
+            "N": 20,
+            "not_supported_count": 17,
+            "supported_count": 3,
+            "unclear_count": 0,
+            "missing_count": 0,
+            "complete": true,
+            "precision": 0.85,
+            "precision_denominator": 20,
+            "precision_definition": "not_supported / all fixed H12 items in this intersection",
+            "unclear_counts_as_not_supported": false,
+            "precision_scope": "VV removal subsample, no population prevalence"
+          },
+          "overall": {
+            "N": 44,
+            "not_supported_count": 34,
+            "supported_count": 9,
+            "unclear_count": 1,
+            "missing_count": 0,
+            "complete": true,
+            "precision": 0.7727272727272727,
+            "precision_denominator": 44,
+            "precision_definition": "not_supported / all fixed H12 items in this intersection",
+            "unclear_counts_as_not_supported": false,
+            "precision_scope": "VV removal subsample, no population prevalence"
+          }
+        }
+      },
+      "ee_removal_reversed": {
+        "description": "EE-Entfernung zurückgenommen",
+        "by_arm": {
+          "AS": {
+            "N": 6,
+            "not_supported_count": 2,
+            "supported_count": 2,
+            "unclear_count": 2,
+            "missing_count": 0,
+            "complete": true
+          },
+          "V1": {
+            "N": 10,
+            "not_supported_count": 3,
+            "supported_count": 5,
+            "unclear_count": 2,
+            "missing_count": 0,
+            "complete": true
+          },
+          "overall": {
+            "N": 16,
+            "not_supported_count": 5,
+            "supported_count": 7,
+            "unclear_count": 4,
+            "missing_count": 0,
+            "complete": true
+          }
+        }
+      },
+      "retained_controls_unchanged": {
+        "description": "behaltene Kontrollen unverändert",
+        "by_arm": {
+          "AS": {
+            "N": 15,
+            "not_supported_count": 0,
+            "supported_count": 13,
+            "unclear_count": 2,
+            "missing_count": 0,
+            "complete": true
+          },
+          "V1": {
+            "N": 15,
+            "not_supported_count": 1,
+            "supported_count": 12,
+            "unclear_count": 2,
+            "missing_count": 0,
+            "complete": true
+          },
+          "overall": {
+            "N": 30,
+            "not_supported_count": 1,
+            "supported_count": 25,
+            "unclear_count": 4,
+            "missing_count": 0,
+            "complete": true
+          }
+        }
+      }
+    },
+    "author_labels_modified": false,
+    "individual_items_published": false,
+    "population_prevalence_estimated": false,
+    "H1_H2_test_performed": false,
+    "overall_judgment_assigned": false,
+    "new_model_calls": 0
+  },
+  "H2": {
+    "new_cells": [
+      "AS+G(VV)",
+      "V1+G(VV)"
+    ],
+    "status": "nicht bewertet; nicht geschätzt",
+    "estimate": null,
+    "classification": "nachträglich, explorativ"
+  },
+  "validation": {
+    "existing_four_D1a_H1_point_estimates_unchanged": true,
+    "D1a_source_group_matrix_unchanged": true,
+    "C2_codes_statuses_selection_and_values_inherited": true,
+    "no_statistical_hypothesis_test_called": true,
+    "main_V2_and_tests_unchanged": true
+  },
+  "resources": {
+    "new_model_calls": 0,
+    "new_provider_requests": 0,
+    "new_external_judgments": 0,
+    "incremental_provider_cost_USD": 0
+  },
+  "input_pins": {
+    "D1a_H1_reference": {
+      "bytes": 9925369,
+      "sha256": "b5c3ee325c300c4307c6414264eef892408486d54ca4c222c8a53cb61c3bce4c"
+    },
+    "D1a_input_manifest": {
+      "bytes": 8997,
+      "sha256": "9d0c9e760190fec870dfa3f6148b1f710a5dd903269a6d82669506d543ccefe2"
+    },
+    "C2_original_export": {
+      "bytes": 75708263,
+      "sha256": "1dc354b2c480936f205975e65eb926109e09f4f16ab4d9ae6e566e295bc3fafb"
+    },
+    "X3_VV_only_membership": {
+      "bytes": 4385828,
+      "sha256": "0e353862f2895285951adf8e0b59a42dc874cb7ec0401939883252eca2d6760f"
+    },
+    "H12_handoff": {
+      "bytes": 1291,
+      "sha256": "79262b346c4fba0aec2427b5be4fd1ec0bc0303126ddf32e7b5f6c9ff7fa72dc"
+    },
+    "H12_key_pin": {
+      "bytes": 743499,
+      "sha256": "5bae382dd1856b6f5dddb93e8597f0d688adde34935903a6c1ffe109e37f1914"
+    },
+    "H12_author_original_pin": {
+      "bytes": 15393,
+      "sha256": "a69ba8038355b77abc1b6c3f2e98541ca5744f1fc1278aa5ce387bbd2959581d"
+    },
+    "H12_frozen_sample_pin": {
+      "bytes": 680227,
+      "sha256": "840a51817873eb31613bdbbc7c08204db76eb560bf5aa035b37485179d46aab1"
+    },
+    "H12_public_result": {
+      "bytes": 15896,
+      "sha256": "fbbc82409465dabc47912c429c4334871ca3c1632c210de8557b34da8676d699"
+    },
+    "G2_source_contract": {
+      "bytes": 101775,
+      "sha256": "8377548a064de1fadd28baf674290be02021457ab38b49056ac9dde45dddf9f5"
+    }
+  },
+  "code_pins": {
+    "X3/analysis.py": {
+      "bytes": 13346,
+      "sha256": "c2bb4de60f4d235e5bef93556bd8924a32155beae3b18899c83ede5b7f5db856"
+    },
+    "X3/author.py": {
+      "bytes": 8750,
+      "sha256": "1c6119a33da812df810998316db35e3d4d2266af3a70c5d2b2a4c90bfe4f785d"
+    },
+    "X3/run.py": {
+      "bytes": 9443,
+      "sha256": "9c3de576c3f83058e712929b58ca6000a73caf0865aa7c8e4746103c345b7f36"
+    },
+    "X3/projection.py": {
+      "bytes": 13499,
+      "sha256": "5d93eaa97b0bf060fe416f57bc09dfb1d88d6e4c102750d020073e77beb8dbb6"
+    },
+    "X3/PROTOKOLL.md": {
+      "bytes": 3975,
+      "sha256": "67c3ac0378877dc340a49a004fe75e7d292b12186eae68bb4ad10a6c910a27d6"
+    },
+    "Experiments/fair_v2_oct24/D1/n10_sampling.py": {
+      "bytes": 21226,
+      "sha256": "e93a4b6d884dbf2b5311d1fa91288000f2a463a1ba57d36b74a8b7a6764b871d"
+    },
+    "Experiments/fair_v2_oct24/D1/inference.py": {
+      "bytes": 18538,
+      "sha256": "a174c19ea0b477fcc09cd7e24500d608911c7ca78baa5e21f8700b231f38776c"
+    }
+  },
+  "D1_native_H1_adapter_function_sha256": "cc39566c24d8b904ea9a797cf66a8d34a9ff5d30ad20568e459727be72fe3123",
+  "limitations": [
+    "Nachträglich, explorativ und hypothesenbildend; ausgelöst durch bekannte H12-Befunde.",
+    "H1 bezeichnet das gesamte erhaltene Inventar einschließlich EE und EV, nicht nur VV.",
+    "N10: kostenbedingt gestopptes C2-Präfix; gleiche Einschlusswahrscheinlichkeiten nicht nachgewiesen.",
+    "Nicht ausgewählte Aussagen bleiben nicht ausgewählt; technische Fehlwerte bleiben separat ausgewiesen und werden nach N10 konservativ bewertet.",
+    "Konfidenzintervalle sind marginal und ohne Tests, Multiplizitätskorrektur oder Entscheidungsgrenze.",
+    "H12 ist eine feste, gezielt geschichtete Entwicklungsstichprobe; keine Prävalenz- oder unabhängige Bestätigungsschätzung.",
+    "H2 ist für die neuen Zellen weder bewertet noch geschätzt.",
+    "Kein Eingang in Haupttests oder Gesamturteil, keine Änderung an V2."
+  ]
+}

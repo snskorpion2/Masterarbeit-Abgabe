@@ -1,0 +1,285 @@
+{
+  "schema": "s13-evaluation-v1",
+  "status": "complete",
+  "final_score_available": true,
+  "scope": "exploratory_context_schema_component_probe_not_V2",
+  "packet_id": "s13_7912fef8e271f7eafb74d9d1",
+  "packet_digest": "8542a13f43f540105a39569fafb9c1d5d6d2ee6807c7bebb91bef2206b991f49",
+  "annotation_digest": "8463c933ba1652e704239d86f715b45fe1c1085fe45b364a6ac69f95f39f7d7d",
+  "mapping_digest": "28f815dad23af999f025847f5d72a840c0d6e94f74222a3d71505d616134b9db",
+  "primary": {
+    "endpoint": "per_node_appropriate_concepts_divided_by_all_concepts",
+    "difference": "B_minus_A",
+    "unit": "fraction_not_percentage_points",
+    "n_paired_nodes": 60,
+    "mean_precision_A": 0.5970634920634921,
+    "mean_precision_B": 0.6561904761904761,
+    "mean_delta": 0.05912698412698413,
+    "mean_delta_percentage_points": 5.912698412698413,
+    "wilcoxon": {
+      "test": "paired_wilcoxon_signed_rank",
+      "alternative": "two-sided",
+      "statistic": 518.0,
+      "pvalue": 0.17555824441755583,
+      "alpha": 0.05,
+      "reject_null": false,
+      "zero_method": "wilcox",
+      "continuity_correction": false,
+      "delta_decimal_places": 12,
+      "n_pairs": 60,
+      "n_nonzero_pairs": 51,
+      "zero_pairs": 9,
+      "permutation_mode": "monte_carlo_sign_permutation",
+      "permutation_resamples_requested": 100000,
+      "permutation_resamples_executed": 100000,
+      "permutation_seed": 2026102515,
+      "generator": "PCG64",
+      "multiplicity_adjustment": "none_exploratory_probe"
+    },
+    "confidence_interval": {
+      "level": 0.95,
+      "lower": -0.024645833333333336,
+      "upper": 0.1445664682539682,
+      "percentiles": [
+        2.5,
+        97.5
+      ],
+      "quantile_method": "linear",
+      "draws": 10000,
+      "seed": 2026102514,
+      "generator": "PCG64",
+      "resampling_unit": "paired_node",
+      "stratification": {
+        "factbook": 24,
+        "wikipedia": 36
+      },
+      "weighting": "node_mean_with_fixed_family_node_counts"
+    },
+    "unclear_in_denominator": true,
+    "unclear_recoded_as_inappropriate": false,
+    "empty_or_unlabeled_included_as_zero": false
+  },
+  "secondary": {
+    "descriptive": {
+      "nodes": 60,
+      "source_clusters": 18,
+      "arms": {
+        "A": {
+          "nodes": 60,
+          "concepts": 279,
+          "concept_label_counts": {
+            "appropriate": 165,
+            "inappropriate": 50,
+            "unclear": 64
+          },
+          "mean_concepts_per_node": 4.65,
+          "mean_node_precision": 0.5970634920634921,
+          "mean_node_unclear_share": 0.23349206349206345,
+          "pooled_unclear_share": 0.22939068100358423,
+          "nodes_with_unclear_concept": 41,
+          "nodes_with_inappropriate_concept": 25,
+          "share_nodes_with_inappropriate_concept": 0.4166666666666667
+        },
+        "B": {
+          "nodes": 60,
+          "concepts": 288,
+          "concept_label_counts": {
+            "appropriate": 185,
+            "inappropriate": 23,
+            "unclear": 80
+          },
+          "mean_concepts_per_node": 4.8,
+          "mean_node_precision": 0.6561904761904761,
+          "mean_node_unclear_share": 0.266984126984127,
+          "pooled_unclear_share": 0.2777777777777778,
+          "nodes_with_unclear_concept": 41,
+          "nodes_with_inappropriate_concept": 17,
+          "share_nodes_with_inappropriate_concept": 0.2833333333333333
+        }
+      },
+      "mean_delta_B_minus_A": 0.05912698412698413,
+      "preference": {
+        "A": 20,
+        "B": 36,
+        "equal": 4
+      },
+      "preference_display_side": {
+        "left": 29,
+        "right": 27,
+        "equal": 4
+      }
+    },
+    "mcnemar": {
+      "test": "exact_mcnemar_binomial",
+      "alternative": "two-sided",
+      "outcome": "at_least_one_explicitly_inappropriate_concept",
+      "table_A_rows_B_columns_false_true": [
+        [
+          30,
+          5
+        ],
+        [
+          13,
+          12
+        ]
+      ],
+      "A_only_inappropriate": 13,
+      "B_only_inappropriate": 5,
+      "discordant_pairs": 18,
+      "pvalue": 0.09625244140625,
+      "alpha": 0.05,
+      "reject_null": false,
+      "unclear_recoded_as_inappropriate": false
+    },
+    "by_source_family": {
+      "factbook": {
+        "nodes": 24,
+        "source_clusters": 7,
+        "arms": {
+          "A": {
+            "nodes": 24,
+            "concepts": 117,
+            "concept_label_counts": {
+              "appropriate": 76,
+              "inappropriate": 10,
+              "unclear": 31
+            },
+            "mean_concepts_per_node": 4.875,
+            "mean_node_precision": 0.6415674603174603,
+            "mean_node_unclear_share": 0.2740079365079365,
+            "pooled_unclear_share": 0.26495726495726496,
+            "nodes_with_unclear_concept": 21,
+            "nodes_with_inappropriate_concept": 9,
+            "share_nodes_with_inappropriate_concept": 0.375
+          },
+          "B": {
+            "nodes": 24,
+            "concepts": 114,
+            "concept_label_counts": {
+              "appropriate": 75,
+              "inappropriate": 6,
+              "unclear": 33
+            },
+            "mean_concepts_per_node": 4.75,
+            "mean_node_precision": 0.6590277777777779,
+            "mean_node_unclear_share": 0.2916666666666667,
+            "pooled_unclear_share": 0.2894736842105263,
+            "nodes_with_unclear_concept": 18,
+            "nodes_with_inappropriate_concept": 5,
+            "share_nodes_with_inappropriate_concept": 0.20833333333333334
+          }
+        },
+        "mean_delta_B_minus_A": 0.017460317460317468,
+        "preference": {
+          "A": 10,
+          "B": 11,
+          "equal": 3
+        },
+        "preference_display_side": {
+          "left": 13,
+          "right": 8,
+          "equal": 3
+        }
+      },
+      "wikipedia": {
+        "nodes": 36,
+        "source_clusters": 11,
+        "arms": {
+          "A": {
+            "nodes": 36,
+            "concepts": 162,
+            "concept_label_counts": {
+              "appropriate": 89,
+              "inappropriate": 40,
+              "unclear": 33
+            },
+            "mean_concepts_per_node": 4.5,
+            "mean_node_precision": 0.56739417989418,
+            "mean_node_unclear_share": 0.20648148148148146,
+            "pooled_unclear_share": 0.2037037037037037,
+            "nodes_with_unclear_concept": 20,
+            "nodes_with_inappropriate_concept": 16,
+            "share_nodes_with_inappropriate_concept": 0.4444444444444444
+          },
+          "B": {
+            "nodes": 36,
+            "concepts": 174,
+            "concept_label_counts": {
+              "appropriate": 110,
+              "inappropriate": 17,
+              "unclear": 47
+            },
+            "mean_concepts_per_node": 4.833333333333333,
+            "mean_node_precision": 0.6542989417989418,
+            "mean_node_unclear_share": 0.2505291005291005,
+            "pooled_unclear_share": 0.27011494252873564,
+            "nodes_with_unclear_concept": 23,
+            "nodes_with_inappropriate_concept": 12,
+            "share_nodes_with_inappropriate_concept": 0.3333333333333333
+          }
+        },
+        "mean_delta_B_minus_A": 0.0869047619047619,
+        "preference": {
+          "A": 10,
+          "B": 25,
+          "equal": 1
+        },
+        "preference_display_side": {
+          "left": 16,
+          "right": 19,
+          "equal": 1
+        }
+      }
+    },
+    "source_cluster_bootstrap_sensitivity": {
+      "applicable": true,
+      "level": 0.95,
+      "lower": 0.00985144704433498,
+      "upper": 0.11966445010375398,
+      "percentiles": [
+        2.5,
+        97.5
+      ],
+      "quantile_method": "linear",
+      "draws": 10000,
+      "seed": 2026102514,
+      "generator": "PCG64",
+      "resampling_unit": "source_cluster_all_paired_nodes_retained",
+      "stratification_source_counts": {
+        "factbook": 7,
+        "wikipedia": 11
+      },
+      "weighting": "node_mean_ratio_recomputed_with_variable_resampled_node_count",
+      "primary_test_changed": false
+    }
+  },
+  "measurement_boundaries": {
+    "all_nodes_concepts_and_preferences_complete": true,
+    "human_label_unclear_reported_separately": true,
+    "source_ids_texts_and_comments_published": false,
+    "schema_coverage_measured": false,
+    "V2_improvement_established": false,
+    "concept_types_and_related_aspects_are_not_separate_hypotheses": true
+  },
+  "software": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1"
+  },
+  "provenance": {
+    "annotation": "Autorenannotation",
+    "author_export_raw_sha256": "68e41a579cf9cd02ba6e73255704d30c49166809f034d6affa71cb404516b91f",
+    "author_export_bytes": 133138,
+    "entries": 60,
+    "sealed_byte_identical_before_arm_unblinding": true,
+    "prepared_canonical_sha256": "1d4d438589bbbf1dbadda6eb4012ec5840278d84afa1409d6ea31e2b7411ce11",
+    "protocol_sha256": "a859ce66ea49ce6a432a3e447f186823c3c5b44b6ce7c8f300518ab76c964532",
+    "protocol_publication_commit": "0e709cf4d5638e0f307bedac6360aaf33940944f",
+    "evaluator_sha256": "05d5abe742ef06f9b181d15c1e2518f43df6a132392cb9023eb4f770a0c02513",
+    "analysis_UTC": "2026-10-26T11:14:29.320428+00:00",
+    "model_calls_during_analysis": 0,
+    "new_or_modified_author_labels": 0,
+    "public_output": "aggregates_only_no_case_records",
+    "multiplicity": "exploratory_no_Holm",
+    "statistical_function_asts_unchanged": true
+  }
+}

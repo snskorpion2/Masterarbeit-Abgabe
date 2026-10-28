@@ -1,0 +1,97 @@
+{
+  "protocol": "H12-N12-completed-author-evaluation-check:v1",
+  "date": "2026-10-26",
+  "status": "passed",
+  "synthetic_tests": {
+    "existing_sampling_package_evaluator": 50,
+    "import_wrapper_boundary_tests": 32,
+    "total": 82
+  },
+  "annotation_input_sha256": "a69ba8038355b77abc1b6c3f2e98541ca5744f1fc1278aa5ce387bbd2959581d",
+  "private_annotation_bytecopy_verified": true,
+  "complete_fixed_annotation_count": 90,
+  "no_redraw": true,
+  "prospective_evaluator_unchanged": true,
+  "independent_Fisher_from_public_2x2_tables": {
+    "primary": {
+      "calculated_without_scipy": 4.070855475123026e-09,
+      "matches": true,
+      "method": "exact hypergeometric upper tail using integer binomial coefficients and Fraction"
+    },
+    "unclear_positive_sensitivity": {
+      "calculated_without_scipy": 3.129647402756902e-07,
+      "matches": true,
+      "method": "exact hypergeometric upper tail using integer binomial coefficients and Fraction"
+    }
+  },
+  "independent_kappa_from_public_confusion_matrices": {
+    "three_class": {
+      "manual_fraction_kappa": 0.6887966804979253,
+      "matches": true
+    },
+    "binary_conservative": {
+      "manual_fraction_kappa": 0.6866295264623955,
+      "matches": true
+    },
+    "binary_unclear_as_not_supported": {
+      "manual_fraction_kappa": 0.8620816476645826,
+      "matches": true
+    }
+  },
+  "disjoint_precision_group_totals_reconcile": true,
+  "facet_groups_overlap_not_summed": true,
+  "Sol_pair_counts": {
+    "valid_prefix": 75,
+    "N10_not_selected": 13,
+    "technical_missing": 2,
+    "not_provided": 0
+  },
+  "public_files": [
+    {
+      "path": "Experiments/fair_v2_oct24/H12/run.py",
+      "bytes": 16572,
+      "sha256": "dd83317997a91826a7208eab9277112c624dee0286b99a0b0d58b694945cf88d"
+    },
+    {
+      "path": "Experiments/fair_v2_oct24/H12/test_run.py",
+      "bytes": 9154,
+      "sha256": "cce4b43807bb96c6b1e0c9f9f07fab635b019dabe72c3d881a03e3782cef1de4"
+    },
+    {
+      "path": "Experiments/fair_v2_oct24/H12/result.json",
+      "bytes": 15896,
+      "sha256": "fbbc82409465dabc47912c429c4334871ca3c1632c210de8557b34da8676d699"
+    },
+    {
+      "path": "Experiments/fair_v2_oct24/H12/BERICHT.md",
+      "bytes": 4193,
+      "sha256": "4d2b8945325ec36458c23853a803b7232c92f2f3889ef78229593bb62b14187b"
+    }
+  ],
+  "privacy_check": {
+    "protocol": "masterarbeit-submission-safety-v1",
+    "scope": "explicit-selected-files-only",
+    "passed": true,
+    "selected_files": 4,
+    "inspected_files": 4,
+    "inspected_bytes": 45815,
+    "max_file_bytes": 26214400,
+    "findings": [],
+    "limits": [
+      "No licensing approval",
+      "No semantic personal-data review",
+      "No Git-history audit",
+      "No decompression or embedded-document inspection"
+    ]
+  },
+  "private_data_or_individual_ids_published": false,
+  "new_C2_audit": false,
+  "D1_native_input_already_ingested": false,
+  "model_calls": 0,
+  "new_Holm_slots": 0,
+  "limits": [
+    "Fisher and the prespecified statement bootstrap use working independence, not source-cluster adjustment.",
+    "Author annotation is not an independent external gold standard; this secondary study is not a general population or causal claim.",
+    "A pattern scanner is not a full semantic privacy or license audit."
+  ]
+}

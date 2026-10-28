@@ -1,0 +1,194 @@
+{
+  "protocol": "H15-N15-author-retention-validation:v1",
+  "status": "complete_author_analysis",
+  "annotation_origin": "human_ui_input",
+  "annotation_classification": "Autorenannotation",
+  "author_confirmed": true,
+  "complete_author_export": true,
+  "annotation_entries": 30,
+  "valid_author_labels": 30,
+  "missing_annotation_rows": 0,
+  "null_author_labels": 0,
+  "fixed_sample_size": 30,
+  "distinct_meaning_pairs": 15,
+  "agreement": {
+    "three_class": {
+      "method": "unweighted nominal Cohen kappa",
+      "labels": [
+        "retained",
+        "partially_retained",
+        "not_retained"
+      ],
+      "matrix_rows": "author",
+      "matrix_columns": "Sol",
+      "confusion_matrix": [
+        [
+          21,
+          2,
+          0
+        ],
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "N_selected": 30,
+      "N_pair": 30,
+      "p_o": 0.9,
+      "p_e": 0.6,
+      "kappa": 0.75,
+      "undefined_reason": null,
+      "semantic_unclear_counts_as_rest": false,
+      "excluded_unclear_either_count": 0,
+      "ci95": {
+        "lower": 0.3840642495334578,
+        "upper": 1.0
+      },
+      "defined_replicates": 10000,
+      "undefined_replicates": 0,
+      "requested_replicates": 10000,
+      "CI_condition": "percentiles conditional on defined kappa replicates; at least two required",
+      "undefined_replicates_zero_imputed": false,
+      "semantic_unclear_filtered_inside_each_draw": true,
+      "excluded_unclear_original_codes": []
+    },
+    "binary_fully_retained_vs_rest": {
+      "method": "unweighted nominal Cohen kappa",
+      "labels": [
+        "retained",
+        "other_valid"
+      ],
+      "matrix_rows": "author",
+      "matrix_columns": "Sol",
+      "confusion_matrix": [
+        [
+          21,
+          2
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "N_selected": 30,
+      "N_pair": 30,
+      "p_o": 0.9,
+      "p_e": 0.6244444444444445,
+      "kappa": 0.7337278106508875,
+      "undefined_reason": null,
+      "semantic_unclear_counts_as_rest": true,
+      "excluded_unclear_either_count": 0,
+      "ci95": {
+        "lower": 0.375,
+        "upper": 1.0
+      },
+      "defined_replicates": 10000,
+      "undefined_replicates": 0,
+      "requested_replicates": 10000,
+      "CI_condition": "percentiles conditional on defined kappa replicates; at least two required",
+      "undefined_replicates_zero_imputed": false,
+      "semantic_unclear_filtered_inside_each_draw": false
+    },
+    "Sol_original_code_counts": {
+      "retained": 22,
+      "partially_retained": 6,
+      "not_retained": 2,
+      "undetermined": 0,
+      "not_assessable": 0
+    },
+    "not_assessable_mapping": "unclear only for comparison; original private-key code unchanged",
+    "bootstrap": {
+      "draws": 10000,
+      "seed": 2026102616,
+      "rng": "numpy.random.Generator(PCG64)",
+      "quantiles": [
+        0.025,
+        0.975
+      ],
+      "quantile_method": "linear",
+      "resampling_unit": "case",
+      "case_order": "lexicographic opaque item_id",
+      "matrix_shape": [
+        10000,
+        30
+      ],
+      "matrix_dtype": "int64",
+      "matrix_sha256": "6f44dc2f2bdf1e91d66c430f13262fa4e08d91b0805b556014b6129f34bc09e5",
+      "same_draw_matrix_for_three_class_and_binary": true,
+      "meaning_pair_dependence_corrected": false,
+      "source_cluster_bootstrap": false,
+      "source_and_construction_dependence_corrected": false
+    }
+  },
+  "descriptive_retention": {
+    "arms": {
+      "AS": {
+        "N": 15,
+        "fully_retained": 11,
+        "fully_retained_rate": 0.7333333333333333,
+        "label_counts": {
+          "retained": 11,
+          "partially_retained": 2,
+          "not_retained": 2,
+          "undetermined": 0
+        }
+      },
+      "V2": {
+        "N": 15,
+        "fully_retained": 12,
+        "fully_retained_rate": 0.8,
+        "label_counts": {
+          "retained": 12,
+          "partially_retained": 3,
+          "not_retained": 0,
+          "undetermined": 0
+        }
+      }
+    },
+    "n_meaning_pairs": 15,
+    "paired_difference_V2_minus_AS": 0.06666666666666667,
+    "difference_unit": "fraction, not percentage points",
+    "pair_outcomes": {
+      "both_fully_retained": 10,
+      "AS_only_fully_retained": 1,
+      "V2_only_fully_retained": 2,
+      "neither_fully_retained": 2
+    },
+    "partial_absent_unclear_are_not_full_retention": true,
+    "missing_labels_zero_imputed": false,
+    "hypothesis_test_performed": false,
+    "population_prevalence_estimate": false
+  },
+  "H2_qualification": {
+    "binary_kappa_threshold": 0.4,
+    "comparison": "strictly_less",
+    "H2_reviewer_dependent": false,
+    "status": "threshold_not_triggered",
+    "higher_kappa_proves_general_correctness": false,
+    "new_G2_N8_Holm_slots": 0,
+    "native_primary_scores_changed": false,
+    "overall_judgment_changed": false
+  },
+  "interpretation": {
+    "secondary_N15_only": true,
+    "general_evaluator_qualification": false,
+    "new_G2_N8_Holm_slots": 0,
+    "native_primary_scores_changed": false,
+    "overall_judgment_changed": false
+  },
+  "model_calls": 0,
+  "natural_files_opened_by_evaluator": false,
+  "completed_UTC": "2026-10-26T13:46:04.270986+00:00",
+  "source_preparation_sha256": "66e23be5a1fa18c3d2d6b1f0f09cc6435f59a140a8b55c96a1c2779c54ec8b4d",
+  "author_original_export_sha256": "c73f818c4547ff91eda5017d6c639d8cd8ae392f8c779f0f14c5f53f201f025f",
+  "private_analysis_receipt_sha256": "0006f687a5f0dd0993adc1e486cd2c56aaa1efad0919570310831a8915a43baa",
+  "actual_N15_evaluations": 1,
+  "original_author_export_modified": false,
+  "original_C3_labels_modified": false
+}

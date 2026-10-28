@@ -1,0 +1,321 @@
+{
+  "protocol": "D1-requested-final-output-projection:v1",
+  "synthetic": false,
+  "planned_source_count": 24,
+  "analysis_methods_changed": false,
+  "hypothesis_tests_recomputed": false,
+  "N10_G2_draw_first_aggregation_sensitivity": {
+    "role": "prespecified_descriptive_sensitivity_on_the_same_selected_occurrences",
+    "primary_point_difference": 0.08179213418450271,
+    "ci95": {
+      "lower": 0.06198576787809507,
+      "upper": 0.10107246906428698
+    },
+    "identification_sensitivity95": {
+      "lower": 0.03355725411848111,
+      "upper": 0.1315946206773125
+    },
+    "CI_scope": "marginal descriptive percentile; no secondary test or multiplicity claim",
+    "not_a_N10_sampling_uncertainty_substitute": true,
+    "cells": {
+      "AS_ORIGINAL": {
+        "estimate": 0.8192137864061997,
+        "lower": 0.8192137864061997,
+        "upper": 0.8474547463309355,
+        "independent_source_count": 24,
+        "planned_draw_count": 68,
+        "undefined_denominators": 0
+      },
+      "AS_ROW": {
+        "estimate": 0.8192137864061997,
+        "lower": 0.8192137864061997,
+        "upper": 0.8474547463309355,
+        "independent_source_count": 24,
+        "planned_draw_count": 68,
+        "undefined_denominators": 0
+      },
+      "AS_G_ORIGINAL": {
+        "estimate": 0.8801840756268557,
+        "lower": 0.8801840756268557,
+        "upper": 0.9076352183389279,
+        "independent_source_count": 24,
+        "planned_draw_count": 68,
+        "undefined_denominators": 0
+      },
+      "AS_G_ROW": {
+        "estimate": 0.8801840756268557,
+        "lower": 0.8801840756268557,
+        "upper": 0.9076352183389279,
+        "independent_source_count": 24,
+        "planned_draw_count": 68,
+        "undefined_denominators": 0
+      },
+      "V1_ORIGINAL": {
+        "estimate": 0.8693737652489867,
+        "lower": 0.8693737652489867,
+        "upper": 0.902692215819718,
+        "independent_source_count": 24,
+        "planned_draw_count": 68,
+        "undefined_denominators": 0
+      },
+      "V1_ROW": {
+        "estimate": 0.8693737652489867,
+        "lower": 0.8693737652489867,
+        "upper": 0.902692215819718,
+        "independent_source_count": 24,
+        "planned_draw_count": 68,
+        "undefined_denominators": 0
+      },
+      "V2_ORIGINAL": {
+        "estimate": 0.9010059205907024,
+        "lower": 0.9010059205907024,
+        "upper": 0.9352022848945775,
+        "independent_source_count": 24,
+        "planned_draw_count": 68,
+        "undefined_denominators": 0
+      },
+      "V2_ROW": {
+        "estimate": 0.9010059205907024,
+        "lower": 0.9010059205907024,
+        "upper": 0.9352022848945775,
+        "independent_source_count": 24,
+        "planned_draw_count": 68,
+        "undefined_denominators": 0
+      }
+    }
+  },
+  "H2_analyses": {
+    "G2": {
+      "effect": {
+        "point_difference": 0.09685395622895625,
+        "ci95": {
+          "lower": 0.042340067340067344,
+          "upper": 0.15796603184624014
+        },
+        "raw_p": 9.999000099990002e-05,
+        "adjusted_p": 0.00029997000299970003,
+        "reject": true,
+        "delta_identification_bounds": {
+          "lower": -0.22125771604938282,
+          "upper": 0.4162001964085297
+        },
+        "identification_sensitivity95": {
+          "lower": -0.43021701388888883,
+          "upper": 0.584302662037037
+        },
+        "control_mean": 0.43975869809203144,
+        "treatment_mean": 0.5366126543209876,
+        "null_boundary": -0.05,
+        "testable": true,
+        "undefined_reason": null,
+        "cluster_count": 24,
+        "defined_source_pairs": 24
+      },
+      "source_count": 24,
+      "criterion_met": true,
+      "criterion_source": "primary.H2.g2_criterion_met"
+    },
+    "N14": {
+      "effect": {
+        "point_difference": 0.13673499702911468,
+        "ci95": {
+          "lower": 0.06467419290948703,
+          "upper": 0.20939703406615165
+        },
+        "raw_p": 9.999000099990002e-05,
+        "adjusted_p": 0.00029997000299970003,
+        "reject": true,
+        "delta_identification_bounds": {
+          "lower": 0.099400871459695,
+          "upper": 0.17581204198851264
+        },
+        "identification_sensitivity95": {
+          "lower": 0.022440087145969498,
+          "upper": 0.2642184095860566
+        },
+        "control_mean": 0.6208358090711033,
+        "treatment_mean": 0.7575708061002179,
+        "null_boundary": -0.05,
+        "testable": true,
+        "undefined_reason": null,
+        "cluster_count": 17,
+        "defined_source_pairs": 17
+      },
+      "source_count": 17,
+      "criterion_met": true,
+      "criterion_source": "N14_H2_missingness.primary.criterion_met"
+    },
+    "combined_criterion_met": true,
+    "N14_source_selection_is_random": false
+  },
+  "identification_bounds": {
+    "H1": {
+      "point_bounds": {
+        "lower": 0.05561154121349832,
+        "upper": 0.11820500874539652
+      },
+      "bootstrap_sensitivity95": {
+        "lower": 0.026603295932061226,
+        "upper": 0.14475438200212062
+      },
+      "marginal_ci95": {
+        "lower": 0.05481386316811773,
+        "upper": 0.11140709884884337
+      }
+    },
+    "H2": {
+      "point_bounds": {
+        "lower": -0.22125771604938282,
+        "upper": 0.4162001964085297
+      },
+      "bootstrap_sensitivity95": {
+        "lower": -0.43021701388888883,
+        "upper": 0.584302662037037
+      },
+      "marginal_ci95": {
+        "lower": 0.042340067340067344,
+        "upper": 0.15796603184624014
+      }
+    },
+    "H4": {
+      "point_bounds": {
+        "lower": -0.014411699411699416,
+        "upper": -0.014411699411699416
+      },
+      "bootstrap_sensitivity95": {
+        "lower": -0.08285620636141132,
+        "upper": 0.0391081187469247
+      },
+      "marginal_ci95": {
+        "lower": -0.08285620636141132,
+        "upper": 0.0391081187469247
+      }
+    }
+  },
+  "Wilcoxon": {
+    "H1": {
+      "role": "prespecified sensitivity only",
+      "raw_p": 9.999000099990002e-05,
+      "undefined_reason": null,
+      "statistic_W_plus": 294.0,
+      "source_count": 24,
+      "zero_method": "pratt",
+      "alternative": "greater",
+      "draws": 10000,
+      "seed": 2026102408,
+      "rounding_decimals": 12,
+      "zero_classification": "unrounded_exact",
+      "original_nonzero_rankrounded_to_zero": 0,
+      "null_boundary": 0.0,
+      "MC_p_convention": "(1 + count(permuted_W_plus >= observed_W_plus))/(draws + 1)",
+      "location_interpretation_requires_symmetric_differences": true,
+      "nonzero_sources": 24,
+      "unrounded_mean_difference": 0.08366551765162532
+    },
+    "H2": {
+      "role": "prespecified sensitivity only",
+      "raw_p": 9.999000099990002e-05,
+      "undefined_reason": null,
+      "statistic_W_plus": 287.5,
+      "source_count": 24,
+      "zero_method": "pratt",
+      "alternative": "greater",
+      "draws": 10000,
+      "seed": 2026102408,
+      "rounding_decimals": 12,
+      "zero_classification": "unrounded_exact",
+      "original_nonzero_rankrounded_to_zero": 0,
+      "null_boundary": -0.05,
+      "MC_p_convention": "(1 + count(permuted_W_plus >= observed_W_plus))/(draws + 1)",
+      "location_interpretation_requires_symmetric_differences": true,
+      "nonzero_sources": 24,
+      "unrounded_mean_difference": 0.09685395622895625
+    }
+  },
+  "sourcewise_V2_vs_AS": {
+    "H1": {
+      "endpoint": "H1",
+      "control": "AS_ORIGINAL",
+      "treatment": "V2_ROW",
+      "planned_source_count": 24,
+      "comparison_scope_source_count": 24,
+      "outside_comparison_scope_source_count": 0,
+      "V2_better_sources": 21,
+      "equal_sources": 0,
+      "V2_worse_sources": 3,
+      "not_estimable_sources": 0,
+      "pairwise_estimable_source_count": 24,
+      "comparison": "strict >, =, < on unrounded canonical source estimates; no tolerance",
+      "scope": "full planned population",
+      "secondary_descriptive_only": true,
+      "new_hypothesis_test": false,
+      "missing_judgment_scoring": "Canonical conservative G2/N10 scores retained; a defined score is not proof of complete observed judgments."
+    },
+    "H2": {
+      "endpoint": "H2",
+      "control": "AS_ORIGINAL",
+      "treatment": "V2_ROW",
+      "planned_source_count": 24,
+      "comparison_scope_source_count": 24,
+      "outside_comparison_scope_source_count": 0,
+      "V2_better_sources": 14,
+      "equal_sources": 8,
+      "V2_worse_sources": 2,
+      "not_estimable_sources": 0,
+      "pairwise_estimable_source_count": 24,
+      "comparison": "strict >, =, < on unrounded canonical source estimates; no tolerance",
+      "scope": "full planned population",
+      "secondary_descriptive_only": true,
+      "new_hypothesis_test": false,
+      "missing_judgment_scoring": "Canonical conservative G2/N10 scores retained; a defined score is not proof of complete observed judgments."
+    },
+    "H2_N14_eligible": {
+      "endpoint": "H2",
+      "control": "AS_ORIGINAL",
+      "treatment": "V2_ROW",
+      "planned_source_count": 24,
+      "comparison_scope_source_count": 17,
+      "outside_comparison_scope_source_count": 7,
+      "V2_better_sources": 14,
+      "equal_sources": 1,
+      "V2_worse_sources": 2,
+      "not_estimable_sources": 0,
+      "pairwise_estimable_source_count": 17,
+      "comparison": "strict >, =, < on unrounded canonical source estimates; no tolerance",
+      "scope": "N14 contrast-specific eligible sources",
+      "secondary_descriptive_only": true,
+      "new_hypothesis_test": false,
+      "missing_judgment_scoring": "Canonical conservative G2/N10 scores retained; a defined score is not proof of complete observed judgments."
+    }
+  },
+  "H1_VV_over_estimable_sources": {
+    "V1_ROW": {
+      "estimate_over_estimable_sources": 0.5988717740060451,
+      "estimable_source_count": 23,
+      "planned_source_count": 24,
+      "not_estimable_source_count": 1,
+      "aggregation": "unweighted mean over estimable canonical VV source estimates only",
+      "secondary_descriptive_only": true,
+      "replaces_primary_estimator": false,
+      "new_confidence_interval_computed": false,
+      "new_hypothesis_test": false
+    },
+    "V2_ROW": {
+      "estimate_over_estimable_sources": 0.7272652530089602,
+      "estimable_source_count": 23,
+      "planned_source_count": 24,
+      "not_estimable_source_count": 1,
+      "aggregation": "unweighted mean over estimable canonical VV source estimates only",
+      "secondary_descriptive_only": true,
+      "replaces_primary_estimator": false,
+      "new_confidence_interval_computed": false,
+      "new_hypothesis_test": false
+    }
+  },
+  "limits": [
+    "All original estimands, hypothesis tests, confidence intervals and decisions remain unchanged.",
+    "Sourcewise wins/ties/losses are descriptive; no sign test or additional Holm slot is introduced.",
+    "VV complete-source means have their own explicit estimable N and do not replace frozen full-roster estimates.",
+    "Identification bounds, bootstrap sensitivity bounds and marginal confidence intervals are distinct."
+  ]
+}

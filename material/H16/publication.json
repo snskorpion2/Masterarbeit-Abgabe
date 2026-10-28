@@ -1,0 +1,17 @@
+{
+  "protocol": "H16-N16-single-path-publication-v1",
+  "published_at_utc": "2026-10-26T11:53:02.356423+00:00",
+  "commit": "245864854f66e04f62c7bbaab66d547d8dfdf33f",
+  "parent": "21d6d3d1055fd7edfb86de6572e58f2e249fb177",
+  "branch": "main",
+  "changed_paths": [
+    "Experiments/fair_v2_oct24/G1/nachtrag_16_transfer_menschlich.md"
+  ],
+  "remote_verified": true,
+  "path": "Experiments/fair_v2_oct24/G1/nachtrag_16_transfer_menschlich.md",
+  "raw_sha256": "80451010a01a6776a9c520eddd739b784ad5e56e81a0bb724d39695a74f47158",
+  "canonical_lf_sha256": "80451010a01a6776a9c520eddd739b784ad5e56e81a0bb724d39695a74f47158",
+  "shared_head_preserved": true,
+  "shared_index_preserved": true,
+  "sampling_started": false
+}

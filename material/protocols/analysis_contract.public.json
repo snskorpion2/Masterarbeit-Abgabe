@@ -1,0 +1,1038 @@
+{
+  "protocol": "fair-v2-oct24-G2-preregistration-v2",
+  "frozen_pin": {
+    "path": "Experiments/fair_v2_oct24/A7/preregistration_v2_frozen.json",
+    "bytes": 101775,
+    "sha256": "8377548a064de1fadd28baf674290be02021457ab38b49056ac9dde45dddf9f5"
+  },
+  "cells": [
+    "AS_ORIGINAL",
+    "AS_ROW",
+    "AS_G_ORIGINAL",
+    "AS_G_ROW",
+    "V1_ORIGINAL",
+    "V1_ROW",
+    "V2_ORIGINAL",
+    "V2_ROW"
+  ],
+  "sources": [
+    {
+      "source_id": "RGCONF01",
+      "cohort": "SEALED4",
+      "family": "sealed4",
+      "format": "not_specified_in_frozen_source_metadata",
+      "draws": [
+        "draw_1",
+        "draw_2"
+      ],
+      "reference_count": 4
+    },
+    {
+      "source_id": "RGCONF02",
+      "cohort": "SEALED4",
+      "family": "sealed4",
+      "format": "not_specified_in_frozen_source_metadata",
+      "draws": [
+        "draw_1",
+        "draw_2"
+      ],
+      "reference_count": 4
+    },
+    {
+      "source_id": "RGCONF03",
+      "cohort": "SEALED4",
+      "family": "sealed4",
+      "format": "not_specified_in_frozen_source_metadata",
+      "draws": [
+        "draw_1",
+        "draw_2"
+      ],
+      "reference_count": 4
+    },
+    {
+      "source_id": "RGCONF04",
+      "cohort": "SEALED4",
+      "family": "sealed4",
+      "format": "not_specified_in_frozen_source_metadata",
+      "draws": [
+        "draw_1",
+        "draw_2"
+      ],
+      "reference_count": 4
+    },
+    {
+      "source_id": "A4-W01",
+      "cohort": "NEW20",
+      "family": "wikipedia",
+      "format": "biography",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-W02",
+      "cohort": "NEW20",
+      "family": "wikipedia",
+      "format": "biography",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-W03",
+      "cohort": "NEW20",
+      "family": "wikipedia",
+      "format": "biography",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-W04",
+      "cohort": "NEW20",
+      "family": "wikipedia",
+      "format": "organization",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-W05",
+      "cohort": "NEW20",
+      "family": "wikipedia",
+      "format": "organization",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-W06",
+      "cohort": "NEW20",
+      "family": "wikipedia",
+      "format": "event",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-W07",
+      "cohort": "NEW20",
+      "family": "wikipedia",
+      "format": "event",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-W08",
+      "cohort": "NEW20",
+      "family": "wikipedia",
+      "format": "place",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-W09",
+      "cohort": "NEW20",
+      "family": "wikipedia",
+      "format": "place",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-W10",
+      "cohort": "NEW20",
+      "family": "wikipedia",
+      "format": "place",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-W11",
+      "cohort": "NEW20",
+      "family": "wikipedia",
+      "format": "work",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-W12",
+      "cohort": "NEW20",
+      "family": "wikipedia",
+      "format": "work",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-F01",
+      "cohort": "NEW20",
+      "family": "factbook",
+      "format": "africa",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-F02",
+      "cohort": "NEW20",
+      "family": "factbook",
+      "format": "europe",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-F03",
+      "cohort": "NEW20",
+      "family": "factbook",
+      "format": "middle-east",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-F04",
+      "cohort": "NEW20",
+      "family": "factbook",
+      "format": "south-asia",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-F05",
+      "cohort": "NEW20",
+      "family": "factbook",
+      "format": "east-n-southeast-asia",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-F06",
+      "cohort": "NEW20",
+      "family": "factbook",
+      "format": "central-america-n-caribbean",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-F07",
+      "cohort": "NEW20",
+      "family": "factbook",
+      "format": "south-america",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    },
+    {
+      "source_id": "A4-F08",
+      "cohort": "NEW20",
+      "family": "factbook",
+      "format": "australia-oceania",
+      "draws": [
+        "draw_1",
+        "draw_2",
+        "draw_3"
+      ]
+    }
+  ],
+  "question_ids": [
+    "2hop__68162_482364",
+    "3hop1__516535_834494_34053",
+    "2hop__35686_58556",
+    "4hop2__161602_474028_88460_21057",
+    "2hop__557743_92763",
+    "3hop1__145924_131905_41948",
+    "2hop__152700_141308",
+    "3hop1__671542_665330_51423",
+    "2hop__158275_35739",
+    "4hop3__129456_29339_508306_70744",
+    "2hop__677160_110882",
+    "3hop1__837871_831637_91775",
+    "2hop__84847_21969",
+    "3hop2__132957_132968_40768",
+    "2hop__60001_512508",
+    "4hop3__373866_5189_31809_86687",
+    "2hop__87589_362941",
+    "3hop1__106900_443779_52195",
+    "2hop__439614_349102",
+    "2hop__107905_110222",
+    "3hop1__248929_160713_77246",
+    "4hop1__21282_692112_214799_259594",
+    "2hop__84847_148696",
+    "3hop1__635099_131926_13165",
+    "2hop__96137_121319",
+    "2hop__10114_599630",
+    "3hop1__376309_160713_77246",
+    "4hop1__56270_53706_795904_580996",
+    "2hop__128945_47686",
+    "2hop__20433_157939",
+    "3hop2__92991_28727_76291",
+    "2hop__6827_49664",
+    "4hop1__310029_153080_159767_81096",
+    "3hop1__295815_40769_64047",
+    "2hop__135653_669373",
+    "2hop__25396_212301",
+    "3hop1__742464_15840_36002",
+    "2hop__77263_84616",
+    "4hop3__474028_88460_30152_20999",
+    "2hop__22885_160040",
+    "3hop1__19768_19788_19761",
+    "2hop__37765_85990",
+    "3hop1__140994_2053_52946",
+    "2hop__28287_89399",
+    "4hop3__678814_466199_695123_72134",
+    "2hop__35137_22932",
+    "3hop1__593288_720914_27537",
+    "2hop__109131_343058",
+    "3hop1__159728_91191_156667",
+    "2hop__80834_21969",
+    "4hop1__483807_508773_85832_745702",
+    "2hop__29367_29376",
+    "3hop1__63037_567566_84283",
+    "2hop__646493_5385",
+    "2hop__827755_156034",
+    "3hop1__108062_720914_27537",
+    "4hop3__601548_836463_161616_77103",
+    "2hop__122651_141338",
+    "3hop2__127483_84553_10557",
+    "2hop__30384_30351"
+  ],
+  "qa_blocks": [
+    [
+      "2hop__10114_599630",
+      "2hop__80834_21969",
+      "2hop__827755_156034",
+      "2hop__84847_148696",
+      "2hop__84847_21969",
+      "3hop1__159728_91191_156667",
+      "3hop1__248929_160713_77246",
+      "3hop1__376309_160713_77246",
+      "3hop1__516535_834494_34053",
+      "3hop1__671542_665330_51423",
+      "4hop2__161602_474028_88460_21057",
+      "4hop3__474028_88460_30152_20999",
+      "4hop3__678814_466199_695123_72134"
+    ],
+    [
+      "2hop__107905_110222",
+      "2hop__677160_110882",
+      "4hop3__601548_836463_161616_77103"
+    ],
+    [
+      "2hop__109131_343058",
+      "2hop__22885_160040",
+      "3hop2__127483_84553_10557"
+    ],
+    [
+      "2hop__122651_141338"
+    ],
+    [
+      "2hop__128945_47686"
+    ],
+    [
+      "2hop__135653_669373"
+    ],
+    [
+      "2hop__152700_141308"
+    ],
+    [
+      "2hop__158275_35739"
+    ],
+    [
+      "2hop__20433_157939"
+    ],
+    [
+      "2hop__25396_212301"
+    ],
+    [
+      "2hop__28287_89399"
+    ],
+    [
+      "2hop__29367_29376",
+      "2hop__37765_85990",
+      "3hop2__92991_28727_76291"
+    ],
+    [
+      "2hop__30384_30351"
+    ],
+    [
+      "2hop__35137_22932"
+    ],
+    [
+      "2hop__35686_58556"
+    ],
+    [
+      "2hop__439614_349102"
+    ],
+    [
+      "2hop__557743_92763"
+    ],
+    [
+      "2hop__60001_512508"
+    ],
+    [
+      "2hop__646493_5385"
+    ],
+    [
+      "2hop__68162_482364"
+    ],
+    [
+      "2hop__6827_49664"
+    ],
+    [
+      "2hop__77263_84616"
+    ],
+    [
+      "2hop__87589_362941"
+    ],
+    [
+      "2hop__96137_121319"
+    ],
+    [
+      "3hop1__106900_443779_52195"
+    ],
+    [
+      "3hop1__108062_720914_27537",
+      "3hop1__593288_720914_27537"
+    ],
+    [
+      "3hop1__140994_2053_52946"
+    ],
+    [
+      "3hop1__145924_131905_41948"
+    ],
+    [
+      "3hop1__19768_19788_19761"
+    ],
+    [
+      "3hop1__295815_40769_64047",
+      "3hop1__742464_15840_36002",
+      "3hop2__132957_132968_40768"
+    ],
+    [
+      "3hop1__63037_567566_84283"
+    ],
+    [
+      "3hop1__635099_131926_13165"
+    ],
+    [
+      "3hop1__837871_831637_91775"
+    ],
+    [
+      "4hop1__21282_692112_214799_259594"
+    ],
+    [
+      "4hop1__310029_153080_159767_81096"
+    ],
+    [
+      "4hop1__483807_508773_85832_745702"
+    ],
+    [
+      "4hop1__56270_53706_795904_580996"
+    ],
+    [
+      "4hop3__129456_29339_508306_70744"
+    ],
+    [
+      "4hop3__373866_5189_31809_86687"
+    ]
+  ],
+  "analysis": {
+    "alpha": 0.05,
+    "test_side": "one-sided toward higher V2",
+    "bootstrap": {
+      "draws": 10000,
+      "rng": "numpy.random.Generator(PCG64)",
+      "seed": 2026102407,
+      "pairing": "Same resampled cluster multiplicities in every cell/endpoint; retain all source draws and native occurrences inside each source.",
+      "source_resampling": "Resample24 source clusters with replacement, sample size24; use per-source planned-draw means.",
+      "QA_resampling": "Resample entire A5 question blocks with replacement, same number of blocks; concatenate all question copies and compute sum(score)/question count, not mean(block means).",
+      "CI": "Two-sided95% percentile CI of point difference, quantiles0.025/0.975, method=linear; marginal, not simultaneous. Separately [q0.025(Delta_L*),q0.975(Delta_U*)] as identification sensitivity.",
+      "primary_estimand": "H1/H2 symmetric conservative point-score differences; H4 F1 on all fixed observed pairs. First mean planned draws/source, then24-source mean. No lower-bound difference as primary.",
+      "null_centering": "T_b0=delta0+(Delta_b_star-Delta_hat); p=(1+count(T_b0>=Delta_hat))/10001; delta0=0 forH1/H4,-0.05 forH2. Same cluster multiplicities in paired cells.",
+      "unusable": "Undefined planned denominator, fewer than2 independent blocks, invalid bootstrap outputs or zero resampled-statistic variation: raw_p=null, reason, no inferential pass. Two blocks are necessary, not evidence of adequate precision/power.",
+      "limitations": "Approximate bootstrap, especially with few/unequal clusters. Finite tested populations/models, no universal transfer."
+    },
+    "Wilcoxon": {
+      "role": "prespecified sensitivity, never choose more favorable p",
+      "unit": "one planned-draw mean per source, across sources; not a separate tiny test per source",
+      "shift": "d_s forH1; d_s+0.05 forH2. H3 no prespecified inferential test.",
+      "alternative": "greater",
+      "zero_method": "pratt",
+      "ties": "Round differences to12 decimals for ranks only; keep unrounded estimation",
+      "method": "Fixed sign-permutation signed-rank calculation,10000 draws, seed2026102408; all-zero differences p=1; D1 pins software.",
+      "missing": "Use same primary symmetric scores when denominators defined. Undefined source pair cannot be silently removed from full24 test; any complete-subset sensitivity explicitly labeled.",
+      "assumption": "Symmetric paired-difference distribution for a location interpretation; not generally the mean estimand."
+    },
+    "Holm": {
+      "family": [
+        "H1",
+        "H2",
+        "H4"
+      ],
+      "family_size": 3,
+      "alpha": 0.05,
+      "H4_input": "F1 cluster-bootstrap p only",
+      "not_tested": "raw_p=null with reason, not rejection;1 only as conservative multiplicity slot, never as observed score. Family remains3.",
+      "formula": "Sort p_(1)..p_(3); adjusted_p_(i)=min(1,max_{k<=i}((3-k+1)*p_(k))). Reject if adjusted_p<=0.05.",
+      "no_selection": "No extra primary family by model/type/cohort/cell; H3,EM,ablations,distinct count secondary.",
+      "CI_warning": "95% CIs marginal, not Holm-adjusted simultaneous intervals."
+    },
+    "decision": "H1 requires positive point difference and Holm rejection; H2 Holm rejection at-0.05, not nonsignificance at0. H4 F1 inferential improvement requires positive point difference and Holm rejection; descriptive nondecrease alone is not equivalent performance proof. No overall/universal winner or schema superiority from selected axes."
+  },
+  "hypotheses": {
+    "H1": {
+      "title": "Higher share of source-supported whole statements",
+      "population": "24 sources,68 paired source/draw units",
+      "level": "native inventory before export",
+      "numerator": "S_csd: all independently source-supported whole native occurrences retained in cell c/source s/draw d",
+      "denominator": "N_csd: all emitted/retained whole EE/EV/VV occurrences in the cell, including unclear/unjudged ones; no string/value deduplication",
+      "point_when_identified": "S_csd/N_csd for every known N>0. Unclear and technically missing JUDGMENTS contribute0 to S in both arms, remain in N.",
+      "resolved_only_diagnostic": "S/(S+F), explicitly a different denominator",
+      "bounds": "[S/N,(S+M)/N] when N is known and positive, with N=S+F+M",
+      "null_boundary": 0,
+      "alternative": "mean paired difference >0",
+      "primary_test": "one-sided null-centered paired source-cluster bootstrap of symmetric conservative point-score difference",
+      "estimand": "share of emitted whole occurrences independently verified supported under this evaluator protocol; not the unknown true error rate",
+      "report_by_type": [
+        "EE",
+        "EV",
+        "VV"
+      ],
+      "missingness_rate": "M_csd/N_csd and pooled M/N by arm plus source-equal rate; any arm>0.10 explicitly a limitation",
+      "sensitivity": "Identification interval [S/N,(S+M)/N]; Delta_L=L_V2-U_AS and Delta_U=U_V2-L_AS are sensitivity bounds only, never primary statistic/p-value."
+    },
+    "H2": {
+      "title": "Full reference-meaning retention non-inferior by5 percentage points",
+      "population": "same24 sources, source-only reference roster frozen before outcomes",
+      "level": "whole retained inventory across EE/EV/VV",
+      "numerator": "K_csd: all predeclared reference meanings fully covered anywhere in that retained inventory",
+      "denominator": "R_s: every predeclared valid whole source-only reference meaning for the source, same across cells/draws",
+      "point_when_identified": "K_csd/R_s. Unclear and technically missing judgments contribute0 to K in both arms; all frozen R_s remain in denominator.",
+      "coding": {
+        "fully": 1,
+        "partial": 0,
+        "absent": 0,
+        "unclear": 0,
+        "technical_missing": 0
+      },
+      "partial_rule": "0 denotes not fully retained, not wholly false/lost. Report partial separately.",
+      "bounds": "[K/R,(K+M)/R]",
+      "witness_rule": "Direct independent judgments for all four active inventory cells AS/AS_G/V1/V2; active_cell(...) is the sole inventory input. No private restore state or deleted parent assertions. No general offline inheritance from A8.",
+      "margin": 0.05,
+      "margin_percentage_points": 5,
+      "null_boundary": -0.05,
+      "null": "mean difference <=-0.05",
+      "alternative": "mean difference >-0.05",
+      "primary_test": "one-sided null-centered paired source-cluster bootstrap of symmetric conservative point-score difference at-0.05",
+      "coding_limit": "These0 values score not verified fully retained, not known false or completely lost. Raw states preserved separately.",
+      "missingness_rate": "Unclear+technical_missing over all frozen R_s, by arm; any arm>0.10 explicitly a limitation",
+      "sensitivity": "[K/R,(K+M)/R], paired Delta_L/Delta_U only sensitivity; fixed references cannot be replaced after outcomes."
+    },
+    "H3": {
+      "title": "Technical direct graph-edge coverage under A6 operational obligations",
+      "population": "same24 sources, all eight cells",
+      "numerator": "C_csd: retained native occurrences satisfying the frozen A6 operational graph-edge obligation test",
+      "denominator": "N_csd: every whole native EE/EV/VV occurrence retained before export in the same cell",
+      "point_when_identified": "C/N, N>0",
+      "EE_VV": "Correct endpoint identity, direction and relation label via original IDs/CSV mapping. Preserve multiplicity; one graph-edge occurrence cannot cover multiple collapsed native edge obligations.",
+      "EV": "A6 complete operational participant-edge group; not proof of whole native EV payload/qualifier/role semantics. whole_native_EV_payload_recovery_verified=False.",
+      "bounds": "[C/N,(C+M)/N] for positive known N. Confirmed completed-graph absence is observed0; unexamined/unavailable graph or unresolved identity mapping is unknown.",
+      "primary_test": "none; excluded from Holm",
+      "diagnostics": [
+        "absolute native/represented counts",
+        "lost parallel relation occurrences",
+        "operative EV participant-projection losses",
+        "same-label node collisions",
+        "coverage against original unfiltered parent denominator"
+      ],
+      "claim_limit": "Technical graph representation only; no H3 confirmatory superiority test, no semantic equivalence or full native-EV recovery claim.",
+      "role": "SECONDARY_DESCRIPTIVE_ONLY"
+    },
+    "H4": {
+      "title": "MuSiQue graph-only answer F1 primary, EM secondary",
+      "population": "All60 fixed A5prefix questions, identical across cells",
+      "numerator_EM": "sum_q max_a official_compute_exact(gold_alias_a,predicted_answer_cq)",
+      "numerator_F1": "sum_q max_a official_compute_f1(gold_alias_a,predicted_answer_cq)",
+      "denominator": "Q=60: every fixed A5prefix question ID, identical across cells",
+      "reader_context": "Only retrieved final-graph triple text, top_k=30; no source passages, support flags, gold paragraphs/answers/aliases in index or reader context.",
+      "scorer": "Official MuSiQue AnswerMetric normalization/token F1/max over aliases. Preserve unrounded per-question values for inference, not only rounded official aggregate.",
+      "bounds": "For observed z use[z,z], otherwise[0,1]; aggregate over all Q; never convert missing to empty string or0.",
+      "scientific_target": "Delta_F1>=0 descriptively; inferential one-sided test at0 concerns improvement, not equivalence or noninferiority from nonsignificance.",
+      "inferential_proposal": "one-sided null-centered paired question-cluster bootstrap of F1 differences at0, sole H4 Holm input",
+      "null": "Delta_F1<=0",
+      "p_combination": "none: F1 only",
+      "McNemar": {
+        "role": "EM-only secondary sensitivity; not H4 Holm input; pairwise-complete question count reported",
+        "table": "W=AS wrong/V2 correct, L=AS correct/V2 wrong; other cells both wrong/both correct",
+        "one_sided_p": "P[Binomial(W+L,0.5)>=W];1 if W+L=0",
+        "population": "fully observed paired EM outcomes, subset size reported",
+        "assumption": "Binomial exactness requires independent pairs. With paragraph/family overlap it is only an independence-working-model sensitivity, not an unqualified exact test. No p-bound follows from missing-score bounds."
+      },
+      "QA_export_scope": "All eight fixed graph cells; primary V2_ROW vs AS_ORIGINAL, other contrasts secondary. One instance construction per AS/V1. Secondary contexts subject to the same5USD cap; never weaken primary set after results.",
+      "secondary_contexts": [
+        "unchanged original HippoRAG2 passage route",
+        "empty-context control once per question",
+        "direct gold-paragraph control once per question"
+      ],
+      "secondary_claim": "Passage/source controls are not graph-only H4 evidence; graph-only scores alone do not prove faithful graph use.",
+      "pipeline_scope": "B4 instance-only matched AS/V1 derived views. No schema-induction or complete-schema-KG quality claim.",
+      "missing_rule": "For H4 retain missing as unknown, not empty or wrong. Primary point/p-value require all planned paired scores. Otherwise non-estimable primary, Holm slot1, report full-Q score bounds and completed-pair descriptive sensitivity."
+    }
+  },
+  "missingness": {
+    "states": [
+      "observed_success",
+      "observed_failure",
+      "semantic_unclear",
+      "technical_missing",
+      "unknown_execution",
+      "undefined_denominator"
+    ],
+    "never": [
+      "unknown_cost_as_zero",
+      "unknown_execution_as_completed",
+      "raw_unknown_status_as_known_false",
+      "missing_QA_as_empty_answer",
+      "success_only_denominator",
+      "outcome-dependent_source_removal"
+    ],
+    "paired_bounds": "Delta_L=L_V2-U_AS; Delta_U=U_V2-L_AS. Average all planned draws, then equally all sources; forQA average all fixed questions.",
+    "zero_or_unknown_denominator": "H1/H3 undefined, never0 or1/100%. Do not silently omit planned source/draw. Its full24-source primary mean cannot be tested: raw_p=null, Holm slot1. Report emptiness/completion separately.",
+    "whole_missing_construction": "Never invent native denominator forH1/H3. ForH2 fixedR_s remains: rawunknown, numerical primary0 for not verified fully retained in both arms. ForH4 fixedQ remains with unknown scores/bounds, not fabricated0.",
+    "known_empty_answer": "Only a genuinely completed observed empty/abstaining answer may receive its official metric value; never replace missing/truncated/unparsed response by empty string.",
+    "subset_inheritance": "C2 source-support labels may inherit exact occurrence identity into filtered subsets. H2 requires separate direct active-inventory assessment for all four arms.",
+    "loss_scope": "Correct parts of unsupported whole assertions may be lost. Report supported-whole removals, selected partial losses and unassessed scope. Selected-reference retention is not exhaustive recall.",
+    "primary_H1_H2": "Numerical0 for unclear/technical judgment missingness in both arms, per direct G2 amendment. Preserve raw unknown; not a fact-level false label."
+  },
+  "human_validation": {
+    "planned_statements": 150,
+    "owner": "C7 and thesis author",
+    "population": "Original C2 AS/V1 whole occurrences on24 confirmation sources, not Main12",
+    "strata": [
+      "AS/V1",
+      "EE/EV/VV"
+    ],
+    "target_per_six_strata": 25,
+    "seed": 2026102409,
+    "sampling": "Without replacement before reading labels. Redistribute shortfalls one-by-one in fixed AS-EE,AS-EV,AS-VV,V1-EE,V1-EV,V1-VV order among strata with capacity. If total<150 use all, report shortage, never duplicate. Selected human panel remains150 total; it cannot imply every semantic merge is validated unless its separate recorded validation covers them.",
+    "blinding": "Opaque mixed IDs, unchanged statement/source, hidden arm/Guard/main-judge labels. Seal human export before joining C2.",
+    "human_annotators": 1,
+    "comparator": "C2 main evaluator; no claim of two-human agreement",
+    "labels": [
+      "supported",
+      "not_supported",
+      "unclear"
+    ],
+    "kappa": {
+      "kind": "unweighted nominal Cohen kappa human versus C2",
+      "N_pair": "both assessments present; unclear valid class, technical/missing not unclear",
+      "p_o": "3x3 diagonal sum/N_pair",
+      "p_e": "sum_k(n_human_k*n_C2_k)/N_pair^2",
+      "numerator": "p_o-p_e",
+      "denominator": "1-p_e",
+      "formula": "(p_o-p_e)/(1-p_e)",
+      "undefined": "N_pair=0 or p_e=1 -> null/reason, never1",
+      "report": [
+        "N_selected",
+        "N_human",
+        "N_pair",
+        "3x3 table",
+        "raw agreement",
+        "kappa"
+      ],
+      "acceptance_threshold": null
+    },
+    "human_support": "Per-arm/type support counts plus unknown bounds. For population-arm estimates use inverse-inclusion weights N_h/n_h; the unweighted stratified sample is not population prevalence.",
+    "gold_claim": false,
+    "automatic_replacement_of_C2_labels": false
+  },
+  "second_evaluator": {
+    "fraction": 0.15,
+    "seed": 2026102410,
+    "strata": [
+      "parent arm",
+      "EE/EV/VV"
+    ],
+    "rounding": "ceil(0.15*N_h), capped at N_h",
+    "population": "Original unique C2 AS/V1 occurrences, stratified arm×EE/EV/VV; seed2026102410 before labels. Add every Guard-removed occurrence of either parent arm for every source represented in the random sample. Union by occurrence ID, no duplicate calls.",
+    "report": [
+      "kappa separately from human comparison",
+      "direction V2-AS",
+      "disagreements/unknowns"
+    ],
+    "majority_gold": false,
+    "analysis": "Report random15% portion separately from augmented removals; augmented panel is not prevalence-representative. Same fixed blind ordering and6-case grouping; secondary comparisons only."
+  },
+  "evaluators": {
+    "system_prompt": {
+      "carrier": {
+        "path": "Experiments/fair_comparison_oct23_v1/batch_review.py",
+        "bytes": 20501,
+        "sha256": "41a69d0e39c43994ede0064916df32ff148223862050e3a0e2d3de1eae1e78ed"
+      },
+      "selector": "_system(e01_api_review_controls_v1.INSTRUCTION)",
+      "UTF8_bytes": 1778,
+      "sha256": "c94afc22feba85bef5e3703d91f32d881061fef7104dda4629d69dee13d80724"
+    },
+    "original_instruction": {
+      "carrier": {
+        "path": "Tools/abschluss/e01_api_review_controls_v1.py",
+        "bytes": 17119,
+        "sha256": "d80243721779b10a3e5a02ad1a888e85831cf84d6abc4c8d4781d8ea4572a683"
+      },
+      "selector": "INSTRUCTION",
+      "UTF8_bytes": 992,
+      "sha256": "b394a03d4d20bcb4269a5c90601727a878b5f454240e834bf9daa88d1101855c"
+    },
+    "batch_transport": {
+      "carrier": {
+        "path": "Experiments/fair_comparison_oct23_v1/batch_review.py",
+        "bytes": 20501,
+        "sha256": "41a69d0e39c43994ede0064916df32ff148223862050e3a0e2d3de1eae1e78ed"
+      },
+      "selector": "BATCH_TRANSPORT",
+      "UTF8_bytes": 639,
+      "sha256": "b6cb8663a94c3bb3b6d1dfe33ecf27159ae0c0f42dea66d2a245957bebee98d8"
+    },
+    "profile": {
+      "path": "Tools/abschluss/e01_review_profile_v2.json",
+      "bytes": 7714,
+      "sha256": "3d2cbba0090198b20cbb462e254f3ddcac65cbef8d14675db547d43e4783c6dc"
+    },
+    "adapter": {
+      "path": "Tools/experiments/b1_evaluator_qualification_oct24_v1/foundry_adapter.py",
+      "bytes": 11707,
+      "sha256": "61a7912d792eaf68fe221d89afa4fdadae47ebe3965998f292275f34597e7996"
+    },
+    "B1_result": {
+      "path": "Experiments/results/b1_evaluator_qualification_oct24_v1/result.json",
+      "bytes": 41082,
+      "sha256": "bf20a2a96e5e005ccaa5bd5ae69604c779c2d55e60aeb9ea06849c4b10a01df7"
+    },
+    "B1_manifest": {
+      "path": "withheld-artifact/08a9b8620800e6ebf90d",
+      "bytes": 2158657,
+      "sha256": "d6875902d28a86ad6a7079daaa57ad66702f41d8dbd991842051d99a4b2b365e"
+    },
+    "batch_size_max": 6,
+    "timeout_seconds": 300,
+    "technical_retries": 0,
+    "reasoning_field": "omitted",
+    "H1_input": "axis=source_support, original source and unchanged whole candidate; arm/Guard/evaluator labels withheld; blinded seeded mixed order2026102411.",
+    "H2_input": "axis=retention, source plus fixed obligation and carrier{status,units}; original witness IDs only. Direct four active_cell(...) inventories separately; no restore/private deleted state.",
+    "response_validation": "Original exact schema+ID+code+witness validation; retain invalid raw answer as technical_missing, never semantic repair/retry.",
+    "raw_support_codes": [
+      "supported",
+      "contradicted",
+      "unsupported",
+      "mixed",
+      "not_in_source",
+      "ambiguous",
+      "undetermined",
+      "not_assessable",
+      "failed",
+      "not_judged"
+    ],
+    "raw_retention_codes": [
+      "retained",
+      "partially_retained",
+      "not_retained",
+      "undetermined",
+      "not_assessable"
+    ],
+    "H1_score_mapping": {
+      "one": [
+        "supported"
+      ],
+      "zero_resolved": [
+        "contradicted",
+        "unsupported",
+        "mixed",
+        "not_in_source"
+      ],
+      "zero_unclear": [
+        "ambiguous",
+        "undetermined",
+        "not_assessable"
+      ],
+      "zero_technical": [
+        "failed",
+        "not_judged",
+        "no valid judgment"
+      ]
+    },
+    "H2_score_mapping": {
+      "one": [
+        "retained"
+      ],
+      "zero_resolved": [
+        "partially_retained",
+        "not_retained"
+      ],
+      "zero_unclear": [
+        "undetermined",
+        "not_assessable"
+      ],
+      "zero_technical": [
+        "no valid judgment"
+      ]
+    },
+    "rate_M": "Unclear+technical categories above, not resolved unsupported/partial/absent. Report per type/source/arm without modifying raw codes.",
+    "qualification_limit": "B1 controls assess fixed known source/retention cases, not universal judge validity or semantic-dedup/Reader-task quality."
+  },
+  "expected_versions": {
+    "status": "algorithm frozen here; D1 implementation must be receipt-bound before first analysis, not a placeholder for a method decision",
+    "python": "3.13.12",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "no_outcome_tuning": "D1 code must implement these estimands/seeds/tests/degeneracy rules unchanged; implementation fixes documented, no post-outcome method choice."
+  },
+  "amendments": [
+    {
+      "identifier": "N2",
+      "note": "Foundry route and no replay; H3 keeps two A6 fields with separate denominators.",
+      "pin": {
+        "path": "Experiments/fair_v2_oct24/G1/nachtrag_2_nacht.md",
+        "bytes": 3182,
+        "sha256": "ffaa863e4ef14c68ded04e6afa2bcd34719ac0c3b36bdb10eb5b05671ec16a66"
+      }
+    },
+    {
+      "identifier": "N3",
+      "note": "C1 order/budget changed; primary populations and tests unchanged.",
+      "pin": {
+        "path": "Experiments/fair_v2_oct24/G1/nachtrag_3_c1_budget.md",
+        "bytes": 1437,
+        "sha256": "330d8585291eda87dc8e72c4a294ad868650131644422cb39b91d47e9a33b0c4"
+      }
+    },
+    {
+      "identifier": "N4",
+      "note": "Sol-Flex-NoWrite is a separate execution condition; original 98 ratings retained.",
+      "pin": {
+        "path": "Experiments/fair_v2_oct24/G1/nachtrag_4_c2c3_kosten.md",
+        "bytes": 3853,
+        "sha256": "9d93615f86b7554b57f2636a8268a832704bf7a3ae2c0fbbb1dbbcae6ad0a0f2"
+      }
+    },
+    {
+      "identifier": "N5",
+      "note": "Prospective whole-Joint rejection fallback for B4 V1; no rewrite of B3. Report rate/cost and AS not applicable.",
+      "pin": {
+        "path": "Experiments/fair_v2_oct24/G1/nachtrag_5_joint_vertragsverletzung.md",
+        "bytes": 2987,
+        "sha256": "d63aed1eaea606d875fd9d0a3e7c347cf5aa3df553419b763f1278244b096f23"
+      }
+    },
+    {
+      "identifier": "N6",
+      "note": "Passage route not performed; 480 graph + 60 empty + 60 gold response positions. No claim against original passage reader.",
+      "pin": {
+        "path": "Experiments/fair_v2_oct24/G1/nachtrag_6_c6_passagenweg.md",
+        "bytes": 2531,
+        "sha256": "6c7c2624a6a2523030bbc5fec0218af831d5b5966e811e5cea67828652d4ae02"
+      }
+    },
+    {
+      "identifier": "N7",
+      "note": "Keep full original contexts unassessed after known invalid guard replies. Preserve paid replies and execute only originally unstarted jobs.",
+      "pin": {
+        "path": "Experiments/fair_v2_oct24/G1/nachtrag_7_guard_ungueltige_antwort.md",
+        "bytes": 3233,
+        "sha256": "af3bb53c6837668f88cc7ca552fe5d5327213e1d1726aa24cafc19e9ff3e80ff"
+      }
+    },
+    {
+      "identifier": "N8",
+      "note": "Fixed A-F judgment, separate K1-K6 Holm family, descriptive H4 components and efficiency. Primary G2 family unchanged. Individual prior C2 exposure disclosed.",
+      "pin": {
+        "path": "Experiments/fair_v2_oct24/G1/nachtrag_8_gesamt_und_komponentenurteil.md",
+        "bytes": 8504,
+        "sha256": "d597104270d1a9f9dd51462a827725afdbd39a64409051a9e137267ece5050c3"
+      }
+    },
+    {
+      "identifier": "N10",
+      "note": "Optional cost-stopped H1 prefix: pooled source ratios and paired two-stage source/original-group bootstrap. Approximate, not proven equal inclusion. C3 keeps G2 missingness.",
+      "pin": {
+        "path": "Experiments/fair_v2_oct24/G1/nachtrag_10_budgetbedingte_stichprobe_h1.md",
+        "bytes": 5338,
+        "sha256": "12306b9d0a7660d1041f08f19eabfee763c5c6133c2ebacd3987fbe19942e647"
+      }
+    },
+    {
+      "identifier": "N14",
+      "note": "Keep G2 primary H2 unchanged and additionally test sources with valid judgments in both contrast arms. H2/K2/K4 noninferiority needs both Holm analyses; H2/K5 superiority needs the additional analysis. No rerating or replay.",
+      "pin": {
+        "path": "Experiments/fair_v2_oct24/G1/nachtrag_14_h2_fehlwerte.md",
+        "bytes": 1921,
+        "sha256": "464c39c5cd7400f850dccd5d1909fc9b8dcaf1b129cebb93930deaa8acbc5983"
+      }
+    }
+  ],
+  "primary_control": "AS_ORIGINAL",
+  "primary_treatment": "V2_ROW",
+  "N8_publication": {
+    "protocol": "N8-D1-publication-before-aggregated-outcome-analysis-v1",
+    "amendment_path": "Experiments/fair_v2_oct24/G1/nachtrag_8_gesamt_und_komponentenurteil.md",
+    "published_commit": "8c6228bcdc4c87f40f810483b5698fa22566e2d3",
+    "published_at_utc": "2026-10-25T13:38:59.3132400Z",
+    "single_path_commit": true,
+    "remote_confirmed": true,
+    "raw_sha256": "d597104270d1a9f9dd51462a827725afdbd39a64409051a9e137267ece5050c3",
+    "canonical_lf_sha256": "66b2c97e041337fb83b1d1efef682be3d6beb6d83296ff209063772219fe707f",
+    "access_clarification_publication": {
+      "commit": "735720c3403432c8027d79c5be5de8172e5e39b4",
+      "at_utc": "2026-10-25T13:28:46Z"
+    },
+    "source_scope_clarification": {
+      "total_sources": 24,
+      "new_sources": 20,
+      "sealed_primary_sources": 4,
+      "frozen_selection_or_criteria_changed": false
+    },
+    "initial_publication": {
+      "commit": "3de7fce495c38124096c25418bedd7a8d0cf9d97",
+      "at_utc": "2026-10-25T12:57:16.3929175Z",
+      "then_amendment_number": "N7",
+      "single_path_commit": true,
+      "raw_sha256": "90680cc4876620ba2ec9803a66dad4a54a482492a6d0b9a04e88c161efeb84ea"
+    },
+    "initial_N8_numbering_publication": {
+      "commit": "c33d0d65ac8af5dc1f2d8837e7c635368eba7429",
+      "at_utc": "2026-10-25T13:22:41Z"
+    },
+    "distinct_N7_guard_publication": {
+      "commit": "f0dabef19a5028a3a0c256930ff5c333a016bb1d",
+      "path": "Experiments/fair_v2_oct24/G1/nachtrag_7_guard_ungueltige_antwort.md",
+      "at_utc": "2026-10-25T13:22:32Z"
+    },
+    "checked_before_initial_publication_at_utc": "2026-10-25T12:56:08Z",
+    "previous_D1_runs_synthetic_only": true,
+    "empirical_D1_started_before_publication": false,
+    "no_current_distribution_analysis_reported_by": [
+      "Main",
+      "D1 owner",
+      "C6 owner",
+      "C7 owner and Z2 helpers",
+      "C4/S2 owner",
+      "current C1 subgroup",
+      "C2/C3 final-only helper"
+    ],
+    "no_current_C6_answer_or_aggregated_C7_label_analysis_reported": true,
+    "full_team_outcome_blindness": false,
+    "individual_C2_exposure_disclosed": true,
+    "author_C7_annotation": {
+      "reported_as_ongoing_by_C4_owner": true,
+      "annotation_start_time_known": false,
+      "not_claimed_currently_blind": true,
+      "aggregated_D1_label_analysis_not_reported": true
+    },
+    "qualification": "A C2/C3 helper previously saw individual C2 codes/reasons in an unprojected technical terminal containing both axes. No distribution analysis reported. Visible C3 contents not evidenced. Owner declarations are scoped, not a reconstruction of every historical project access or of coordination/author access. Ongoing author annotation is not confused with aggregation and no current author blindness is claimed.",
+    "criteria_changed_by_renumbering_or_access_clarification": false,
+    "natural_outcomes_opened_for_this_check": false,
+    "model_calls": 0
+  },
+  "N8_publication_pin": {
+    "path": "Experiments/fair_v2_oct24/D1/n8_publication.json",
+    "bytes": 2764,
+    "sha256": "eefa220b5fbb407ee8e1f1cab45f9070882a01de07d9b57763830883e9b2dd46"
+  },
+  "N10_publication": {
+    "protocol": "D1-N10-publication-binding-v1",
+    "amendment_path": "Experiments/fair_v2_oct24/G1/nachtrag_10_budgetbedingte_stichprobe_h1.md",
+    "published_commit": "3d180e5bd92e1ecd74a185fc362e8860fd5091e4",
+    "single_path_commit": true,
+    "remote_confirmed_by_coordinator": true,
+    "canonical_lf_sha256": "12306b9d0a7660d1041f08f19eabfee763c5c6133c2ebacd3987fbe19942e647",
+    "budget_EUR": "42",
+    "C2_safety_reserve_EUR": "1.50",
+    "source_population_groups": 1447,
+    "inclusion_probabilities_exactly_equal_established": false,
+    "cost_dependent_stopping_may_be_informative": true,
+    "entire_attempted_prefix_includes_missing_invalid_unknown_and_administrative_positions": true,
+    "natural_C2_C3_quality_distributions_opened_by_this_implementation": false
+  },
+  "N10_publication_pin": {
+    "path": "Experiments/fair_v2_oct24/D1/n10_publication.json",
+    "bytes": 762,
+    "sha256": "bc6d413af510531fed7252515542acabe16309b299ebec97fa2aa58b191592b9"
+  },
+  "N14_publication": {
+    "protocol": "N14-single-path-preregistration-publication:v1",
+    "completed_UTC": "2026-10-25T21:47:03.044918+00:00",
+    "path": "Experiments/fair_v2_oct24/G1/nachtrag_14_h2_fehlwerte.md",
+    "sha256": "464c39c5cd7400f850dccd5d1909fc9b8dcaf1b129cebb93930deaa8acbc5983",
+    "bytes": 1921,
+    "publication_commit": "f641691e95c09729ab39cedfd40508499faff557",
+    "remote_head_at_readback": "f641691e95c09729ab39cedfd40508499faff557",
+    "mode": "single_path_fast_forward_commit",
+    "changed_paths": [
+      "Experiments/fair_v2_oct24/G1/nachtrag_14_h2_fehlwerte.md"
+    ],
+    "remote_bytes_identical": true,
+    "checkout_HEAD_unchanged": true,
+    "shared_staged_paths_unchanged": true,
+    "natural_H2_analysis_started_by_this_task": false
+  },
+  "N14_publication_pin": {
+    "path": "Experiments/fair_v2_oct24/D1/n14_publication.json",
+    "bytes": 744,
+    "sha256": "ecf391af80ad3ad9565e1fbcb0be40070994ab5b0f6d4fc54b7f5c91d2ba837e"
+  },
+  "second_evaluator_core_fraction": 0.25,
+  "second_evaluator_sampling_amendment_pin": {
+    "path": "Experiments/fair_v2_oct24/C4/amendment.json",
+    "bytes": 3715,
+    "sha256": "c34e95a1581320bda1bb467019014999cc6c21a36c339e1c45f23a989293c426"
+  },
+  "natural_outcomes_opened": false,
+  "referenced_binding_files_opened": false
+}

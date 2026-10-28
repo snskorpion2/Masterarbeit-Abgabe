@@ -1,0 +1,586 @@
+{
+  "protocol": "BR2-development-history-evidence-index-v1",
+  "created_UTC": "2026-10-25T17:29:13.074181+00:00",
+  "user_decision": "2026-10-25",
+  "scope": "Pure historical documentation; 2026-10-22 focus decision remains in force",
+  "new_model_calls": 0,
+  "C2_C3_current_outcomes_opened": false,
+  "abbreviations": {
+    "Q": "documented sources/cases, not a common population",
+    "A": "confirmed model requests of the explicitly documented stage, may include controls",
+    "n.b.": "not reliably accounted; never assumed zero"
+  },
+  "entries": [
+    {
+      "id": "BR01",
+      "question": "Rollen abbilden?",
+      "documented_extent": "14/17 Q; 90 A",
+      "observed_result": "Nettonutzen ist unbelegt.",
+      "closure_or_retirement_reason": "Gegenbefunde",
+      "scope_and_evidence_detail": "14 von17 natürlichen Quellen verfügbar;90 physische POST einschließlich Kontrollen, davon3 unbekannte Abschlüsse. Strengster Antwortendpunkt13→15/70; Intervall umfasst negative Effekte, synthetische Regressionen. Keine allgemeine Übernahme.",
+      "evidence": [
+        {
+          "path": "Experiments/results/role_materialization_oct23_v2/completion.json",
+          "bytes": 15437,
+          "sha256": "1ec791e1b0b73f43c51e050fb3b02bb25f35c7f94103eec95e44cd2dec92efb9",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        },
+        {
+          "path": "Experiments/results/role_materialization_followup_oct23_v1/pause-checkpoint.json",
+          "bytes": 42863,
+          "sha256": "0b18a389eaa81a8289ed5fb85a0ed694220a87a1b4be876d99a0d2de3c5a03b9",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR02",
+      "question": "Textaufteilung?",
+      "documented_extent": "4 Q; 264 A",
+      "observed_result": "Ein klarer Gewinner fehlt.",
+      "closure_or_retirement_reason": "Auswahl offen",
+      "scope_and_evidence_detail": "Geschlossene Serie mit4 bekannten Quellen und264 physischen Anfragen; separaten48erPilot nicht addieren. Ursprüngliches Vollgitter F84 blockiert; SMALL verändert Kontext und Budget zugleich. Keine bestätigte allgemeine Segmentierungswahl.",
+      "evidence": [
+        {
+          "path": "withheld-artifact/7433e50cbbdc675e098c",
+          "bytes": 44369,
+          "sha256": "c0199dc32e74fadf5eee0c148ad362ea7346afdc5261a39730458548edbb8e80",
+          "private_external_path": true,
+          "redistribution_approved_by_this_index": false
+        },
+        {
+          "path": "withheld-artifact/7d8063dc001e03e6ae40",
+          "bytes": 3926,
+          "sha256": "3f57644189903dcc9cb0741d1eeea20a9b1bd4483a2d572151933299220cb527",
+          "private_external_path": true,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR03",
+      "question": "Mindestquote?",
+      "documented_extent": "4 Q; 48 A",
+      "observed_result": "Ein Vorteil ist unbelegt.",
+      "closure_or_retirement_reason": "Abgabe",
+      "scope_and_evidence_detail": "Vier Texte und48 frische Konstruktoraufrufe des abgeschlossenen Piloten. Mehr Vorschläge und Redundanz, keine stabile Tokenersparnis; Bestätigungsserie nicht gestartet.",
+      "evidence": [
+        {
+          "path": "Experiments/results/concept_minimum_confirmation_oct24_v1/pause_checkpoint.json",
+          "bytes": 12391,
+          "sha256": "3e0d7f07797181068b53c186d6a70eefaca86e0455311eab42bf6a77e7270b6d",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        },
+        {
+          "path": "Experiments/results/concept_minimum_oct24_v1/result.json",
+          "bytes": 14163,
+          "sha256": "8aaf85dd5318b6598a876c2dbc8a0ff03aac1ce5d3e377e63e247634ca996897",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        },
+        {
+          "path": "Experiments/results/concept_minimum_oct24_v1/net_profile.json",
+          "bytes": 5320,
+          "sha256": "21f57108f047b9a191fffd6fc2f585a658b1e9757fc3e88b4049a0b255f2fa7e",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR04",
+      "question": "Schema-Beispiele?",
+      "documented_extent": "3 Aufg.; 0 A",
+      "observed_result": "Der Vergleich steht aus.",
+      "closure_or_retirement_reason": "Abgabe",
+      "scope_and_evidence_detail": "Drei gebundene Schemaaufgaben vorbereitet; null Variantenaufrufe. Null gilt nur für die Variantenserie, nicht für historische Ausgangsartefakte.",
+      "evidence": [
+        {
+          "path": "withheld-artifact/b21152c3ee2fe3731429",
+          "bytes": 7627,
+          "sha256": "48ef3473490d545a8614d195736afcd9899a2fa411099b3d64cd5b542fbe726e",
+          "private_external_path": true,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR05",
+      "question": "Schemablöcke?",
+      "documented_extent": "4 Q; A n.b.",
+      "observed_result": "Der Tokenbedarf sinkt.",
+      "closure_or_retirement_reason": "Bewerter offen",
+      "scope_and_evidence_detail": "Vier bekannte Quellen,114 primäre Schemaantworten,126 abgeschlossene Providerantworten einschließlich Kontrollen. Physische POST-Attestation unbekannt. Größere Gruppen sparen Tokens, qualifizierte Qualitätsbedingung fehlt.",
+      "evidence": [
+        {
+          "path": "withheld-artifact/20dc3be182541aa868e2",
+          "bytes": 7143,
+          "sha256": "55e19514c2154da49c254bf453a9332dd26cb78e6707823612cbabc51ffd1ebd",
+          "private_external_path": true,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR06",
+      "question": "Konzeptinventar erweitern?",
+      "documented_extent": "6+1 Q; 54 A",
+      "observed_result": "Gewinnen stehen Verluste gegenüber.",
+      "closure_or_retirement_reason": "Kein stabiler Nettonutzen",
+      "scope_and_evidence_detail": "Sechs synthetische Quellen plus Negativkontrolle,54 einzigartige Konstruktoraufrufe. Im bestimmbaren B/C-Vergleich zwei Unterstützungsgewinne und drei Verluste. Keine Übernahme.",
+      "evidence": [
+        {
+          "path": "Experiments/results/growing_concepts_oct24_v1/result.json",
+          "bytes": 21786,
+          "sha256": "9c8b355f1bb57d2853a8b092885c2504d75b8e79b49ace67ab4a8307de7d2d54",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR07",
+      "question": "Konservativ vereinheitlichen?",
+      "documented_extent": "2 Cluster; 314 AS-A",
+      "observed_result": "Der Nutzenvergleich blieb unausgeführt.",
+      "closure_or_retirement_reason": "Abgabe",
+      "scope_and_evidence_detail": "Zwei Quellencluster,314 bestätigte ursprüngliche AS-Schemaaufrufe; natürliche Änderungs- und Readerprüfungen nicht ausgeführt. Baselineschwanz3/4 geschlossen.314 ist kein Aufwand einer geprüften Verbesserungsmethode.",
+      "evidence": [
+        {
+          "path": "Experiments/results/conservative_schema_oct24_v1/pause_readback_20261024.json",
+          "bytes": 1463,
+          "sha256": "efbbc1aae86b580ad0193209b8e74cb928e0f983e19f1f0a446ae171fa3e481d",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR08",
+      "question": "Ereignisbezug?",
+      "documented_extent": "4 Q; A n.b.",
+      "observed_result": "Ein Nutzen ist unbelegt.",
+      "closure_or_retirement_reason": "Abgabe",
+      "scope_and_evidence_detail": "Vier Quellen der CPU-Kandidatendiagnose;57 Kandidaten decken5/14 ausgewählte Paare. Keine natürliche Resolver-/Readerbestätigung;37/75 historische Urteilspositionen fehlen. Gesamtaufrufe nicht belastbar bilanziert.",
+      "evidence": [
+        {
+          "path": "docs/reviews/2026-10-24-ereignisverknuepfung-pausenstand.json",
+          "bytes": 16568,
+          "sha256": "7754c095049a68baae0fe1ae950b15ac70296d0fcb29b1bb7b95936a9c02bc43",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR09",
+      "question": "QA24-Folge?",
+      "documented_extent": "12 Gr.; 9 A",
+      "observed_result": "Eine QA-Auswertung fehlt.",
+      "closure_or_retirement_reason": "ID-Fehler",
+      "scope_and_evidence_detail": "Zwölf Quellgruppen und24Fragen geplant;9POST (5Filter,4Reader),4Fragezellen vollständig. Bekannter duplicate_ids-Fehler. Technischer Fehler ist kein Qualitätsnegativbefund.",
+      "evidence": [
+        {
+          "path": "Experiments/results/event_occurrence_repair_oct23_v1/qa24-v21/QA_OWNER_PAUSE_20261024_v1.json",
+          "bytes": 5600,
+          "sha256": "36ddb0c52fe18b4e637751c79d35e99d8d5337f0f9d295f53cc9f90292fa3dec",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR10",
+      "question": "Neue Quellen?",
+      "documented_extent": "2 gepl.; 0 A",
+      "observed_result": "Neue Quellen fehlen.",
+      "closure_or_retirement_reason": "Beschaffung",
+      "scope_and_evidence_detail": "Zwei Quellen in Vorbereitung, null zugelassene Quellen und null neue Konstruktor-, Reader- oder Bewerteraufrufe dieser Beschaffung. Keine neue empirische Bestätigung.",
+      "evidence": [
+        {
+          "path": "docs/reviews/2026-10-24-roter-faden-pausenstand.json",
+          "bytes": 9406,
+          "sha256": "dff48685fe9ca9d3cf665274bdd667bc1a8c7dd8416986efbbec1ca009077d4e",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR11",
+      "question": "Frühe Facettenprobe?",
+      "documented_extent": "1 Q; 1 A",
+      "observed_result": "Die Gruppe ist ungültig.",
+      "closure_or_retirement_reason": "Zitatfehler",
+      "scope_and_evidence_detail": "Frühe getrennte Stearnsprobe:1bestätigterPOST,12ganzeKandidaten,51Zitate geprüft,3nichtwörtlicheZitate. Formal gültiges JSON ist kein gültiges Urteil. Nicht mit späterem separat qualifiziertem A3d-Guard gleichsetzen.",
+      "evidence": [
+        {
+          "path": "Experiments/results/as_superiority_audit_oct23_v1/v3_structured_probe_readback.json",
+          "bytes": 4732,
+          "sha256": "a65a983fc22cff0c24263a2da104280f7d2c86dba858c2e58e5fa2fc4995cb6e",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR12",
+      "question": "MCQ verorten?",
+      "documented_extent": "1 Q; 6 A",
+      "observed_result": "Antworten sind gleich.",
+      "closure_or_retirement_reason": "Kein Gewinn",
+      "scope_and_evidence_detail": "Ein Singapore-Quelltext, fünf feste Fragen, sechs tatsächliche Leserzüge (drei je Arm).Syntaxpatch stellt14EEObjekte wieder her, ohne Antwort- oder Wahländerung. Nur lokale Diagnose.",
+      "evidence": [
+        {
+          "path": "Experiments/results/source_to_graph_repair_oct24_v1/BERICHT.txt",
+          "bytes": 12377,
+          "sha256": "eaaa4e750fde1caa330a4c272666359d68431306a23ea766e9259cca6a9dee9b",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        },
+        {
+          "path": "Experiments/results/source_to_graph_repair_oct24_v1/summary.json",
+          "bytes": 12553,
+          "sha256": "7376ccea2b9669a7d00b0df8fa290ee760b23ebf842730a2b3b2e4bece35c3ec",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR13",
+      "question": "Alte Prüfer?",
+      "documented_extent": "Q/A n.b.",
+      "observed_result": "Zulassung bleibt offen.",
+      "closure_or_retirement_reason": "Abgabe",
+      "scope_and_evidence_detail": "Gesamtpopulation und Gesamtaufrufe im Pausenbeleg nicht angegeben. Nur die alten Zusatzqualifikationen eingestellt, nicht die später getrennt beauftragten A2/A3/B1-Pakete.",
+      "evidence": [
+        {
+          "path": "Tools/experiments/whole_relation_guard_oct24_v1/pause_checkpoint_oct24_v1.json",
+          "bytes": 916,
+          "sha256": "5d9808f90f4cb601b13c6180bfcf5f2c8e686aff02c02640d45b8851a551ad34",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR14",
+      "question": "Main12-Restbewertung?",
+      "documented_extent": "4252 Pos.; A n.b.",
+      "observed_result": "Eine vollständige Rangfolge fehlt.",
+      "closure_or_retirement_reason": "Budget und Scope",
+      "scope_and_evidence_detail": "4252 feste Aussagepositionen,1208 Anfragepositionen;899 Metadatenversuche,309 nie gestartet. Metadatenversuche sind keine physischen POST. Unbekannte Abschlüsse bleiben unbekannt, keine Wiederholung.",
+      "evidence": [
+        {
+          "path": "Experiments/results/as_superiority_audit_oct23_v1/pause_oct24_v2.json",
+          "bytes": 2832,
+          "sha256": "0215f588d5b01c284f078fd61bf4a52dcb93912fcbc7454761013552a5d3ba8c",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR15",
+      "question": "EV/VV-Erstpass?",
+      "documented_extent": "1 Q+Kont.; 30 A",
+      "observed_result": "Publikationsereignisse fehlen.",
+      "closure_or_retirement_reason": "Keine Übernahme",
+      "scope_and_evidence_detail": "Gemeinsame EV/VV-Erstextraktion, bekannte Stearnsquelle plus synthetische Kontrolle,30 Konstruktoraufrufe. Weniger Erstpasstokens, fehlende Publikationsereignisse. Kein Gesamt-KG-Test. Nicht der aktive gemeinsame Ergänzungspass.",
+      "evidence": [
+        {
+          "path": "Experiments/results/joint_events_oct24_v1/result.json",
+          "bytes": 16622,
+          "sha256": "0115acc3f9edd6ea33ea63c33d594e1cfdfd79728c91ecb885a7eb821b8f9700",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR16",
+      "question": "MINE-Rangfolge?",
+      "documented_extent": "96 Q; A n.b.",
+      "observed_result": "Belege sind lückenhaft.",
+      "closure_or_retirement_reason": "Fokussierung",
+      "scope_and_evidence_detail": "96 gemeinsame Essays. Gesamtmodellaufrufe nicht vollständig bilanziert. Gespeicherte Urteile zeigen bedingte Vorteile; fehlende Rohurteile und Abrufkontexte verhindern vollständige semantische Nachprüfung.",
+      "evidence": [
+        {
+          "path": "Experiments/results/info_preservation/mine1_paired_frame_v1/report.json",
+          "bytes": 10663,
+          "sha256": "58863dbde721d1d9d49621626702f8840308586e9c54ab05c592321b8bef6a65",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        },
+        {
+          "path": "docs/reviews/2026-10-22-kuerzung-fokussierung-abschluss.md",
+          "bytes": 7234,
+          "sha256": "ba4599b32a159994d8e7974fc84fc4cc9857eae63ac9c3012ebeca787ad390ed",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR17",
+      "question": "Konfidenzen?",
+      "documented_extent": "9 Q; A n.b.",
+      "observed_result": "Validierung fehlt.",
+      "closure_or_retirement_reason": "Fokussierung",
+      "scope_and_evidence_detail": "Neun Artikel,2440 eindeutige Schlüssel; historische Gesamtmodellaufrufe nicht bilanziert. Einzelne Silver-Maße verbessern sich, kein positiver Brier-Skill. Keine belastbare externe Kalibrierung.",
+      "evidence": [
+        {
+          "path": "docs/reviews/2026-10-22-kuerzung-fokussierung-abschluss.md",
+          "bytes": 7234,
+          "sha256": "ba4599b32a159994d8e7974fc84fc4cc9857eae63ac9c3012ebeca787ad390ed",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR18",
+      "question": "Unvollständiges Schema D55?",
+      "documented_extent": "16 Q; A n.b.",
+      "observed_result": "Einbrüche sind nicht eindeutig zuordenbar.",
+      "closure_or_retirement_reason": "Fokussierung",
+      "scope_and_evidence_detail": "Sechzehn Länder;128logische Extraktionseinheiten je Konstruktor, keine vollständige physische Aufrufbilanz. Schemaausschluss, weitere Auslassungen und Bewerterfehler nicht isoliert; offene Protokoll-/Ausführungscodebindung.",
+      "evidence": [
+        {
+          "path": "Experiments/results/abschluss_d55_source_field_binding_oct12_v1/summary.json",
+          "bytes": 455,
+          "sha256": "0c1f98bc6d7140ab2be95c9d89786507dfbdbeba4ab0d77f813396ff37acca30",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        },
+        {
+          "path": "docs/reviews/2026-10-22-kuerzung-fokussierung-abschluss.md",
+          "bytes": 7234,
+          "sha256": "ba4599b32a159994d8e7974fc84fc4cc9857eae63ac9c3012ebeca787ad390ed",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR19",
+      "question": "MAVEN-/EV-Ersatz?",
+      "documented_extent": "100 Q; A n.b.",
+      "observed_result": "Der Modelltransfer bleibt uneinheitlich.",
+      "closure_or_retirement_reason": "Fokussierung",
+      "scope_and_evidence_detail": "Bestätigung auf100MAVEN-Arg-Dokumenten. RollenunabhängigesF1verbessert,14BTransfer negativ, Rollenrichtigkeit offen. Kein allgemeiner offener EV-Ersatz. Gesamtaufrufe nicht vollständig bilanziert.",
+      "evidence": [
+        {
+          "path": "Experiments/reports/2026-10-14-offline-evidence-scope-closure.md",
+          "bytes": 15086,
+          "sha256": "862152e5bb1e6363702cb61fd61215db013ffe756b47b934c0c8ae3fc1abe121",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        },
+        {
+          "path": "docs/reviews/2026-10-22-kuerzung-fokussierung-abschluss.md",
+          "bytes": 7234,
+          "sha256": "ba4599b32a159994d8e7974fc84fc4cc9857eae63ac9c3012ebeca787ad390ed",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR20",
+      "question": "250-Fragen-Vergleich?",
+      "documented_extent": "24 Q; 7500 Leser-A",
+      "observed_result": "Frage- und KG-Fenster weichen ab.",
+      "closure_or_retirement_reason": "Fokussierung",
+      "scope_and_evidence_detail": "24Artikel,250Fragen,7500geprüfte tatsächliche Provider-Aufrufzeilen der Antwortstufe. Keine Gesamtpipeline-Aufrufzahl.20vollständigeFragefenster imKGChunk gleicherID,65Fragen ohnegleichenKGChunk. Kein isolierter Generatorvergleich oder semantischer Verlustzähler.",
+      "evidence": [
+        {
+          "path": "Experiments/results/info_preservation/d28_context_alignment_audit_v1/report.json",
+          "bytes": 4955,
+          "sha256": "9033321a8ce414bd6e0cc320808f78d3f3d857bb95a764c9f9364a5f369410c6",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        },
+        {
+          "path": "docs/reviews/2026-10-22-kuerzung-fokussierung-abschluss.md",
+          "bytes": 7234,
+          "sha256": "ba4599b32a159994d8e7974fc84fc4cc9857eae63ac9c3012ebeca787ad390ed",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR21",
+      "question": "WebNLG-Inventar?",
+      "documented_extent": "Q/A n.b.",
+      "observed_result": "Das Relationsangebot begrenzt den Befund.",
+      "closure_or_retirement_reason": "Generalisierbarkeit",
+      "scope_and_evidence_detail": "Referenzabgeleitetes geschlossenes Relationsinventar als eigene Verbesserung zurückgenommen. Keine offene domänenübergreifende KGC-Lösung. Gesamtquellen/Aufrufe im Rücknahmebeleg nicht bilanziert.",
+      "evidence": [
+        {
+          "path": "Experiments/reports/2026-10-12-generalisierbarkeit-ruecknahme.md",
+          "bytes": 4366,
+          "sha256": "39f0d022ce3f754aa875fb113d3f2faa43c53b44733a20e6fdaee1f87ea4fab0",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR22",
+      "question": "Vulkan-Namen?",
+      "documented_extent": "Q/A n.b.",
+      "observed_result": "Feste Wörter steuern die Auswahl.",
+      "closure_or_retirement_reason": "Generalisierbarkeit",
+      "scope_and_evidence_detail": "Vulkanwörter und feste Namenslisten als Auswahlfilter zurückgenommen. Domänen-/Namensabhängigkeit. Gesamtquellen/Aufrufe nicht bilanziert.",
+      "evidence": [
+        {
+          "path": "Experiments/reports/2026-10-12-generalisierbarkeit-ruecknahme.md",
+          "bytes": 4366,
+          "sha256": "39f0d022ce3f754aa875fb113d3f2faa43c53b44733a20e6fdaee1f87ea4fab0",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR23",
+      "question": "Feste Vulkan-Konzepte?",
+      "documented_extent": "Q/A n.b.",
+      "observed_result": "Das Konzeptinventar ist vorgegeben.",
+      "closure_or_retirement_reason": "Generalisierbarkeit",
+      "scope_and_evidence_detail": "Grounding auf feste Vulkanbegriffe und Domaintypfilter zurückgenommen. Keine allgemein belegte Verbesserung der Konzepttypen. Gesamtquellen/Aufrufe nicht bilanziert.",
+      "evidence": [
+        {
+          "path": "Experiments/reports/2026-10-12-generalisierbarkeit-ruecknahme.md",
+          "bytes": 4366,
+          "sha256": "39f0d022ce3f754aa875fb113d3f2faa43c53b44733a20e6fdaee1f87ea4fab0",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR24",
+      "question": "Sprachanker?",
+      "documented_extent": "Q/A n.b.",
+      "observed_result": "Heuristiken beschränken den Kontext.",
+      "closure_or_retirement_reason": "Generalisierbarkeit",
+      "scope_and_evidence_detail": "Sprachspezifische Namens-, Präfix- und Pronomenregeln als aktive allgemeine Verbesserung zurückgenommen. Gesamtquellen/Aufrufe nicht bilanziert.",
+      "evidence": [
+        {
+          "path": "Experiments/reports/2026-10-12-generalisierbarkeit-ruecknahme.md",
+          "bytes": 4366,
+          "sha256": "39f0d022ce3f754aa875fb113d3f2faa43c53b44733a20e6fdaee1f87ea4fab0",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        },
+        {
+          "path": "Experiments/reports/2026-10-12-generalisierbarkeit-folgepruefung.md",
+          "bytes": 10013,
+          "sha256": "85e38480c43438af96b9b2f866a7330a3276c421048ec1bf0dd5ca490543a7c2",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR25",
+      "question": "VV-/Kausalregeln?",
+      "documented_extent": "Q/A n.b.",
+      "observed_result": "Allgemeine Ableitung ist unbelegt.",
+      "closure_or_retirement_reason": "Generalisierbarkeit",
+      "scope_and_evidence_detail": "Geschlossene VV-Typinventare, Goldfenster und datensatzgebundener kausaler Compiler stillgelegt. Kein empirisch belegter allgemeiner Ersatzcompiler. Gesamtquellen/Aufrufe nicht bilanziert.",
+      "evidence": [
+        {
+          "path": "Experiments/reports/2026-10-12-generalisierbarkeit-ruecknahme.md",
+          "bytes": 4366,
+          "sha256": "39f0d022ce3f754aa875fb113d3f2faa43c53b44733a20e6fdaee1f87ea4fab0",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    },
+    {
+      "id": "BR26",
+      "question": "Wörtliche Endpunktbindung?",
+      "documented_extent": "Q/A n.b.",
+      "observed_result": "Wortgleichheit belegt keine Semantik.",
+      "closure_or_retirement_reason": "Generalisierbarkeit",
+      "scope_and_evidence_detail": "Wörtliche Endpunkte im selben Beleg als Voraussetzung semantischer Ereignisbewertung zurückgenommen. Umschreibungen und verteilte Belege können sonst ausgeschlossen werden. Gesamtquellen/Aufrufe nicht bilanziert.",
+      "evidence": [
+        {
+          "path": "Experiments/reports/2026-10-12-generalisierbarkeit-ruecknahme.md",
+          "bytes": 4366,
+          "sha256": "39f0d022ce3f754aa875fb113d3f2faa43c53b44733a20e6fdaee1f87ea4fab0",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        },
+        {
+          "path": "Experiments/reports/2026-10-12-generalisierbarkeit-folgepruefung.md",
+          "bytes": 10013,
+          "sha256": "85e38480c43438af96b9b2f866a7330a3276c421048ec1bf0dd5ca490543a7c2",
+          "private_external_path": false,
+          "redistribution_approved_by_this_index": false
+        }
+      ],
+      "contribution_claim": false,
+      "new_experiment_performed": false
+    }
+  ]
+}

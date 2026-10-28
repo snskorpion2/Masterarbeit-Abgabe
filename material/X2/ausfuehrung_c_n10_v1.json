@@ -1,0 +1,40 @@
+{
+  "protocol": "X2-N10-c-completion-oct25-v1",
+  "status": "descriptive_analysis_complete_on_authorized_partial_C2_end_export",
+  "original_definition_commit": "ceef9b3b3ec8b34b08041c1e52a5f73031873305",
+  "technical_bridge_commit": "0e25d3b0275c35159ae1279da4c64a3bc39d33d7",
+  "both_commits_precede_consumed_C2_export_completion": true,
+  "synthetic_tests_passed": 41,
+  "sources": 24,
+  "source_draw_pairs": 68,
+  "semantic_cells": 272,
+  "per_cell_kind_rows": 816,
+  "interval_families": 9,
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 2026102407,
+  "bootstrap_rng": "PCG64",
+  "marginal_interval_level": 0.95,
+  "Holm": false,
+  "superiority_test": false,
+  "concept_type_correctness_measured": false,
+  "new_provider_calls": 0,
+  "new_independent_audits": 0,
+  "existing_C2_final_audit_passed": true,
+  "full_C2_semantic_population_measurement": false,
+  "original_occurrences": 8682,
+  "valid_C2_occurrences": 6210,
+  "selected_missing_C2_occurrences": 186,
+  "not_selected_C2_occurrences": 2286,
+  "result_pin": {
+    "path": "X2/result_c_n10_v1.json",
+    "bytes": 1083436,
+    "sha256": "c0030de4d92ecc8df70730db5c6e0cb7cefd867c89b609cf7e47e205f92963f7"
+  },
+  "validation": {
+    "all_816_assignment_partitions_reconcile": true,
+    "all_verified_counts_within_fully_measured_counts": true,
+    "frozen_estimands_unchanged": true,
+    "nonselection_and_selected_failure_coverage_separate": true
+  },
+  "scope": "Verified anchoring under partial carrier observation. No expansion of conjunctions, no unbiased true schema quality claim."
+}

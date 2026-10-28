@@ -1,0 +1,925 @@
+{
+  "revision": "Kuerzung und Fokussierung, 22.10.2026",
+  "scope": "existing archival evidence, no new model calls or re-evaluation",
+  "manuscript_reference_aliases": [
+    {
+      "id": "N01",
+      "path": "Experiments/results/aws_empirical_strengthening_oct21_v1/summary-v2.json",
+      "kind": "original_repo_path",
+      "cited_in": []
+    },
+    {
+      "id": "N02",
+      "path": "Experiments/results/local_dominance_v1/manifests/wse_scope_quality_v1/confirmation_h200.json",
+      "kind": "original_repo_path",
+      "cited_in": []
+    },
+    {
+      "id": "N03",
+      "path": "Experiments/results/local_dominance_v1/wse/scope_quality_v1/canonicalization_development/h200_v2/",
+      "kind": "original_repo_path",
+      "cited_in": []
+    },
+    {
+      "id": "N04",
+      "path": "Experiments/wse/ff3_source_matched_natural_v1/",
+      "kind": "original_repo_path",
+      "cited_in": []
+    },
+    {
+      "id": "N05",
+      "path": "Experiments/wse/race_m_transfer_v1/evaluation/diagnosis.md",
+      "kind": "original_repo_path",
+      "cited_in": []
+    },
+    {
+      "id": "N06",
+      "path": "Experiments/wse/race_m_transfer_v1/evaluation/results.json",
+      "kind": "original_repo_path",
+      "cited_in": []
+    },
+    {
+      "id": "N07",
+      "path": "Experiments/wse/scope_occurrence_role_explication_v2/evaluation/",
+      "kind": "original_repo_path",
+      "cited_in": []
+    },
+    {
+      "id": "N08",
+      "path": "Experiments/wse/scope_occurrence_role_explication_v2/evaluation/directionality_check.json",
+      "kind": "original_repo_path",
+      "cited_in": []
+    },
+    {
+      "id": "N09",
+      "path": "Tools/wse/current_multimethod_condition.py",
+      "kind": "original_repo_path",
+      "cited_in": []
+    },
+    {
+      "id": "P-01",
+      "path": "Experiments/fair_comparison_oct23_v1/candidate_selection_v1.json",
+      "kind": "prospective_method_selection",
+      "cited_in": []
+    },
+    {
+      "id": "P-02",
+      "path": "Experiments/results/as_superiority_audit_oct23_v1/qa_three_draw_descriptive_readout_oct24_v1.json",
+      "kind": "completed_QA_descriptive_readout",
+      "cited_in": []
+    },
+    {
+      "id": "P-03",
+      "path": "Experiments/results/as_superiority_audit_oct23_v1/main12_complete_model_stages_effort_checkpoint.json",
+      "kind": "complete_extraction_and_schema_model_stage_effort",
+      "cited_in": []
+    },
+    {
+      "id": "P-04",
+      "path": "Experiments/results/event_identity_oct24_v1/decision.json",
+      "kind": "fixed_output_identity_structure_potential",
+      "cited_in": []
+    },
+    {
+      "id": "P-05",
+      "path": "Experiments/results/as_superiority_audit_oct23_v1/grok65_secondary_descriptive_readout_oct24_v1.json",
+      "kind": "secondary_selected_source_support_review",
+      "cited_in": []
+    },
+    {
+      "id": "P-06",
+      "path": "Experiments/results/event_identity_followup_oct24_v1/result.json",
+      "kind": "automatic_fixed_output_event_reference_probe",
+      "cited_in": []
+    },
+    {
+      "id": "P-07",
+      "path": "Experiments/results/qa24_graph_support_all_sources_oct24_v1/readout.json",
+      "kind": "fixed_QA24_source_local_support_readback",
+      "cited_in": []
+    }
+  ],
+  "paths": [
+    {
+      "path": "Experiments/PROMPTS.md",
+      "exists": true,
+      "type": "file",
+      "bytes": 21890,
+      "sha256": "2b71db0a81fad4e0b0fe2b4387415ddf21305de924a635b9799114ccf17b40f2",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/strict_autoschemakg/grounded_anchors_v4.py",
+      "exists": true,
+      "type": "file",
+      "bytes": 28751,
+      "sha256": "b58f325907d2ccb24aee64ddc1c5b07b963df50283c3413e65a74f23ba6369f4",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/strict_autoschemakg/grounded_methods_pilot_v1.py",
+      "exists": true,
+      "type": "file",
+      "bytes": 23803,
+      "sha256": "00d3d14f60de3f271b14b4794b928306a97c00c1414931f2a71c2dd21312f1d8",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/strict_autoschemakg/grounded_supplement_v2.py",
+      "exists": true,
+      "type": "file",
+      "bytes": 8131,
+      "sha256": "062328226a359a52dc4cb93c59dc7fb4282f6671182a71fcde8e807f043e43e4",
+      "cited_in": []
+    },
+    {
+      "path": "Tools/wse/current_multimethod_condition.py",
+      "exists": true,
+      "type": "file",
+      "bytes": 18611,
+      "sha256": "0c8586a2ff90dff5ae4429b3a1e6a8044cdc729f9553d3f7723eef02c29f986c",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/src/schema_occurrence_v1.py",
+      "exists": true,
+      "type": "file",
+      "bytes": 11709,
+      "sha256": "610f999da884850f045f34fb5342c77181fa7261c01a2361cadb3cd948f0eca0",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/src/information_preservation.py",
+      "exists": true,
+      "type": "file",
+      "bytes": 52304,
+      "sha256": "fcd251405fc00f4c92d1492a75057c9d53fc572e0be1e41f9a4a891a914421cb",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/abschluss_e08_ai_assisted_provenance_oct17_v1/current-provenance.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 5293,
+      "sha256": "09323cbcdd344a9350c36c7bf62627dd96d63d0f58d5631a7b28444cd6ae9726",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/t01_author_frontier_oct19_v1/closure_integration_proposal_v1.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 287221,
+      "sha256": "01287de210612f206c875bca9d7f65d78b6e57e1919265fca321d114a0f216e6",
+      "cited_in": []
+    },
+    {
+      "path": "Tools/abschluss/E01_MEASUREMENT_CONTRACT.md",
+      "exists": true,
+      "type": "file",
+      "bytes": 20970,
+      "sha256": "efebdddd33589a3f55497648087378c1e6e45aa37735ccbbcf4558471ce8e718",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/reports/2026-10-17-e01-api-reviewer-controls.md",
+      "exists": true,
+      "type": "file",
+      "bytes": 16359,
+      "sha256": "ae8456f11ca77e6fc1fa7648331dbbc6047ee18d0b86520c128ed4a7d4a1980f",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/abschluss_e01_control_gate_readback_oct18_v1/readback.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 4662,
+      "sha256": "ce283b63e394937a06969f1d2cb6087c31cd8146f718b76ffb2601d37d7a2f80",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/abschluss_ta_fn_count_isolation_oct20_v1/summary.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 9694,
+      "sha256": "ff52d0ace61ea0ba76f50c5f3f52b2bdefc36efda0fcf93c9672bd57b9bdd1fe",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/autoschema_ladder_oct14_v1/ff2_ff3_scope_confirmation_oct16_v1/native_source_review_histograms_v1/source_group_histograms.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 24969019,
+      "sha256": "1ecca158c5555ff651fc66c868886df3fb4aab1c98b685259d7e4d62ba3d774b",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/autoschema_ladder_oct14_v1/ff2_ff3_scope_confirmation_oct16_v1/interpretation_v1/ee_output_scope_code_readback_v1.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 967385,
+      "sha256": "cc32f8bf3ff0657a830398ae414c1bd171a3a79d5aadacf9b3660f4b37c15b7e",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/t01_ee_ot_content_stability_oct19_v1/",
+      "exists": true,
+      "type": "directory",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/autoschema_ladder_oct14_v1/ff2_ff3_scope_confirmation_oct16_v1/interpretation_v1/scope_dispute_mechanisms_v1.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 54343,
+      "sha256": "95bd995f1f6e919a940dc3aeb0573e8f9d4eea8d764542df7e8b35f62347857c",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/evidence_gap_closure_oct21_v1/ee_natural_transfer_v1.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 40382,
+      "sha256": "e603b4591fca4eb4b57d1e1aabffb5db9c2efb789c3745a5ea21c718b211e246",
+      "cited_in": []
+    },
+    {
+      "path": "Tools/kgc_benchmark/artifacts/multimethod_schema_repair_oct17_v1/GF01-full72-and-broader-evidence-finite-synthesis-oct18-v1.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 231720,
+      "sha256": "cb3e9dc6f579ed9f674c69dc4722870b48d9b31b49aacc6f4af78e6291f9d5bd",
+      "cited_in": []
+    },
+    {
+      "path": "Tools/kgc_benchmark/artifacts/multimethod_schema_repair_oct17_v1/GF01-new72-constructor-source-binding-oct18-v1.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 11970,
+      "sha256": "f7c741d46f7759d73f50b3738517e0243f5bc96e57b5b7fe168bf07e8b469990",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/abschluss_long_window_quality_preparation_oct18_v1/",
+      "exists": true,
+      "type": "directory",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/t01_d9_source_reference_diagnosis_oct20_v1/",
+      "exists": true,
+      "type": "directory",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/t01_d9_llm_reference_matching_oct20_v1/",
+      "exists": true,
+      "type": "directory",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/local_dominance_v1/wse/scope_quality_v1/canonicalization_development/h200_v2/",
+      "exists": true,
+      "type": "directory",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/schema_quality/scope_compression_provenance_v1/results.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 9067,
+      "sha256": "c115072e07316ff0e46607cb7e8b644fc1ae74ae3e25298fe808164a094de8bf",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/schema_quality/scope_compression_provenance_v1/source_ledger.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 260291,
+      "sha256": "cd270ea1915bb41dcd3e359649ce6a9c746e1f94ba70144b5f573c2e6f6a6720",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/local_dominance_v1/evaluator_only/scope_joint16k_relation_component_v1/results.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 129266,
+      "sha256": "d2eed8ebc40b52eca3ea9152f2239446e40118725354eb31f4cd1f8a5315d55c",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/local_dominance_v1/evaluator_only/scope_joint16k_relation_component_v1/source_review.md",
+      "exists": true,
+      "type": "file",
+      "bytes": 41832,
+      "sha256": "74d2b6288190cc61c755f78709571ba714d7f7c3dbe7debd206ec18a4faa7b6a",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/wse/scope_occurrence_role_explication_v2/evaluation/",
+      "exists": true,
+      "type": "directory",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/reports/2026-10-14-gsap-exclusion-case-review.md",
+      "exists": true,
+      "type": "file",
+      "bytes": 15197,
+      "sha256": "56f16b917ad969820a970012d003f47bfc45cf8b0cee97251358981ffba8402c",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/local_dominance_v1/evaluator_only/gsap_verifier_contract_v2/",
+      "exists": true,
+      "type": "directory",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/schema_quality/sq_d19_semantic_cq_v1/report.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 36335,
+      "sha256": "9d679dcbba1e1a9d61215208eb287bb49e32c90b4d6ac97216adc5f987193698",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/evidence_gap_closure_oct21_v1/fictionalqa_historical_recovery_v1.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 11502,
+      "sha256": "e281cb87386ed8392bb74725f08576cac9a366f2cf126d1f4c3a3256c523902f",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/scripts/fictionalqa_empty_at_chance.py",
+      "exists": true,
+      "type": "file",
+      "bytes": 16571,
+      "sha256": "9540ec264d4c2957cb8bcee6df5838c247bc60b8674588ea9452a59d0f3ac0c0",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/info_preservation/fictionalqa_empty_at_chance/",
+      "exists": true,
+      "type": "directory",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/info_preservation/fictionalqa_empty_at_chance_smoke/",
+      "exists": true,
+      "type": "directory",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/wse/ff3_source_matched_natural_v1/",
+      "exists": true,
+      "type": "directory",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/abschluss_ff3_natural_recovery_oct16_v1/",
+      "exists": true,
+      "type": "directory",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/abschluss_empirical_gap_strengthening_oct20_v2/",
+      "exists": true,
+      "type": "directory",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/t01_qa20_graph_support_oct21_v1/diagnostic-sourcefree-v1.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 74412,
+      "sha256": "7a84d507bcee76cd2d26a4227df3d7398965551bad728c6116e0c2d4ab082c14",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/t01_qa20_graph_support_oct21_v1/root_full_inventory_lineage_readback_v1.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 11366,
+      "sha256": "d1822253eef9f0cba58136207dd0136b60dc0a963205fc20316deac8ec5beccd",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/t01_qa20_reader_posthoc_oct21_v1/summary-v1.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 85457,
+      "sha256": "1a8ce8df324c9b7b2123a383ef3323ce71bd5a895eb6f8e2f707af0236cfc942",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/aws_empirical_strengthening_oct21_v1/summary-v2.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 10172,
+      "sha256": "ce4afd9026693df8141ef0db5749f139b233abe85f282978d84926c40434070f",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/wse/race_m_transfer_v1/evaluation/results.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 34477,
+      "sha256": "5f8d3206faf6791dfcddf3c97e6b5d4b555340deb82a1652b0ec019ff1d91f24",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/wse/race_m_transfer_v1/evaluation/diagnosis.md",
+      "exists": true,
+      "type": "file",
+      "bytes": 10347,
+      "sha256": "8594122882c289e5408967737371e8099acd82ba8a2d84cbb337836195ef94ee",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/triple_methods_v1/local_opencode_automatic_oct01_v1/",
+      "exists": true,
+      "type": "directory",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/triple_methods_v1/offline_comparison_oct01_partial_v10/comparison.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 379838,
+      "sha256": "b7dde98d65974e756aa62eb208495a00e013d68ed8ae7e7fa6ca8bc9d905f8fb",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/abschluss_ta_fn_count_isolation_oct20_v1/",
+      "exists": true,
+      "type": "directory",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/triple_accuracy/fn_overlap_factbook_replication_v1/",
+      "exists": true,
+      "type": "directory",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/triple_methods_v1/local_opencode_automatic_oct01_v1/harness/harness_summary.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 531,
+      "sha256": "8ba12397f2223d360332dc4f11f0d3ebb7da97e3fe112f7887a97e41a1a5a3cd",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/results/triple_methods_v1/local_opencode_automatic_oct01_v1/harness/events.jsonl",
+      "exists": true,
+      "type": "file",
+      "bytes": 41231,
+      "sha256": "a65b5d095e7370611c350e6e76289631b85b6ceb7e2492ab2754fba185cbb59f",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/results/triple_methods_v1/local_opencode_automatic_oct01_v1/harness/task_prompt.txt",
+      "exists": true,
+      "type": "file",
+      "bytes": 4100,
+      "sha256": "91277e0e09b54fb7a6943cdcfc8eafcf01782a624a02d21cad42ab6fa9610a05",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/results/triple_methods_v1/local_opencode_automatic_oct01_v1/harness/workspace/input/source_0001.txt",
+      "exists": true,
+      "type": "file",
+      "bytes": 6419,
+      "sha256": "63380da5d92f6922fc57409643e4d624920981ea6f4b7642ab977bfaf787b7eb",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/results/triple_methods_v1/local_opencode_automatic_oct01_v1/harness/workspace/output/triples.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 11442,
+      "sha256": "6ed62f8d0599e333a49ad1396cedcf7586112951b9ccffa8cfb8d653d7efb54e",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/results/triple_methods_v1/local_opencode_automatic_oct01_v1/summary.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 6436,
+      "sha256": "b10ca2874b4c4ae603f565808eae9a347704d0ed6ea42b6ca3489cf15a6f29bb",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/results/abschluss_empirical_gap_strengthening_oct20_v2/qa495_result.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 359632,
+      "sha256": "1e7211c2a3d7110396c949bfb5648072def1166fba170baee648ed22814e4767",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/results/abschluss_empirical_gap_strengthening_oct20_v2/qa495_historical_outcome_diagnostics.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 439690,
+      "sha256": "fea0ed9576a132b6ea116866d5757d5e9cb4141eebc2533c51dd40885a5cb797",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/results/abschluss_empirical_gap_strengthening_oct20_v2/qa495_sourcecorroborated_invalid_bound.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 3666,
+      "sha256": "d8a2d591d9638a12caddf3c12e432d9be7559ed134c318d014e705f8dd4b1782",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/results/abschluss_empirical_gap_strengthening_oct20_v2/qa495_historical_P_request_provenance.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 220786,
+      "sha256": "0113e975b993fb3d9b752197466bbb2dce0965133a95ce951d60feca29fd76c6",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/results/triple_accuracy/fn_overlap_factbook_replication_v1/analysis_report_v6_repaired.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 142830,
+      "sha256": "aa2fae1182323601518774ff490bc5c423ac349e96376601148a865b95590cc7",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/results/abschluss_long_window_quality_preparation_oct18_v1/root_limited_window_closure_verification_oct19_v1.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 6833,
+      "sha256": "b1b3378f94705784d1c074c37ea11a5a9c2d93e0887f968084aef506932c4c9f",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/results/abschluss_long_window_quality_preparation_oct18_v1/limited_full_population_content_closure_oct19_v1.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 155373,
+      "sha256": "0849b24472fd09546d4bb6105d7dbc172bb0dfffffdfccff8685bd38cca60d95",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/results/abschluss_long_window_quality_preparation_oct18_v1/limited_content_literal_stability_and_transport_oct19_v1.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 78252,
+      "sha256": "3c4735a8958ec2db8dd836484353e0fd0f576743567637b9c6146523bd05e841",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/results/triple_methods_v1/local_opencode_automatic_oct01_v1/manifest.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 1490,
+      "sha256": "98f762aa1e414fb88ed9af200b5c472d82e401b4f480ad4351259ea6488a103b",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/results/triple_methods_v1/local_opencode_automatic_oct01_v1/preflight/constructor.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 76605,
+      "sha256": "9f2bc07c13f50f3f94609869a04975a3a784517c327a27e87a64708fa727f07e",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/results/triple_methods_v1/local_opencode_automatic_oct01_v1/session.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 67647,
+      "sha256": "48fc45fdf4483873f574ed168b680209d39e111a937c70ce3e2c5c801e94ff94",
+      "cited_in": [
+        "explicit core artifact verification"
+      ]
+    },
+    {
+      "path": "Experiments/fair_comparison_oct23_v1/candidate_selection_v1.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 5473,
+      "sha256": "d11637c1bb5a90ae42d3360b15cb1b9a444a2ff7da400cc37e4a21c350e1b119",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/as_superiority_audit_oct23_v1/qa_three_draw_descriptive_readout_oct24_v1.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 7581,
+      "sha256": "d7d8a25a596b8d37109c6d3244d3e11931035649b69fa961950a4c23eb81cc84",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/as_superiority_audit_oct23_v1/main12_complete_model_stages_effort_checkpoint.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 25092,
+      "sha256": "293c0b0de599a7cfb70e79f2e1be0f17ab2d311349043aa987cfc3537c0b6238",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/event_identity_oct24_v1/decision.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 2177,
+      "sha256": "b5a47ea41d564f3da885a43fa1cbe47cf6a7ac085ae0f7643866d681c78376b7",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/event_identity_oct24_v1/result.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 118119,
+      "sha256": "c959f247899c9fed0dcfca4a80c396db43f92e896b611fd63be11f0f323ef843",
+      "cited_in": [
+        "P-04 identity pilot evidence"
+      ]
+    },
+    {
+      "path": "Experiments/results/event_identity_oct24_v1/reference.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 61708,
+      "sha256": "c72b0fed539fa1dbc15fe7df48acccc95fcdda2b2e18fe058e2d476fad52ae11",
+      "cited_in": [
+        "P-04 identity pilot evidence"
+      ]
+    },
+    {
+      "path": "Experiments/results/event_identity_oct24_v1/plan.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 5322,
+      "sha256": "54e499c924509e9fff33c82d1ad61a41237a517ab824bfbcb0d56f5b4e0376d0",
+      "cited_in": [
+        "P-04 identity pilot evidence"
+      ]
+    },
+    {
+      "path": "Experiments/results/event_identity_oct24_v1/main_audit.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 17331,
+      "sha256": "7afc51e8dcf01ce20669c864b4fde950b7b3716bca656b77766d476fad0d1044",
+      "cited_in": [
+        "P-04 identity pilot evidence"
+      ]
+    },
+    {
+      "path": "Experiments/results/event_identity_oct24_v1/verification.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 1733,
+      "sha256": "7b0a757b9ac9fb727015616a9d6fa96f6f5ea7e586f3a290cfba35d3b75d8fff",
+      "cited_in": [
+        "P-04 identity pilot evidence"
+      ]
+    },
+    {
+      "path": "Experiments/results/as_superiority_audit_oct23_v1/grok65_secondary_descriptive_readout_oct24_v1.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 6017,
+      "sha256": "f7af0d2120aecefb06e9ecad922139d4b3111fbdd78becc991eba2fb6a36fa38",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/event_identity_followup_oct24_v1/result.json",
+      "bytes": 190642,
+      "sha256": "3c36b246bc00a78b28822d711888c3c8f775de28445b4ca75e3ed03424c3babb",
+      "exists": true,
+      "type": "file",
+      "cited_in": [
+        "P-06 automatic reference study"
+      ]
+    },
+    {
+      "path": "Experiments/results/event_identity_followup_oct24_v1/decision.json",
+      "bytes": 2168,
+      "sha256": "83913a0e1bc5d909cce1c96591fa7006c817cc38d8e0ee90f2f8935082765444",
+      "exists": true,
+      "type": "file",
+      "cited_in": [
+        "P-06 automatic reference study"
+      ]
+    },
+    {
+      "path": "Experiments/results/event_identity_followup_oct24_v1/verification.json",
+      "bytes": 4968,
+      "sha256": "462ae1a2dd339931edbffd61eb9f5041a7a0f0cb924a889ba246899de7f805c6",
+      "exists": true,
+      "type": "file",
+      "cited_in": [
+        "P-06 automatic reference study"
+      ]
+    },
+    {
+      "path": "Experiments/results/event_identity_followup_oct24_v1/BERICHT.txt",
+      "bytes": 5555,
+      "sha256": "fc5a82c2eb822a3791c0e7dc18050598800c351da9d219d21a5ce60b26f9fa4d",
+      "exists": true,
+      "type": "file",
+      "cited_in": [
+        "P-06 automatic reference study"
+      ]
+    },
+    {
+      "path": "Tools/experiments/event_identity_followup_oct24_v1/main_reference.json",
+      "bytes": 351573,
+      "sha256": "7a01f0e7b39b12513dd70158fd08a91ca2e1fa06fc9f05fb88aab72cd01f724e",
+      "exists": true,
+      "type": "file",
+      "cited_in": [
+        "P-06 automatic reference study"
+      ]
+    },
+    {
+      "path": "Tools/experiments/event_identity_followup_oct24_v1/transfer_reference.json",
+      "bytes": 43024,
+      "sha256": "c988f86ff19f88272f568bd8544324e12de141c9c779f8f3a49f718f07a3129c",
+      "exists": true,
+      "type": "file",
+      "cited_in": [
+        "P-06 automatic reference study"
+      ]
+    },
+    {
+      "path": "Tools/experiments/event_identity_followup_oct24_v1/query_reference.json",
+      "bytes": 41565,
+      "sha256": "bf972b4d4bbf71d8d5f5278341de4fedc9d6683eb8cc850a36e3dff8a5918910",
+      "exists": true,
+      "type": "file",
+      "cited_in": [
+        "P-06 automatic reference study"
+      ]
+    },
+    {
+      "path": "Experiments/results/qa24_graph_support_all_sources_oct24_v1/BERICHT.md",
+      "bytes": 10325,
+      "sha256": "46d6df655944b1d2d927a66753323eac7b2e45b04326d4ac10fcf07bba9c2b05",
+      "exists": true,
+      "type": "file",
+      "cited_in": [
+        "P-07 selected QA24 source support"
+      ]
+    },
+    {
+      "path": "Experiments/results/qa24_graph_support_all_sources_oct24_v1/build_readout.py",
+      "bytes": 35833,
+      "sha256": "df7221bc3844f0ca5e607b93852adbb21ea9f251928110386c08f2c1ffbec5a4",
+      "exists": true,
+      "type": "file",
+      "cited_in": [
+        "P-07 selected QA24 source support"
+      ]
+    },
+    {
+      "path": "Experiments/results/qa24_graph_support_all_sources_oct24_v1/document_comparison.csv",
+      "bytes": 1522,
+      "sha256": "dbdf881a28f42915727add1302752037920d5bd5def6b737f33e184d9b106a62",
+      "exists": true,
+      "type": "file",
+      "cited_in": [
+        "P-07 selected QA24 source support"
+      ]
+    },
+    {
+      "path": "Experiments/results/qa24_graph_support_all_sources_oct24_v1/question_graph_comparison.csv",
+      "bytes": 21001,
+      "sha256": "be635243290e01e625c35d4ad73967c326043e7f10929d826e8aedc222738759",
+      "exists": true,
+      "type": "file",
+      "cited_in": [
+        "P-07 selected QA24 source support"
+      ]
+    },
+    {
+      "path": "Experiments/results/qa24_graph_support_all_sources_oct24_v1/readout.json",
+      "bytes": 488443,
+      "sha256": "cdbbdcdc62045220af47fa284812337dc1442b46d7a140255db5a95fbbb3ddac",
+      "exists": true,
+      "type": "file",
+      "cited_in": [
+        "P-07 selected QA24 source support"
+      ]
+    },
+    {
+      "path": "Z2/zahlen.md",
+      "exists": true,
+      "type": "file",
+      "bytes": 178219,
+      "sha256": "5bdf7dbd732dd3d0e0e154f7ed59f98abb68db81deb31e4f0c6107820f188c14",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/stability/atom_stability_llama-4-scout-17b-16e-instruct.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 4152,
+      "sha256": "9a3ab6da2e02d780bffd46fc90607f5708e0e41e365e10fcf729c0a7190bd845",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/stability/atom_stability_llama-4-scout-17b-16e-instruct_t00.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 4441,
+      "sha256": "32f95427315924535b5a949cc30f27f82661c1f6978330d89c45c4552d45f79a",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/schema_quality/quantitative_mmlu_d2/summary.json",
+      "exists": true,
+      "type": "file",
+      "bytes": 957347,
+      "sha256": "53888251f12c96de3686e592c8dd599e2d67078ddd62ceda75e3471548eddd03",
+      "cited_in": []
+    },
+    {
+      "path": "Experiments/results/schema_quality/quantitative_mmlu_d2/item_diagnostics.csv",
+      "exists": true,
+      "type": "file",
+      "bytes": 273032,
+      "sha256": "e6c49296543c96ac642e80aef0bc7dafe450b3a14424a4ed67b76d1916cc2e98",
+      "cited_in": []
+    }
+  ],
+  "known_limits": [
+    "E01 private temporary raw wire directories no longer exist",
+    "FictionalQA historical complete download bytes and executed script hash not bound",
+    "QA20 selected inventory lineage does not identify constructor raw responses",
+    "Unconfirmed A/B calls and missing assisted/provider usage remain unknown",
+    "Z2 K6-038: No stored calculation or resampling contract was found for the historical 95% gain intervals ALL [+0.20;+0.29] and VV [+0.08;+0.23]. These intervals were removed from the manuscript. Existing point estimates are retained. No new interval calculation was performed.",
+    "Z2 K6-058: No saved result was found for BS-C 0.9221 on the 190 nonoverlapping cases. This value was removed from the manuscript. BS-R 0.8945 on 190 cases remains supported by Z2 K6-057. The 200-case D2 summary is not evidence for 190-case BS-C."
+  ],
+  "interpretation": "Path existence and byte hashes document available archival evidence. They do not establish semantic correctness, complete cost accounting, human gold annotation or public redistribution rights. Missing original components remain missing.",
+  "manuscript_binding": "Automatic identity study and net-benefit rule integration: docs/reviews/2026-10-24-automatische-identitaet-nettonutzen-miro-manuskript.json. Earlier dated bindings remain historical records.",
+  "current_pipeline_selection": {
+    "evidence_id": "P-01",
+    "candidate_id": "AS_SCOPE_JOINT_ROW_V1",
+    "selection_date": "2026-10-23",
+    "selection_before_main_outcome_readback": true,
+    "overall_superiority_established": false,
+    "scope": "One selected current own construction path; historical component comparisons remain separate evidence."
+  },
+  "active_comparison_evidence_index": {
+    "id": "V2-NACHWEISINDEX-2026-10-25",
+    "path": "docs/nachweisindex-v2.json",
+    "bytes": 28264,
+    "sha256": "e81f5954416278a5b384e9eac3dc9e49b7f12e9d2ca62a4dc374ce2599b8b1dd",
+    "neutral_reference_ids": [
+      "V2-01",
+      "V2-02",
+      "V2-03",
+      "V2-04",
+      "V2-05",
+      "V2-06",
+      "V2-07",
+      "V2-08",
+      "V2-09",
+      "V2-10",
+      "V2-11",
+      "V2-12"
+    ],
+    "scope": "V2-Nachtrag. Historische Einträge und V1-Auswahl unverändert erhalten. Keine öffentliche Lieferauswahl oder Ergebnisfreigabe."
+  }
+}

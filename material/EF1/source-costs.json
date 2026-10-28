@@ -1,0 +1,2754 @@
+[
+  {
+    "source_id": "RGCONF01",
+    "arm": "AS",
+    "cost_usd": null,
+    "known_cost_lower_bound_usd": 0.0757945,
+    "cost_complete": false,
+    "prompt_tokens": 92636.0,
+    "completion_tokens": 3263.0,
+    "construction_prompt_tokens": 92636.0,
+    "construction_completion_tokens": 3263.0,
+    "call_count": 271.0,
+    "calls_known_subtotal": 271.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2"
+    ],
+    "stage_coverage": false,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 271,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "RGCONF01",
+    "arm": "AS+G",
+    "cost_usd": null,
+    "known_cost_lower_bound_usd": 0.25424722,
+    "cost_complete": false,
+    "prompt_tokens": 170352.0,
+    "completion_tokens": 37290.0,
+    "construction_prompt_tokens": 92636.0,
+    "construction_completion_tokens": 3263.0,
+    "call_count": 280.0,
+    "calls_known_subtotal": 280.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2"
+    ],
+    "stage_coverage": false,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 271,
+    "guard_receipt_count": 9
+  },
+  {
+    "source_id": "RGCONF01",
+    "arm": "V1",
+    "cost_usd": null,
+    "known_cost_lower_bound_usd": 0.10562316,
+    "cost_complete": false,
+    "prompt_tokens": 129837.0,
+    "completion_tokens": 4299.0,
+    "construction_prompt_tokens": 129837.0,
+    "construction_completion_tokens": 4299.0,
+    "call_count": 370.0,
+    "calls_known_subtotal": 370.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2"
+    ],
+    "stage_coverage": false,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 370,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "RGCONF01",
+    "arm": "V2",
+    "cost_usd": null,
+    "known_cost_lower_bound_usd": 0.26963124,
+    "cost_complete": false,
+    "prompt_tokens": 208996.0,
+    "completion_tokens": 34025.0,
+    "construction_prompt_tokens": 129837.0,
+    "construction_completion_tokens": 4299.0,
+    "call_count": 378.0,
+    "calls_known_subtotal": 378.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2"
+    ],
+    "stage_coverage": false,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 370,
+    "guard_receipt_count": 8
+  },
+  {
+    "source_id": "RGCONF02",
+    "arm": "AS",
+    "cost_usd": null,
+    "known_cost_lower_bound_usd": 0.03990154,
+    "cost_complete": false,
+    "prompt_tokens": 49142.0,
+    "completion_tokens": 1593.0,
+    "construction_prompt_tokens": 49142.0,
+    "construction_completion_tokens": 1593.0,
+    "call_count": 141.0,
+    "calls_known_subtotal": 141.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2"
+    ],
+    "stage_coverage": false,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 141,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "RGCONF02",
+    "arm": "AS+G",
+    "cost_usd": null,
+    "known_cost_lower_bound_usd": 0.14356498,
+    "cost_complete": false,
+    "prompt_tokens": 80654.0,
+    "completion_tokens": 24086.0,
+    "construction_prompt_tokens": 49142.0,
+    "construction_completion_tokens": 1593.0,
+    "call_count": 147.0,
+    "calls_known_subtotal": 147.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2"
+    ],
+    "stage_coverage": false,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 141,
+    "guard_receipt_count": 6
+  },
+  {
+    "source_id": "RGCONF02",
+    "arm": "V1",
+    "cost_usd": null,
+    "known_cost_lower_bound_usd": 0.04883852,
+    "cost_complete": false,
+    "prompt_tokens": 60490.0,
+    "completion_tokens": 1836.0,
+    "construction_prompt_tokens": 60490.0,
+    "construction_completion_tokens": 1836.0,
+    "call_count": 166.0,
+    "calls_known_subtotal": 166.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2"
+    ],
+    "stage_coverage": false,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 166,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "RGCONF02",
+    "arm": "V2",
+    "cost_usd": null,
+    "known_cost_lower_bound_usd": 0.1483814,
+    "cost_complete": false,
+    "prompt_tokens": 92414.0,
+    "completion_tokens": 23102.0,
+    "construction_prompt_tokens": 60490.0,
+    "construction_completion_tokens": 1836.0,
+    "call_count": 172.0,
+    "calls_known_subtotal": 172.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2"
+    ],
+    "stage_coverage": false,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 166,
+    "guard_receipt_count": 6
+  },
+  {
+    "source_id": "RGCONF03",
+    "arm": "AS",
+    "cost_usd": null,
+    "known_cost_lower_bound_usd": 0.02075552,
+    "cost_complete": false,
+    "prompt_tokens": 25240.0,
+    "completion_tokens": 936.0,
+    "construction_prompt_tokens": 25240.0,
+    "construction_completion_tokens": 936.0,
+    "call_count": 82.0,
+    "calls_known_subtotal": 82.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2"
+    ],
+    "stage_coverage": false,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 82,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "RGCONF03",
+    "arm": "AS+G",
+    "cost_usd": null,
+    "known_cost_lower_bound_usd": 0.07989848,
+    "cost_complete": false,
+    "prompt_tokens": 45258.0,
+    "completion_tokens": 13361.0,
+    "construction_prompt_tokens": 25240.0,
+    "construction_completion_tokens": 936.0,
+    "call_count": 86.0,
+    "calls_known_subtotal": 86.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2"
+    ],
+    "stage_coverage": false,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 82,
+    "guard_receipt_count": 4
+  },
+  {
+    "source_id": "RGCONF03",
+    "arm": "V1",
+    "cost_usd": null,
+    "known_cost_lower_bound_usd": 0.06854028,
+    "cost_complete": false,
+    "prompt_tokens": 83409.0,
+    "completion_tokens": 3071.0,
+    "construction_prompt_tokens": 83409.0,
+    "construction_completion_tokens": 3071.0,
+    "call_count": 267.0,
+    "calls_known_subtotal": 267.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2"
+    ],
+    "stage_coverage": false,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 267,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "RGCONF03",
+    "arm": "V2",
+    "cost_usd": null,
+    "known_cost_lower_bound_usd": 0.2633442,
+    "cost_complete": false,
+    "prompt_tokens": 190115.0,
+    "completion_tokens": 35842.0,
+    "construction_prompt_tokens": 83409.0,
+    "construction_completion_tokens": 3071.0,
+    "call_count": 277.0,
+    "calls_known_subtotal": 277.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2"
+    ],
+    "stage_coverage": false,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 267,
+    "guard_receipt_count": 10
+  },
+  {
+    "source_id": "RGCONF04",
+    "arm": "AS",
+    "cost_usd": null,
+    "known_cost_lower_bound_usd": 0.01506714,
+    "cost_complete": false,
+    "prompt_tokens": 18441.0,
+    "completion_tokens": 640.0,
+    "construction_prompt_tokens": 18441.0,
+    "construction_completion_tokens": 640.0,
+    "call_count": 57.0,
+    "calls_known_subtotal": 57.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2"
+    ],
+    "stage_coverage": false,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 57,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "RGCONF04",
+    "arm": "AS+G",
+    "cost_usd": null,
+    "known_cost_lower_bound_usd": 0.0506085,
+    "cost_complete": false,
+    "prompt_tokens": 29804.0,
+    "completion_tokens": 8240.0,
+    "construction_prompt_tokens": 18441.0,
+    "construction_completion_tokens": 640.0,
+    "call_count": 60.0,
+    "calls_known_subtotal": 60.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2"
+    ],
+    "stage_coverage": false,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 57,
+    "guard_receipt_count": 3
+  },
+  {
+    "source_id": "RGCONF04",
+    "arm": "V1",
+    "cost_usd": null,
+    "known_cost_lower_bound_usd": 0.02547968,
+    "cost_complete": false,
+    "prompt_tokens": 31258.0,
+    "completion_tokens": 1058.0,
+    "construction_prompt_tokens": 31258.0,
+    "construction_completion_tokens": 1058.0,
+    "call_count": 94.0,
+    "calls_known_subtotal": 94.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2"
+    ],
+    "stage_coverage": false,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 94,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "RGCONF04",
+    "arm": "V2",
+    "cost_usd": null,
+    "known_cost_lower_bound_usd": 0.06848168,
+    "cost_complete": false,
+    "prompt_tokens": 45128.0,
+    "completion_tokens": 10229.0,
+    "construction_prompt_tokens": 31258.0,
+    "construction_completion_tokens": 1058.0,
+    "call_count": 97.0,
+    "calls_known_subtotal": 97.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2"
+    ],
+    "stage_coverage": false,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 94,
+    "guard_receipt_count": 3
+  },
+  {
+    "source_id": "A4-W01",
+    "arm": "AS",
+    "cost_usd": 0.11195016,
+    "known_cost_lower_bound_usd": 0.11195016,
+    "cost_complete": true,
+    "prompt_tokens": 111237.0,
+    "completion_tokens": 13349.0,
+    "construction_prompt_tokens": 111237.0,
+    "construction_completion_tokens": 13349.0,
+    "call_count": 337.0,
+    "calls_known_subtotal": 337.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 337,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W01",
+    "arm": "AS+G",
+    "cost_usd": 0.34446552,
+    "known_cost_lower_bound_usd": 0.34446552,
+    "cost_complete": true,
+    "prompt_tokens": 208380.0,
+    "completion_tokens": 58508.0,
+    "construction_prompt_tokens": 111237.0,
+    "construction_completion_tokens": 13349.0,
+    "call_count": 348.0,
+    "calls_known_subtotal": 348.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 337,
+    "guard_receipt_count": 11
+  },
+  {
+    "source_id": "A4-W01",
+    "arm": "V1",
+    "cost_usd": 0.14621142,
+    "known_cost_lower_bound_usd": 0.14621142,
+    "cost_complete": true,
+    "prompt_tokens": 152010.0,
+    "completion_tokens": 15191.0,
+    "construction_prompt_tokens": 152010.0,
+    "construction_completion_tokens": 15191.0,
+    "call_count": 408.0,
+    "calls_known_subtotal": 408.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 408,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W01",
+    "arm": "V2",
+    "cost_usd": 0.43522734,
+    "known_cost_lower_bound_usd": 0.43522734,
+    "cost_complete": true,
+    "prompt_tokens": 286826.0,
+    "completion_tokens": 68510.0,
+    "construction_prompt_tokens": 152010.0,
+    "construction_completion_tokens": 15191.0,
+    "call_count": 422.0,
+    "calls_known_subtotal": 422.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 408,
+    "guard_receipt_count": 14
+  },
+  {
+    "source_id": "A4-W02",
+    "arm": "AS",
+    "cost_usd": 0.15423672,
+    "known_cost_lower_bound_usd": 0.15423672,
+    "cost_complete": true,
+    "prompt_tokens": 162162.0,
+    "completion_tokens": 15422.0,
+    "construction_prompt_tokens": 162162.0,
+    "construction_completion_tokens": 15422.0,
+    "call_count": 456.0,
+    "calls_known_subtotal": 456.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 456,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W02",
+    "arm": "AS+G",
+    "cost_usd": 0.44833728,
+    "known_cost_lower_bound_usd": 0.44833728,
+    "cost_complete": true,
+    "prompt_tokens": 294575.0,
+    "completion_tokens": 70634.0,
+    "construction_prompt_tokens": 162162.0,
+    "construction_completion_tokens": 15422.0,
+    "call_count": 470.0,
+    "calls_known_subtotal": 470.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 456,
+    "guard_receipt_count": 14
+  },
+  {
+    "source_id": "A4-W02",
+    "arm": "V1",
+    "cost_usd": 0.19402578,
+    "known_cost_lower_bound_usd": 0.19402578,
+    "cost_complete": true,
+    "prompt_tokens": 206076.0,
+    "completion_tokens": 18707.0,
+    "construction_prompt_tokens": 206076.0,
+    "construction_completion_tokens": 18707.0,
+    "call_count": 537.0,
+    "calls_known_subtotal": 537.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 537,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W02",
+    "arm": "V2",
+    "cost_usd": 0.52326018,
+    "known_cost_lower_bound_usd": 0.52326018,
+    "cost_complete": true,
+    "prompt_tokens": 373476.0,
+    "completion_tokens": 76681.0,
+    "construction_prompt_tokens": 206076.0,
+    "construction_completion_tokens": 18707.0,
+    "call_count": 552.0,
+    "calls_known_subtotal": 552.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 537,
+    "guard_receipt_count": 15
+  },
+  {
+    "source_id": "A4-W03",
+    "arm": "AS",
+    "cost_usd": 0.06332624,
+    "known_cost_lower_bound_usd": 0.06332624,
+    "cost_complete": true,
+    "prompt_tokens": 62917.0,
+    "completion_tokens": 7553.0,
+    "construction_prompt_tokens": 62917.0,
+    "construction_completion_tokens": 7553.0,
+    "call_count": 190.0,
+    "calls_known_subtotal": 190.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 190,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W03",
+    "arm": "AS+G",
+    "cost_usd": 0.22900544,
+    "known_cost_lower_bound_usd": 0.22900544,
+    "cost_complete": true,
+    "prompt_tokens": 119472.0,
+    "completion_tokens": 42264.0,
+    "construction_prompt_tokens": 62917.0,
+    "construction_completion_tokens": 7553.0,
+    "call_count": 199.0,
+    "calls_known_subtotal": 199.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 190,
+    "guard_receipt_count": 9
+  },
+  {
+    "source_id": "A4-W03",
+    "arm": "V1",
+    "cost_usd": 0.11972016,
+    "known_cost_lower_bound_usd": 0.11972016,
+    "cost_complete": true,
+    "prompt_tokens": 121305.0,
+    "completion_tokens": 13493.0,
+    "construction_prompt_tokens": 121305.0,
+    "construction_completion_tokens": 13493.0,
+    "call_count": 330.0,
+    "calls_known_subtotal": 330.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 330,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W03",
+    "arm": "V2",
+    "cost_usd": 0.3931236,
+    "known_cost_lower_bound_usd": 0.3931236,
+    "cost_complete": true,
+    "prompt_tokens": 238492.0,
+    "completion_tokens": 66001.0,
+    "construction_prompt_tokens": 121305.0,
+    "construction_completion_tokens": 13493.0,
+    "call_count": 343.0,
+    "calls_known_subtotal": 343.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 330,
+    "guard_receipt_count": 13
+  },
+  {
+    "source_id": "A4-W04",
+    "arm": "AS",
+    "cost_usd": 0.14128006,
+    "known_cost_lower_bound_usd": 0.14128006,
+    "cost_complete": true,
+    "prompt_tokens": 147398.0,
+    "completion_tokens": 14507.0,
+    "construction_prompt_tokens": 147398.0,
+    "construction_completion_tokens": 14507.0,
+    "call_count": 404.0,
+    "calls_known_subtotal": 404.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 404,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W04",
+    "arm": "AS+G",
+    "cost_usd": 0.43051846,
+    "known_cost_lower_bound_usd": 0.43051846,
+    "cost_complete": true,
+    "prompt_tokens": 280008.0,
+    "completion_tokens": 68329.0,
+    "construction_prompt_tokens": 147398.0,
+    "construction_completion_tokens": 14507.0,
+    "call_count": 418.0,
+    "calls_known_subtotal": 418.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 404,
+    "guard_receipt_count": 14
+  },
+  {
+    "source_id": "A4-W04",
+    "arm": "V1",
+    "cost_usd": 0.15139882,
+    "known_cost_lower_bound_usd": 0.15139882,
+    "cost_complete": true,
+    "prompt_tokens": 161660.0,
+    "completion_tokens": 14311.0,
+    "construction_prompt_tokens": 161660.0,
+    "construction_completion_tokens": 14311.0,
+    "call_count": 396.0,
+    "calls_known_subtotal": 396.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 396,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W04",
+    "arm": "V2",
+    "cost_usd": 0.41491378,
+    "known_cost_lower_bound_usd": 0.41491378,
+    "cost_complete": true,
+    "prompt_tokens": 282703.0,
+    "completion_tokens": 63301.0,
+    "construction_prompt_tokens": 161660.0,
+    "construction_completion_tokens": 14311.0,
+    "call_count": 409.0,
+    "calls_known_subtotal": 409.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 396,
+    "guard_receipt_count": 13
+  },
+  {
+    "source_id": "A4-W05",
+    "arm": "AS",
+    "cost_usd": 0.12801852,
+    "known_cost_lower_bound_usd": 0.12801852,
+    "cost_complete": true,
+    "prompt_tokens": 139203.0,
+    "completion_tokens": 11265.0,
+    "construction_prompt_tokens": 139203.0,
+    "construction_completion_tokens": 11265.0,
+    "call_count": 388.0,
+    "calls_known_subtotal": 388.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 388,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W05",
+    "arm": "AS+G",
+    "cost_usd": 0.36407052,
+    "known_cost_lower_bound_usd": 0.36407052,
+    "cost_complete": true,
+    "prompt_tokens": 237068.0,
+    "completion_tokens": 57262.0,
+    "construction_prompt_tokens": 139203.0,
+    "construction_completion_tokens": 11265.0,
+    "call_count": 401.0,
+    "calls_known_subtotal": 401.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 388,
+    "guard_receipt_count": 13
+  },
+  {
+    "source_id": "A4-W05",
+    "arm": "V1",
+    "cost_usd": 0.1822916,
+    "known_cost_lower_bound_usd": 0.1822916,
+    "cost_complete": true,
+    "prompt_tokens": 194686.0,
+    "completion_tokens": 17218.0,
+    "construction_prompt_tokens": 194686.0,
+    "construction_completion_tokens": 17218.0,
+    "call_count": 509.0,
+    "calls_known_subtotal": 509.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 509,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W05",
+    "arm": "V2",
+    "cost_usd": 0.50471192,
+    "known_cost_lower_bound_usd": 0.50471192,
+    "cost_complete": true,
+    "prompt_tokens": 348072.0,
+    "completion_tokens": 76102.0,
+    "construction_prompt_tokens": 194686.0,
+    "construction_completion_tokens": 17218.0,
+    "call_count": 524.0,
+    "calls_known_subtotal": 524.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 509,
+    "guard_receipt_count": 15
+  },
+  {
+    "source_id": "A4-W06",
+    "arm": "AS",
+    "cost_usd": 0.13232532,
+    "known_cost_lower_bound_usd": 0.13232532,
+    "cost_complete": true,
+    "prompt_tokens": 142005.0,
+    "completion_tokens": 12271.0,
+    "construction_prompt_tokens": 142005.0,
+    "construction_completion_tokens": 12271.0,
+    "call_count": 395.0,
+    "calls_known_subtotal": 395.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 395,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W06",
+    "arm": "AS+G",
+    "cost_usd": 0.32121876,
+    "known_cost_lower_bound_usd": 0.32121876,
+    "cost_complete": true,
+    "prompt_tokens": 210182.0,
+    "completion_tokens": 51106.0,
+    "construction_prompt_tokens": 142005.0,
+    "construction_completion_tokens": 12271.0,
+    "call_count": 404.0,
+    "calls_known_subtotal": 404.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 395,
+    "guard_receipt_count": 9
+  },
+  {
+    "source_id": "A4-W06",
+    "arm": "V1",
+    "cost_usd": 0.18572076,
+    "known_cost_lower_bound_usd": 0.18572076,
+    "cost_complete": true,
+    "prompt_tokens": 197988.0,
+    "completion_tokens": 17662.0,
+    "construction_prompt_tokens": 197988.0,
+    "construction_completion_tokens": 17662.0,
+    "call_count": 519.0,
+    "calls_known_subtotal": 519.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 519,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W06",
+    "arm": "V2",
+    "cost_usd": 0.51310116,
+    "known_cost_lower_bound_usd": 0.51310116,
+    "cost_complete": true,
+    "prompt_tokens": 350418.0,
+    "completion_tokens": 78115.0,
+    "construction_prompt_tokens": 197988.0,
+    "construction_completion_tokens": 17662.0,
+    "call_count": 534.0,
+    "calls_known_subtotal": 534.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 519,
+    "guard_receipt_count": 15
+  },
+  {
+    "source_id": "A4-W07",
+    "arm": "AS",
+    "cost_usd": 0.10250406,
+    "known_cost_lower_bound_usd": 0.10250406,
+    "cost_complete": true,
+    "prompt_tokens": 108177.0,
+    "completion_tokens": 10114.0,
+    "construction_prompt_tokens": 108177.0,
+    "construction_completion_tokens": 10114.0,
+    "call_count": 307.0,
+    "calls_known_subtotal": 307.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 307,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W07",
+    "arm": "AS+G",
+    "cost_usd": 0.3080835,
+    "known_cost_lower_bound_usd": 0.3080835,
+    "cost_complete": true,
+    "prompt_tokens": 181994.0,
+    "completion_tokens": 52456.0,
+    "construction_prompt_tokens": 108177.0,
+    "construction_completion_tokens": 10114.0,
+    "call_count": 318.0,
+    "calls_known_subtotal": 318.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 307,
+    "guard_receipt_count": 11
+  },
+  {
+    "source_id": "A4-W07",
+    "arm": "V1",
+    "cost_usd": 0.11860572,
+    "known_cost_lower_bound_usd": 0.11860572,
+    "cost_complete": true,
+    "prompt_tokens": 127260.0,
+    "completion_tokens": 11006.0,
+    "construction_prompt_tokens": 127260.0,
+    "construction_completion_tokens": 11006.0,
+    "call_count": 342.0,
+    "calls_known_subtotal": 342.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 342,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W07",
+    "arm": "V2",
+    "cost_usd": 0.32088036,
+    "known_cost_lower_bound_usd": 0.32088036,
+    "cost_complete": true,
+    "prompt_tokens": 199442.0,
+    "completion_tokens": 52757.0,
+    "construction_prompt_tokens": 127260.0,
+    "construction_completion_tokens": 11006.0,
+    "call_count": 352.0,
+    "calls_known_subtotal": 352.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 342,
+    "guard_receipt_count": 10
+  },
+  {
+    "source_id": "A4-W08",
+    "arm": "AS",
+    "cost_usd": 0.08223842,
+    "known_cost_lower_bound_usd": 0.08223842,
+    "cost_complete": true,
+    "prompt_tokens": 87256.0,
+    "completion_tokens": 7959.0,
+    "construction_prompt_tokens": 87256.0,
+    "construction_completion_tokens": 7959.0,
+    "call_count": 249.0,
+    "calls_known_subtotal": 249.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 249,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W08",
+    "arm": "AS+G",
+    "cost_usd": 0.24661082,
+    "known_cost_lower_bound_usd": 0.24661082,
+    "cost_complete": true,
+    "prompt_tokens": 144836.0,
+    "completion_tokens": 42102.0,
+    "construction_prompt_tokens": 87256.0,
+    "construction_completion_tokens": 7959.0,
+    "call_count": 259.0,
+    "calls_known_subtotal": 259.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 249,
+    "guard_receipt_count": 10
+  },
+  {
+    "source_id": "A4-W08",
+    "arm": "V1",
+    "cost_usd": 0.08665252,
+    "known_cost_lower_bound_usd": 0.08665252,
+    "cost_complete": true,
+    "prompt_tokens": 92891.0,
+    "completion_tokens": 8069.0,
+    "construction_prompt_tokens": 92891.0,
+    "construction_completion_tokens": 8069.0,
+    "call_count": 238.0,
+    "calls_known_subtotal": 238.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 238,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W08",
+    "arm": "V2",
+    "cost_usd": 0.23650612,
+    "known_cost_lower_bound_usd": 0.23650612,
+    "cost_complete": true,
+    "prompt_tokens": 143306.0,
+    "completion_tokens": 39612.0,
+    "construction_prompt_tokens": 92891.0,
+    "construction_completion_tokens": 8069.0,
+    "call_count": 247.0,
+    "calls_known_subtotal": 247.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 238,
+    "guard_receipt_count": 9
+  },
+  {
+    "source_id": "A4-W09",
+    "arm": "AS",
+    "cost_usd": 0.11819798,
+    "known_cost_lower_bound_usd": 0.11819798,
+    "cost_complete": true,
+    "prompt_tokens": 122824.0,
+    "completion_tokens": 12301.0,
+    "construction_prompt_tokens": 122824.0,
+    "construction_completion_tokens": 12301.0,
+    "call_count": 354.0,
+    "calls_known_subtotal": 354.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 354,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W09",
+    "arm": "AS+G",
+    "cost_usd": 0.3742775,
+    "known_cost_lower_bound_usd": 0.3742775,
+    "cost_complete": true,
+    "prompt_tokens": 242800.0,
+    "completion_tokens": 59439.0,
+    "construction_prompt_tokens": 122824.0,
+    "construction_completion_tokens": 12301.0,
+    "call_count": 368.0,
+    "calls_known_subtotal": 368.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 354,
+    "guard_receipt_count": 14
+  },
+  {
+    "source_id": "A4-W09",
+    "arm": "V1",
+    "cost_usd": 0.16882064,
+    "known_cost_lower_bound_usd": 0.16882064,
+    "cost_complete": true,
+    "prompt_tokens": 183571.0,
+    "completion_tokens": 14855.0,
+    "construction_prompt_tokens": 183571.0,
+    "construction_completion_tokens": 14855.0,
+    "call_count": 468.0,
+    "calls_known_subtotal": 468.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 468,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W09",
+    "arm": "V2",
+    "cost_usd": 0.41374304,
+    "known_cost_lower_bound_usd": 0.41374304,
+    "cost_complete": true,
+    "prompt_tokens": 306216.0,
+    "completion_tokens": 58360.0,
+    "construction_prompt_tokens": 183571.0,
+    "construction_completion_tokens": 14855.0,
+    "call_count": 481.0,
+    "calls_known_subtotal": 481.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 468,
+    "guard_receipt_count": 13
+  },
+  {
+    "source_id": "A4-W10",
+    "arm": "AS",
+    "cost_usd": 0.13116278,
+    "known_cost_lower_bound_usd": 0.13116278,
+    "cost_complete": true,
+    "prompt_tokens": 136108.0,
+    "completion_tokens": 13713.0,
+    "construction_prompt_tokens": 136108.0,
+    "construction_completion_tokens": 13713.0,
+    "call_count": 392.0,
+    "calls_known_subtotal": 392.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 392,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W10",
+    "arm": "AS+G",
+    "cost_usd": 0.40153286,
+    "known_cost_lower_bound_usd": 0.40153286,
+    "cost_complete": true,
+    "prompt_tokens": 266072.0,
+    "completion_tokens": 62823.0,
+    "construction_prompt_tokens": 136108.0,
+    "construction_completion_tokens": 13713.0,
+    "call_count": 406.0,
+    "calls_known_subtotal": 406.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 392,
+    "guard_receipt_count": 14
+  },
+  {
+    "source_id": "A4-W10",
+    "arm": "V1",
+    "cost_usd": 0.18488234,
+    "known_cost_lower_bound_usd": 0.18488234,
+    "cost_complete": true,
+    "prompt_tokens": 194473.0,
+    "completion_tokens": 18456.0,
+    "construction_prompt_tokens": 194473.0,
+    "construction_completion_tokens": 18456.0,
+    "call_count": 514.0,
+    "calls_known_subtotal": 514.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 514,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W10",
+    "arm": "V2",
+    "cost_usd": 0.5893301,
+    "known_cost_lower_bound_usd": 0.5893301,
+    "cost_complete": true,
+    "prompt_tokens": 418971.0,
+    "completion_tokens": 85903.0,
+    "construction_prompt_tokens": 194473.0,
+    "construction_completion_tokens": 18456.0,
+    "call_count": 534.0,
+    "calls_known_subtotal": 534.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 514,
+    "guard_receipt_count": 20
+  },
+  {
+    "source_id": "A4-W11",
+    "arm": "AS",
+    "cost_usd": 0.16855424,
+    "known_cost_lower_bound_usd": 0.16855424,
+    "cost_complete": true,
+    "prompt_tokens": 175447.0,
+    "completion_tokens": 17443.0,
+    "construction_prompt_tokens": 175447.0,
+    "construction_completion_tokens": 17443.0,
+    "call_count": 520.0,
+    "calls_known_subtotal": 520.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 520,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W11",
+    "arm": "AS+G",
+    "cost_usd": 0.53125712,
+    "known_cost_lower_bound_usd": 0.53125712,
+    "cost_complete": true,
+    "prompt_tokens": 354426.0,
+    "completion_tokens": 82398.0,
+    "construction_prompt_tokens": 175447.0,
+    "construction_completion_tokens": 17443.0,
+    "call_count": 537.0,
+    "calls_known_subtotal": 537.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 520,
+    "guard_receipt_count": 17
+  },
+  {
+    "source_id": "A4-W11",
+    "arm": "V1",
+    "cost_usd": 0.22243586,
+    "known_cost_lower_bound_usd": 0.22243586,
+    "cost_complete": true,
+    "prompt_tokens": 238417.0,
+    "completion_tokens": 20724.0,
+    "construction_prompt_tokens": 238417.0,
+    "construction_completion_tokens": 20724.0,
+    "call_count": 638.0,
+    "calls_known_subtotal": 638.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 638,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W11",
+    "arm": "V2",
+    "cost_usd": 0.60820898,
+    "known_cost_lower_bound_usd": 0.60820898,
+    "cost_complete": true,
+    "prompt_tokens": 437678.0,
+    "completion_tokens": 88031.0,
+    "construction_prompt_tokens": 238417.0,
+    "construction_completion_tokens": 20724.0,
+    "call_count": 655.0,
+    "calls_known_subtotal": 655.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 638,
+    "guard_receipt_count": 17
+  },
+  {
+    "source_id": "A4-W12",
+    "arm": "AS",
+    "cost_usd": 0.11101628,
+    "known_cost_lower_bound_usd": 0.11101628,
+    "cost_complete": true,
+    "prompt_tokens": 117808.0,
+    "completion_tokens": 10738.0,
+    "construction_prompt_tokens": 117808.0,
+    "construction_completion_tokens": 10738.0,
+    "call_count": 332.0,
+    "calls_known_subtotal": 332.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 332,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W12",
+    "arm": "AS+G",
+    "cost_usd": 0.29471852,
+    "known_cost_lower_bound_usd": 0.29471852,
+    "cost_complete": true,
+    "prompt_tokens": 190320.0,
+    "completion_tokens": 47264.0,
+    "construction_prompt_tokens": 117808.0,
+    "construction_completion_tokens": 10738.0,
+    "call_count": 342.0,
+    "calls_known_subtotal": 342.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 332,
+    "guard_receipt_count": 10
+  },
+  {
+    "source_id": "A4-W12",
+    "arm": "V1",
+    "cost_usd": 0.18132738,
+    "known_cost_lower_bound_usd": 0.18132738,
+    "cost_complete": true,
+    "prompt_tokens": 196716.0,
+    "completion_tokens": 16107.0,
+    "construction_prompt_tokens": 196716.0,
+    "construction_completion_tokens": 16107.0,
+    "call_count": 518.0,
+    "calls_known_subtotal": 518.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 518,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-W12",
+    "arm": "V2",
+    "cost_usd": 0.50104266,
+    "known_cost_lower_bound_usd": 0.50104266,
+    "cost_complete": true,
+    "prompt_tokens": 353705.0,
+    "completion_tokens": 73519.0,
+    "construction_prompt_tokens": 196716.0,
+    "construction_completion_tokens": 16107.0,
+    "call_count": 533.0,
+    "calls_known_subtotal": 533.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 518,
+    "guard_receipt_count": 15
+  },
+  {
+    "source_id": "A4-F01",
+    "arm": "AS",
+    "cost_usd": 0.07360484,
+    "known_cost_lower_bound_usd": 0.07360484,
+    "cost_complete": true,
+    "prompt_tokens": 79402.0,
+    "completion_tokens": 6688.0,
+    "construction_prompt_tokens": 79402.0,
+    "construction_completion_tokens": 6688.0,
+    "call_count": 215.0,
+    "calls_known_subtotal": 215.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 215,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-F01",
+    "arm": "AS+G",
+    "cost_usd": 0.23618876,
+    "known_cost_lower_bound_usd": 0.23618876,
+    "cost_complete": true,
+    "prompt_tokens": 136568.0,
+    "completion_tokens": 40417.0,
+    "construction_prompt_tokens": 79402.0,
+    "construction_completion_tokens": 6688.0,
+    "call_count": 224.0,
+    "calls_known_subtotal": 224.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 215,
+    "guard_receipt_count": 9
+  },
+  {
+    "source_id": "A4-F01",
+    "arm": "V1",
+    "cost_usd": 0.13214772,
+    "known_cost_lower_bound_usd": 0.13214772,
+    "cost_complete": true,
+    "prompt_tokens": 137820.0,
+    "completion_tokens": 13586.0,
+    "construction_prompt_tokens": 137820.0,
+    "construction_completion_tokens": 13586.0,
+    "call_count": 350.0,
+    "calls_known_subtotal": 350.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 350,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-F01",
+    "arm": "V2",
+    "cost_usd": 0.40760028,
+    "known_cost_lower_bound_usd": 0.40760028,
+    "cost_complete": true,
+    "prompt_tokens": 264573.0,
+    "completion_tokens": 64750.0,
+    "construction_prompt_tokens": 137820.0,
+    "construction_completion_tokens": 13586.0,
+    "call_count": 363.0,
+    "calls_known_subtotal": 363.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 350,
+    "guard_receipt_count": 13
+  },
+  {
+    "source_id": "A4-F02",
+    "arm": "AS",
+    "cost_usd": 0.06230504,
+    "known_cost_lower_bound_usd": 0.06230504,
+    "cost_complete": true,
+    "prompt_tokens": 66283.0,
+    "completion_tokens": 5971.0,
+    "construction_prompt_tokens": 66283.0,
+    "construction_completion_tokens": 5971.0,
+    "call_count": 178.0,
+    "calls_known_subtotal": 178.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 178,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-F02",
+    "arm": "AS+G",
+    "cost_usd": 0.22627208,
+    "known_cost_lower_bound_usd": 0.22627208,
+    "cost_complete": true,
+    "prompt_tokens": 123290.0,
+    "completion_tokens": 40116.0,
+    "construction_prompt_tokens": 66283.0,
+    "construction_completion_tokens": 5971.0,
+    "call_count": 188.0,
+    "calls_known_subtotal": 188.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 178,
+    "guard_receipt_count": 10
+  },
+  {
+    "source_id": "A4-F02",
+    "arm": "V1",
+    "cost_usd": 0.11752236,
+    "known_cost_lower_bound_usd": 0.11752236,
+    "cost_complete": true,
+    "prompt_tokens": 125700.0,
+    "completion_tokens": 11038.0,
+    "construction_prompt_tokens": 125700.0,
+    "construction_completion_tokens": 11038.0,
+    "call_count": 325.0,
+    "calls_known_subtotal": 325.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 325,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-F02",
+    "arm": "V2",
+    "cost_usd": 0.46679652,
+    "known_cost_lower_bound_usd": 0.46679652,
+    "cost_complete": true,
+    "prompt_tokens": 275118.0,
+    "completion_tokens": 78175.0,
+    "construction_prompt_tokens": 125700.0,
+    "construction_completion_tokens": 11038.0,
+    "call_count": 343.0,
+    "calls_known_subtotal": 343.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 325,
+    "guard_receipt_count": 18
+  },
+  {
+    "source_id": "A4-F03",
+    "arm": "AS",
+    "cost_usd": 0.06103964,
+    "known_cost_lower_bound_usd": 0.06103964,
+    "cost_complete": true,
+    "prompt_tokens": 65146.0,
+    "completion_tokens": 5780.0,
+    "construction_prompt_tokens": 65146.0,
+    "construction_completion_tokens": 5780.0,
+    "call_count": 180.0,
+    "calls_known_subtotal": 180.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 180,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-F03",
+    "arm": "AS+G",
+    "cost_usd": 0.19351532,
+    "known_cost_lower_bound_usd": 0.19351532,
+    "cost_complete": true,
+    "prompt_tokens": 113465.0,
+    "completion_tokens": 32915.0,
+    "construction_prompt_tokens": 65146.0,
+    "construction_completion_tokens": 5780.0,
+    "call_count": 189.0,
+    "calls_known_subtotal": 189.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 180,
+    "guard_receipt_count": 9
+  },
+  {
+    "source_id": "A4-F03",
+    "arm": "V1",
+    "cost_usd": 0.12994104,
+    "known_cost_lower_bound_usd": 0.12994104,
+    "cost_complete": true,
+    "prompt_tokens": 139947.0,
+    "completion_tokens": 11883.0,
+    "construction_prompt_tokens": 139947.0,
+    "construction_completion_tokens": 11883.0,
+    "call_count": 365.0,
+    "calls_known_subtotal": 365.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 365,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-F03",
+    "arm": "V2",
+    "cost_usd": 0.34149864,
+    "known_cost_lower_bound_usd": 0.34149864,
+    "cost_complete": true,
+    "prompt_tokens": 232692.0,
+    "completion_tokens": 52100.0,
+    "construction_prompt_tokens": 139947.0,
+    "construction_completion_tokens": 11883.0,
+    "call_count": 376.0,
+    "calls_known_subtotal": 376.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 365,
+    "guard_receipt_count": 11
+  },
+  {
+    "source_id": "A4-F04",
+    "arm": "AS",
+    "cost_usd": 0.0688644,
+    "known_cost_lower_bound_usd": 0.0688644,
+    "cost_complete": true,
+    "prompt_tokens": 74220.0,
+    "completion_tokens": 6280.0,
+    "construction_prompt_tokens": 74220.0,
+    "construction_completion_tokens": 6280.0,
+    "call_count": 203.0,
+    "calls_known_subtotal": 203.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 203,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-F04",
+    "arm": "AS+G",
+    "cost_usd": 0.20599704,
+    "known_cost_lower_bound_usd": 0.20599704,
+    "cost_complete": true,
+    "prompt_tokens": 124547.0,
+    "completion_tokens": 34307.0,
+    "construction_prompt_tokens": 74220.0,
+    "construction_completion_tokens": 6280.0,
+    "call_count": 212.0,
+    "calls_known_subtotal": 212.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 203,
+    "guard_receipt_count": 9
+  },
+  {
+    "source_id": "A4-F04",
+    "arm": "V1",
+    "cost_usd": 0.14358294,
+    "known_cost_lower_bound_usd": 0.14358294,
+    "cost_complete": true,
+    "prompt_tokens": 150567.0,
+    "completion_tokens": 14488.0,
+    "construction_prompt_tokens": 150567.0,
+    "construction_completion_tokens": 14488.0,
+    "call_count": 405.0,
+    "calls_known_subtotal": 405.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 405,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-F04",
+    "arm": "V2",
+    "cost_usd": 0.50808582,
+    "known_cost_lower_bound_usd": 0.50808582,
+    "cost_complete": true,
+    "prompt_tokens": 335761.0,
+    "completion_tokens": 78700.0,
+    "construction_prompt_tokens": 150567.0,
+    "construction_completion_tokens": 14488.0,
+    "call_count": 424.0,
+    "calls_known_subtotal": 424.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 405,
+    "guard_receipt_count": 19
+  },
+  {
+    "source_id": "A4-F05",
+    "arm": "AS",
+    "cost_usd": 0.0650275,
+    "known_cost_lower_bound_usd": 0.0650275,
+    "cost_complete": true,
+    "prompt_tokens": 69284.0,
+    "completion_tokens": 6197.0,
+    "construction_prompt_tokens": 69284.0,
+    "construction_completion_tokens": 6197.0,
+    "call_count": 186.0,
+    "calls_known_subtotal": 186.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 186,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-F05",
+    "arm": "AS+G",
+    "cost_usd": 0.2220667,
+    "known_cost_lower_bound_usd": 0.2220667,
+    "cost_complete": true,
+    "prompt_tokens": 123944.0,
+    "completion_tokens": 38887.0,
+    "construction_prompt_tokens": 69284.0,
+    "construction_completion_tokens": 6197.0,
+    "call_count": 195.0,
+    "calls_known_subtotal": 195.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 186,
+    "guard_receipt_count": 9
+  },
+  {
+    "source_id": "A4-F05",
+    "arm": "V1",
+    "cost_usd": 0.1051799,
+    "known_cost_lower_bound_usd": 0.1051799,
+    "cost_complete": true,
+    "prompt_tokens": 112246.0,
+    "completion_tokens": 9963.0,
+    "construction_prompt_tokens": 112246.0,
+    "construction_completion_tokens": 9963.0,
+    "call_count": 281.0,
+    "calls_known_subtotal": 281.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 281,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-F05",
+    "arm": "V2",
+    "cost_usd": 0.40882406,
+    "known_cost_lower_bound_usd": 0.40882406,
+    "cost_complete": true,
+    "prompt_tokens": 242144.0,
+    "completion_tokens": 68329.0,
+    "construction_prompt_tokens": 112246.0,
+    "construction_completion_tokens": 9963.0,
+    "call_count": 297.0,
+    "calls_known_subtotal": 297.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 281,
+    "guard_receipt_count": 16
+  },
+  {
+    "source_id": "A4-F06",
+    "arm": "AS",
+    "cost_usd": 0.11553102,
+    "known_cost_lower_bound_usd": 0.11553102,
+    "cost_complete": true,
+    "prompt_tokens": 123594.0,
+    "completion_tokens": 10843.0,
+    "construction_prompt_tokens": 123594.0,
+    "construction_completion_tokens": 10843.0,
+    "call_count": 343.0,
+    "calls_known_subtotal": 343.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 343,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-F06",
+    "arm": "AS+G",
+    "cost_usd": 0.44731638,
+    "known_cost_lower_bound_usd": 0.44731638,
+    "cost_complete": true,
+    "prompt_tokens": 273087.0,
+    "completion_tokens": 73107.0,
+    "construction_prompt_tokens": 123594.0,
+    "construction_completion_tokens": 10843.0,
+    "call_count": 361.0,
+    "calls_known_subtotal": 361.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 343,
+    "guard_receipt_count": 18
+  },
+  {
+    "source_id": "A4-F06",
+    "arm": "V1",
+    "cost_usd": 0.13214476,
+    "known_cost_lower_bound_usd": 0.13214476,
+    "cost_complete": true,
+    "prompt_tokens": 140582.0,
+    "completion_tokens": 12664.0,
+    "construction_prompt_tokens": 140582.0,
+    "construction_completion_tokens": 12664.0,
+    "call_count": 365.0,
+    "calls_known_subtotal": 365.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 365,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-F06",
+    "arm": "V2",
+    "cost_usd": 0.50876236,
+    "known_cost_lower_bound_usd": 0.50876236,
+    "cost_complete": true,
+    "prompt_tokens": 306377.0,
+    "completion_tokens": 84121.0,
+    "construction_prompt_tokens": 140582.0,
+    "construction_completion_tokens": 12664.0,
+    "call_count": 383.0,
+    "calls_known_subtotal": 383.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 365,
+    "guard_receipt_count": 18
+  },
+  {
+    "source_id": "A4-F07",
+    "arm": "AS",
+    "cost_usd": 0.10808514,
+    "known_cost_lower_bound_usd": 0.10808514,
+    "cost_complete": true,
+    "prompt_tokens": 115272.0,
+    "completion_tokens": 10263.0,
+    "construction_prompt_tokens": 115272.0,
+    "construction_completion_tokens": 10263.0,
+    "call_count": 324.0,
+    "calls_known_subtotal": 324.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 324,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-F07",
+    "arm": "AS+G",
+    "cost_usd": 0.30124458,
+    "known_cost_lower_bound_usd": 0.30124458,
+    "cost_complete": true,
+    "prompt_tokens": 198514.0,
+    "completion_tokens": 47270.0,
+    "construction_prompt_tokens": 115272.0,
+    "construction_completion_tokens": 10263.0,
+    "call_count": 335.0,
+    "calls_known_subtotal": 335.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 324,
+    "guard_receipt_count": 11
+  },
+  {
+    "source_id": "A4-F07",
+    "arm": "V1",
+    "cost_usd": 0.13373502,
+    "known_cost_lower_bound_usd": 0.13373502,
+    "cost_complete": true,
+    "prompt_tokens": 142230.0,
+    "completion_tokens": 12831.0,
+    "construction_prompt_tokens": 142230.0,
+    "construction_completion_tokens": 12831.0,
+    "call_count": 366.0,
+    "calls_known_subtotal": 366.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 366,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-F07",
+    "arm": "V2",
+    "cost_usd": 0.49939278,
+    "known_cost_lower_bound_usd": 0.49939278,
+    "cost_complete": true,
+    "prompt_tokens": 315723.0,
+    "completion_tokens": 79704.0,
+    "construction_prompt_tokens": 142230.0,
+    "construction_completion_tokens": 12831.0,
+    "call_count": 385.0,
+    "calls_known_subtotal": 385.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 366,
+    "guard_receipt_count": 19
+  },
+  {
+    "source_id": "A4-F08",
+    "arm": "AS",
+    "cost_usd": 0.0963295,
+    "known_cost_lower_bound_usd": 0.0963295,
+    "cost_complete": true,
+    "prompt_tokens": 101963.0,
+    "completion_tokens": 9404.0,
+    "construction_prompt_tokens": 101963.0,
+    "construction_completion_tokens": 9404.0,
+    "call_count": 291.0,
+    "calls_known_subtotal": 291.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 291,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-F08",
+    "arm": "AS+G",
+    "cost_usd": 0.29450662,
+    "known_cost_lower_bound_usd": 0.29450662,
+    "cost_complete": true,
+    "prompt_tokens": 187109.0,
+    "completion_tokens": 47424.0,
+    "construction_prompt_tokens": 101963.0,
+    "construction_completion_tokens": 9404.0,
+    "call_count": 303.0,
+    "calls_known_subtotal": 303.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 291,
+    "guard_receipt_count": 12
+  },
+  {
+    "source_id": "A4-F08",
+    "arm": "V1",
+    "cost_usd": 0.11766888,
+    "known_cost_lower_bound_usd": 0.11766888,
+    "cost_complete": true,
+    "prompt_tokens": 127401.0,
+    "completion_tokens": 10537.0,
+    "construction_prompt_tokens": 127401.0,
+    "construction_completion_tokens": 10537.0,
+    "call_count": 327.0,
+    "calls_known_subtotal": 327.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 327,
+    "guard_receipt_count": 0
+  },
+  {
+    "source_id": "A4-F08",
+    "arm": "V2",
+    "cost_usd": 0.30185064,
+    "known_cost_lower_bound_usd": 0.30185064,
+    "cost_complete": true,
+    "prompt_tokens": 210349.0,
+    "completion_tokens": 45109.0,
+    "construction_prompt_tokens": 127401.0,
+    "construction_completion_tokens": 10537.0,
+    "call_count": 338.0,
+    "calls_known_subtotal": 338.0,
+    "call_count_missing_rows": 0,
+    "source_draws_expected": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "source_draws_observed": [
+      "draw_1",
+      "draw_2",
+      "draw_3"
+    ],
+    "stage_coverage": true,
+    "guard_coverage": true,
+    "incomplete_cost_rows": 0,
+    "construction_receipt_count": 327,
+    "guard_receipt_count": 11
+  }
+]

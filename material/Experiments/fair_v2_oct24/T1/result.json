@@ -1,0 +1,48 @@
+{
+  "status": "construction_guard_descriptive_readout_complete",
+  "condition": "T1-fresh20-Qwen3-235B-AS-V1-one-draw-N9",
+  "source_count": 20,
+  "constructor_parents": 40,
+  "four_cells_per_source": true,
+  "guard_parent_count": 40,
+  "guard_completion_pin": {
+    "path": "withheld-artifact/57da678387609665ed36",
+    "bytes": 77957736,
+    "sha256": "0ee716678f9cd22a8c5bcb3dd34f14882cdab1b5bfe41e4792f6995a0664a127"
+  },
+  "metrics": {
+    "result": {
+      "path": "Experiments/fair_v2_oct24/T1/structure_metrics.json",
+      "bytes": 195084,
+      "sha256": "67e7393c7bc7997c35c9a4e628e493d2c6f5d8cd2fde02e1a72b0a26b7a5c472"
+    },
+    "report": {
+      "path": "Experiments/fair_v2_oct24/T1/STRUKTURBERICHT.md",
+      "bytes": 4893,
+      "sha256": "780aa6bee20cb1fb26c055947e448660fe4fbd829d337fd2fd51b2e94cb24700"
+    },
+    "ev_similarity": {
+      "path": "Experiments/fair_v2_oct24/T1/ev_similarity.jsonl",
+      "bytes": 741487,
+      "sha256": "4c4bb1f4ca8292ebc49dfede90b7bbaedad8ff61b1e50e4499bb9d3c6d4e3f8e"
+    }
+  },
+  "budget": {
+    "cap_USD": "20",
+    "physical_request_reservations": 7656,
+    "known_list_USD": "6.14850118",
+    "unknown_or_pending_reserve_USD": "0",
+    "reserved_or_known_USD": "6.14850118",
+    "unknown_or_pending_requests": 0,
+    "provider_invoice_USD": null,
+    "by_model": {
+      "qwen.qwen3-235b-a22b-2507": 7413,
+      "moonshotai.kimi-k2.5": 243
+    }
+  },
+  "Sol_or_Grok_evaluations": 0,
+  "semantic_quality_evaluated": false,
+  "exploratory": true,
+  "main_inventories_modified": false,
+  "completed_UTC": "2026-10-25T20:18:54.526264+00:00"
+}

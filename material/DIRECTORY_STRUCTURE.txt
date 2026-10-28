@@ -1,0 +1,14 @@
+README.md
+MANIFEST.json
+TRANSFORMATIONS.json
+protocols/analysis_contract.public.json
+Experiments/fair_v2_oct24/A7/  (public path-only copies)
+Experiments/fair_v2_oct24/G1/  (N2-N17 incl. 11b and route amendment)
+Experiments/fair_v2_oct24/D1/  (code, synthetic tests; final outcomes in final_native_oct26_v1/)
+Experiments/fair_v2_oct24/C1/ C6/ C7/ H12/ E1/ T1/ X1/ K2/  (final stage and secondary results)
+EF1/ RB1/ X3/ QA1/ S13/ H15/ H16/ X2/  (post-hoc analyses and human validations, aggregates only)
+Experiments/fair_comparison_oct23_v1/  (selected construction code)
+Tools/experiments/  (selected guard and support code)
+Tools/release/  (safety check, CPU demo, rights)
+docs/  (evidence indices and CHRONOLOGIE.md; references do not automatically include payloads)
+Thesis PDF  (not part of this repository, submitted separately; SHA-256 in docs/CHRONOLOGIE.md)

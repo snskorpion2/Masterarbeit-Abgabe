@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'none'; img-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Prüfung des Bedeutungserhalts</title>
+  <style>
+    :root{color-scheme:light;--ink:#182536;--muted:#596879;--line:#d8e0e8;--blue:#165cab;--bg:#f3f6fa}*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);line-height:1.5}
+    header{background:white;border-bottom:1px solid var(--line);padding:16px max(18px,calc((100vw - 1500px)/2));display:flex;align-items:center;gap:16px;flex-wrap:wrap}h1{font-size:1.25rem;margin:0}button,input,select,textarea{font:inherit}button,.file-button{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:7px;padding:8px 12px;cursor:pointer}button:disabled{opacity:.45;cursor:default}button:hover:not(:disabled),.file-button:hover{background:#edf3fa}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,.file-button:focus-within{outline:3px solid #83b8f3;outline-offset:2px}.primary{background:var(--blue);border-color:var(--blue);color:white}.primary:hover:not(:disabled){background:#124d8e}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-left:auto}.file-button{display:inline-flex;align-items:center}.file-button input{position:absolute;width:1px;height:1px;opacity:0}
+    main{max-width:1500px;margin:auto;padding:18px}.status{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:14px}.status progress{width:min(280px,35vw);height:13px}.subtle{color:var(--muted);font-size:.9rem}#notice{white-space:pre-wrap;border:1px solid var(--line);background:white;padding:10px 12px;border-radius:7px;margin-bottom:14px}#notice:empty{display:none}#notice[data-level="error"]{background:#fff4f4;border-color:#ce8b8b}.columns{display:grid;grid-template-columns:minmax(320px,.9fr) minmax(400px,1.2fr);gap:18px;align-items:start}.card{background:white;border:1px solid var(--line);border-radius:9px;padding:18px;margin-bottom:18px}.card h2{font-size:1rem;margin:0 0 12px}.plain-text{white-space:pre-wrap;overflow-wrap:anywhere;font-family:inherit;margin:0}#reference-text{font-size:1.07rem}#source-text{font-size:.93rem;max-height:40vh;overflow:auto;line-height:1.6}details summary{cursor:pointer;font-weight:650}details[open] summary{margin-bottom:12px}.instruction{font-size:.92rem;margin:13px 0;color:var(--muted)}.help{font-size:.88rem;color:var(--muted);margin:12px 0}.help ul{padding-left:20px;margin:0}.labels{display:grid;gap:8px}.choice{text-align:left;padding:10px 12px;font-weight:650}.choice[aria-pressed="true"]{outline:3px solid var(--blue);outline-offset:0}.comment-label{display:block;font-size:.9rem;margin-top:16px}textarea{display:block;width:100%;min-height:82px;resize:vertical;border:1px solid var(--line);border-radius:6px;padding:9px;margin-top:6px}.navigation{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.small{font-size:.86rem;padding:5px 8px}.inventory-tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;position:sticky;top:0;background:white;padding-bottom:12px}.inventory-tools input{flex:1;min-width:160px;padding:8px;border:1px solid var(--line);border-radius:6px}#inventory-list{max-height:78vh;overflow:auto}.inventory-unit{border-top:1px solid var(--line);padding:12px 0}.unit-heading{font-size:.83rem;color:var(--muted);margin-bottom:5px}.inventory-text{white-space:pre-wrap;overflow-wrap:anywhere;font-family:ui-monospace,"Cascadia Mono",Consolas,monospace;font-size:.86rem;margin:0}mark{background:#ffe39c;color:inherit;border-radius:2px}#case-select{max-width:100%;padding:5px;border:1px solid var(--line);border-radius:5px}#empty{background:white;border:1px solid var(--line);border-radius:9px;padding:25px}footer{max-width:1500px;margin:auto;padding:0 18px 20px}[hidden]{display:none!important}
+    @media(max-width:850px){header{padding:14px}.toolbar{margin-left:0;width:100%}main{padding:12px}.columns{grid-template-columns:1fr}.card{padding:15px}#inventory-list{max-height:65vh}}
+  </style>
+</head>
+<body>
+<header><h1>Prüfung des Bedeutungserhalts</h1><div class="toolbar"><label class="file-button">Fortschritt importieren<input id="answer-file" type="file" accept=".json,application/json"></label><button id="export" class="primary" disabled>JSON exportieren</button></div></header>
+<main>
+  <div class="status" aria-live="polite"><strong id="position">Paket wird geprüft</strong><progress id="progress" value="0" max="30" aria-label="Bewertungsfortschritt"></progress><span id="progress-text">0 / 30 bewertet</span><select id="case-select" aria-label="Fall auswählen" disabled></select><span id="storage-status" class="subtle"></span></div>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <div id="empty">Das vorbereitete Paket wird geladen und auf seine Bindung geprüft.</div>
+  <section id="workspace" class="columns" hidden>
+    <div>
+      <div class="card"><h2>Referenzbedeutung</h2><pre id="reference-text" class="plain-text"></pre>
+        <p class="instruction">Bewerte den Erhalt dieser Bedeutung im Inventar. Die Quelle hilft beim Verstehen, ersetzt aber keinen Inventarbeleg. Sinngleiche Formulierungen oder mehrere Inventaraussagen zusammen sind zulässig.</p>
+        <details class="help"><summary>Bewertungshilfe</summary><ul><li><strong>Vollständig enthalten:</strong> Alle wesentlichen Aspekte einschließlich Rollen, Richtung und Einschränkungen sind erhalten.</li><li><strong>Teilweise enthalten:</strong> Ein wesentlicher inhaltlicher Teil ist vorhanden, aber Aspekte fehlen oder sind verändert.</li><li><strong>Nicht enthalten:</strong> Erst nach Prüfung des vollständigen Inventars beziehungsweise abgeschlossener Suche. Bloße Namensüberschneidung reicht nicht.</li><li><strong>Unklar:</strong> Der Erhalt lässt sich nicht verlässlich entscheiden. Das ist eine eigene Bewertung.</li></ul></details>
+        <div class="labels" role="group" aria-label="Bewertung"><button id="retained" class="choice" aria-pressed="false">1 · Vollständig enthalten</button><button id="partially-retained" class="choice" aria-pressed="false">2 · Teilweise enthalten</button><button id="not-retained" class="choice" aria-pressed="false">3 · Nicht enthalten</button><button id="undetermined" class="choice" aria-pressed="false">4 · Unklar</button></div>
+        <label class="comment-label" for="comment">Kommentar (optional)</label><textarea id="comment" placeholder="Anmerkung zum Erhalt oder zu fehlenden Aspekten"></textarea><button id="clear-label" class="small" style="margin-top:8px">Auswahl löschen</button>
+        <nav class="navigation" aria-label="Fälle wechseln"><button id="previous">← Zurück</button><button id="next">Weiter →</button><button id="next-open">Nächste offene</button></nav>
+      </div>
+      <details class="card" open><summary>Vollständiger Quelltext</summary><pre id="source-text" class="plain-text" tabindex="0"></pre></details>
+    </div>
+    <div class="card"><h2>Vollständiges Inventar</h2><div class="inventory-tools"><input id="search" type="search" placeholder="Im Inventar suchen" aria-label="Im vollständigen Inventar suchen"><button id="reset-search">Suche zurücksetzen</button><span id="inventory-count" class="subtle" aria-live="polite"></span></div><p class="subtle">Die Suche filtert nur die Anzeige. „Suche zurücksetzen“ zeigt wieder alle Belege.</p><div id="inventory-list" tabindex="0"></div><p id="no-results" class="subtle" hidden>Keine Belege für diese Suche gefunden. Prüfe auch sinngleiche Formulierungen und setze die Suche gegebenenfalls zurück.</p></div>
+  </section>
+</main>
+<footer class="subtle">Diese Seite arbeitet offline und sendet keine Daten. Regelmäßig JSON exportieren. Zwischenstände sind möglich, für den Abschluss alle Fälle bewerten. Tasten 1–4 bewerten außerhalb von Eingabefeldern.</footer>
+<script id="h15-embedded" type="application/octet-stream" data-sha256="__H15_PAYLOAD_SHA256__">__H15_EMBEDDED_DATA__</script>
+<script id="h15-app">
+(() => {
+  'use strict';
+  const LABELS = ['retained','partially_retained','not_retained','undetermined'];
+  const BUTTONS = ['retained','partially-retained','not-retained','undetermined'];
+  const FORMAT = 'h15-human-annotations-v1';
+  const get = id => document.getElementById(id);
+  const has = (v,k) => Object.prototype.hasOwnProperty.call(v,k);
+  const exact = (v,keys) => v !== null && typeof v === 'object' && !Array.isArray(v) && Object.keys(v).length === keys.length && keys.every(k=>has(v,k));
+  const nonempty = v => typeof v === 'string' && v.trim().length>0;
+  const idOK = v => typeof v === 'string' && /^[A-Za-z0-9_-]{1,128}$/.test(v);
+  const shaOK = v => typeof v === 'string' && /^[0-9a-f]{64}$/.test(v);
+  const check = (ok,message) => {if(!ok) throw new Error(message);};
+  const clone = v => JSON.parse(JSON.stringify(v));
+  let packet=null, inventoryTexts=[], index=0, answers=Object.create(null), storageWorks=true, dirty=false;
+  const current = () => packet ? packet.items[index] : null;
+  const answer = id => answers[id] || {item_id:id,label:null,comment:'',updated_at:null};
+  const doneCount = () => packet ? packet.items.filter(row=>LABELS.includes(answer(row.item_id).label)).length : 0;
+  const storageKey = () => 'h15:'+packet.dataset_id+':'+packet.packet_sha256;
+  function tell(message,level='info'){get('notice').textContent=message;get('notice').setAttribute('data-level',level);}
+  function storageState(){get('storage-status').textContent=storageWorks?'Fortschritt wird in diesem Browser gespeichert.':'Browserspeicherung nicht verfügbar. Bitte regelmäßig JSON exportieren.';}
+  function shapePacket(value){
+    check(exact(value,['format','dataset_id','packet_sha256','items']) && value.format==='h15-packet-v1','Das Paketformat ist ungültig.');
+    check(idOK(value.dataset_id)&&shaOK(value.packet_sha256),'Die Paketbindung ist ungültig.');
+    check(Array.isArray(value.items)&&value.items.length>0,'Das Paket enthält keine Fälle.');
+    const seen=new Set();
+    for(const row of value.items){
+      check(exact(row,['item_id','reference_text','source_text','inventory'])&&idOK(row.item_id)&&nonempty(row.reference_text)&&nonempty(row.source_text)&&Array.isArray(row.inventory),'Ein Fall ist ungültig.');
+      check(!seen.has(row.item_id),'Eine Fallkennung ist mehrfach vorhanden.');seen.add(row.item_id);
+    }
+  }
+  function validateAnnotations(value){
+    check(packet!==null,'Kein Paket geladen.');
+    check(exact(value,['format','dataset_id','packet_sha256','exported_at','annotation_origin','annotations'])&&value.format===FORMAT&&value.dataset_id===packet.dataset_id&&value.packet_sha256===packet.packet_sha256&&value.annotation_origin==='human_ui_input'&&nonempty(value.exported_at),'Der Export gehört nicht zu diesem Paket oder stammt nicht aus diesem Werkzeug.');
+    check(Array.isArray(value.annotations),'Die Annotationsliste fehlt.');
+    const allowed=new Set(packet.items.map(row=>row.item_id)),seen=new Set(),next=Object.create(null);
+    for(const row of value.annotations){
+      check(exact(row,['item_id','label','comment','updated_at'])&&allowed.has(row.item_id)&&!seen.has(row.item_id),'Ein Fall ist unbekannt, doppelt oder ungültig.');seen.add(row.item_id);
+      check(row.label===null||LABELS.includes(row.label),'Eine Bewertung ist ungültig.');
+      check(typeof row.comment==='string'&&(row.updated_at===null||nonempty(row.updated_at))&&(row.label===null||row.updated_at!==null),'Kommentar oder Zeitstempel ist ungültig.');
+      next[row.item_id]=clone(row);
+    }
+    return next;
+  }
+  function exportObject(){check(packet!==null,'Kein Paket geladen.');return {format:FORMAT,dataset_id:packet.dataset_id,packet_sha256:packet.packet_sha256,exported_at:new Date().toISOString(),annotation_origin:'human_ui_input',annotations:packet.items.map(row=>clone(answer(row.item_id)))};}
+  function saveLocal(){if(!packet)return;try{window.localStorage.setItem(storageKey(),JSON.stringify({document:exportObject(),current_index:index}));storageWorks=true;}catch(_){storageWorks=false;}storageState();}
+  function restoreLocal(){try{const raw=window.localStorage.getItem(storageKey());if(raw!==null){let saved;try{saved=JSON.parse(raw);}catch(_){throw new Error('Der gespeicherte Browserstand ist beschädigt. Du kannst einen JSON-Export importieren.');}answers=validateAnnotations(saved.document);if(Number.isInteger(saved.current_index)&&saved.current_index>=0&&saved.current_index<packet.items.length)index=saved.current_index;tell('Vorhandener Browserstand geladen.');}storageWorks=true;}catch(error){storageWorks=false;tell(error.message||'Browserstand konnte nicht geladen werden.','error');}storageState();}
+  function importAnnotations(value){const next=validateAnnotations(value);answers=next;dirty=true;const open=packet.items.findIndex(row=>answer(row.item_id).label===null);index=open>=0?open:0;get('search').value='';saveLocal();render();tell('Fortschritt importiert.');}
+  function chooseLabel(label){check(current()&&(label===null||LABELS.includes(label)),'Ungültige Bewertung.');const row=answer(current().item_id);answers[row.item_id]={...row,label,updated_at:new Date().toISOString()};dirty=true;saveLocal();renderAssessment();}
+  function setComment(value){check(current()&&typeof value==='string','Ungültiger Kommentar.');const row=answer(current().item_id);answers[row.item_id]={...row,comment:value,updated_at:new Date().toISOString()};dirty=true;saveLocal();}
+  function goTo(value){if(!packet||!Number.isInteger(value)||value<0||value>=packet.items.length)return;index=value;get('search').value='';saveLocal();render();}
+  function nextOpen(){if(!packet)return;for(let step=1;step<=packet.items.length;step++){const next=(index+step)%packet.items.length;if(answer(packet.items[next].item_id).label===null){goTo(next);return;}}tell('Alle Fälle sind bewertet. Bitte den JSON-Stand exportieren.');}
+  function renderAssessment(){if(!current())return;const row=answer(current().item_id),n=packet.items.length,done=doneCount();get('position').textContent='Fall '+(index+1)+' von '+n;get('progress').max=n;get('progress').value=done;get('progress-text').textContent=done+' / '+n+' bewertet';BUTTONS.forEach((id,i)=>get(id).setAttribute('aria-pressed',String(row.label===LABELS[i])));get('comment').value=row.comment;get('previous').disabled=index===0;get('next').disabled=index===n-1;get('clear-label').disabled=row.label===null;const select=get('case-select');select.replaceChildren();packet.items.forEach((item,i)=>{const option=document.createElement('option');option.value=String(i);option.textContent='Fall '+(i+1)+(LABELS.includes(answer(item.item_id).label)?' · bewertet':' · offen');select.appendChild(option);});select.value=String(index);}
+  function literalMatches(text,query){if(!query)return[];const escaped=query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');return Array.from(text.matchAll(new RegExp(escaped,'giu')));}
+  function highlighted(text,matches){const fragment=document.createElement('span');if(!matches.length){fragment.textContent=text;return fragment;}let cursor=0;for(const match of matches){fragment.appendChild(document.createTextNode(text.slice(cursor,match.index)));const mark=document.createElement('mark');mark.textContent=match[0];fragment.appendChild(mark);cursor=match.index+match[0].length;}fragment.appendChild(document.createTextNode(text.slice(cursor)));return fragment;}
+  function renderInventory(){if(!current())return;const values=inventoryTexts[index],query=get('search').value;const target=get('inventory-list');target.replaceChildren();let count=0;values.forEach((text,i)=>{const matches=literalMatches(text,query);if(query&&!matches.length)return;count++;const block=document.createElement('article');block.className='inventory-unit';const heading=document.createElement('div');heading.className='unit-heading';heading.textContent='Beleg '+(i+1);const pre=document.createElement('pre');pre.className='inventory-text';pre.appendChild(highlighted(text,matches));block.appendChild(heading);block.appendChild(pre);target.appendChild(block);});get('inventory-count').textContent=query?count+' von '+values.length+' Belegen':'Alle '+values.length+' Belege';get('no-results').hidden=!query||count>0;}
+  function search(value){get('search').value=value;renderInventory();}
+  function render(){const ready=packet!==null;get('workspace').hidden=!ready;get('empty').hidden=ready;get('export').disabled=!ready;get('case-select').disabled=!ready;if(!ready)return;get('reference-text').textContent=current().reference_text;get('source-text').textContent=current().source_text;renderAssessment();renderInventory();}
+  function download(){const blob=new Blob([JSON.stringify(exportObject(),null,2)+'\n'],{type:'application/json;charset=utf-8'});const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download='h15-annotation-'+packet.dataset_id+'.json';link.style.display='none';document.body.appendChild(link);link.click();link.remove();window.setTimeout(()=>URL.revokeObjectURL(url),1000);dirty=false;tell('JSON exportiert. Bitte den direkten Download unverändert aufbewahren.');}
+  function readFile(file){if(!file)return;const reader=new FileReader();reader.onload=()=>{try{let value;try{value=JSON.parse(reader.result);}catch(_){throw new Error('Die Datei enthält kein gültiges JSON.');}importAnnotations(value);}catch(error){tell(error.message||'Import fehlgeschlagen.','error');}};reader.onerror=()=>tell('Datei konnte nicht gelesen werden.','error');reader.readAsText(file,'utf-8');}
+  const decode=value=>Uint8Array.from(atob(value.trim()),c=>c.charCodeAt(0));
+  async function digest(bytes){check(window.crypto&&window.crypto.subtle&&typeof TextDecoder!=='undefined','Bitte einen aktuellen Browser verwenden.');const hash=await window.crypto.subtle.digest('SHA-256',bytes);return Array.from(new Uint8Array(hash),v=>v.toString(16).padStart(2,'0')).join('');}
+  async function boot(){try{const node=get('h15-embedded'),raw=decode(node.textContent);check(await digest(raw)===node.getAttribute('data-sha256'),'Die Seitendaten stimmen nicht mit ihrer Bindung überein.');const payload=JSON.parse(new TextDecoder('utf-8',{fatal:true}).decode(raw));check(exact(payload,['packet_core_utf8_b64','packet_sha256','inventory_texts'])&&shaOK(payload.packet_sha256),'Das eingebettete Paket ist ungültig.');const coreBytes=decode(payload.packet_core_utf8_b64);check(await digest(coreBytes)===payload.packet_sha256,'Die Paketbindung ist ungültig.');const core=JSON.parse(new TextDecoder('utf-8',{fatal:true}).decode(coreBytes));check(exact(core,['format','dataset_id','items']),'Das eingebettete Paket enthält fremde Felder.');const value={...core,packet_sha256:payload.packet_sha256};shapePacket(value);check(Array.isArray(payload.inventory_texts)&&payload.inventory_texts.length===value.items.length&&payload.inventory_texts.every((rows,i)=>Array.isArray(rows)&&rows.length===value.items[i].inventory.length&&rows.every(text=>typeof text==='string')),'Die Inventaranzeige ist unvollständig.');packet=value;inventoryTexts=payload.inventory_texts;restoreLocal();render();}catch(error){packet=null;render();get('position').textContent='Paket konnte nicht geladen werden';tell(error.message||'Paket ist ungültig.','error');}}
+  get('answer-file').addEventListener('change',event=>{readFile(event.target.files[0]);event.target.value='';});get('export').addEventListener('click',download);BUTTONS.forEach((id,i)=>get(id).addEventListener('click',()=>chooseLabel(LABELS[i])));get('clear-label').addEventListener('click',()=>chooseLabel(null));get('comment').addEventListener('input',event=>setComment(event.target.value));get('previous').addEventListener('click',()=>goTo(index-1));get('next').addEventListener('click',()=>goTo(index+1));get('next-open').addEventListener('click',nextOpen);get('case-select').addEventListener('change',event=>goTo(Number(event.target.value)));get('search').addEventListener('input',renderInventory);get('reset-search').addEventListener('click',()=>search(''));
+  document.addEventListener('keydown',event=>{if(!current()||event.ctrlKey||event.metaKey||event.altKey)return;const target=event.target;if(target&&(['INPUT','TEXTAREA','SELECT'].includes(target.tagName)||target.isContentEditable))return;if(['1','2','3','4'].includes(event.key)){event.preventDefault();chooseLabel(LABELS[Number(event.key)-1]);}});
+  window.H15=Object.freeze({ready:boot(),exportObject,importAnnotations,validateAnnotations,download,chooseLabel,setComment,goTo,nextOpen,search,doneCount,getState:()=>({index,storageWorks,dirty,annotations:packet?clone(exportObject().annotations):[]})});
+})();
+</script>
+</body>
+</html>

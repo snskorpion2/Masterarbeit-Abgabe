@@ -1,0 +1,2129 @@
+{
+  "protocol": "EF1-disjoint-original-stage-accounting-v1",
+  "new20_construction_and_guard": [
+    {
+      "package": "B3",
+      "population": "Konfirmation",
+      "arm": "AS",
+      "stage": "Extraktion",
+      "currency": "USD",
+      "pricing_scenario": "frozen_standard_uncached_list",
+      "receipts": 180,
+      "calls": {
+        "known_subtotal": 180.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 180.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 167154.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 138520.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.43120836,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 180,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B3",
+      "population": "Konfirmation",
+      "arm": "AS",
+      "stage": "Schema",
+      "currency": "USD",
+      "pricing_scenario": "frozen_standard_uncached_list",
+      "receipts": 6064,
+      "calls": {
+        "known_subtotal": 6064.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 6064.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 2040552.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 69541.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 1.6643895,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 6064,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B3",
+      "population": "Konfirmation",
+      "arm": "V1",
+      "stage": "Ergänzung",
+      "currency": "USD",
+      "pricing_scenario": "frozen_standard_uncached_list",
+      "receipts": 60,
+      "calls": {
+        "known_subtotal": 60.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 60.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 196266.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 59493.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.2773113,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 60,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B3",
+      "population": "Konfirmation",
+      "arm": "V1",
+      "stage": "Extraktion",
+      "currency": "USD",
+      "pricing_scenario": "frozen_standard_uncached_list",
+      "receipts": 180,
+      "calls": {
+        "known_subtotal": 180.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 180.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 181254.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 132474.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.42822024,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 180,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B3",
+      "population": "Konfirmation",
+      "arm": "V1",
+      "stage": "Schema",
+      "currency": "USD",
+      "pricing_scenario": "frozen_standard_uncached_list",
+      "receipts": 7961,
+      "calls": {
+        "known_subtotal": 7961.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 7961.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 2766026.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 90822.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 2.24848408,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 7961,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "C1",
+      "population": "Konfirmation",
+      "arm": "AS+G",
+      "stage": "Prüffilter",
+      "currency": "USD",
+      "pricing_scenario": "C1_bound_Kimi_K2.5_standard_list_no_cache_discount",
+      "receipts": 233,
+      "calls": {
+        "known_subtotal": 233.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 233,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 1802951.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 840967.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 4.32560592,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 7469.332585199969,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "C1",
+      "population": "Konfirmation",
+      "arm": "V2",
+      "stage": "Prüffilter",
+      "currency": "USD",
+      "pricing_scenario": "C1_bound_Kimi_K2.5_standard_list_no_cache_discount",
+      "receipts": 294,
+      "calls": {
+        "known_subtotal": 294.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 294,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 2778496.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 1095091.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 5.94284472,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 9770.512162600004,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    }
+  ],
+  "all_research_and_construction": [
+    {
+      "package": "A3",
+      "population": "gemeinsam",
+      "arm": "gemeinsam",
+      "stage": "Qualifikation",
+      "currency": "USD",
+      "pricing_scenario": "unbekannt",
+      "receipts": 42,
+      "calls": {
+        "known_subtotal": 42.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 42.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 93817.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 16987.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": null,
+        "missing_rows": 42,
+        "complete": false
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 42,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "A3b",
+      "population": "gemeinsam",
+      "arm": "gemeinsam",
+      "stage": "Qualifikation",
+      "currency": "USD",
+      "pricing_scenario": "archived_A3b_Standard_USD",
+      "receipts": 79,
+      "calls": {
+        "known_subtotal": 79.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 79.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 167589.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 107190.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.3572315,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 79,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "A3c",
+      "population": "gemeinsam",
+      "arm": "gemeinsam",
+      "stage": "Qualifikation",
+      "currency": "USD",
+      "pricing_scenario": "archived_A3c_Standard_USD",
+      "receipts": 18,
+      "calls": {
+        "known_subtotal": 18.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 18.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 32770.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 21376.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.0177411,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 18,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "A3d",
+      "population": "gemeinsam",
+      "arm": "gemeinsam",
+      "stage": "Qualifikation",
+      "currency": "USD",
+      "pricing_scenario": "archived_A3d_Standard_USD",
+      "receipts": 23,
+      "calls": {
+        "known_subtotal": 23.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 23.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 57925.0,
+        "missing_rows": 1,
+        "complete": false
+      },
+      "completion_tokens": {
+        "known_subtotal": 18610.0,
+        "missing_rows": 1,
+        "complete": false
+      },
+      "known_cost": {
+        "known_subtotal": 0.108702,
+        "missing_rows": 1,
+        "complete": false
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 23,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B1",
+      "population": "gemeinsam",
+      "arm": "gemeinsam",
+      "stage": "Qualifikation",
+      "currency": "USD",
+      "pricing_scenario": "exact_public_endpoint_region_catalog_rate",
+      "receipts": 16,
+      "calls": {
+        "known_subtotal": 16.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 16.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 74708.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 15348.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.02423273,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 16,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B1",
+      "population": "gemeinsam",
+      "arm": "gemeinsam",
+      "stage": "Qualifikation",
+      "currency": "USD",
+      "pricing_scenario": "public_standard_scenarios_verified_account_sku_unknown",
+      "receipts": 8,
+      "calls": {
+        "known_subtotal": 8.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 8.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 34961.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 3257.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": null,
+        "missing_rows": 8,
+        "complete": false
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 8,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B1",
+      "population": "gemeinsam",
+      "arm": "gemeinsam",
+      "stage": "Qualifikation",
+      "currency": "USD",
+      "pricing_scenario": "unknown_exact_foundry_rate",
+      "receipts": 8,
+      "calls": {
+        "known_subtotal": 8.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 8.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 37370.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 2679.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": null,
+        "missing_rows": 8,
+        "complete": false
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 8,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B1-Flex",
+      "population": "gemeinsam",
+      "arm": "gemeinsam",
+      "stage": "Qualifikation",
+      "currency": "EUR",
+      "pricing_scenario": "Foundry_Flex_Long_NoWrite_conditional",
+      "receipts": 8,
+      "calls": {
+        "known_subtotal": 8.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 8,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 34961.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 3311.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.0833798017,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 8,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B1-Standard",
+      "population": "gemeinsam",
+      "arm": "gemeinsam",
+      "stage": "Qualifikation",
+      "currency": "EUR",
+      "pricing_scenario": "conditional_Standard_Long_not_invoice_context_class_unverified",
+      "receipts": 8,
+      "calls": {
+        "known_subtotal": 8.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 8,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 34961.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 3403.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.167977467,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 8,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B2",
+      "population": "Konfirmation",
+      "arm": "gemeinsam",
+      "stage": "Bewertung",
+      "currency": "USD",
+      "pricing_scenario": "historical_Vertex_USD_candidates_plus_thoughts_output",
+      "receipts": 21,
+      "calls": {
+        "known_subtotal": 21.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 21,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 39792.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 56764.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.760752,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 21,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B2",
+      "population": "Konfirmation",
+      "arm": "gemeinsam",
+      "stage": "Qualifikation",
+      "currency": "USD",
+      "pricing_scenario": "archived_observation_list_price",
+      "receipts": 20,
+      "calls": {
+        "known_subtotal": 20.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 20,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": null,
+        "missing_rows": 20,
+        "complete": false
+      },
+      "completion_tokens": {
+        "known_subtotal": null,
+        "missing_rows": 20,
+        "complete": false
+      },
+      "known_cost": {
+        "known_subtotal": 0.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 20,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B3",
+      "population": "Konfirmation",
+      "arm": "AS",
+      "stage": "Extraktion",
+      "currency": "USD",
+      "pricing_scenario": "frozen_standard_uncached_list",
+      "receipts": 180,
+      "calls": {
+        "known_subtotal": 180.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 180.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 167154.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 138520.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.43120836,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 180,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B3",
+      "population": "Konfirmation",
+      "arm": "AS",
+      "stage": "Schema",
+      "currency": "USD",
+      "pricing_scenario": "frozen_standard_uncached_list",
+      "receipts": 6615,
+      "calls": {
+        "known_subtotal": 6615.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 6615.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 2226011.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 75973.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 1.8159082,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 6615,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B3",
+      "population": "Konfirmation",
+      "arm": "V1",
+      "stage": "Ergänzung",
+      "currency": "USD",
+      "pricing_scenario": "frozen_standard_uncached_list",
+      "receipts": 60,
+      "calls": {
+        "known_subtotal": 60.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 60.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 196266.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 59493.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.2773113,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 60,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B3",
+      "population": "Konfirmation",
+      "arm": "V1",
+      "stage": "Extraktion",
+      "currency": "USD",
+      "pricing_scenario": "frozen_standard_uncached_list",
+      "receipts": 180,
+      "calls": {
+        "known_subtotal": 180.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 180.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 181254.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 132474.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.42822024,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 180,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B3",
+      "population": "Konfirmation",
+      "arm": "V1",
+      "stage": "Schema",
+      "currency": "USD",
+      "pricing_scenario": "frozen_standard_uncached_list",
+      "receipts": 8858,
+      "calls": {
+        "known_subtotal": 8858.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 8858.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 3071020.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 101086.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 2.49696572,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 8858,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B4",
+      "population": "MuSiQue",
+      "arm": "AS",
+      "stage": "Extraktion",
+      "currency": "USD",
+      "pricing_scenario": "frozen_standard_uncached_list",
+      "receipts": 3378,
+      "calls": {
+        "known_subtotal": 3378.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 3378.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 885193.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 896469.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 2.645204,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 3378,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "B4",
+      "population": "MuSiQue",
+      "arm": "V1",
+      "stage": "Ergänzung",
+      "currency": "USD",
+      "pricing_scenario": "frozen_standard_uncached_list",
+      "receipts": 1127,
+      "calls": {
+        "known_subtotal": 1127.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 1126.0,
+        "missing_rows": 1,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 1432094.0,
+        "missing_rows": 1,
+        "complete": false
+      },
+      "completion_tokens": {
+        "known_subtotal": 143039.0,
+        "missing_rows": 1,
+        "complete": false
+      },
+      "known_cost": {
+        "known_subtotal": 1.37729614,
+        "missing_rows": 1,
+        "complete": false
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 1127,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 1
+    },
+    {
+      "package": "B4",
+      "population": "MuSiQue",
+      "arm": "V1",
+      "stage": "Extraktion",
+      "currency": "USD",
+      "pricing_scenario": "frozen_standard_uncached_list",
+      "receipts": 3378,
+      "calls": {
+        "known_subtotal": 3378.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 3378.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 1149803.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 782769.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 2.5886014,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 3378,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "C1",
+      "population": "Konfirmation",
+      "arm": "AS+G",
+      "stage": "Prüffilter",
+      "currency": "USD",
+      "pricing_scenario": "C1_bound_Kimi_K2.5_standard_list_no_cache_discount",
+      "receipts": 255,
+      "calls": {
+        "known_subtotal": 255.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 255,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 1943560.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 917512.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 4.7024064,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 8196.580931599958,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "C1",
+      "population": "Konfirmation",
+      "arm": "V2",
+      "stage": "Prüffilter",
+      "currency": "USD",
+      "pricing_scenario": "C1_bound_Kimi_K2.5_standard_list_no_cache_discount",
+      "receipts": 321,
+      "calls": {
+        "known_subtotal": 321.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 321,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 3010155.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 1188025.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 6.4442016,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 10752.534880000014,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "C1",
+      "population": "MuSiQue",
+      "arm": "AS+G",
+      "stage": "Prüffilter",
+      "currency": "USD",
+      "pricing_scenario": "C1_bound_Kimi_K2.5_standard_list_no_cache_discount",
+      "receipts": 1992,
+      "calls": {
+        "known_subtotal": 1992.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 1992,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 7749032.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 5892125.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 26.79095304,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 55035.6443616001,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "C1",
+      "population": "MuSiQue",
+      "arm": "V2",
+      "stage": "Prüffilter",
+      "currency": "USD",
+      "pricing_scenario": "C1_bound_Kimi_K2.5_standard_list_no_cache_discount",
+      "receipts": 1862,
+      "calls": {
+        "known_subtotal": 1862.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 1862,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 7418681.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 5430160.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 24.89002632,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 50281.70955070005,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "C2",
+      "population": "Konfirmation",
+      "arm": "AS",
+      "stage": "Bewertung",
+      "currency": "EUR",
+      "pricing_scenario": "Foundry_Flex_Global_Long_NoWrite_conditional",
+      "receipts": 2,
+      "calls": {
+        "known_subtotal": 2.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 2,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 16977.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 785.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.035058666,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 2,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "C2",
+      "population": "Konfirmation",
+      "arm": "V1",
+      "stage": "Bewertung",
+      "currency": "EUR",
+      "pricing_scenario": "Foundry_Flex_Global_Long_NoWrite_conditional",
+      "receipts": 36,
+      "calls": {
+        "known_subtotal": 36.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 36,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 328901.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 13806.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.669949728,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 36,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "C2",
+      "population": "Konfirmation",
+      "arm": "V1",
+      "stage": "Bewertung",
+      "currency": "EUR",
+      "pricing_scenario": "Foundry_Standard_Long_possible_cache_write_conditional",
+      "receipts": 2,
+      "calls": {
+        "known_subtotal": 2.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 2,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 19965.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 832.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.0988260707,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 2,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "C2",
+      "population": "Konfirmation",
+      "arm": "gemeinsam",
+      "stage": "Bewertung",
+      "currency": "EUR",
+      "pricing_scenario": "Foundry_Flex_Global_Long_NoWrite_conditional",
+      "receipts": 929,
+      "calls": {
+        "known_subtotal": 929.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 929,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 8215557.0,
+        "missing_rows": 28,
+        "complete": false
+      },
+      "completion_tokens": {
+        "known_subtotal": 343565.0,
+        "missing_rows": 28,
+        "complete": false
+      },
+      "known_cost": {
+        "known_subtotal": 16.688234276,
+        "missing_rows": 30,
+        "complete": false
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 929,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 28
+    },
+    {
+      "package": "C2",
+      "population": "Konfirmation",
+      "arm": "gemeinsam",
+      "stage": "Bewertung",
+      "currency": "EUR",
+      "pricing_scenario": "Foundry_Standard_Long_possible_cache_write_conditional",
+      "receipts": 96,
+      "calls": {
+        "known_subtotal": 96.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 96,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 871466.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 37014.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 4.3229332478,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 96,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "C3",
+      "population": "Konfirmation",
+      "arm": "gemeinsam",
+      "stage": "Bewertung",
+      "currency": "EUR",
+      "pricing_scenario": "Foundry_Flex_Global_Long_NoWrite_conditional",
+      "receipts": 327,
+      "calls": {
+        "known_subtotal": 327.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 327,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 6202131.0,
+        "missing_rows": 5,
+        "complete": false
+      },
+      "completion_tokens": {
+        "known_subtotal": 263291.0,
+        "missing_rows": 5,
+        "complete": false
+      },
+      "known_cost": {
+        "known_subtotal": 12.652798435,
+        "missing_rows": 5,
+        "complete": false
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 327,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 5
+    },
+    {
+      "package": "C6",
+      "population": "MuSiQue",
+      "arm": "AS",
+      "stage": "Bewertung",
+      "currency": "USD",
+      "pricing_scenario": "C6_bound_standard_list_no_cache_discount",
+      "receipts": 120,
+      "calls": {
+        "known_subtotal": 120.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 120,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 160311.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 508.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.03571546,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 107.19328640000776,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "C6",
+      "population": "MuSiQue",
+      "arm": "AS+G",
+      "stage": "Bewertung",
+      "currency": "USD",
+      "pricing_scenario": "C6_bound_standard_list_no_cache_discount",
+      "receipts": 120,
+      "calls": {
+        "known_subtotal": 120.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 120,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 157999.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 410.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.03512058,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 68.65899110000191,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "C6",
+      "population": "MuSiQue",
+      "arm": "V1",
+      "stage": "Bewertung",
+      "currency": "USD",
+      "pricing_scenario": "C6_bound_standard_list_no_cache_discount",
+      "receipts": 120,
+      "calls": {
+        "known_subtotal": 120.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 120,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 171150.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 432.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.03803316,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 156.71223089998966,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "C6",
+      "population": "MuSiQue",
+      "arm": "V2",
+      "stage": "Bewertung",
+      "currency": "USD",
+      "pricing_scenario": "C6_bound_standard_list_no_cache_discount",
+      "receipts": 120,
+      "calls": {
+        "known_subtotal": 120.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 120,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 169969.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 372.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.03772054,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 80.97050789999048,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "C6",
+      "population": "MuSiQue",
+      "arm": "gemeinsam",
+      "stage": "Bewertung",
+      "currency": "USD",
+      "pricing_scenario": "C6_bound_standard_list_no_cache_discount",
+      "receipts": 120,
+      "calls": {
+        "known_subtotal": 120.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 120,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 34149.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 466.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.00792286,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 108.88940960001491,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "C6",
+      "population": "gemeinsam",
+      "arm": "gemeinsam",
+      "stage": "Qualifikation",
+      "currency": "USD",
+      "pricing_scenario": "C6_bound_standard_list_no_cache_discount",
+      "receipts": 1,
+      "calls": {
+        "known_subtotal": 1.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 1,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 115.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 2.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 2.706e-05,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 0.40953780000006645,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "T1",
+      "population": "Transfer20",
+      "arm": "AS",
+      "stage": "Extraktion",
+      "currency": "USD",
+      "pricing_scenario": "T1_bound_standard_list_no_cache_discount",
+      "receipts": 60,
+      "calls": {
+        "known_subtotal": 60.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 60.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 59459.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 83337.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.08641754,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 887.7870051999962,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "T1",
+      "population": "Transfer20",
+      "arm": "AS",
+      "stage": "Schema",
+      "currency": "USD",
+      "pricing_scenario": "T1_bound_standard_list_no_cache_discount",
+      "receipts": 3546,
+      "calls": {
+        "known_subtotal": 3546.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 3546.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 1254864.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 43617.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.31445304,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 3368.4541261001905,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "T1",
+      "population": "Transfer20",
+      "arm": "AS+G",
+      "stage": "Prüffilter",
+      "currency": "USD",
+      "pricing_scenario": "T1_bound_standard_list_no_cache_discount",
+      "receipts": 122,
+      "calls": {
+        "known_subtotal": 122.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 122.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 1307484.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 463091.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 2.60851608,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 4434.569094199993,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "T1",
+      "population": "Transfer20",
+      "arm": "V1",
+      "stage": "Ergänzung",
+      "currency": "USD",
+      "pricing_scenario": "T1_bound_standard_list_no_cache_discount",
+      "receipts": 20,
+      "calls": {
+        "known_subtotal": 20.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 20.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 99992.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 3037.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.0246708,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 50.03521879999971,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "T1",
+      "population": "Transfer20",
+      "arm": "V1",
+      "stage": "Extraktion",
+      "currency": "USD",
+      "pricing_scenario": "T1_bound_standard_list_no_cache_discount",
+      "receipts": 60,
+      "calls": {
+        "known_subtotal": 60.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 60.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 64239.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 83890.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.08795578,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 964.5186160999983,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "T1",
+      "population": "Transfer20",
+      "arm": "V1",
+      "stage": "Schema",
+      "currency": "USD",
+      "pricing_scenario": "T1_bound_standard_list_no_cache_discount",
+      "receipts": 3726,
+      "calls": {
+        "known_subtotal": 3726.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 3726.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 1333694.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 46082.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 0.33396484,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 3495.373165999721,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "T1",
+      "population": "Transfer20",
+      "arm": "V2",
+      "stage": "Prüffilter",
+      "currency": "USD",
+      "pricing_scenario": "T1_bound_standard_list_no_cache_discount",
+      "receipts": 121,
+      "calls": {
+        "known_subtotal": 121.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": 121.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "prompt_tokens": {
+        "known_subtotal": 1387299.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 470462.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 2.69251848,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": 4545.209927199983,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    },
+    {
+      "package": "T1",
+      "population": "gemeinsam",
+      "arm": "gemeinsam",
+      "stage": "Qualifikation",
+      "currency": "USD",
+      "pricing_scenario": "T1_bound_standard_list_no_cache_discount",
+      "receipts": 1,
+      "calls": {
+        "known_subtotal": 1.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "physical_POSTs": {
+        "known_subtotal": null,
+        "missing_rows": 1,
+        "complete": false
+      },
+      "prompt_tokens": {
+        "known_subtotal": 13.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "completion_tokens": {
+        "known_subtotal": 2.0,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "known_cost": {
+        "known_subtotal": 4.62e-06,
+        "missing_rows": 0,
+        "complete": true
+      },
+      "request_elapsed_seconds": {
+        "known_subtotal": null,
+        "missing_rows": 1,
+        "complete": false
+      },
+      "stage_wall_seconds": null,
+      "time_note": "Summe einzelner Anfragedauern, soweit belegt; keine additive Wandzeit.",
+      "unknown_execution_rows": 0
+    }
+  ],
+  "rules": [
+    "Original receipt counted once in the disjoint table.",
+    "Logical AS+G and V2 full costs each include their reused AS/V1 base.",
+    "Evaluation, references, qualification and C6 Reader excluded from N17 construction ratios.",
+    "Currencies and price scenarios remain separate.",
+    "Known subtotals do not replace unknown usage, cost, physical POSTs or wall time."
+  ],
+  "CPU_export_separate": {
+    "stage": "Export",
+    "scope": "C5 all 24 sources, four arms, both exports",
+    "measured_export_cells": 544,
+    "additional_model_calls": 0,
+    "provider_token_usage": "not_applicable_to_deterministic_CPU_export",
+    "CPU_cost_USD": null,
+    "isolated_wall_seconds": null,
+    "reason": "CPU export is separate from provider ledgers; no isolated metered CPU cost or wall-time total in this bound result.",
+    "evidence": {
+      "path": "Experiments/fair_v2_oct24/C5/result.json",
+      "bytes": 76651,
+      "sha256": "9dfbb331568ec4d98f6b09a331d8f978815f1fcac84a86a4c76d3b7ab5034dfa"
+    }
+  }
+}

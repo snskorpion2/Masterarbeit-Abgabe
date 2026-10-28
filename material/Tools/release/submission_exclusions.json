@@ -1,0 +1,16 @@
+{
+  "protocol": "Z3-submission-exclusion-policy-v1",
+  "selection_rule": "Only exact manifest members; no recursive repository copy and no implicit inclusion through evidence references.",
+  "maximum_selected_file_bytes": 26214400,
+  "excluded_categories": [
+    {"category": "credentials_and_private_storage", "names_or_parts": [".env", ".env.*", "Serverzugang.md", "VladsPersonalSpace", "AppData", "Masterarbeit-private-evidence"], "reason": "Credentials, private storage or personal working files."},
+    {"category": "raw_outputs_and_reference_texts", "names_or_parts": ["private_raw", "private_raw_responses", "response.raw", "raw_body", "gold_sealed.json", "objects.jsonl", "cells.jsonl"], "reason": "Uncleared raw provider outputs, original text-bearing inventories, gold and reference data are excluded."},
+    {"category": "datasets_and_full_graphs", "repository_roots": ["Experiments/data", "Literatur", "Tools/ReferenceRepos"], "explicit_exception": "Only the designated AutoSchemaKG license text; no original code/data checkout.", "reason": "Dataset and third-party rights are not inherited from source-code licensing."},
+    {"category": "large_rebuildable_or_internal_files", "names_or_parts": [".git", ".venv", "node_modules", "__pycache__", ".private-temp", "tmp", "build", "models"], "suffixes": [".safetensors", ".bin", ".pt", ".onnx", ".whl", ".zip", ".tar", ".gz"], "reason": "History, environments, weights, caches, archives and temporary working files are unnecessary for this finite selection."},
+    {"category": "thesis_sources_and_personal_assets", "repository_roots": ["Latex-Masterarbeit"], "reason": "No LaTeX sources, signature assets or editable logos. Final PDF is added separately only after author approval."},
+    {"category": "local_or_unreleased_results", "repository_roots": ["Experiments/fair_v2_oct24/D1/vorlauf_ohne_H4", "Experiments/fair_v2_oct24/C6"], "reason": "Local preliminary D1 outputs and ongoing private C6 outputs are not released final results."},
+    {"category": "unapproved_drafts", "names_or_parts": ["entwurf_planB_stichprobe_unfreigegeben.md"], "reason": "An unapproved draft is not an adopted amendment."}
+  ],
+  "originals": "Excluded originals remain unchanged in their existing archive; preparation never deletes them.",
+  "scope_limit": "Technical pattern checks do not establish licensing or semantic privacy clearance. No full repository/history scan is claimed."
+}

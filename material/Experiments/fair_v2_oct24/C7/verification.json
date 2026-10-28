@@ -1,0 +1,121 @@
+{
+  "protocol": "C7-current-UI-export-origin-and-code-verification-v2",
+  "verified_UTC": "2026-10-25T22:08:45.423771+00:00",
+  "annotation_origin": "human_ui_input",
+  "author_confirmed": true,
+  "classification": "Autorenannotation",
+  "annotation_count": 150,
+  "annotation_SHA256": "291c623a42611f16124adbf80298b60430f8501cded62ee01a3fc9b2677f335c",
+  "original_analysis_annotation_SHA256": "e298973f7bcca4746d2f7704c618b93724d60d2fe977a3cb3e4e60e9785ab88b",
+  "original_annotation_preserved_privately": true,
+  "corrected_annotation_preserved_privately": true,
+  "downloaded_and_private_current_copy_byte_identical": true,
+  "only_raw_field_changed": "annotation_origin",
+  "all_labels_comments_and_timestamps_exactly_unchanged": true,
+  "UI_export_root_and_item_fields_match": true,
+  "UI_annotations_contract_valid_count": 150,
+  "CPU": {
+    "tests": 71,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "CPU_xml_SHA256": "e2e36e7ecac9da81ae9c5124e645c9405c70ddf1be481461cd770941cb3b1a74",
+  "UI_synthetic_behavior_checks": 13,
+  "UI_check_uses_actual_shipped_script": true,
+  "UI_check_is_full_real_browser": false,
+  "old_error_reproduced_with_synthetic_input_and_removed": true,
+  "no_authorship_inference_from_origin_or_comments": true,
+  "current_input_receipt_validated": true,
+  "current_private_carrier_provenance_consistent": true,
+  "current_private_carrier_agreement_rows_unchanged": true,
+  "statistical_blocks_unchanged": [
+    "selected_count",
+    "design",
+    "coverage",
+    "agreement",
+    "author_precision",
+    "removed_slice",
+    "comment_mentions",
+    "dependence",
+    "join_coverage",
+    "N8_H1_qualification"
+  ],
+  "natural_statistical_reanalysis_performed": false,
+  "new_labels": 0,
+  "provider_calls": 0,
+  "D1_source_files_edited": false,
+  "H12_human_analysis_started": false,
+  "historical_verification_pin": {
+    "path": "withheld-artifact/65325ce93d6a32cfe7ce",
+    "bytes": 3129,
+    "sha256": "335b51e8ab7e5a04023499d18553176a3ed866ebbb0c98d7b7f0e07b28e73ccd"
+  },
+  "current_input_receipt_pin": {
+    "path": "withheld-artifact/f93e1985a016313cd53b",
+    "bytes": 3192,
+    "sha256": "93450e4cbae5843f9a4372e4a42117e133dbfb0c0748093db415fe3c1b081707"
+  },
+  "current_annotation_pin": {
+    "path": "withheld-artifact/50aaadec74ad69321dae",
+    "bytes": 34095,
+    "sha256": "291c623a42611f16124adbf80298b60430f8501cded62ee01a3fc9b2677f335c"
+  },
+  "current_private_carrier_pin": {
+    "path": "withheld-artifact/0d31a99131701a3aa6b7",
+    "bytes": 75094,
+    "sha256": "86571715d3d2f9361f68dd6da2e5a9e054b16b87179570216ac488071db64501"
+  },
+  "source_code_pins": [
+    {
+      "path": "Experiments/fair_v2_oct24/C7/analysis.py",
+      "bytes": 16555,
+      "sha256": "ad132e1e477fef76356febd8bdc1c2b97db108e03af4753618c5283a0383f225"
+    },
+    {
+      "path": "Experiments/fair_v2_oct24/C7/join.py",
+      "bytes": 13898,
+      "sha256": "6516433770daad221b5060d3b52068ab6606299d542ca1951355ccd0d5b5a16e"
+    },
+    {
+      "path": "Experiments/fair_v2_oct24/C7/provenance.py",
+      "bytes": 1847,
+      "sha256": "87a35e6db78a1818a0cc7e586adc99251b952b660810f296f863a37120048d68"
+    },
+    {
+      "path": "Experiments/fair_v2_oct24/C7/run.py",
+      "bytes": 8238,
+      "sha256": "efe981cdd19e4b4d108e89244e98cbdcf1fed0b47c6ba597bba9fac599d31f48"
+    },
+    {
+      "path": "Experiments/fair_v2_oct24/C7/test_analysis.py",
+      "bytes": 11275,
+      "sha256": "5e29dd3b558d2031c19a564193f71e0ee557b92f4ccf6b0e8a183c176cc7e496"
+    },
+    {
+      "path": "Experiments/fair_v2_oct24/C7/test_join.py",
+      "bytes": 12277,
+      "sha256": "e47c4d37f6f83a7a2736b1e0c03b7be3a90c8e9105bbc973eaebecbed5f0d8b2"
+    },
+    {
+      "path": "Experiments/fair_v2_oct24/C7/test_provenance.py",
+      "bytes": 5147,
+      "sha256": "24979103843b377ab9990590c2c52c0bad52cf3c743d6b827c7661d5a53afc3b"
+    },
+    {
+      "path": "Experiments/fair_v2_oct24/C7/test_run.py",
+      "bytes": 1676,
+      "sha256": "7e70aa6dba8e6841ecb1154c58cd3c3238e2486f40460623deeb80520a11b7aa"
+    }
+  ],
+  "annotation_UI_source_pin": {
+    "path": "Tools/experiments/c7_human_annotation_oct24_v1/annotate.html",
+    "bytes": 23650,
+    "sha256": "361593652ce333ba26602531625dee5ca70dc0f102a7d05349b1a52d2ec70129"
+  },
+  "result_pin": {
+    "path": "Experiments/fair_v2_oct24/C7/result.json",
+    "bytes": 26188,
+    "sha256": "d367fc7cdf53ab56e050ffe9354daf4ad6e5ae078e338bf644b90d5f51cb2bb4"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "protocol": "RB1-CPU-verification-v1",
+  "checked_utc": "2026-10-26T12:40:28.172526+00:00",
+  "status": "complete_with_stated_statistical_limits",
+  "model_calls": 0,
+  "manuscript_edits": false,
+  "primary_Holm_N8_edits": false,
+  "synthetic_tests": 27,
+  "failures": 0,
+  "D1_H1_cell_checks": 8,
+  "D1_strict_type_checks": 24,
+  "D1_primary_H2_points_reproduced": true,
+  "N10_matrix": "e88daf8592fbf987e03cf9fc51642e462db9e142f788046dac0b3b8936235b76",
+  "paired_ratio_intervals_recomputed": [
+    "V2_ROW",
+    "V1_ROW",
+    "AS_G_ROW"
+  ],
+  "original_private_projection_value_equal": true,
+  "original_private_projection_bytes_equal_with_Windows_newlines": true,
+  "projection_first_byte_check_failure_explained": "LF in-memory serialization compared to CRLF original; no data change",
+  "full_24_type_missing": 3,
+  "common_estimable_sensitivity_sources": 23,
+  "H1_H2_primary_direction_positive_in_defined_LOO_cases": true,
+  "by_draw_contrast_rows": 36,
+  "omission_contrast_rows": 292,
+  "preview": {
+    "compiler": "latexmk -pdf with unchanged captured thesis preamble and styles",
+    "pages": 1,
+    "manuscript_integration": false,
+    "overfull": 0,
+    "underfull": 0,
+    "table_caption_number_is_preview_only": "A.1",
+    "table_sha256": "a5af5c382e1585c599008c0a66599aced6209290bbb67072a7dbbcbdf3157bcc",
+    "visually_reviewed": true,
+    "visual_limits": "Single table preview, not full thesis pagination"
+  },
+  "main_text_sentences": 2,
+  "public_result_has_no_individual_judgment_fields_or_private_absolute_paths": true,
+  "input_pins": [
+    {
+      "file": "Experiments/fair_v2_oct24/G1/nachtrag_17_effizienz_robustheit_vv.md",
+      "sha256": "3364a917d8fcf6f327ef64bb92c677e25fc3085d8e7683b3c32701759487ce91",
+      "bytes": 6181
+    },
+    {
+      "file": "Experiments/fair_v2_oct24/A7/preregistration_v2_frozen.json",
+      "sha256": "8377548a064de1fadd28baf674290be02021457ab38b49056ac9dde45dddf9f5",
+      "bytes": 101775
+    },
+    {
+      "file": "Experiments/fair_v2_oct24/D1/final_native_oct26_v1/result.json",
+      "sha256": "2260869d48653f314052d167e52e8f32e15ecc3974cc84540bbc87968db8ef12",
+      "bytes": 25003
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "RB1/analysis.py",
+      "sha256": "7694f759690fb97eb51fcbb3596857a0c25e67c11c058577c02854c29ecbc339",
+      "bytes": 7778
+    },
+    {
+      "file": "RB1/anhang-tabelle.tex",
+      "sha256": "a5af5c382e1585c599008c0a66599aced6209290bbb67072a7dbbcbdf3157bcc",
+      "bytes": 2884
+    },
+    {
+      "file": "RB1/anhang-vorschau.pdf",
+      "sha256": "15442d726f4dc9fe7c85d00b796945735aa4fe499627da896805b540a917f813",
+      "bytes": 88400
+    },
+    {
+      "file": "RB1/BERICHT.md",
+      "sha256": "605dd9c9a73b222ccdce433bb9f5a97b7d1426ec9cb50d043da9ed586717971c",
+      "bytes": 7003
+    },
+    {
+      "file": "RB1/cpu-tests.xml",
+      "sha256": "31fe52379ec8b0d1c05751cd2a76a2955669c68de32a8e6b0520ac6c0872e220",
+      "bytes": 3692
+    },
+    {
+      "file": "RB1/durchlaeufe.csv",
+      "sha256": "82dca0722a059f9ddb24d67ba86bd906138ebc99d0838d961559cca3176d8930",
+      "bytes": 3431
+    },
+    {
+      "file": "RB1/kapitel6-zwei-saetze.tex",
+      "sha256": "ea7c7084b870eb1ff83da2c060de5962eaf5eca2e92614ca939d306987350480",
+      "bytes": 609
+    },
+    {
+      "file": "RB1/prepare.py",
+      "sha256": "a36b1cc2860498473dea056127d0966d081e2ddc7a4d8ed169e5beed2b63ebd1",
+      "bytes": 2123
+    },
+    {
+      "file": "RB1/preview-context.json",
+      "sha256": "4d0fbd2e7404ed6bd3c64ff6f71d8cb5fd56473f4636f9f3b3f14dd965987bb8",
+      "bytes": 412
+    },
+    {
+      "file": "RB1/PROTOKOLL.md",
+      "sha256": "c09c32263df20273b75f037388127ff16921c90a8c29f76e33d0c069e04c608d",
+      "bytes": 3502
+    },
+    {
+      "file": "RB1/render.py",
+      "sha256": "7ff9cd76d14f9a55f4b2a51753dfd7d989d71a33e4f6b6d2b3102168ced424b1",
+      "bytes": 15377
+    },
+    {
+      "file": "RB1/result.json",
+      "sha256": "cba158efc7b600c69069a8971e99e6c7171073b4de3e4be2bd178fbe6e5ff99f",
+      "bytes": 1219089
+    },
+    {
+      "file": "RB1/robustness.py",
+      "sha256": "a8223444051793ea60e0b93f15a83b24317cd6fcf0c5a983c5fb82817cacb306",
+      "bytes": 11558
+    },
+    {
+      "file": "RB1/run.py",
+      "sha256": "9e33f615fd89c6164e08f8d193e88f2be61855c55a5e41373715c9af2b9dfcf4",
+      "bytes": 6432
+    },
+    {
+      "file": "RB1/test_analysis.py",
+      "sha256": "1c8a33d0fb647d22eac94e28b602f8ea3c16fe0168f185237fe7850f70106203",
+      "bytes": 3383
+    },
+    {
+      "file": "RB1/test_robustness.py",
+      "sha256": "c79dbc8a8e42cda463ce7b697155cb8aa734a0584a909ba0956c839f4d0b1052",
+      "bytes": 10247
+    },
+    {
+      "file": "RB1/USAGE.md",
+      "sha256": "e32df513ba7c0accf0f45015d7464c73888f079c81591125198dce33dac060df",
+      "bytes": 3859
+    },
+    {
+      "file": "RB1/weglassungen.csv",
+      "sha256": "172192a36edca7d06d0f358d004ca2f6ffe5c8990789be0988e651eece367455",
+      "bytes": 35792
+    }
+  ]
+}

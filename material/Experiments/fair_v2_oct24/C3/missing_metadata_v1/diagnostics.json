@@ -1,0 +1,107 @@
+{
+  "protocol": "C3-technical-missingness-concentration-oct25-v1",
+  "planned_sources": 24,
+  "sources_with_any_valid_case": 17,
+  "sources_without_valid_cases": [
+    "A4-W10",
+    "A4-W11",
+    "A4-W12",
+    "RGCONF01",
+    "RGCONF02",
+    "RGCONF03",
+    "RGCONF04"
+  ],
+  "sources_fully_unstarted_by_budget": [
+    "A4-W10",
+    "A4-W11",
+    "A4-W12",
+    "RGCONF01",
+    "RGCONF02",
+    "RGCONF03",
+    "RGCONF04"
+  ],
+  "planned_source_draw_pairs": 68,
+  "source_draw_pairs_with_any_valid_case": 50,
+  "source_draw_pairs_without_valid_cases": [
+    {
+      "source_id": "A4-W09",
+      "draw": "draw_3"
+    },
+    {
+      "source_id": "A4-W10",
+      "draw": "draw_1"
+    },
+    {
+      "source_id": "A4-W10",
+      "draw": "draw_2"
+    },
+    {
+      "source_id": "A4-W10",
+      "draw": "draw_3"
+    },
+    {
+      "source_id": "A4-W11",
+      "draw": "draw_1"
+    },
+    {
+      "source_id": "A4-W11",
+      "draw": "draw_2"
+    },
+    {
+      "source_id": "A4-W11",
+      "draw": "draw_3"
+    },
+    {
+      "source_id": "A4-W12",
+      "draw": "draw_1"
+    },
+    {
+      "source_id": "A4-W12",
+      "draw": "draw_2"
+    },
+    {
+      "source_id": "A4-W12",
+      "draw": "draw_3"
+    },
+    {
+      "source_id": "RGCONF01",
+      "draw": "draw_1"
+    },
+    {
+      "source_id": "RGCONF01",
+      "draw": "draw_2"
+    },
+    {
+      "source_id": "RGCONF02",
+      "draw": "draw_1"
+    },
+    {
+      "source_id": "RGCONF02",
+      "draw": "draw_2"
+    },
+    {
+      "source_id": "RGCONF03",
+      "draw": "draw_1"
+    },
+    {
+      "source_id": "RGCONF03",
+      "draw": "draw_2"
+    },
+    {
+      "source_id": "RGCONF04",
+      "draw": "draw_1"
+    },
+    {
+      "source_id": "RGCONF04",
+      "draw": "draw_2"
+    }
+  ],
+  "pooled_case_missing_rate": 0.2191780821917808,
+  "equal_source_case_missing_rate": 0.31531986531986533,
+  "no_missing_source_or_draw_is_dropped": true,
+  "C3_budget_order_is_not_claimed_to_be_a_random_source_sample": true,
+  "H2_estimands_and_rules_changed": false,
+  "retention_codes_read": false,
+  "new_model_calls": 0,
+  "new_audits": 0
+}

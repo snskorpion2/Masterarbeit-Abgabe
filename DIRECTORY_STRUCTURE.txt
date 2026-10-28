@@ -1,0 +1,23 @@
+README.md                  Einstieg nach Leserfragen
+docs/
+  ERGEBNISSE.md            Hauptbefunde und ergänzende Analysen
+  METHODIK.md              Vorregistrierung, Nachträge, Konstruktion und Bewertung
+  REPRODUKTION.md          Voraussetzungen, Befehle und Prüfumfang
+  KENNUNGEN.md             Verständliche Namen zu internen Kennungen
+  STRUKTUR.json            Dateigenauer Nachweis des Umzugs nach material/
+reproduzieren.py            Gemeinsamer Einstieg: pruefen, tests, demo
+test_reproduktion.py        Kontrollen der äußeren Paketprüfung
+requirements.txt           Festgelegte Abhängigkeiten für die CPU-Demo
+MANIFEST.json              Bytebindung des vollständigen aktuellen Lieferbaums
+material/                  Bisheriger öffentlicher Bestand mit stabilen relativen Pfaden
+  Experiments/             Vorregistrierung, Nachträge, Auswertung und Konstruktion
+  Tools/                   Prüffilter, Anbieteranbindungen und innere Paketprüfung
+  protocols/               Öffentlicher Auswertungsvertrag
+  EF1/ RB1/ QA1/ X3/ X2/    Ergänzende Analysen und Diagnosen
+  H15/ H16/ S13/            Aggregierte Autorenprüfungen
+  docs/                    Chronologie und ursprüngliche Nachweisindizes
+  licenses/                Mitgelieferte Fremdlizenz
+  MANIFEST.json            Innerer Liefernachweis
+  TRANSFORMATIONS.json     Herkunft öffentlicher Ableitungen
+
+Die Thesis-PDF und ihre LaTeX-Quellen sind getrennt geführt.

@@ -1,0 +1,68 @@
+{
+  "protocol": "C1-MuSiQue-actual-complete-and-sole-end-audit-handoff-oct25-v1",
+  "status": "complete_and_existing_final_audit_passed",
+  "independent_end_audits_performed": 1,
+  "new_model_calls_for_end_audit": 0,
+  "exports_regenerated_for_audit": 0,
+  "model": "moonshotai.kimi-k2.5",
+  "scope_requests": 3854,
+  "contexts": 2240,
+  "contexts_each_arm": 1120,
+  "pending_requests": 0,
+  "unknown_requests": 0,
+  "eligible_EE_VV": 28478,
+  "root_terminal_pin": {
+    "path": "withheld-artifact/2839137cc21d06597678",
+    "bytes": 4135,
+    "sha256": "8b4332767a30edfe2018b280a0239d1ab58faacd3e401aa270aed567a4bb22f4"
+  },
+  "worker_terminal_pin": {
+    "path": "withheld-artifact/bb95a93ccd370e8c3f7d",
+    "bytes": 5569175,
+    "sha256": "c5a1081ceee82d8e68cfebd8c0760877342775f9daba3660ecc361ef0a179f47"
+  },
+  "completion_receipt_pin": {
+    "path": "withheld-artifact/5c2a29e6afc4bf43a574",
+    "bytes": 1402,
+    "sha256": "c492ffeb66c809a31743ed0eafde23dd53836a403a8eca7c3753d7b809405303"
+  },
+  "audit_report_pin": {
+    "path": "withheld-artifact/d528fb3581bab1a6b576",
+    "bytes": 4055,
+    "sha256": "e058a354136f92acee569b0c518d949529974a88de4846ccbccdff2a3fdf9746"
+  },
+  "passed": true,
+  "technical_arm_counts": {
+    "AS": {
+      "eligible": 14762,
+      "assessed": 13224,
+      "removed": 2824,
+      "unassessed": 1538,
+      "unassessed_quote": 1440,
+      "unassessed_structure": 98,
+      "N7_contexts": 3,
+      "EV_ineligible": 7047
+    },
+    "V1": {
+      "eligible": 13716,
+      "assessed": 12406,
+      "removed": 1741,
+      "unassessed": 1310,
+      "unassessed_quote": 1227,
+      "unassessed_structure": 83,
+      "N7_contexts": 4,
+      "EV_ineligible": 8022
+    }
+  },
+  "known_cost_USD_in_existing_guard_ledger": "62.82758736",
+  "invoice_USD": null,
+  "EV_assessed_by_guard": false,
+  "semantic_quality_claimed": false,
+  "T1_existing_guard_started_UTC": "2026-10-25T19:33:50Z",
+  "limits": [
+    "Known model completion does not mean every EE/VV statement was successfully assessed.",
+    "Quote and structural unassessed positions remain unassessed under the frozen keep-original rule.",
+    "Guard removals are not independently established semantic errors.",
+    "C6 input qualification and actual QA execution remain separate from this C1 end audit."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "protocol": "H16-final-preparation-readback-v1",
+  "verified_UTC": "2026-10-26T11:57:35.228787+00:00",
+  "passed": true,
+  "N16_single_path_commit": "245864854f66e04f62c7bbaab66d547d8dfdf33f",
+  "publication_before_sampling": true,
+  "sampling_seed": 2026102616,
+  "sample_size": 60,
+  "arm_counts": {
+    "AS": 30,
+    "V2": 30
+  },
+  "type_counts": {
+    "AS": {
+      "EE": 10,
+      "EV": 10,
+      "VV": 10
+    },
+    "V2": {
+      "EE": 10,
+      "EV": 10,
+      "VV": 10
+    }
+  },
+  "source_population": 20,
+  "sample_sources": 18,
+  "actual_draws": 1,
+  "whole_statement_and_source_hashes_verified_by_package_adapter": true,
+  "unchanged_C7_template": true,
+  "disk_HTML_equals_rendered_packet": true,
+  "separate_author_and_private_directories": true,
+  "author_storage_isolated_by_new_dataset_and_packet_digest": true,
+  "cpu_tests": {
+    "tests": 65,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "cpu_test_report_pin": {
+    "path": "H16/cpu-tests.xml",
+    "bytes": 7808,
+    "sha256": "75a15e38f465c513fceda19cee67c44644f7875123560d5e5dc53206bea1c07f"
+  },
+  "C7_UI_behavior_checks": 13,
+  "C7_real_file_browser_checks": 27,
+  "browser": "Chromium 156.0.8078.48",
+  "browser_module_resolution": "Bundled Node runtime used after system Node lacked Playwright; resolved",
+  "human_labels_created": 0,
+  "human_exports_opened": 0,
+  "model_calls": 0,
+  "quality_results_available": false,
+  "preparation_pin": {
+    "path": "H16/preparation.json",
+    "bytes": 4757,
+    "sha256": "bc52af4d06555e0cfd63c3d6c7b45165ff297c3ecdbc4709f7c86d2661185b30"
+  }
+}

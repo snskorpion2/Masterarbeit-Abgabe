@@ -1,0 +1,361 @@
+{
+  "protocol": "N18-post-primary-completion-H1-H2-public-v1",
+  "created_UTC": "2026-10-27T12:08:23.352940+00:00",
+  "status": "completed_with_retained_technical_missing",
+  "scope": "Separate post-primary completion, original prompts/grouping/blinding/order, no retries of attempted groups",
+  "model": "gpt-6.1-sol",
+  "native_model": "gpt-6.1-sol-2026-09-29",
+  "contrast": "V2_ROW minus AS_ORIGINAL",
+  "rows": [
+    {
+      "adjusted_p": 0.00029997000299970003,
+      "ci95": {
+        "lower": 0.05481386316811773,
+        "upper": 0.11140709884884337
+      },
+      "cluster_count": 24,
+      "control_mean": 0.8183308270445568,
+      "coverage": "Primär",
+      "endpoint": "H1",
+      "missing_plus_unclear_rate_source_equal_AS_V2": [
+        0.02805397643812696,
+        0.03453949109377127
+      ],
+      "point_difference": 0.08366551765162511,
+      "pooled_missing_plus_unclear_rate_AS_V2": [
+        0.02937853107344633,
+        0.03369839932603201
+      ],
+      "pooled_technical_missing_rate_AS_V2": [
+        0.02824858757062147,
+        0.030328559393428812
+      ],
+      "posthoc_supplement_not_replacement_primary": false,
+      "raw_p": 9.999000099990002e-05,
+      "technical_missing_rate_source_equal_AS_V2": [
+        0.02662396254400314,
+        0.029864806090204737
+      ],
+      "treatment_mean": 0.901996344696182
+    },
+    {
+      "adjusted_p": 0.00029997000299970003,
+      "ci95": {
+        "lower": 0.042340067340067344,
+        "upper": 0.15796603184624014
+      },
+      "cluster_count": 24,
+      "control_mean": 0.43975869809203144,
+      "coverage": "Primär",
+      "endpoint": "H2 G2",
+      "missing_plus_unclear_rate_source_equal_AS_V2": [
+        0.318111672278339,
+        0.3193462401795735
+      ],
+      "point_difference": 0.09685395622895625,
+      "pooled_missing_plus_unclear_rate_AS_V2": [
+        0.2226027397260274,
+        0.2243150684931507
+      ],
+      "pooled_technical_missing_rate_AS_V2": [
+        0.2226027397260274,
+        0.2243150684931507
+      ],
+      "posthoc_supplement_not_replacement_primary": false,
+      "raw_p": 9.999000099990002e-05,
+      "technical_missing_rate_source_equal_AS_V2": [
+        0.318111672278339,
+        0.3193462401795735
+      ],
+      "treatment_mean": 0.5366126543209876
+    },
+    {
+      "adjusted_p": 0.00029997000299970003,
+      "ci95": {
+        "lower": 0.06467419290948703,
+        "upper": 0.20939703406615165
+      },
+      "cluster_count": 17,
+      "control_mean": 0.6208358090711033,
+      "coverage": "Primär",
+      "endpoint": "H2 N14",
+      "missing_plus_unclear_rate_source_equal_AS_V2": [
+        0.03733412556941968,
+        0.0390770449593979
+      ],
+      "point_difference": 0.13673499702911468,
+      "pooled_missing_plus_unclear_rate_AS_V2": [
+        0.036093418259023353,
+        0.03821656050955414
+      ],
+      "pooled_technical_missing_rate_AS_V2": [
+        0.036093418259023353,
+        0.03821656050955414
+      ],
+      "posthoc_supplement_not_replacement_primary": false,
+      "raw_p": 9.999000099990002e-05,
+      "technical_missing_rate_source_equal_AS_V2": [
+        0.03733412556941968,
+        0.0390770449593979
+      ],
+      "treatment_mean": 0.7575708061002179
+    },
+    {
+      "adjusted_p": 0.00029997000299970003,
+      "ci95": {
+        "lower": 0.060750101929684774,
+        "upper": 0.09983916714442341
+      },
+      "cluster_count": 24,
+      "control_mean": 0.82521180878999,
+      "coverage": "Ergänzt",
+      "endpoint": "H1",
+      "missing_plus_unclear_rate_source_equal_AS_V2": [
+        0.022681830714176756,
+        0.02899082719564171
+      ],
+      "point_difference": 0.0802816510333922,
+      "pooled_missing_plus_unclear_rate_AS_V2": [
+        0.023275145469659187,
+        0.028019925280199254
+      ],
+      "pooled_technical_missing_rate_AS_V2": [
+        0.022443890274314215,
+        0.02469904524699045
+      ],
+      "posthoc_supplement_not_replacement_primary": true,
+      "raw_p": 9.999000099990002e-05,
+      "technical_missing_rate_source_equal_AS_V2": [
+        0.021631810016128853,
+        0.024754775786665267
+      ],
+      "treatment_mean": 0.9054934598233823
+    },
+    {
+      "adjusted_p": 0.00029997000299970003,
+      "ci95": {
+        "lower": 0.07428258277216612,
+        "upper": 0.18705650252525252
+      },
+      "cluster_count": 24,
+      "control_mean": 0.5635241301907968,
+      "coverage": "Ergänzt",
+      "endpoint": "H2 G2",
+      "missing_plus_unclear_rate_source_equal_AS_V2": [
+        0.01255611672278339,
+        0.013790684624017958
+      ],
+      "point_difference": 0.13007154882154884,
+      "pooled_missing_plus_unclear_rate_AS_V2": [
+        0.015410958904109588,
+        0.017123287671232876
+      ],
+      "pooled_technical_missing_rate_AS_V2": [
+        0.015410958904109588,
+        0.017123287671232876
+      ],
+      "posthoc_supplement_not_replacement_primary": true,
+      "raw_p": 9.999000099990002e-05,
+      "technical_missing_rate_source_equal_AS_V2": [
+        0.01255611672278339,
+        0.013790684624017958
+      ],
+      "treatment_mean": 0.6935956790123458
+    },
+    {
+      "adjusted_p": 0.00029997000299970003,
+      "ci95": {
+        "lower": 0.07428258277216612,
+        "upper": 0.18705650252525252
+      },
+      "cluster_count": 24,
+      "control_mean": 0.5635241301907968,
+      "coverage": "Ergänzt",
+      "endpoint": "H2 N14",
+      "missing_plus_unclear_rate_source_equal_AS_V2": [
+        0.01255611672278339,
+        0.013790684624017958
+      ],
+      "point_difference": 0.13007154882154884,
+      "pooled_missing_plus_unclear_rate_AS_V2": [
+        0.015410958904109588,
+        0.017123287671232876
+      ],
+      "pooled_technical_missing_rate_AS_V2": [
+        0.015410958904109588,
+        0.017123287671232876
+      ],
+      "posthoc_supplement_not_replacement_primary": true,
+      "raw_p": 9.999000099990002e-05,
+      "technical_missing_rate_source_equal_AS_V2": [
+        0.01255611672278339,
+        0.013790684624017958
+      ],
+      "treatment_mean": 0.6935956790123458
+    }
+  ],
+  "coverage": {
+    "C2": {
+      "not_selected_groups": 0,
+      "not_selected_occurrences": 0,
+      "pending_subset_cells": 0,
+      "planned_groups": 1447,
+      "planned_occurrences": 8682,
+      "selected_groups": 1447,
+      "selected_occurrences": 8682,
+      "technical_missing": 204,
+      "unknown_execution_null": 6,
+      "unknown_execution_true": 180,
+      "valid_groups": 1413,
+      "valid_occurrences": 8478
+    },
+    "C3": {
+      "all_planned_observations_valid": false,
+      "observed_rows": 2336,
+      "pending": 0,
+      "planned": 2336,
+      "semantic_unclear": 0,
+      "sources": 24,
+      "technical_missing": 28,
+      "unobserved": 0,
+      "valid_judgments": 2308
+    },
+    "attempted_new_groups": 468,
+    "eligible_groups": 468,
+    "remaining_unstarted_groups": 0
+  },
+  "completed_arm_missingness": [
+    {
+      "endpoint": "H1",
+      "cell": "AS_ORIGINAL",
+      "denominator": 3609,
+      "technical_missing_rate": 0.021631810016128853,
+      "semantic_unclear_rate": 0.0010500206980478997,
+      "missing_rate": 0.022681830714176756,
+      "pooled_missing_rate": 0.023275145469659187
+    },
+    {
+      "endpoint": "H1",
+      "cell": "V2_ROW",
+      "denominator": 4818,
+      "technical_missing_rate": 0.024754775786665267,
+      "semantic_unclear_rate": 0.004236051408976447,
+      "missing_rate": 0.02899082719564171,
+      "pooled_missing_rate": 0.028019925280199254
+    },
+    {
+      "endpoint": "H2",
+      "cell": "AS_ORIGINAL",
+      "denominator": 584,
+      "technical_missing_rate": 0.01255611672278339,
+      "semantic_unclear_rate": 0.0,
+      "missing_rate": 0.01255611672278339,
+      "pooled_missing_rate": 0.015410958904109588
+    },
+    {
+      "endpoint": "H2",
+      "cell": "V2_ROW",
+      "denominator": 584,
+      "technical_missing_rate": 0.013790684624017958,
+      "semantic_unclear_rate": 0.0,
+      "missing_rate": 0.013790684624017958,
+      "pooled_missing_rate": 0.017123287671232876
+    }
+  ],
+  "new_evaluation_costs": {
+    "USD_upper_is_tariff_mapping_not_FX_or_invoice": true,
+    "cap_USD": "35",
+    "control_incremental_EUR_already_in_budget_base": "0.164783163",
+    "control_known_native_USD_subtotal": "0.187259",
+    "fresh_control_groups_included": 8,
+    "groups_without_native_USD_receipt": 3,
+    "historical_costs_included": false,
+    "invoice_USD": null,
+    "known_execution_without_native_USD_receipt_groups": 1,
+    "known_native_USD_subtotal": "25.407990",
+    "known_native_USD_total": null,
+    "natural_known_native_USD_subtotal": "25.220731",
+    "total_charged_or_held_EUR": "22.882006852",
+    "total_charged_or_held_USD_upper": "26.003758000",
+    "unknown_execution_true_groups": 2,
+    "unknown_execution_unclassified_groups": 0
+  },
+  "bootstrap": {
+    "CI": "marginal 95% linear percentile",
+    "draws": 10000,
+    "rng": "PCG64",
+    "seed": 2026102407
+  },
+  "analysis_metadata": {
+    "sources": 24,
+    "paired_source_draw_units": 68,
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 2026102407,
+    "aggregation_order": "planned draws, then equal sources"
+  },
+  "H2_noninferiority_margin": -0.05,
+  "Holm_family": [
+    "H1",
+    "H2",
+    "H4"
+  ],
+  "original_H4_reused_not_reassessed": true,
+  "original_C7_requalified": false,
+  "original_primary_replaced": false,
+  "full_primary_result_sha256": "2260869d48653f314052d167e52e8f32e15ecc3974cc84540bbc87968db8ef12",
+  "baseline_actual_end_sha256": "8c117e0c6250a7794590eab60a32a7e3d2bf51b7a69eeee9978c0c89c4ff775b",
+  "original_frozen_contract_pin": {
+    "bytes": 101775,
+    "sha256": "8377548a064de1fadd28baf674290be02021457ab38b49056ac9dde45dddf9f5"
+  },
+  "private_comparison_pin": {
+    "bytes": 273734,
+    "sha256": "1a8092b74750b958aea3f991926205d32320c198d86b55a89b91eb9ecab377c0"
+  },
+  "new_D1_input_manifest_pin": {
+    "bytes": 5609,
+    "sha256": "e97e51c75c15d6e689dca8aaecb1433064aada024e7acbae961bb3aaf5cd6b39"
+  },
+  "final_terminal_pin": {
+    "bytes": 386200,
+    "sha256": "c916f1a9e0d7726f4b54a3ab7fab14d77f643cac6e42ad2aa5f258ebb15968ab"
+  },
+  "completed_analysis_pin": {
+    "bytes": 12261907,
+    "sha256": "5a405eb0886d4f88b72dae3fd3bca487ab875f2e563be60f37c77e057a5e0c53"
+  },
+  "method_note": "Complete C2 automatically uses original G2 draw-then-source estimator/source bootstrap. Primary N10 pooled sampled rows within source and additionally resampled original groups. N14 eligibility is recomputed from technically valid judgments in both arms.",
+  "execution_condition_note": "Die Ergänzung führt historische Flex-Urteile und neue Urteile unter ausdrücklich geänderten Standardbedingungen zusammen. Dasselbe Modell, dieselben Aufträge und bestandene Kontrollen belegen die untersuchte Bedingung, keine allgemeine Gleichwertigkeit der Tarife. Unterschiede gegenüber den Primärwerten lassen sich wegen zugleich geänderter Abdeckung und Ausführungsbedingung nicht kausal allein der Abdeckung zuschreiben.",
+  "technical_execution_note": "Nach dem technischen Ratenstopp und einem lokalen Schreibstopp verwendet die Ergänzung separate serielle Restläufe mit vollen Tokenreservierungen. Die Bewertungsaufträge bleiben identisch. Vorhandene Belege bleiben erhalten und werden durch die technischen Stopps nicht neu klassifiziert.",
+  "preservation_checks": {
+    "old_C2_occurrence_rows_unchanged": 6396,
+    "old_C2_group_metadata_unchanged": 1066,
+    "old_C3_observed_cases_including_invalid_unchanged": 1852,
+    "C3_fixed_roster_cases": 2336,
+    "source_draw_cell_view_roster_preserved": 544,
+    "original_primary_file_hashes_unchanged": true,
+    "all_468_request_keys_unique": true,
+    "no_replayed_groups": true
+  },
+  "controls": {
+    "SS13_correct": 13,
+    "SS13_total": 13,
+    "Fine27_correct": 26,
+    "Fine27_total": 27,
+    "fresh_groups_valid": 8
+  },
+  "tests": {
+    "current_suite_passed": 285,
+    "current_suite_failed": 0,
+    "existing_actual_Windows_reader_regression_passed": 1
+  },
+  "limits": [
+    "Post-primary sensitivity, not an independent confirmation.",
+    "Old Flex and new Standard judgments are combined. Same model/prompts and controls do not prove general tier equivalence.",
+    "The full H1 estimator is original G2 draw-then-source; the primary N10 prefix used different pooling and a two-stage bootstrap.",
+    "N14 eligibility is recomputed and now includes all24 sources, unlike the primary17-source subset.",
+    "Technical misses remain missing; zero-conservative numerical coding is not a judgment that the source statement is false.",
+    "Costs are list-tariff estimates and conservative reserves; total invoice and two Flex executions remain unknown.",
+    "No new QA advantage, C7 qualification, universal superiority, or overall stage is claimed."
+  ]
+}

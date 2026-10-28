@@ -1,0 +1,735 @@
+{
+  "protocol": "C7-explicit-author-Sol-analysis-v1",
+  "selected_count": 150,
+  "design": [
+    {
+      "arm": "AS",
+      "category": "EE",
+      "sample_count": 25,
+      "population_count": 1533
+    },
+    {
+      "arm": "AS",
+      "category": "EV",
+      "sample_count": 25,
+      "population_count": 1372
+    },
+    {
+      "arm": "AS",
+      "category": "VV",
+      "sample_count": 25,
+      "population_count": 704
+    },
+    {
+      "arm": "V1",
+      "category": "EE",
+      "sample_count": 25,
+      "population_count": 2310
+    },
+    {
+      "arm": "V1",
+      "category": "EV",
+      "sample_count": 25,
+      "population_count": 2165
+    },
+    {
+      "arm": "V1",
+      "category": "VV",
+      "sample_count": 25,
+      "population_count": 598
+    }
+  ],
+  "coverage": {
+    "author_valid": 150,
+    "author_missing": 0,
+    "Sol_status_counts": {
+      "not_selected": 37,
+      "valid": 110,
+      "technical_missing": 3
+    },
+    "Sol_N10_not_selected": 37,
+    "Sol_technical_missing": 3,
+    "joint_valid_pairs": 110
+  },
+  "agreement": {
+    "three_class": {
+      "labels": [
+        "supported",
+        "not_supported",
+        "unclear"
+      ],
+      "confusion_matrix": [
+        [
+          89,
+          7,
+          0
+        ],
+        [
+          0,
+          13,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "N_selected": 150,
+      "N_left": 150,
+      "N_right": 110,
+      "N_pair": 110,
+      "excluded_missing_either_count": 40,
+      "p_o": 0.9272727272727272,
+      "p_e": 0.7355371900826446,
+      "kappa": 0.725,
+      "undefined_reason": null,
+      "technical_missing_is_not_unclear": true,
+      "automatic_replacement_of_primary_labels": false,
+      "ci95": {
+        "lower": 0.5212187159956474,
+        "upper": 0.887103458535825
+      },
+      "defined_replicates": 10000,
+      "undefined_replicates": 0,
+      "interval_condition": "conditional on defined bootstrap kappa replicates",
+      "undefined_replicates_dropped_without_minimum_fraction_gate": true
+    },
+    "binary": {
+      "labels": [
+        "supported",
+        "not_supported_or_unclear"
+      ],
+      "confusion_matrix": [
+        [
+          89,
+          7
+        ],
+        [
+          1,
+          13
+        ]
+      ],
+      "N_selected": 150,
+      "N_left": 150,
+      "N_right": 110,
+      "N_pair": 110,
+      "excluded_missing_either_count": 40,
+      "p_o": 0.9272727272727272,
+      "p_e": 0.7371900826446282,
+      "kappa": 0.7232704402515723,
+      "undefined_reason": null,
+      "technical_missing_is_not_unclear": true,
+      "automatic_replacement_of_primary_labels": false,
+      "ci95": {
+        "lower": 0.5156124899919936,
+        "upper": 0.8866172900320183
+      },
+      "defined_replicates": 10000,
+      "undefined_replicates": 0,
+      "interval_condition": "conditional on defined bootstrap kappa replicates",
+      "undefined_replicates_dropped_without_minimum_fraction_gate": true,
+      "collapse": "supported versus {not_supported, unclear}"
+    },
+    "matrix_rows": "author",
+    "matrix_columns": "Sol",
+    "bootstrap": {
+      "draws": 10000,
+      "seed": 2026102407,
+      "rng": "numpy.random.Generator(PCG64)",
+      "unit": "jointly valid original statement pairs",
+      "same_index_matrix_for_three_and_binary": true,
+      "matrix_sha256": "a2e5e12f75eb117710a2687bf348a1632ac39748fd8ad6487d5cef2d839dcf18"
+    },
+    "source_dependence_corrected": false
+  },
+  "author_precision": {
+    "by_arm": {
+      "AS": {
+        "N": 75,
+        "supported": 65,
+        "not_supported": 10,
+        "unclear": 0,
+        "missing_author": 0,
+        "primary_precision": 0.8666666666666667,
+        "primary_denominator": "all selected author labels: supported + not_supported + unclear; missing is undefined",
+        "assessable_only_precision": 0.8666666666666667,
+        "assessable_only_denominator": 75,
+        "assessable_only_condition": "observed author label is supported or not_supported; excludes unclear and missing",
+        "missing_is_zero_imputed": false,
+        "population_weighting": false,
+        "ci95": {
+          "lower": 0.7866666666666666,
+          "upper": 0.9333333333333333
+        }
+      },
+      "V1": {
+        "N": 75,
+        "supported": 69,
+        "not_supported": 5,
+        "unclear": 1,
+        "missing_author": 0,
+        "primary_precision": 0.92,
+        "primary_denominator": "all selected author labels: supported + not_supported + unclear; missing is undefined",
+        "assessable_only_precision": 0.9324324324324325,
+        "assessable_only_denominator": 74,
+        "assessable_only_condition": "observed author label is supported or not_supported; excludes unclear and missing",
+        "missing_is_zero_imputed": false,
+        "population_weighting": false,
+        "ci95": {
+          "lower": 0.8533333333333334,
+          "upper": 0.9733333333333334
+        }
+      }
+    },
+    "V1_minus_AS": {
+      "point_difference": 0.053333333333333344,
+      "ci95": {
+        "lower": -0.040000000000000036,
+        "upper": 0.14666666666666672
+      }
+    },
+    "bootstrap": {
+      "draws": 10000,
+      "seed": 2026102407,
+      "rng": "numpy.random.Generator(PCG64)",
+      "unit": "selected statements within six fixed arm/type strata",
+      "fixed_stratum_counts": [
+        {
+          "arm": "AS",
+          "category": "EE",
+          "sample_count": 25,
+          "matrix_sha256": "38a8bff0fb4239031860c701c39770b6c0c2fcee2e472b968ce609c72126bc7d"
+        },
+        {
+          "arm": "AS",
+          "category": "EV",
+          "sample_count": 25,
+          "matrix_sha256": "485fef8817b0a57496b0e8370ef3a66c9f7de3ac77eedb68dcde66dc23112c43"
+        },
+        {
+          "arm": "AS",
+          "category": "VV",
+          "sample_count": 25,
+          "matrix_sha256": "0ee928afd3455cbfd4efb7f8264bc4b306b4aecfeacec9283d6dbb07129a02d8"
+        },
+        {
+          "arm": "V1",
+          "category": "EE",
+          "sample_count": 25,
+          "matrix_sha256": "f037f641b506917b7041829b74628f9f40ce90e88e796040edc0f76568594e40"
+        },
+        {
+          "arm": "V1",
+          "category": "EV",
+          "sample_count": 25,
+          "matrix_sha256": "56cc859244a6f40e72e7897ab8e7801f835f4ea4aabe24499d908d5322b321b0"
+        },
+        {
+          "arm": "V1",
+          "category": "VV",
+          "sample_count": 25,
+          "matrix_sha256": "929d4b78ffee11866cbe6cf0bc0b3510e7416569a696e1f8b6fe703fe2bb19a6"
+        }
+      ],
+      "source_cluster_bootstrap": false
+    },
+    "estimand": "unweighted small stratified author sample, not population prevalence",
+    "population_counts_are_metadata_only": true,
+    "N_h_over_n_h_weights_used": false
+  },
+  "removed_slice": {
+    "available": true,
+    "selected_removed_count": 13,
+    "membership_inferred": false,
+    "mapping": "explicit unchanged C1 original occurrence membership",
+    "author_precision_by_arm": {
+      "AS": {
+        "N": 10,
+        "supported": 3,
+        "not_supported": 7,
+        "unclear": 0,
+        "missing_author": 0,
+        "primary_precision": 0.3,
+        "primary_denominator": "all selected author labels: supported + not_supported + unclear; missing is undefined",
+        "assessable_only_precision": 0.3,
+        "assessable_only_denominator": 10,
+        "assessable_only_condition": "observed author label is supported or not_supported; excludes unclear and missing",
+        "missing_is_zero_imputed": false,
+        "population_weighting": false
+      },
+      "V1": {
+        "N": 3,
+        "supported": 2,
+        "not_supported": 1,
+        "unclear": 0,
+        "missing_author": 0,
+        "primary_precision": 0.6666666666666666,
+        "primary_denominator": "all selected author labels: supported + not_supported + unclear; missing is undefined",
+        "assessable_only_precision": 0.6666666666666666,
+        "assessable_only_denominator": 3,
+        "assessable_only_condition": "observed author label is supported or not_supported; excludes unclear and missing",
+        "missing_is_zero_imputed": false,
+        "population_weighting": false
+      }
+    },
+    "agreement": {
+      "three_class": {
+        "labels": [
+          "supported",
+          "not_supported",
+          "unclear"
+        ],
+        "confusion_matrix": [
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            0,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "N_selected": 13,
+        "N_left": 13,
+        "N_right": 11,
+        "N_pair": 11,
+        "excluded_missing_either_count": 2,
+        "p_o": 0.9090909090909091,
+        "p_e": 0.5619834710743802,
+        "kappa": 0.7924528301886793,
+        "undefined_reason": null,
+        "technical_missing_is_not_unclear": true,
+        "automatic_replacement_of_primary_labels": false,
+        "ci95": {
+          "lower": 0.21428571428571427,
+          "upper": 1.0
+        },
+        "defined_replicates": 9929,
+        "undefined_replicates": 71,
+        "interval_condition": "conditional on defined bootstrap kappa replicates",
+        "undefined_replicates_dropped_without_minimum_fraction_gate": true
+      },
+      "binary": {
+        "labels": [
+          "supported",
+          "not_supported_or_unclear"
+        ],
+        "confusion_matrix": [
+          [
+            3,
+            1
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "N_selected": 13,
+        "N_left": 13,
+        "N_right": 11,
+        "N_pair": 11,
+        "excluded_missing_either_count": 2,
+        "p_o": 0.9090909090909091,
+        "p_e": 0.5619834710743802,
+        "kappa": 0.7924528301886793,
+        "undefined_reason": null,
+        "technical_missing_is_not_unclear": true,
+        "automatic_replacement_of_primary_labels": false,
+        "ci95": {
+          "lower": 0.21428571428571427,
+          "upper": 1.0
+        },
+        "defined_replicates": 9929,
+        "undefined_replicates": 71,
+        "interval_condition": "conditional on defined bootstrap kappa replicates",
+        "undefined_replicates_dropped_without_minimum_fraction_gate": true,
+        "collapse": "supported versus {not_supported, unclear}"
+      },
+      "matrix_rows": "author",
+      "matrix_columns": "Sol",
+      "bootstrap": {
+        "draws": 10000,
+        "seed": 2026102407,
+        "rng": "numpy.random.Generator(PCG64)",
+        "unit": "jointly valid original statement pairs",
+        "same_index_matrix_for_three_and_binary": true,
+        "matrix_sha256": "25710101a898f54a18c66ea702d43a1b940f1a16f3d51e7390044ffd31f370d4"
+      },
+      "source_dependence_corrected": false
+    },
+    "no_new_model_judgments": true
+  },
+  "comment_mentions": {
+    "overall": {
+      "selected_count": 150,
+      "nonempty_comment_count": 40,
+      "blank_comment_count": 110,
+      "unmatched_comment_count": 40,
+      "lexical_mentions": {
+        "pronoun_word_mention": 0,
+        "no_event_phrase_mention": 0,
+        "empty_entity_list_phrase_mention": 0,
+        "anaphora_or_literal_copy_mention": 0
+      }
+    },
+    "patterns": {
+      "pronoun_word_mention": "\\b(?:pronomen\\w*|pronomina|pronominal\\w*|pronouns?)\\b",
+      "no_event_phrase_mention": "\\bkein(?:e|en|em|er|es)?\\s+(?:ereignis(?:se|ses|sen)?|events?)\\b",
+      "empty_entity_list_phrase_mention": "\\b(?:leer(?:e|en|er|es|em)?\\s+entit[aä]t(?:s|en)?liste[n]?|entit[aä]t(?:s|en)?liste[n]?\\s+(?:ist|war|bleibt)\\s+leer)\\b",
+      "anaphora_or_literal_copy_mention": "\\b(?:anapher[n]?|anaphora|anaphorisch\\w*)\\b|\\bw[oö]rtlich(?:e|en|er|es|em)?\\s+kopie[n]?\\b"
+    },
+    "classification": "predefined lexical mentions only; no semantic problem annotation",
+    "negation_or_correct_resolution_not_interpreted": true,
+    "multiple_mentions_per_comment_allowed": true,
+    "raw_comments_in_public_result": false,
+    "mentioned_problem_is_verified_problem": false,
+    "by_arm": [
+      {
+        "arm": "AS",
+        "selected_count": 75,
+        "nonempty_comment_count": 22,
+        "blank_comment_count": 53,
+        "unmatched_comment_count": 22,
+        "lexical_mentions": {
+          "pronoun_word_mention": 0,
+          "no_event_phrase_mention": 0,
+          "empty_entity_list_phrase_mention": 0,
+          "anaphora_or_literal_copy_mention": 0
+        }
+      },
+      {
+        "arm": "V1",
+        "selected_count": 75,
+        "nonempty_comment_count": 18,
+        "blank_comment_count": 57,
+        "unmatched_comment_count": 18,
+        "lexical_mentions": {
+          "pronoun_word_mention": 0,
+          "no_event_phrase_mention": 0,
+          "empty_entity_list_phrase_mention": 0,
+          "anaphora_or_literal_copy_mention": 0
+        }
+      }
+    ],
+    "by_category": [
+      {
+        "category": "EE",
+        "selected_count": 50,
+        "nonempty_comment_count": 13,
+        "blank_comment_count": 37,
+        "unmatched_comment_count": 13,
+        "lexical_mentions": {
+          "pronoun_word_mention": 0,
+          "no_event_phrase_mention": 0,
+          "empty_entity_list_phrase_mention": 0,
+          "anaphora_or_literal_copy_mention": 0
+        }
+      },
+      {
+        "category": "EV",
+        "selected_count": 50,
+        "nonempty_comment_count": 6,
+        "blank_comment_count": 44,
+        "unmatched_comment_count": 6,
+        "lexical_mentions": {
+          "pronoun_word_mention": 0,
+          "no_event_phrase_mention": 0,
+          "empty_entity_list_phrase_mention": 0,
+          "anaphora_or_literal_copy_mention": 0
+        }
+      },
+      {
+        "category": "VV",
+        "selected_count": 50,
+        "nonempty_comment_count": 21,
+        "blank_comment_count": 29,
+        "unmatched_comment_count": 21,
+        "lexical_mentions": {
+          "pronoun_word_mention": 0,
+          "no_event_phrase_mention": 0,
+          "empty_entity_list_phrase_mention": 0,
+          "anaphora_or_literal_copy_mention": 0
+        }
+      }
+    ],
+    "by_source_family": [
+      {
+        "source_family": "factbook",
+        "selected_count": 52,
+        "nonempty_comment_count": 11,
+        "blank_comment_count": 41,
+        "unmatched_comment_count": 11,
+        "lexical_mentions": {
+          "pronoun_word_mention": 0,
+          "no_event_phrase_mention": 0,
+          "empty_entity_list_phrase_mention": 0,
+          "anaphora_or_literal_copy_mention": 0
+        }
+      },
+      {
+        "source_family": "sealed4_primary",
+        "selected_count": 18,
+        "nonempty_comment_count": 7,
+        "blank_comment_count": 11,
+        "unmatched_comment_count": 7,
+        "lexical_mentions": {
+          "pronoun_word_mention": 0,
+          "no_event_phrase_mention": 0,
+          "empty_entity_list_phrase_mention": 0,
+          "anaphora_or_literal_copy_mention": 0
+        }
+      },
+      {
+        "source_family": "wikipedia",
+        "selected_count": 80,
+        "nonempty_comment_count": 22,
+        "blank_comment_count": 58,
+        "unmatched_comment_count": 22,
+        "lexical_mentions": {
+          "pronoun_word_mention": 0,
+          "no_event_phrase_mention": 0,
+          "empty_entity_list_phrase_mention": 0,
+          "anaphora_or_literal_copy_mention": 0
+        }
+      }
+    ]
+  },
+  "N8_H1_qualification": {
+    "binary_n8_kappa": 0.7232704402515723,
+    "threshold_strictly_below": 0.4,
+    "H1_evaluator_dependent": false,
+    "status": "threshold_not_crossed",
+    "rule_uses_binary_not_three_class": true,
+    "missing_or_undefined_is_confirmation": false,
+    "D1_original_three_class_labels_must_not_be_changed": true,
+    "independent_human_countercheck_status": "author_annotation"
+  },
+  "dependence": {
+    "distinct_sources": 23,
+    "sources_with_multiple_selected_statements": 23,
+    "statement_bootstrap_does_not_correct_source_or_construction_dependence": true,
+    "stratified_sample_not_population_prevalence": true
+  },
+  "individual_case_labels_or_IDs_in_public_result": false,
+  "raw_comments_in_public_result": false,
+  "primary_C2_labels_replaced": false,
+  "H12_second_test_run": false,
+  "provider_calls": 0,
+  "natural_files_opened": true,
+  "status": "complete_author_analysis",
+  "completed_UTC": "2026-10-25T19:46:18.974584+00:00",
+  "file_access_scope": "Only exact user-bound annotation, unchanged C7 key, approved C2 end-export and positive subset metadata.",
+  "join_coverage": {
+    "protocol": "C7-fixed150-explicit-source-and-cell-bound-join:v1",
+    "Nsample": 150,
+    "NvalidSol": 110,
+    "Nnot_selected": 37,
+    "Ntechnical_missing": 3,
+    "Nhuman_rated": 150,
+    "Npaired": 110,
+    "by_arm_type": [
+      {
+        "arm": "AS",
+        "category": "EE",
+        "Nsample": 25,
+        "NvalidSol": 18,
+        "Nnot_selected": 7,
+        "Ntechnical_missing": 0,
+        "Nhuman_rated": 25,
+        "Npaired": 18
+      },
+      {
+        "arm": "AS",
+        "category": "EV",
+        "Nsample": 25,
+        "NvalidSol": 16,
+        "Nnot_selected": 9,
+        "Ntechnical_missing": 0,
+        "Nhuman_rated": 25,
+        "Npaired": 16
+      },
+      {
+        "arm": "AS",
+        "category": "VV",
+        "Nsample": 25,
+        "NvalidSol": 21,
+        "Nnot_selected": 4,
+        "Ntechnical_missing": 0,
+        "Nhuman_rated": 25,
+        "Npaired": 21
+      },
+      {
+        "arm": "V1",
+        "category": "EE",
+        "Nsample": 25,
+        "NvalidSol": 19,
+        "Nnot_selected": 5,
+        "Ntechnical_missing": 1,
+        "Nhuman_rated": 25,
+        "Npaired": 19
+      },
+      {
+        "arm": "V1",
+        "category": "EV",
+        "Nsample": 25,
+        "NvalidSol": 15,
+        "Nnot_selected": 10,
+        "Ntechnical_missing": 0,
+        "Nhuman_rated": 25,
+        "Npaired": 15
+      },
+      {
+        "arm": "V1",
+        "category": "VV",
+        "Nsample": 25,
+        "NvalidSol": 21,
+        "Nnot_selected": 2,
+        "Ntechnical_missing": 2,
+        "Nhuman_rated": 25,
+        "Npaired": 21
+      }
+    ],
+    "represented_original_parents_checked": 81,
+    "removal_membership_available": true,
+    "sample_removed_count": 13,
+    "removal_scope": "fixed C7 sample only; no new full C2 audit",
+    "population_weights_used": false,
+    "C7_sample_redrawn": false,
+    "key_snapshot_labels_used_as_current_Sol": false,
+    "file_reads": 0,
+    "provider_calls": 0,
+    "individual_labels_or_comments_in_coverage": false
+  },
+  "D1_interface": {
+    "private_original_nominal_carrier_pin": {
+      "path": "withheld-artifact/0d31a99131701a3aa6b7",
+      "bytes": 75094,
+      "sha256": "86571715d3d2f9361f68dd6da2e5a9e054b16b87179570216ac488071db64501"
+    },
+    "original_three_class_labels_preserved": true,
+    "binary_N8_override": {
+      "binary_n8_kappa": 0.7232704402515723,
+      "threshold_strictly_below": 0.4,
+      "H1_evaluator_dependent": false,
+      "status": "threshold_not_crossed",
+      "rule_uses_binary_not_three_class": true,
+      "missing_or_undefined_is_confirmation": false,
+      "D1_original_three_class_labels_must_not_be_changed": true,
+      "independent_human_countercheck_status": "author_annotation"
+    },
+    "direct_human_rule": "C7 request item6: binary Cohen kappa strictly below0.40 qualifies H1 as evaluator-dependent.",
+    "legacy_three_class_threshold_must_not_override_binary_rule": true,
+    "D1_source_files_edited": false,
+    "annotation_classification": "Autorenannotation",
+    "current_annotation_SHA256": "291c623a42611f16124adbf80298b60430f8501cded62ee01a3fc9b2677f335c",
+    "labels_unchanged_from_original_analysis": true,
+    "private_carrier_annotation_provenance_current": true,
+    "annotation_origin": "human_ui_input"
+  },
+  "provenance": {
+    "analysis_manifest_pin": {
+      "path": "withheld-artifact/cf977fa5e910d7de61f7",
+      "bytes": 2985,
+      "sha256": "3b1b45c257134d198a8e980e0e516af37befa1b19efb763fe37e784b4d756876"
+    },
+    "private_join_pin": {
+      "path": "withheld-artifact/782d66d7f4e160864791",
+      "bytes": 99461,
+      "sha256": "08cfc22b7d977b3dc88629296ad44bae1ebc516d5725bfd65ebfa6db29259b4e"
+    },
+    "annotation_SHA256": "291c623a42611f16124adbf80298b60430f8501cded62ee01a3fc9b2677f335c",
+    "C2_end_export_SHA256": "1dc354b2c480936f205975e65eb926109e09f4f16ab4d9ae6e566e295bc3fafb",
+    "C7_original_key_SHA256": "5c3c5831f48f2fa5af1b3dfb6b0323e09258c541eb6079fbbe03dd15a1dde619",
+    "N12_publication_commit": "51fff895734d2056bc1cad1f383a955a03efa79d",
+    "H12_sample_frozen_before_C7_join": true,
+    "H12_human_evaluation_run": false,
+    "source_code_pins": [
+      {
+        "path": "Experiments/fair_v2_oct24/C7/run.py",
+        "bytes": 6544,
+        "sha256": "73676a373fd67e444aad10fe606c88940cec3974e64578167e097eab20edd044"
+      },
+      {
+        "path": "Experiments/fair_v2_oct24/C7/analysis.py",
+        "bytes": 16555,
+        "sha256": "ad132e1e477fef76356febd8bdc1c2b97db108e03af4753618c5283a0383f225"
+      },
+      {
+        "path": "Experiments/fair_v2_oct24/C7/join.py",
+        "bytes": 13898,
+        "sha256": "6516433770daad221b5060d3b52068ab6606299d542ca1951355ccd0d5b5a16e"
+      },
+      {
+        "path": "Experiments/fair_v2_oct24/D1/inference.py",
+        "bytes": 18538,
+        "sha256": "a174c19ea0b477fcc09cd7e24500d608911c7ca78baa5e21f8700b231f38776c"
+      },
+      {
+        "path": "Tools/experiments/c7_human_annotation_oct24_v1/contracts.py",
+        "bytes": 4757,
+        "sha256": "50dc36287a10e939a89c80fb127b4466426a217b4921c2c24c23d96ed044afa5"
+      }
+    ],
+    "reporting_provenance_review_pin": {
+      "path": "withheld-artifact/eedfc211b41afc3823aa",
+      "bytes": 1639,
+      "sha256": "6b3e65d244ce987f039224ded8a744bb8f2cd14f0ad0a20f934ba1c80c77191d"
+    },
+    "original_analysis_annotation_SHA256": "e298973f7bcca4746d2f7704c618b93724d60d2fe977a3cb3e4e60e9785ab88b",
+    "current_annotation_pin": {
+      "path": "withheld-artifact/50aaadec74ad69321dae",
+      "bytes": 34095,
+      "sha256": "291c623a42611f16124adbf80298b60430f8501cded62ee01a3fc9b2677f335c"
+    },
+    "annotation_metadata_correction_receipt_pin": {
+      "path": "withheld-artifact/c7ac0dd57049b9081580",
+      "bytes": 1222,
+      "sha256": "59ab51c2ebed19d6aa7cd042ad849199d043db29673b01ed3634cd6e49527216"
+    },
+    "current_input_receipt_pin": {
+      "path": "withheld-artifact/f93e1985a016313cd53b",
+      "bytes": 3192,
+      "sha256": "93450e4cbae5843f9a4372e4a42117e133dbfb0c0748093db415fe3c1b081707"
+    },
+    "current_execution_code_pins": [
+      {
+        "path": "Experiments/fair_v2_oct24/C7/provenance.py",
+        "bytes": 1847,
+        "sha256": "87a35e6db78a1818a0cc7e586adc99251b952b660810f296f863a37120048d68"
+      },
+      {
+        "path": "Experiments/fair_v2_oct24/C7/run.py",
+        "bytes": 8238,
+        "sha256": "efe981cdd19e4b4d108e89244e98cbdcf1fed0b47c6ba597bba9fac599d31f48"
+      }
+    ]
+  },
+  "annotation_provenance": {
+    "classification": "Autorenannotation",
+    "author_statement_date": "2026-10-25",
+    "author_assigned_label_count": 150,
+    "metadata_note": "Das Exportfeld annotation_origin wurde auf Anweisung des Autors auf human_ui_input berichtigt. Labels, Kommentare und sämtliche anderen Felder sind unverändert.",
+    "requested_semantic_comment_categories": {
+      "structured_category_labels_present": false,
+      "semantic_frequencies": null,
+      "lexical_counts_are_semantic_problem_frequencies": false,
+      "reason": "The export contains free text only. The four requested categories are counted as explicit lexical mentions; no additional semantic annotation is performed."
+    },
+    "raw_annotation_unchanged": false,
+    "statistical_estimates_unchanged": true,
+    "external_independent_gold_standard_claimed": false,
+    "annotation_origin": "human_ui_input",
+    "only_annotation_origin_changed": true,
+    "labels_comments_and_other_fields_unchanged": true,
+    "declared_annotation_origin": "human_ui_input",
+    "author_confirmed": true
+  }
+}

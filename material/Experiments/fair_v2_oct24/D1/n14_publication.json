@@ -1,0 +1,17 @@
+{
+  "protocol": "N14-single-path-preregistration-publication:v1",
+  "completed_UTC": "2026-10-25T21:47:03.044918+00:00",
+  "path": "Experiments/fair_v2_oct24/G1/nachtrag_14_h2_fehlwerte.md",
+  "sha256": "464c39c5cd7400f850dccd5d1909fc9b8dcaf1b129cebb93930deaa8acbc5983",
+  "bytes": 1921,
+  "publication_commit": "f641691e95c09729ab39cedfd40508499faff557",
+  "remote_head_at_readback": "f641691e95c09729ab39cedfd40508499faff557",
+  "mode": "single_path_fast_forward_commit",
+  "changed_paths": [
+    "Experiments/fair_v2_oct24/G1/nachtrag_14_h2_fehlwerte.md"
+  ],
+  "remote_bytes_identical": true,
+  "checkout_HEAD_unchanged": true,
+  "shared_staged_paths_unchanged": true,
+  "natural_H2_analysis_started_by_this_task": false
+}
